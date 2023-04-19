@@ -30,4 +30,4 @@ If you have or know of published predator diet surveys for which information wit
 ![Global map by Survey Decade](Figs/Map_global_Decade.png)
 ![Frequency distribution by Taxon Group](Figs/Freq_TaxonGroups.png)
 ![Frequency distribution by Ecosystem](Figs/Freq_Ecosystem.png)
-![Frequency distribution by Survey Year](Figs/Freq_Surveyyear.png)
+![Frequency distribution by Survey Year](Figs/Freq_SurveyYear.png)
