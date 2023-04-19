@@ -308,18 +308,6 @@ plot(
   ylab = 'Percent feeding'
 )
 
-# Percent feeding vs. Hour
-plot(
-  dat$Percent.feeding ~ dat$Hour,
-  pch = 21,
-  bg = adjustcolor('grey', alpha),
-  xlab = 'Hour',
-  ylab = 'Percent feeding',
-  axes = FALSE
-)
-axis(2)
-axis(1, seq(0, 24, 2))
-box(lwd = 1)
 
 # Percent feeding vs. Month split by hemisphere
 datN <- subset(dat, Latitude > 0)
@@ -348,6 +336,19 @@ plot(
 )
 axis(2)
 axis(1, at = 1:12)
+box(lwd = 1)
+
+# Percent feeding vs. Hour
+plot(
+  dat$Percent.feeding ~ dat$Hour,
+  pch = 21,
+  bg = adjustcolor('grey', alpha),
+  xlab = 'Hour',
+  ylab = 'Percent feeding',
+  axes = FALSE
+)
+axis(2)
+axis(1, seq(0, 24, 2))
 box(lwd = 1)
 
 # Percent feeding vs. Daylength
@@ -381,7 +382,7 @@ plot(
 )
 
 # Evaluate potential methodological biases over time
-decades <- seq(1920, 2020, 10)
+decades <- seq(1880, 2040, 10)
 lab.decades <- decades[-length(decades)]
 # By Feeding Data Type
 p1 <- ggplot(dat) +
@@ -401,26 +402,9 @@ p1 <- ggplot(dat) +
   labs(x = "", y = "Proportion", fill = "Observation type") +
   theme(strip.text.y = element_text(angle = 0))
 
-# By Rate-limiting-step
-p2 <- ggplot(dat) +
-  aes(
-    x = cut(
-      Year,
-      breaks = decades,
-      include.lowest = TRUE,
-      right = FALSE,
-      labels = lab.decades
-    ),
-    fill = factor(Rate.limiting.step)
-  ) +
-  geom_bar(position = 'fill') +
-  scale_y_continuous(limits = c(0, 1), breaks = c(0, 1)) +
-  facet_grid(rows = vars(Taxon.group)) +
-  labs(x = "", y = "Proportion", fill = "Rate\nlimiting\nstep?") +
-  theme(strip.text.y = element_text(angle = 0))
 
 # By Survey type
-p3 <- ggplot(dat) +
+p2 <- ggplot(dat) +
   aes(
     x = cut(
       Year,
@@ -437,7 +421,7 @@ p3 <- ggplot(dat) +
   labs(x = "", y = "Proportion", fill = "Survey type") +
   theme(strip.text.y = element_text(angle = 0))
 
-multiplot(p1, p2, p3, rows = 3)
+multiplot(p1, p2, rows = 2)
 
 # Percent feeding vs. Time-averaging
 p1 <-

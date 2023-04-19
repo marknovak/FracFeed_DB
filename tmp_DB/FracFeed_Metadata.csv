@@ -1,7 +1,7 @@
 "GeneratedByScripts","VariableName","VariableAbbreviation","VariableDescription","VariableValues"
 FALSE,"Taxon.group","TG","taxon group of consumer","Amphibians,Birds,Fish,Annelids,Arthropods,Chaetognaths,Cnidarians,Ctenophores,Echinoderms,Molluscs,Nematods,Nemertians,Onychophorans,Platyhelminthians,Mammals,Reptiles"
-FALSE,"Consumer.identity","ConID","species identity of focal consumer as given","Genus.species (as possible)"
-FALSE,"CitationID","Cite","citation identifyer","LastName_Year (eg Segui_2015a, Segui_2015b)"
+FALSE,"Consumer.identity","ConID","species identity of focal consumer.  (use Genus.sp. for non-specific species)","Genus.species (as possible)"
+FALSE,"CitationID","Cite","citation identifier","LastName_Year (eg Segui_2015a, Segui_2015b)"
 FALSE,"SurveyID","-","ID for replicate survey within a study","numeric"
 FALSE,"SpaceTime.replicate","-","NA if only 1 survey was performed, otherwise whether survey represents spatial or temporal replicate","NA,Space,Time,TimeSeries,MultipleTimeSeries"
 FALSE,"Survey.population.split","-","whole-, sub-population or individual (eg. male/female, breeding/non-breeding, age, size, etc.)","Whole population,Sub-population, Individual"
@@ -27,11 +27,6 @@ round down to the next coursest order of magnitude
 (think about in terms of what spatial scale a predator is foraging at, eg. snail vs. whale)","1000km, 100km, 10km, 1000m, 100m, 10m, 1m, 1cm, 1mm"
 FALSE,"Ecosystem","Eco","ecosystem type in which survey was performed
 (Lentic = lakes, Lotic = rivers/streams)","Marine,Lotic,Lentic,Terrestrial"
-FALSE,"Rate.limiting.step","-","best guess as to whether the diet data corresponds to the post-capture rate-limiting step","Yes,No,No clue"
-FALSE,"Temperature","-","of environment at time of survey (Celsius).
-(use mid-point if range provided)","numeric"
-FALSE,"Handling.times.available","-","in the same paper (incl. digestion times)","Yes, No"
-FALSE,"Abundances.available","-","in the same paper (of prey and/or consumers)","Yes, No"
 FALSE,"Year","Yr","year in which survey was conducted
 (or the mid-point of a range of years)","YYYY"
 FALSE,"Month","-","month in which survey was conducted

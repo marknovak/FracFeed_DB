@@ -65,6 +65,23 @@ for (foc in 2:nrow(MVarCnt2)) {
 message("Inspect the contents of 'tmp/VarCombnCount/' to see if there are
 surveys for which additional covariate information could be obtained.")
 
+##################################################################
+# Given that consumer body mass information is most commonly missing variable,
+# count the number of surveys for the consumers with missing body mass
+# to identify most valuable consumers.
+
+tdat <- dat[,c('Consumer.identity','mass_g')]
+tdat <- table(tdat[is.na(tdat$mass_g),]$Consumer.identity)
+tdat <- as.data.frame(sort(tdat, decreasing = TRUE))
+
+write.table(tdat,
+          '../tmp/BodyMass/BodyMass_ValueTaxa.csv',
+          sep = ',',
+          row.names = FALSE)
+          
+message("Inspect 'tmp/BodyMass/BodyMass_ValueTaxa.csv' to see which
+taxa of 'high value' (many surveys) need body mass estimates.")
+
 ###############################################################################
 ###############################################################################
 ###############################################################################

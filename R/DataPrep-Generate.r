@@ -29,7 +29,7 @@ coll <-
 # Import from GoogleDoc
 #######################
 # Specify the format (data type) of each column in the data spreadsheets
-colTypes <- 'llccccncccnnnnncncccccnnnnnncnccc'
+colTypes <- 'llccccncccnnnnncncccccnnnnnnc'
 
 dat1 <-
   read_sheet(
@@ -110,7 +110,7 @@ err.cnt <- 0
 
 Check.consult <- which(dat$Consult.needed == TRUE)
 if (length(Check.consult) > 0) {
-  warn <- 'Some entries are indicated as needing consultation.\n'
+  warn <- 'Some entries are indicated as needing QAQC consultation.\n'
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
@@ -171,7 +171,7 @@ if (length(err.nopf) > 0) {
 
 err.spf <- which(dat$Percent.feeding.given > 0 &
                    dat$Percent.feeding.given < 1 &
-                   dat$Citation != 'Gil_2007') # exluding, which is correct
+                   dat$Citation != 'Gil_2007') # ignoring appropriately
 if (length(err.spf) > 0) {
   warn <-
     'These records have given percent feeding 0 < % < 1, so confirm.'
@@ -265,7 +265,7 @@ if (length(err.dr) > 0) {
 tab <- table(dat$Consumer.identity, dat$Ecosystem)
 tab <- apply(tab > 0, 1, sum)
 tab <- tab[tab > 1]
-# Remove confirmed multi-ecosystem species
+# Don't report confirmed multi-ecosystem species
 ok <- c('Bucephala.clangula',
         'Dicentrarchus.labrax',
         'Nerodia.fasciata',
@@ -338,8 +338,8 @@ TaxonGroupLevels <-
     'Cnidarians',
     'Annelids',
     'Chaetognaths',
-    'Molluscs',
     'Echinoderms',
+    'Molluscs',
     'Arthropods',
     'Fish',
     'Reptiles',
@@ -352,7 +352,14 @@ EndoEctoLevels <- c('Ectotherm',
                     'Endotherm')
 
 SpaceAvgLevels <-
-  c(NA, '1m', '10m', '100m', '1000m', '10km', '100km', '1000km')
+  c(NA, 
+    '1m', 
+    '10m', 
+    '100m', 
+    '1000m', 
+    '10km', 
+    '100km', 
+    '1000km')
 
 TimeAvgLevels <-
   c(NA,

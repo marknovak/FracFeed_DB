@@ -7,6 +7,8 @@ rm(list = ls())
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Match only taxa not already previously matched
 matchNewTaxa <- TRUE
+# Prompt for each taxon (TRUE) or just unmatched (FALSE)
+promptNext <- FALSE
 
 # CAREFUL HERE: 
 # Erase previously saved matches and start over
@@ -88,62 +90,59 @@ source('DataCheck-Maps.r')
 #########################################
 load('../tmp/FracFeed_FactorLevels.Rdata')
 
-fdat <- data.frame(Cite = dat$Citation,
-                   ConID = dat$Consumer.identity,
+fdatc <- data.frame(Cite = factor(dat$Citation),
+                   ConID = factor(dat$Consumer.identity),
                    ConIDorig = dat$Consumer.identity.orig,
                    ott_id = dat$ott_id)
 
-fdat$TG <- factor(dat$Taxon.group, 
+fdatc$TG <- factor(dat$Taxon.group, 
                   levels = TaxonGroupLevels)
-fdat$EE <- factor(dat$EndoEcto, 
+fdatc$EE <- factor(dat$EndoEcto, 
                  levels = EndoEctoLevels)
-fdat$BM <- dat$mass_g
-fdat$BMlog <- log10(dat$mass_g)
-fdat$PS <- factor(dat$Survey.population.split, 
+fdatc$BM <- dat$mass_g
+fdatc$BMlog <- log10(dat$mass_g)
+fdatc$PS <- factor(dat$Survey.population.split, 
                   levels = PopnSplitLevels)
 
-fdat$TSc <- dat$Total.stomachs.count.given
-fdat$ESc <- dat$Empty.stomachs.count.given
-fdat$FSc <- dat$Feeding.stomachs.count
-fdat$fF <- round(dat$Percent.feeding / 100, 4)
+fdatc$TSc <- dat$Total.stomachs.count.given
+fdatc$ESc <- dat$Empty.stomachs.count.given
+fdatc$FSc <- dat$Feeding.stomachs.count
+fdatc$fF <- round(dat$Percent.feeding / 100, 4)
 
-fdat$DR <- dat$Diet.richness.minimum
-fdat$DRlog <- log10(dat$Diet.richness.minimum)
-fdat$Drc <- factor(dat$Diet.resolution.coarsest, 
+fdatc$DR <- dat$Diet.richness.minimum
+fdatc$DRlog <- log10(dat$Diet.richness.minimum + 1)
+fdatc$Drc <- factor(dat$Diet.resolution.coarsest, 
                               levels = DietResolutionLevels)
-fdat$Drf <- factor(dat$Diet.resolution.finest, 
+fdatc$Drf <- factor(dat$Diet.resolution.finest, 
                               levels = DietResolutionLevels)
 
-fdat$Eco <- factor(dat$Ecosystem, 
+fdatc$Eco <- factor(dat$Ecosystem, 
                    levels = EcosystemLevels)
-fdat$Lat <- dat$Latitude
-fdat$Long <- dat$Longitude
-fdat$Tmp <- round(dat$Temperature, 1)
-fdat$Yr <- dat$Year
-fdat$DT <- dat$DateTime
-fdat$DL <- dat$DayLength
-fdat$tWS <- dat$tWinterSolstice
+fdatc$Lat <- dat$Latitude
+fdatc$Long <- dat$Longitude
 
-fdat$ST <- factor(dat$SpaceTime.replicate, 
+fdatc$Yr <- dat$Year
+fdatc$DT <- dat$DateTime
+fdatc$DL <- dat$DayLength
+fdatc$tWS <- dat$tWinterSolstice
+
+fdatc$ST <- factor(dat$SpaceTime.replicate, 
                   levels = SpaceTimeLevels)
 
-fdat$RLS <- factor(dat$Rate.limiting.step, 
-                   levels = RateLimitingLevels)
-
-fdat$FD <- factor(dat$Feeding.data.type, 
+fdatc$FD <- factor(dat$Feeding.data.type, 
                   levels = FeedDataTypeLevels)
 
-fdat$SA <- factor(dat$Space.averaging, 
+fdatc$SA <- factor(dat$Space.averaging, 
                   levels = SpaceAvgLevels)
-fdat$SAlog <- as.numeric(factor(dat$Space.averaging, 
+fdatc$SAlog <- as.numeric(factor(dat$Space.averaging, 
                                 levels = SpaceAvgLevels)) - 1
 
-fdat$TA <- factor(dat$Time.averaging, levels = TimeAvgLevels)
+fdatc$TA <- factor(dat$Time.averaging, levels = TimeAvgLevels)
 secL <- c(NA, 1 / 3600, 1 / 60, 1, 24, 730, 8760, 87600) # as a function of hours
 for (i in 1:length(TimeAvgLevels)) {
-  fdat$TAnum[fdat$TA == TimeAvgLevels[i]] <- secL[i]
+  fdatc$TAnum[fdatc$TA == TimeAvgLevels[i]] <- secL[i]
 }
-fdat$TAlog <- log10(fdat$TAnum)
+fdatc$TAlog <- log10(fdatc$TAnum)
 
 ###########################################
 # Restrict to non-redundant focal variables
@@ -160,6 +159,7 @@ vars <-
     'TG',
     'EE',
     'BM',
+    'BMlog',
     'Eco',
     'Lat',
     'Long',
@@ -176,15 +176,15 @@ vars <-
     'DT',
     'FD'
   )
-fdat <- fdat[, vars]
+fdatc <- fdatc[, vars]
 
 ##############################################################################
 
-save(fdat, 
+save(fdatc, 
      file = '../tmp_DB/FracFeed_Data.Rdata')
 
 write.csv(
-  fdat,
+  fdatc,
   '../tmp_DB/FracFeed_Data.csv',
   row.names = FALSE
 )

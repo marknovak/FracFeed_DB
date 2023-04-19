@@ -46,9 +46,13 @@ p <- ggplot(dat,
   geom_histogram(binwidth = 1,
                  fill = fill.color,
                  color = 'black') +
-  xlab('Survey year')
+  scale_x_continuous(breaks = seq(1850, 2040, by = 10)) +
+  xlab('Survey year') + 
+  theme_bw()
 ggsave('../Figs/Freq_SurveyYear.png',
        p,
+       width = 6,
+       height = 4,
        device = 'png')
 
 

@@ -54,8 +54,8 @@ rem <-
     # "Chromis_chrysura",
     # "Platycephalus_speculator",
     # "Psellogrammus_kennedyi",
-    "Hemigrammus_arriba",
-    "Astropecten_platyacanthus"
+    "Astropecten_platyacanthus",
+    "Hemigrammus_arriba"
   )
 print(rem)
 
@@ -173,7 +173,11 @@ if (matchNewTaxa | matchAllTaxa) {
                new_ott_id = multmatch$chosen.ott_id[i])
       print(paste(i, ' of ', nrow(multmatch), ' completed.'))
       
-      yn <- readline(prompt = "Next taxon? y/n ")
+      if (promptNext) {
+        yn <- readline(prompt = "Next taxon? y/n ")
+      }else{
+        yn <- 'y'
+      }
       if (yn != 'y' & yn !='n') {
         yn <- readline(prompt = "Next taxon? y/n ")
       }

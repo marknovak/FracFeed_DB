@@ -9,9 +9,9 @@ This main directory contains the files associated with the complete, curated, an
 Taxonomic standardization uses the [Open Tree of Life](https://opentreeoflife.github.io/) through the [rotl package](https://cran.r-project.org/web/packages/rotl/index.html).
 
 ### Sub-directories:
-* [Bib](Bib) - *Bibtex* bibliographic files for the citations
+* [Bib](Bib) - *Bibtex* bibliographic files for the source citations
 * [Figs](Figs) - Summary views of the data (shown below)
-* [OtherData](OtherData) - Original auxilliary data sources
+* [OtherData](OtherData) - Original auxiliary data sources
 * [R](R) - Code for curating the raw data
 * [tmp](tmp) - Temporary files created during data curation
 * [tmp_DB](tmp_DB) - Curation-in-progress data
