@@ -403,9 +403,9 @@ PopnSplitLevels <-
     'Sub-population', 
     'Individual')
 
-FeedDataTypeLevels <- c('Direct observation',
-                        'Gut content (lethal)',
-                        'Gut content (non-lethal)')
+FeedDataTypeLevels <- c('Gut content (lethal)',
+                        'Gut content (non-lethal)',
+                        'Direct observation',)
 
 ######################################
 
