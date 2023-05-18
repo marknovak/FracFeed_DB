@@ -1,6 +1,3 @@
-library(ggplot2)
-library(sf)
-library(rnaturalearth)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # load saved database
 load('../tmp/FracFeed_Data_Clean.Rdata')

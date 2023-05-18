@@ -1,5 +1,5 @@
 ##########################################################################
-# Match (and correct) consumers in FracFeed data to Tree of Life.
+# Match (and correct) consumers in FracFeed data to Tree of Life
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##########################################################################
 # This code is iterative in that you'll have to repeat a few steps 
@@ -7,12 +7,6 @@
 ##########################################################################
 options(warn = 1) # to issue warnings immediately
 ##########################################################################
-# install.packages(c("curl", "httr"))
-# library(devtools)
-# Tree of Life (https://cran.r-project.org/web/packages/rotl/vignettes/how-to-use-rotl.html)
-# devtools::install_github("ropensci/rotl@fix-101", force=FALSE) # rotl on CRAN can't handle a large number of taxa at the same time, so use this fix.
-# source("https://install-github.me/ropensci/rotl")
-library(rotl) 
 
 #######################
 # Define some functions

@@ -14,6 +14,30 @@ promptNext <- FALSE
 # Erase previously saved matches and start over
 matchAllTaxa <- FALSE
 
+#########################
+# Load necessary packages
+#########################
+# For 'DataPrep-Generate.r' and 'DataPrep-MetaCite.r'
+library(googlesheets4) # to read in Google spreadsheet
+library(geosphere) # for daylength()
+library(lubridate) # for yday() and other functions
+
+# For 'DataPrep-TaxonClean.r'
+library(rotl)
+
+# For 'DataPrep-CompileBodyMass.r'
+library(plyr)
+library(devtools)
+library(stringr)
+library(rdataretriever)
+
+# For 'DataCheck-SummaryViews.r' and 'DataCheck-Plots.r'
+library(ggplot2)
+
+# For 'DataCheck-Maps.r'
+library(sf)
+library(rnaturalearth)
+
 ############################################################
 # Import from GoogleSheets and generate calculated variables
 ############################################################

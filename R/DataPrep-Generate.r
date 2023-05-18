@@ -2,9 +2,6 @@
 # Script to import and error-check Google doc sheets
 # and generated calculated variables
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-library(googlesheets4) # to read in Google spreadsheet
-library(geosphere) # for daylength()
-library(lubridate) # for yday() and other functions
 
 #~~~~~~~~~~~~~~~~~~~~~~
 # Define some functions
@@ -331,7 +328,9 @@ dat$SpaceTime.replicate[dat$SpaceTime.replicate == 'NA'] <-
 dat$SpaceTime.replicate[dat$SpaceTime.replicate == 'SpaceTime'] <-
   'Space'
 
+#############################################################
 # Factor levels allowed and order in which they are to appear
+#############################################################
 TaxonGroupLevels <-
   c(
     'Ctenophores',
@@ -363,7 +362,6 @@ SpaceAvgLevels <-
 
 TimeAvgLevels <-
   c(NA,
-    'Seconds',
     'Minutes',
     'Hours',
     'Days',
@@ -406,9 +404,10 @@ PopnSplitLevels <-
     'Individual')
 
 FeedDataTypeLevels <- c('Direct observation',
-                        'Gut content', 
                         'Gut content (lethal)',
                         'Gut content (non-lethal)')
+
+######################################
 
 save(
   TaxonGroupLevels,
@@ -423,7 +422,9 @@ save(
   file = '../tmp/FracFeed_FactorLevels.Rdata'
 )
 
+######################################
 # Check to ensure all are represented
+######################################
 if (any(unique(dat$Taxon.group) %in% TaxonGroupLevels == FALSE)) {
   warning('Not all taxon groups represented')
 }

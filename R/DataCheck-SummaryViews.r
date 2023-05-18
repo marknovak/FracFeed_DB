@@ -1,4 +1,3 @@
-library(ggplot2)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # load saved database
 load('../tmp/FracFeed_Data_Clean.Rdata')

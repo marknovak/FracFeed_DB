@@ -1,15 +1,8 @@
 # Code to grab species body sizes from various databases
 ########################################################
-# AnAge http://genomics.senescence.info/species/
-# install.packages('rYoutheria')
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wd <- getwd()
 setwd('../OtherData/BodyMass/')
-library(plyr)
-library(devtools)
-require(googlesheets4) # to read in Google spreadsheet
-library(stringr)
-library(rdataretriever)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Retrieve from dataretriever databases?
 DataRetrieve <- FALSE
