@@ -49,6 +49,16 @@ dat3 <-
     col_types = colTypes
   )
 
+dat4 <-
+  read_sheet(
+    'https://docs.google.com/spreadsheets/d/16zumXsmbAU-MbBgDmiTjNX8m9YxmbHRUAtSm2xNOJ4I/edit?usp=sharing',
+    sheet = 'Data4',
+    col_types = colTypes
+  )
+
+message(
+  "Google sheets imported."
+)
 
 #####################
 # Combine data sheets
@@ -60,7 +70,15 @@ if (nrow(dat2) > 0) {
 if (nrow(dat3) > 0) {
   dat <- rbind(dat, dat3)
 }
+if (nrow(dat4) > 0) {
+  dat <- rbind(dat, dat4)
+}
 dat <- as.data.frame(dat) # convert from tibble to data.frame
+
+###########################
+# Removed unchecked entries
+###########################
+dat <- subset(dat, Checked == 'TRUE')
 
 ######################################################
 # Standardize variables relating to "fraction feeding"
@@ -405,7 +423,7 @@ PopnSplitLevels <-
 
 FeedDataTypeLevels <- c('Gut content (lethal)',
                         'Gut content (non-lethal)',
-                        'Direct observation',)
+                        'Direct observation')
 
 ######################################
 
