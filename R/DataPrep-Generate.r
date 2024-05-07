@@ -277,6 +277,31 @@ if (length(err.dr) > 0) {
   sink()
 }
 
+
+tab <- table(dat$Consumer.identity, dat$Taxon.group)
+tab <- apply(tab > 0, 1, sum)
+tab <- tab[tab > 1]
+err.ct <-
+  which(dat$Consumer.identity %in% names(tab))
+err.ct.dat <- dat[err.ct, c('Citation',
+                            'Consumer.identity',
+                            'Taxon.group')]
+err.ct.dat <- err.ct.dat[order(err.ct.dat$Consumer.identity),]
+if (length(err.ct) > 0) {
+  warn <-
+    'These taxa have multiple taxon groups assigned to them.\n'
+  warning(warn, immediate. = TRUE)
+  sink(file = ErrFile, append = TRUE)
+  print(warn)
+  print(dat[err.ct, c('Citation',
+                      'Consumer.identity',
+                      'Taxon.group')])
+  err.cnt <- err.cnt + 1
+  print("")
+  print("")
+  sink()
+}
+
 tab <- table(dat$Consumer.identity, dat$Ecosystem)
 tab <- apply(tab > 0, 1, sum)
 tab <- tab[tab > 1]
