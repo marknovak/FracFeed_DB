@@ -901,7 +901,7 @@
 "Alosa_pontica",NA,7,"AnAge","AnAge",1
 "Alosa_pseudoharengus",270,NA,"Hirt_etal_2017","NA",1
 "Alosa_sapidissima",2500,3650,"Quaardvark","Quaardvark",1
-"Alouatta_belzebul",6399.99999999999,NA,"Smith_2003","NA",1
+"Alouatta_belzebul",6400,NA,"Smith_2003","NA",1
 "Alouatta_caraya",5862.461,NA,"Smith_2003","NA",1
 "Alouatta_coibensis",5659.14,NA,"rdataretriever-amniote-life-hist","NA",1
 "Alouatta_fusca",5540,NA,"AnAge","NA",1
@@ -910,7 +910,7 @@
 "Alouatta_nigerrima",6157.91,NA,"rdataretriever-amniote-life-hist","NA",1
 "Alouatta_palliata",1819,3222.777,"Brown_etal_2018","Brown_etal_2018",1
 "Alouatta_pigra",7000.032,NA,"Smith_2003","NA",1
-"Alouatta_sara",6611.04300000001,NA,"Smith_2003","NA",1
+"Alouatta_sara",6611.043,NA,"Smith_2003","NA",1
 "Alouatta_seniculus",1536,3613.861,"Brown_etal_2018","Brown_etal_2018",1
 "Alseis_blackiana",410000,60833.333,"Brown_etal_2018","Brown_etal_2018",1
 "Alsophis_antiguae",116.8,NA,"Feldman_etal_2016","NA",1
@@ -1176,7 +1176,7 @@
 "Amnesteophis_melanauchen",14,NA,"Feldman_etal_2016","NA",1
 "Amnirana_albolabris",17.7733247008155,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Amnirana_galamensis",24.1479321808833,NA,"rdataretriever-vertnet-amphibians","NA",1
-"Amnirana_nicobariensis",4.54008344761221,NA,"rdataretriever-vertnet-amphibians","NA",1
+"Amnirana_nicobariensis",4.5400834476122,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Amorphochilus_schnablii",3.3,NA,"Smith_2003","NA",1
 "Ampeliceps_coronatus",88.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Ampelioides_tschudii",80.45,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -2174,7 +2174,7 @@
 "Aonyx_cinereus",1413.3668373681,NA,"Smith_2003","NA",1
 "Aonyx_congicus",23800.167,NA,"Smith_2003","NA",1
 "Aotus_azarae",800,NA,"Quaardvark","NA",1
-"Aotus_azarai",962.897000000001,NA,"Smith_2003","NA",1
+"Aotus_azarai",962.897,NA,"Smith_2003","NA",1
 "Aotus_brumbacki",800,NA,"Smith_2003","NA",1
 "Aotus_hershkovitzi",800,NA,"Smith_2003","NA",1
 "Aotus_infulatus",800,NA,"Smith_2003","NA",1
@@ -2846,7 +2846,7 @@
 "Ateles_chamek",5999.983,NA,"Smith_2003","NA",1
 "Ateles_fusciceps",9100,NA,"Smith_2003","NA",1
 "Ateles_geoffroyi",5284.939,NA,"Smith_2003","NA",1
-"Ateles_hybridus",8500.00000000001,9854.99999999999,"Quaardvark","Quaardvark",1
+"Ateles_hybridus",8500,9854.99999999999,"Quaardvark","Quaardvark",1
 "Ateles_marginatus",5999.983,NA,"Smith_2003","NA",1
 "Ateles_paniscus",1975,2874.016,"Brown_etal_2018","Brown_etal_2018",1
 "Atelocynus_microtis",7749.97,NA,"Smith_2003","NA",1
@@ -2930,7 +2930,7 @@
 "Atractaspis_watsoni",59.5,NA,"Feldman_etal_2016","NA",1
 "Atractodes_spec",0.000409,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Atractoscion_nobilis",41000,4380,"Quaardvark","Quaardvark",1
-"Atractosteus_spatula",137000,9490.00000000001,"Quaardvark","Quaardvark",1
+"Atractosteus_spatula",137000,9490,"Quaardvark","Quaardvark",1
 "Atractus_acheronius",58.9,NA,"Feldman_etal_2016","NA",1
 "Atractus_albuquerquei",87.5,NA,"Feldman_etal_2016","NA",1
 "Atractus_alphonsehogei",5.1,NA,"Feldman_etal_2016","NA",1
@@ -3151,7 +3151,7 @@
 "Awaous_acritosus",10.2251037730517,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Axis_axis",67188.6788809196,NA,"Smith_2003","NA",1
 "Axis_calamianensis",40500,NA,"Smith_2003","NA",1
-"Axis_kuhlii",54999.9999999999,NA,"Smith_2003","NA",1
+"Axis_kuhlii",55000,NA,"Smith_2003","NA",1
 "Axis_porcinus",34408.562041962,NA,"Smith_2003","NA",1
 "Aythya_affinis",212.5,2625.899,"Brown_etal_2018","Brown_etal_2018",1
 "Aythya_americana",205.3,3093.22,"Brown_etal_2018","Brown_etal_2018",1
@@ -3220,7 +3220,7 @@
 "Balantiopteryx_io",4.3,NA,"Smith_2003","NA",1
 "Balantiopteryx_plicata",6.389,NA,"Smith_2003","NA",1
 "Balearica_pavonina",3590,NA,"rdataretriever-amniote-life-hist","NA",1
-"Balearica_regulorum",3500,8029.99999999999,"Quaardvark","Quaardvark",1
+"Balearica_regulorum",3500,8030,"Quaardvark","Quaardvark",1
 "Balionycteris_maculata",13.3346353530946,NA,"Smith_2003","NA",1
 "Balistes_vetula",730,139.847,"Brown_etal_2018","Brown_etal_2018",1
 "Bamanophis_dorri",115.7,NA,"Feldman_etal_2016","NA",1
@@ -3280,7 +3280,7 @@
 "Bassiana_trilineata",7.5,NA,"Feldman_etal_2016","NA",1
 "Batagur_baska",NA,21.7,"AnAge","AnAge",1
 "Batagur_borneoensis",20950,NA,"rdataretriever-amniote-life-hist","NA",1
-"Batagur_dhongoka",7269.99999999999,NA,"rdataretriever-amniote-life-hist","NA",1
+"Batagur_dhongoka",7270,NA,"rdataretriever-amniote-life-hist","NA",1
 "Batagur_kachuga",21100,NA,"rdataretriever-amniote-life-hist","NA",1
 "Batara_cinerea",128.75,NA,"rdataretriever-amniote-life-hist","NA",1
 "Bathmocercus_cerviniventris",15.8,NA,"Lislevand_etal_2007","NA",1
@@ -4539,7 +4539,7 @@
 "Capito_wallacei",70,NA,"rdataretriever-amniote-life-hist","NA",1
 "Capra_aegaerus",46000,NA,"Hirt_etal_2017","NA",1
 "Capra_aegagrus",30000,NA,"Hirt_etal_2017","NA",1
-"Capra_caucasica",54999.9999999999,NA,"Smith_2003","NA",1
+"Capra_caucasica",55000,NA,"Smith_2003","NA",1
 "Capra_cylindricornis",20000,3173.913,"Brown_etal_2018","Brown_etal_2018",1
 "Capra_falconeri",23750,1786.385,"Brown_etal_2018","Brown_etal_2018",1
 "Capra_hircus",50124.8441394085,NA,"Smith_2003","NA",1
@@ -4615,7 +4615,7 @@
 "Carassius_leucas",19541.4201121618,NA,"Hirt_etal_2017","NA",1
 "Carcharhinus_acronotus",10395,19,"AnAge","AnAge",1
 "Carcharhinus_albimarginatus",162200,NA,"Quaardvark","NA",1
-"Carcharhinus_amblyrhynchos",18535,9124.99999999999,"Quaardvark","Quaardvark",1
+"Carcharhinus_amblyrhynchos",18535,9125,"Quaardvark","Quaardvark",1
 "Carcharhinus_brachyurus",167530,34.5,"AnAge","AnAge",1
 "Carcharhinus_brevipinna",49335,19,"AnAge","AnAge",1
 "Carcharhinus_cautus",NA,16.4,"AnAge","AnAge",1
@@ -4624,7 +4624,7 @@
 "Carcharhinus_isodon",NA,8,"AnAge","AnAge",1
 "Carcharhinus_leucas",160000,5000.5,"Quaardvark","Quaardvark",1
 "Carcharhinus_limbatus",65000,NA,"Quaardvark","NA",1
-"Carcharhinus_longimanus",170000,8029.99999999999,"Quaardvark","Quaardvark",1
+"Carcharhinus_longimanus",170000,8030,"Quaardvark","Quaardvark",1
 "Carcharhinus_obscurus",190575,35,"AnAge","AnAge",1
 "Carcharhinus_plumbeus",67500,7300,"Quaardvark","Quaardvark",1
 "Carcharhinus_porosus",NA,24,"AnAge","AnAge",1
@@ -5042,18 +5042,18 @@
 "Cercomela_sordida",20,NA,"Lislevand_etal_2007","NA",1
 "Cercomela_tractrac",NA,NA,"Lislevand_etal_2007","NA",1
 "Cercophis_auratus",168.7,NA,"Feldman_etal_2016","NA",1
-"Cercopithecus_albogularis",6116.50000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Cercopithecus_albogularis",6116.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cercopithecus_ascanius",3550,NA,"Smith_2003","NA",1
 "Cercopithecus_campbelli",4099.964,NA,"Smith_2003","NA",1
 "Cercopithecus_cephus",3484.978,NA,"Smith_2003","NA",1
 "Cercopithecus_denti",3550,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cercopithecus_diana",1044,5069.444,"Brown_etal_2018","Brown_etal_2018",1
-"Cercopithecus_doggetti",6116.50000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Cercopithecus_doggetti",6116.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cercopithecus_dryas",3075,NA,"Smith_2003","NA",1
 "Cercopithecus_erythrogaster",2500,NA,"Smith_2003","NA",1
 "Cercopithecus_erythrotis",3918.333,NA,"Smith_2003","NA",1
 "Cercopithecus_hamlyni",6875,NA,"Smith_2003","NA",1
-"Cercopithecus_kandti",6116.50000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Cercopithecus_kandti",6116.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cercopithecus_lhoesti",5375.019,NA,"Smith_2003","NA",1
 "Cercopithecus_lowei",3800,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cercopithecus_mitis",5000,NA,"Smith_2003","NA",1
@@ -5937,7 +5937,7 @@
 "Cisticola_aberrans",14.5615933194139,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Cisticola_anonymus",14.3309106479665,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Cisticola_aridulus",8.76213444315938,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
-"Cisticola_ayresii",7.14842640026461,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Cisticola_ayresii",7.1484264002646,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Cisticola_bodessa",19.1702895126808,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Cisticola_brachypterus",7.53740671584067,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Cisticola_brunnescens",8,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -6337,7 +6337,7 @@
 "Colobosaura_modesta",3.7,NA,"Feldman_etal_2016","NA",1
 "Colobosauroides_carvalhoi",0.9,NA,"Feldman_etal_2016","NA",1
 "Colobosauroides_cearensis",2.1,NA,"Feldman_etal_2016","NA",1
-"Colobus_angolensis",9849.99999999999,NA,"Smith_2003","NA",1
+"Colobus_angolensis",9850,NA,"Smith_2003","NA",1
 "Colobus_guereza",10600,NA,"Smith_2003","NA",1
 "Colobus_polykomos",2459,4067.878,"Brown_etal_2018","Brown_etal_2018",1
 "Colobus_satanas",4319.963,NA,"Smith_2003","NA",1
@@ -6896,7 +6896,7 @@
 "Cricosaura_typica",1.2,NA,"Feldman_etal_2016","NA",1
 "Cricotopus_sp.",1.64e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Crinifer_piscator",370,NA,"rdataretriever-amniote-life-hist","NA",1
-"Crinifer_zonurus",531.803065053221,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Crinifer_zonurus",531.80306505322,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Criniger_barbatus",43.4906886586083,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Criniger_calurus",33.8307552383922,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Criniger_chloronotus",43.375,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -7233,7 +7233,7 @@
 "Cryptophis_nigrescens",391.4,NA,"Feldman_etal_2016","NA",1
 "Cryptophis_nigrostriatus",78.3,NA,"Feldman_etal_2016","NA",1
 "Cryptophis_pallidiceps",59.8,NA,"Feldman_etal_2016","NA",1
-"Cryptoprocta_ferox",9499.99999999999,NA,"Smith_2003","NA",1
+"Cryptoprocta_ferox",9500,NA,"Smith_2003","NA",1
 "Cryptoprocta_spelea",18000,NA,"Smith_2003","NA",1
 "Cryptospiza_jacksoni",13.55,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cryptospiza_reichenovii",13.0938917056771,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
@@ -7731,7 +7731,7 @@
 "Cynoscion_arenarius",2800,NA,"fishbase",NA,NA
 "Cynoscion_macdonaldi",4450,1216.667,"Brown_etal_2018","Brown_etal_2018",1
 "Cynoscion_nebulosus",7900,NA,"fishbase",NA,NA
-"Cynoscion_nobilis",6979.99999999999,1216.667,"Brown_etal_2018","Brown_etal_2018",1
+"Cynoscion_nobilis",6980,1216.667,"Brown_etal_2018","Brown_etal_2018",1
 "Cynoscion_regalis",5000,NA,"Quaardvark","NA",1
 "Cyornis_banyumas",14.275,NA,"rdataretriever-amniote-life-hist","NA",1
 "Cyornis_djampeanus",18,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -8151,7 +8151,7 @@
 "Dasyprocta_ruatanica",2300,NA,"Quaardvark","NA",1
 "Dasypus_bellus",45000,NA,"Smith_2003","NA",1
 "Dasypus_hybridus",1499.996,NA,"Smith_2003","NA",1
-"Dasypus_kappleri",9499.99999999999,NA,"Smith_2003","NA",1
+"Dasypus_kappleri",9500,NA,"Smith_2003","NA",1
 "Dasypus_novemcinctus",1051,2159.763,"Brown_etal_2018","Brown_etal_2018",1
 "Dasypus_pilosus",4444.982,NA,"Smith_2003","NA",1
 "Dasypus_sabanicola",1150.006,NA,"Smith_2003","NA",1
@@ -8281,7 +8281,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Dendrobates_auratus",NA,20.5,"AnAge","AnAge",1
 "Dendrobates_leucomelas",3,2190,"Quaardvark","Quaardvark",1
 "Dendrobates_tinctorius",3,1825,"Quaardvark","Quaardvark",1
-"Dendrocerus_carpenteri",9.02000000000001e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
+"Dendrocerus_carpenteri",9.02e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Dendrocincla_anabatina",34.425,NA,"rdataretriever-amniote-life-hist","NA",1
 "Dendrocincla_fuliginosa",43,NA,"Lislevand_etal_2007","NA",1
 "Dendrocincla_homochroa",36.8,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -8411,7 +8411,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Dendropicos_griseocephalus",42.9883705204094,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Dendropicos_lugubris",26,NA,"rdataretriever-amniote-life-hist","NA",1
 "Dendropicos_namaquus",82.5,NA,"Lislevand_etal_2007","NA",1
-"Dendropicos_obsoletus",19.9276190248609,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Dendropicos_obsoletus",19.927619024861,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Dendropicos_poecilolaemus",27.5445094347313,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Dendropicos_pyrrhogaster",68.5,NA,"Lislevand_etal_2007","NA",1
 "Dendropicos_spodocephalus",49.75,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -8431,7 +8431,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Dermacentor_andersoni",0.35,1095,"Quaardvark","Quaardvark",1
 "Dermasterias_imbricata",90,NA,"Montgomery_2014",NA,NA
 "Dermatemys_mawii",20000,NA,"Quaardvark","NA",1
-"Dermatolepis_dermatolepis",12500,8760.00000000001,"Quaardvark","Quaardvark",1
+"Dermatolepis_dermatolepis",12500,8760,"Quaardvark","Quaardvark",1
 "Dermatonotus_muelleri",24.1144564047457,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Dermochelys_coriacea",420000,NA,"Hirt_etal_2017","NA",1
 "Dermophis_mexicanus",NA,13.8,"AnAge","AnAge",1
@@ -8624,7 +8624,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Diomedea_cauta",4350,NA,"rdataretriever-bird-size","NA",1
 "Diomedea_chlororhynchos",615,5367.647,"Brown_etal_2018","Brown_etal_2018",1
 "Diomedea_chrysostoma",876.9,4345.238,"Brown_etal_2018","Brown_etal_2018",1
-"Diomedea_dabbenena",7704.25000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Diomedea_dabbenena",7704.25,NA,"rdataretriever-amniote-life-hist","NA",1
 "Diomedea_epomophora",2050,8488.372,"Brown_etal_2018","Brown_etal_2018",1
 "Diomedea_exulans",1913,5793.651,"Brown_etal_2018","Brown_etal_2018",1
 "Diomedea_immutabilis",766.6,7765.957,"Brown_etal_2018","Brown_etal_2018",1
@@ -9735,7 +9735,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Equus_burchelli",59430,6403.509,"Brown_etal_2018","Brown_etal_2018",1
 "Equus_burchellii",276000,NA,"Smith_2003","NA",1
 "Equus_caballas",648000,NA,"Smith_2003","NA",1
-"Equus_caballus",62499.9999999999,9124.99999999999,"Brown_etal_2018","Brown_etal_2018",1
+"Equus_caballus",62500,9125,"Brown_etal_2018","Brown_etal_2018",1
 "Equus_capensis",350000,NA,"Smith_2003","NA",1
 "Equus_complicatus",4e+05,NA,"Smith_2003","NA",1
 "Equus_conversidens",306000,NA,"Smith_2003","NA",1
@@ -9816,7 +9816,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Eremomela_icteropygialis",7.55,NA,"Lislevand_etal_2007","NA",1
 "Eremomela_pusilla",6.2,NA,"rdataretriever-amniote-life-hist","NA",1
 "Eremomela_salvadorii",7.5,NA,"Lislevand_etal_2007","NA",1
-"Eremomela_scotops",8.89943818451479,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Eremomela_scotops",8.8994381845148,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Eremomela_turneri",6.70820393249937,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Eremomela_usticollis",8.4,NA,"Lislevand_etal_2007","NA",1
 "Eremophila_alpestris",7.8834031521642,1080.468,"Brown_etal_2018","Brown_etal_2018",1
@@ -9962,7 +9962,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Estrilda_nigriloris",8.183333333,NA,"rdataretriever-amniote-life-hist","NA",1
 "Estrilda_nonnula",7.7,NA,"rdataretriever-amniote-life-hist","NA",1
 "Estrilda_ochrogaster",7.55,NA,"rdataretriever-amniote-life-hist","NA",1
-"Estrilda_paludicola",7.37292343646671,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Estrilda_paludicola",7.3729234364667,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Estrilda_perreini",7.4124894603635,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Estrilda_poliopareia",7.55,NA,"rdataretriever-amniote-life-hist","NA",1
 "Estrilda_rhodopyga",7.875,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -10076,7 +10076,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Eulamprus_tympanum",21.6,NA,"Feldman_etal_2016","NA",1
 "Eulemur_albifrons",2426.29,NA,"rdataretriever-amniote-life-hist","NA",1
 "Eulemur_albocollaris",2402.77141514752,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
-"Eulemur_cinereiceps",2250,8212.50000000001,"Quaardvark","Quaardvark",1
+"Eulemur_cinereiceps",2250,8212.5,"Quaardvark","Quaardvark",1
 "Eulemur_collaris",2419,NA,"rdataretriever-amniote-life-hist","NA",1
 "Eulemur_coronatus",1650,NA,"Smith_2003","NA",1
 "Eulemur_fulvus",3150,NA,"Smith_2003","NA",1
@@ -11225,7 +11225,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Gila_orcuttii",NA,4,"AnAge","AnAge",1
 "Gila_robusta",NA,8,"AnAge","AnAge",1
 "Gilchristella_aestuaria",NA,6,"AnAge","AnAge",1
-"Ginglymostoma_cirratum",92470,9124.99999999999,"Quaardvark","Quaardvark",1
+"Ginglymostoma_cirratum",92470,9125,"Quaardvark","Quaardvark",1
 "Giraffa_camelopardalis",225000,4158.903,"Brown_etal_2018","Brown_etal_2018",1
 "Giraffa_cameolopardalis",1075000,NA,"Hirt_etal_2017","NA",1
 "Giraffa_gracilis",849999.999999999,NA,"Smith_2003","NA",1
@@ -11591,11 +11591,11 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Grayia_tholloni",186.2,NA,"Feldman_etal_2016","NA",1
 "Griseotyrannus_aurantioatrocristatus",33.625,NA,"rdataretriever-amniote-life-hist","NA",1
 "Grus_americana",1457,2113.679,"Brown_etal_2018","Brown_etal_2018",1
-"Grus_antigone",8500.00000000001,NA,"Quaardvark","NA",1
+"Grus_antigone",8500,NA,"Quaardvark","NA",1
 "Grus_canadensis",791.5,2828.591,"Brown_etal_2018","Brown_etal_2018",1
-"Grus_carunculata",8285.00000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Grus_carunculata",8285,NA,"rdataretriever-amniote-life-hist","NA",1
 "Grus_grus",5500,43,"AnAge","AnAge",1
-"Grus_japonensis",9499.99999999999,10950,"Quaardvark","Quaardvark",1
+"Grus_japonensis",9500,10950,"Quaardvark","Quaardvark",1
 "Grus_leucogeranus",6750,NA,"Quaardvark","NA",1
 "Grus_monacha",3700,24,"AnAge","AnAge",1
 "Grus_nigricollis",6000,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -11763,7 +11763,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Halichoeres_garnoti",6.57,NA,"rdataretriever-home-ranges","NA",1
 "Halichoeres_maculipinna",9.55,NA,"rdataretriever-home-ranges","NA",1
 "Halichoeres_poeyi",7.03,NA,"rdataretriever-home-ranges","NA",1
-"Halichoerus_grypus",62499.9999999999,5823.112,"Brown_etal_2018","Brown_etal_2018",1
+"Halichoerus_grypus",62500,5823.112,"Brown_etal_2018","Brown_etal_2018",1
 "Haliotis_iris",363,4740.26,"Brown_etal_2018","Brown_etal_2018",1
 "Haliphron_atlanticus",431.465249485224,NA,"rdataretriever-socean-diet-data","NA",1
 "Halobaena_caerulea",193.958758502935,NA,"rdataretriever-amniote-life-hist_rdataretriever-socean-diet-data","NA",2
@@ -12373,7 +12373,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Hippolais_pallida",10.95,NA,"Lislevand_etal_2007","NA",1
 "Hippolais_polyglotta",11,8.9,"AnAge","AnAge",1
 "Hippolais_rama",8.9,NA,"rdataretriever-bird-size","NA",1
-"Hippopotamus_amphibius",339938.691662875,8232.53500000001,"Brown_etal_2018","Brown_etal_2018",1
+"Hippopotamus_amphibius",339938.691662875,8232.535,"Brown_etal_2018","Brown_etal_2018",1
 "Hippopotamus_laloume",944993.327000001,NA,"Smith_2003","NA",1
 "Hippopotamus_lemerlei",500034.535,NA,"Smith_2003","NA",1
 "Hippopotamyrus_discorhynchus",1100,NA,"fishbase",NA,NA
@@ -12608,7 +12608,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Hydrobates_pelagicus",6.3,2874.016,"Brown_etal_2018","Brown_etal_2018",1
 "Hydrobia_acuta",0.0121,104.825,"Brown_etal_2018","Brown_etal_2018",1
 "Hydrobia_spp.",0.00315479281013871,NA,"Eklof_etal_2017","NA",1
-"Hydrochaeris_hydrochaeris",54999.9999999999,NA,"rdataretriever-mammal-life-hist","NA",1
+"Hydrochaeris_hydrochaeris",55000,NA,"rdataretriever-mammal-life-hist","NA",1
 "Hydrochoeris_hydrochaeris",62449.649,NA,"Smith_2003","NA",1
 "Hydrochoeris_isthmius",21267.32,NA,"rdataretriever-amniote-life-hist","NA",1
 "Hydrochoerus_hydrochaeris",50500,2190,"Quaardvark","Quaardvark",1
@@ -12734,7 +12734,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Hylobates_agilis",1250,3613.861,"Brown_etal_2018","Brown_etal_2018",1
 "Hylobates_albibarbis",5829.08,NA,"rdataretriever-amniote-life-hist","NA",1
 "Hylobates_concolor",6852.5,46.1,"AnAge","AnAge",1
-"Hylobates_hoolock",6699.99999999999,NA,"Smith_2003","NA",1
+"Hylobates_hoolock",6700,NA,"Smith_2003","NA",1
 "Hylobates_klossii",5800,NA,"Smith_2003","NA",1
 "Hylobates_lar",1250,3613.861,"Brown_etal_2018","Brown_etal_2018",1
 "Hylobates_leucogenys",6000,44.1,"AnAge","AnAge",1
@@ -13038,7 +13038,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Ictinia_plumbea",247,NA,"Lislevand_etal_2007","NA",1
 "Ictiobus_bubalus",20515,15,"AnAge","AnAge",1
 "Ictiobus_cyprinellus",3500,2190,"Quaardvark","Quaardvark",1
-"Ictiobus_niger",28700,8760.00000000001,"Quaardvark","Quaardvark",1
+"Ictiobus_niger",28700,8760,"Quaardvark","Quaardvark",1
 "Ictonyx_libyca",344.327635672019,NA,"rdataretriever-mammal-life-hist_rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",3
 "Ictonyx_libycus",1479.0199457749,NA,"Smith_2003","NA",1
 "Ictonyx_striatus",1299.99,NA,"Smith_2003","NA",1
@@ -13772,7 +13772,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Laterallus_spilonota",40.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Laterallus_viridis",68,NA,"rdataretriever-amniote-life-hist","NA",1
 "Laterallus_xenopterus",59.75,NA,"rdataretriever-amniote-life-hist","NA",1
-"Lates_calcarifer",54999.9999999999,NA,"Quaardvark","NA",1
+"Lates_calcarifer",55000,NA,"Quaardvark","NA",1
 "Lates_niloticus",3000,5840,"Quaardvark","Quaardvark",1
 "Lathamus_discolor",64.65,NA,"Lislevand_etal_2007","NA",1
 "Lathrobium_fovalum",6e-04,NA,"rdataretriever-predator-prey-body-ratio","NA",1
@@ -14032,7 +14032,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Lepilemur_ruficaudatus",750,NA,"Smith_2003","NA",1
 "Lepilemur_septentrionalis",750,NA,"Smith_2003","NA",1
 "Lepisosteus_oculatus",2500,NA,"Quaardvark","NA",1
-"Lepisosteus_osseus",9302.49999999999,8029.99999999999,"Quaardvark","Quaardvark",1
+"Lepisosteus_osseus",9302.5,8030,"Quaardvark","Quaardvark",1
 "Lepisosteus_platostomus",1430,NA,"Quaardvark","NA",1
 "Lepisosteus_platyrhincus",9600,NA,"fishbase",NA,NA
 "Lepomis_auritus",467.25,8,"AnAge","AnAge",1
@@ -14152,8 +14152,8 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Leptopogon_superciliaris",11.33333333,NA,"rdataretriever-amniote-life-hist","NA",1
 "Leptopogon_taczanowskii",11.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Leptopterus_chabert",20.875,NA,"rdataretriever-amniote-life-hist","NA",1
-"Leptoptilos_crumenifer",6399.99999999999,NA,"rdataretriever-amniote-life-hist","NA",1
-"Leptoptilos_crumeniferus",9000,9124.99999999999,"Quaardvark","Quaardvark",1
+"Leptoptilos_crumenifer",6400,NA,"rdataretriever-amniote-life-hist","NA",1
+"Leptoptilos_crumeniferus",9000,9125,"Quaardvark","Quaardvark",1
 "Leptoptilos_dubius",NA,43,"AnAge","AnAge",1
 "Leptoptilos_javanicus",5710,31.1,"AnAge","AnAge",1
 "Leptoseps_osellai",0.6,NA,"Feldman_etal_2016","NA",1
@@ -14931,9 +14931,9 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Lithodoras_dorsalis",15000,NA,"fishbase",NA,NA
 "Lithognathus_aureti",10615,50,"AnAge","AnAge",1
 "Lithrinus_enigmaticus",730,1825,"Brown_etal_2018","Brown_etal_2018",1
-"Litocranius_walleri",9499.99999999999,1391.56,"Brown_etal_2018","Brown_etal_2018",1
+"Litocranius_walleri",9500,1391.56,"Brown_etal_2018","Brown_etal_2018",1
 "Litoria_caerulea",NA,20,"AnAge","AnAge",1
-"Litoria_lutea",8.40357066966179,NA,"rdataretriever-vertnet-amphibians","NA",1
+"Litoria_lutea",8.4035706696618,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Litoria_sp.",0.569242509762222,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Litoria_thesaurensis",13.3618279497714,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Litsea_acuminata",2257178.717737,18884.861,"Brown_etal_2018","Brown_etal_2018",1
@@ -15205,7 +15205,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Lutjanus_sebae",17985,35,"AnAge","AnAge",1
 "Lutjanus_synagris",1941.5,10,"AnAge","AnAge",1
 "Lutjanus_vitta",NA,12,"AnAge","AnAge",1
-"Lutra_canadensis",9332.54300796991,NA,"Tucker_etal_2014b","NA",1
+"Lutra_canadensis",9332.5430079699,NA,"Tucker_etal_2014b","NA",1
 "Lutra_lutra",8077.45908599107,NA,"Smith_2003","NA",1
 "Lutra_maculicollis",4000,NA,"rdataretriever-mammal-life-hist","NA",1
 "Lutra_nippon",7809.34499999999,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -15227,7 +15227,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Lybius_torquatus",53.2,NA,"rdataretriever-amniote-life-hist","NA",1
 "Lybius_undatus",29.8827709558535,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Lybius_vieilloti",39.5,NA,"rdataretriever-amniote-life-hist","NA",1
-"Lycalopex_culpaeus",9832.41000000001,NA,"Smith_2003","NA",1
+"Lycalopex_culpaeus",9832.41,NA,"Smith_2003","NA",1
 "Lycalopex_fulvipes",2720,2555,"Quaardvark","Quaardvark",1
 "Lycalopex_griseus",8279.994,NA,"Smith_2003","NA",1
 "Lycalopex_gymnocercus",4689.969,NA,"Smith_2003","NA",1
@@ -15459,7 +15459,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Lyncornis_temminckii",95.9,NA,"rdataretriever-amniote-life-hist","NA",1
 "Lynx_canadensis",9373.24600000001,NA,"Smith_2003","NA",1
 "Lynx_lynx",24472.73799,1460,"rdataretriever-home-ranges_rdataretriever-mammal-life-hist_rdataretriever-pantheria_rdataretriever-amniote-life-hist_Tucker_etal_2015","Spong_2002",NA
-"Lynx_pardinus",9399.99999999999,NA,"Smith_2003","NA",1
+"Lynx_pardinus",9400,NA,"Smith_2003","NA",1
 "Lynx_rufus",10460.30829,839.5,"rdataretriever-home-ranges_rdataretriever-mammal-life-hist_rdataretriever-pantheria_rdataretriever-amniote-life-hist_Tucker_etal_2015","Reding_2012",NA
 "Lyonia_octandra",11000,60833.333,"Brown_etal_2018","Brown_etal_2018",1
 "Lyriocephalus_scutatus",225.7,NA,"Feldman_etal_2016","NA",1
@@ -15494,18 +15494,18 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Macaca_cyclopis",6000,NA,"Smith_2003","NA",1
 "Macaca_fascicularis",3918.76893934817,NA,"Smith_2003","NA",1
 "Macaca_fuscata",10400,NA,"Smith_2003","NA",1
-"Macaca_hecki",7386.00000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Macaca_hecki",7386,NA,"rdataretriever-amniote-life-hist","NA",1
 "Macaca_irus",3710,NA,"Gillooly_etal_2016","NA",1
 "Macaca_leonina",7603.39,NA,"rdataretriever-amniote-life-hist","NA",1
 "Macaca_maura",7300,NA,"Smith_2003","NA",1
 "Macaca_mulatta",1695.58249578132,4269.663,"Brown_etal_2018","Brown_etal_2018",1
 "Macaca_nemestrina",2500,4345.238,"Brown_etal_2018","Brown_etal_2018",1
-"Macaca_nigra",6399.99999999999,NA,"Smith_2003","NA",1
+"Macaca_nigra",6400,NA,"Smith_2003","NA",1
 "Macaca_nigrescens",7662.195,NA,"rdataretriever-amniote-life-hist","NA",1
 "Macaca_ochreata",2600,NA,"Smith_2003","NA",1
 "Macaca_pagensis",5694.70113263199,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
 "Macaca_radiata",2500,2874.016,"Brown_etal_2018","Brown_etal_2018",1
-"Macaca_siberu",7151.49999999999,NA,"rdataretriever-amniote-life-hist","NA",1
+"Macaca_siberu",7151.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Macaca_silenus",2500,4345.238,"Brown_etal_2018","Brown_etal_2018",1
 "Macaca_sinica",1000,4345.238,"Brown_etal_2018","Brown_etal_2018",1
 "Macaca_sylvanus",1750,3020.244,"Brown_etal_2018","Brown_etal_2018",1
@@ -15534,7 +15534,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Machlolophus_xanthogenys",14.85,NA,"rdataretriever-amniote-life-hist","NA",1
 "Mackenziaena_leachii",68.875,NA,"rdataretriever-amniote-life-hist","NA",1
 "Mackenziaena_severa",51.9,NA,"rdataretriever-amniote-life-hist","NA",1
-"Macoma_balthica",0.942579750215749,435.458,"Brown_etal_2018","Brown_etal_2018",1
+"Macoma_balthica",0.94257975021575,435.458,"Brown_etal_2018","Brown_etal_2018",1
 "Macquaria_ambigua",13200,20,"AnAge","AnAge",1
 "Macquaria_australasica",1500,7300,"Quaardvark","Quaardvark",1
 "Macquaria_novemaculeata",NA,22,"AnAge","AnAge",1
@@ -15761,7 +15761,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Malurus_splendens",9.44545746201139,NA,"Lislevand_etal_2007","NA",1
 "Mammelomys_lanosus",117.2,NA,"Smith_2003","NA",1
 "Mammelomys_rattoides",209.5,NA,"Smith_2003","NA",1
-"Mammut_americanum",7799999.99999999,NA,"Smith_2003","NA",1
+"Mammut_americanum",7800000,NA,"Smith_2003","NA",1
 "Mammuthus_columbi",10800000,NA,"Smith_2003","NA",1
 "Mammuthus_exilis",1350000,NA,"Smith_2003","NA",1
 "Mammuthus_imperator",1e+07,NA,"Smith_2003","NA",1
@@ -16018,7 +16018,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Megalonaias_nervosa",263.8,19710,"Quaardvark","Quaardvark",1
 "Megalonyx_jeffersonii",6e+05,NA,"Smith_2003","NA",1
 "Megalops_atlanticus",161000,20075,"Quaardvark","Quaardvark",1
-"Megalops_cyprinoides",9899.99999999999,44,"AnAge","AnAge",1
+"Megalops_cyprinoides",9900,44,"AnAge","AnAge",1
 "Megalotragus_priscus",2e+05,NA,"Smith_2003","NA",1
 "Megalurulus_grosvenori",36,NA,"rdataretriever-amniote-life-hist","NA",1
 "Megalurulus_llaneae",30.75,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -16079,7 +16079,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Megaselia_ruficornis",0.000231,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Megasorex_gigas",20,NA,"Smith_2003","NA",1
 "Megastictus_margaritatus",19.975,NA,"rdataretriever-amniote-life-hist","NA",1
-"Megatherium_americanum",6265000.00000001,NA,"Smith_2003","NA",1
+"Megatherium_americanum",6265000,NA,"Smith_2003","NA",1
 "Megatriorchis_doriae",1000,NA,"rdataretriever-amniote-life-hist","NA",1
 "Megaxenops_parnaguae",25,NA,"rdataretriever-amniote-life-hist","NA",1
 "Megophrys_nasuta",44.8,NA,"rdataretriever-vertnet-amphibians","NA",1
@@ -16605,7 +16605,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Micropternus_brachyurus",88.4,NA,"rdataretriever-amniote-life-hist","NA",1
 "Micropteropus_intermedius",32.01,NA,"rdataretriever-amniote-life-hist","NA",1
 "Micropteropus_pusillus",26.567,NA,"Smith_2003","NA",1
-"Micropterus_dolomieu",2975.5,9490.00000000001,"Quaardvark","Quaardvark",1
+"Micropterus_dolomieu",2975.5,9490,"Quaardvark","Quaardvark",1
 "Micropterus_punctulatus",2557,7,"AnAge","AnAge",1
 "Micropterus_salmoides",1000,NA,"Killen_etal_2016","NA",1
 "Micropygia_schomburgkii",31.2,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -17728,7 +17728,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Nandayus_nenday",128,18.7,"AnAge","AnAge",1
 "Nandinia_binotata",2000,NA,"Smith_2003","NA",1
 "Nanger_dama",72999.519,NA,"Smith_2003","NA",1
-"Nanger_granti",54999.9999999999,4380,"Quaardvark","Quaardvark",1
+"Nanger_granti",55000,4380,"Quaardvark","Quaardvark",1
 "Nanger_soemmerringii",40000.001,NA,"Smith_2003","NA",1
 "Nangura_spinosa",18.2,NA,"Feldman_etal_2016","NA",1
 "Nannobrachium_regale",0.92,NA,"CalCOFI",NA,NA
@@ -18186,7 +18186,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Nisaetus_nipalensis",3000,NA,"rdataretriever-amniote-life-hist","NA",1
 "Nisaetus_philippensis",1168,NA,"rdataretriever-amniote-life-hist","NA",1
 "Nitzschia_dissipata",2.89423611992596e-09,NA,"rdataretriever-predator-prey-body-ratio","NA",1
-"Nitzschia_pandora",3.00000000000000e-09,NA,"Brown_etal_2018","NA",1
+"Nitzschia_pandora",3e-09,NA,"Brown_etal_2018","NA",1
 "Nitzschia_perminuta",4.40770713085051e-10,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Niveoscincus_coventryi",2.9,NA,"Feldman_etal_2016","NA",1
 "Niveoscincus_greeni",8.5,NA,"Feldman_etal_2016","NA",1
@@ -18786,7 +18786,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Oncorhynchus_clarkii",3000,2555,"Quaardvark","Quaardvark",1
 "Oncorhynchus_gilae",99,1460,"Quaardvark","Quaardvark",1
 "Oncorhynchus_gorbuscha",1600,NA,"Killen_etal_2016","NA",1
-"Oncorhynchus_keta",8744.99999999999,7,"AnAge","AnAge",1
+"Oncorhynchus_keta",8745,7,"AnAge","AnAge",1
 "Oncorhynchus_kisutch",4500,1496.5,"Quaardvark","Quaardvark",1
 "Oncorhynchus_mykiss",389,NA,"Gillooly_etal_2016","NA",1
 "Oncorhynchus_nerka",2640,NA,"Killen_etal_2016","NA",1
@@ -19125,7 +19125,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Ostorhinchus_cyanosoma",1.42,NA,"Killen_etal_2016","NA",1
 "Ostorhinchus_doederleini",2.17,NA,"Killen_etal_2016","NA",1
 "Ostracoda_sp",1.95833602836694e-10,NA,"rdataretriever-predator-prey-body-ratio","NA",1
-"Otaria_byronia",61249.9999999999,2874.016,"Brown_etal_2018","Brown_etal_2018",1
+"Otaria_byronia",61250,2874.016,"Brown_etal_2018","Brown_etal_2018",1
 "Otaria_flavescens",63095734.4480193,NA,"Tucker_etal_2014a","NA",1
 "Otidiphaps_nobilis",500,NA,"rdataretriever-amniote-life-hist","NA",1
 "Otis_tarda",7895.5,NA,"Lislevand_etal_2007","NA",1
@@ -19442,7 +19442,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pamelaescincus_gardineri",11.3,NA,"Feldman_etal_2016","NA",1
 "Pampatherium_humboldtii",150000,NA,"Smith_2003","NA",1
 "Pampatherium_typum",2e+05,NA,"Smith_2003","NA",1
-"Pan_paniscus",8500.00000000001,2874.016,"Brown_etal_2018","Brown_etal_2018",1
+"Pan_paniscus",8500,2874.016,"Brown_etal_2018","Brown_etal_2018",1
 "Pan_troglodytes",10932.5869751327,7279.468,"Brown_etal_2018","Brown_etal_2018",1
 "Panaspis_breviceps",6.8,NA,"Feldman_etal_2016","NA",1
 "Panaspis_burgeoni",3.5,NA,"Feldman_etal_2016","NA",1
@@ -19575,7 +19575,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Paralichthys_californicus",33000,10950,"Quaardvark","Quaardvark",1
 "Paralichthys_lethostigma",9300,NA,"fishbase",NA,NA
 "Paralithodes_camtschatica",1000,1825,"Zhou_1988","Grant_2012",NA
-"Paralithodes_camtschaticus",10000,9124.99999999999,"Quaardvark","Quaardvark",1
+"Paralithodes_camtschaticus",10000,9125,"Quaardvark","Quaardvark",1
 "Paralomys_gerbillus",17.4,NA,"Smith_2003","NA",1
 "Paramegatherium_nazarrei",3500000,NA,"Smith_2003","NA",1
 "Paramelomys_gressitti",85.18,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -19927,7 +19927,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pentaneura_sp.",2.52e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Pentapleura_spec",2.85e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Penthetor_lucasi",38.167,NA,"Smith_2003","NA",1
-"Peponocephala_electra",51500,6886.79199999999,"Brown_etal_2018","Brown_etal_2018",1
+"Peponocephala_electra",51500,6886.792,"Brown_etal_2018","Brown_etal_2018",1
 "Perameles_bougainville",226,NA,"Smith_2003","NA",1
 "Perameles_eremiana",500,NA,"Smith_2003","NA",1
 "Perameles_gunnii",870,NA,"Smith_2003","NA",1
@@ -20118,14 +20118,14 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Petrogale_burbidgei",1258,NA,"Smith_2003","NA",1
 "Petrogale_concinna",1400,NA,"Smith_2003","NA",1
 "Petrogale_godmani",4750,NA,"Smith_2003","NA",1
-"Petrogale_herberti",6465.79999999999,NA,"rdataretriever-amniote-life-hist","NA",1
+"Petrogale_herberti",6465.8,NA,"rdataretriever-amniote-life-hist","NA",1
 "Petrogale_inornata",4600,NA,"Smith_2003","NA",1
 "Petrogale_lateralis",4625,NA,"Smith_2003","NA",1
 "Petrogale_penicillata",7100,NA,"Smith_2003","NA",1
 "Petrogale_persephone",6200,NA,"Smith_2003","NA",1
 "Petrogale_purpureicollis",5283.94,NA,"rdataretriever-amniote-life-hist","NA",1
 "Petrogale_rothschildi",3400,NA,"Smith_2003","NA",1
-"Petrogale_xanthopus",8500.00000000001,NA,"Smith_2003","NA",1
+"Petrogale_xanthopus",8500,NA,"Smith_2003","NA",1
 "Petroica_australis",35.95,NA,"Lislevand_etal_2007","NA",1
 "Petroica_bivittata",9,NA,"rdataretriever-amniote-life-hist","NA",1
 "Petroica_boodang",12.1,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -20150,7 +20150,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Petronia_xanthocollis",18.5,NA,"rdataretriever-bird-size","NA",1
 "Petropedetes_parkeri",4.8704603521867,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Petrophassa_albipennis",131.336971184812,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
-"Petrophassa_rufipennis",160.517273213819,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Petrophassa_rufipennis",160.51727321382,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Petropseudes_dahli",1640,NA,"Smith_2003","NA",1
 "Petrosaurus_mearnsi",36.9,NA,"Feldman_etal_2016","NA",1
 "Petrosaurus_repens",62.4,NA,"Feldman_etal_2016","NA",1
@@ -20560,7 +20560,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Phoenicolacerta_troodica",8,NA,"Feldman_etal_2016","NA",1
 "Phoeniconaias_minor",1500,41,"AnAge","AnAge",1
 "Phoenicoparrus_andinus",2800,NA,"Quaardvark","NA",1
-"Phoenicoparrus_jamesi",2250,9124.99999999999,"Quaardvark","Quaardvark",1
+"Phoenicoparrus_jamesi",2250,9125,"Quaardvark","Quaardvark",1
 "Phoenicopterus_chilensis",3000,18250,"Quaardvark","Quaardvark",1
 "Phoenicopterus_minor",1930,NA,"rdataretriever-bird-size","NA",1
 "Phoenicopterus_roseus",2450,18250,"Quaardvark","Quaardvark",1
@@ -21048,7 +21048,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pinaroloxias_inornata",13.1,NA,"rdataretriever-amniote-life-hist","NA",1
 "Pinarornis_plumosus",65.8,NA,"rdataretriever-amniote-life-hist","NA",1
 "Pinctada_margaritifera",7.15,5475,"Quaardvark","Quaardvark",1
-"Pinguinus_impennis",5000,8212.50000000001,"Quaardvark","Quaardvark",1
+"Pinguinus_impennis",5000,8212.5,"Quaardvark","Quaardvark",1
 "Pinicola_enucleator",14.1,1377.358,"Brown_etal_2018","Brown_etal_2018",1
 "Pinoyscincus_abdictus",20.2,NA,"Feldman_etal_2016","NA",1
 "Pinoyscincus_coxi",15.3,NA,"Feldman_etal_2016","NA",1
@@ -21158,7 +21158,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pirata_tenuitarsis",0.0019115938745382,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Pisaster_ochraceus",565,NA,"Rogers_2013",NA,NA
 "Pisaura_mirabilis",0.00332825478838822,NA,"rdataretriever-predator-prey-body-ratio","NA",1
-"Pisidium_sp",7.98999999999999e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
+"Pisidium_sp",7.99e-05,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Pitangus_sulphuratus",74,NA,"Lislevand_etal_2007","NA",1
 "Pithecheir_melanurus",108,NA,"Smith_2003","NA",1
 "Pithecheir_parvus",106,NA,"Smith_2003","NA",1
@@ -21265,7 +21265,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Platylophus_galericulatus",77.9,NA,"rdataretriever-amniote-life-hist","NA",1
 "Platymantis_acrochordus",1.9,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Platymantis_guppyi",10.918397723567,NA,"rdataretriever-vertnet-amphibians","NA",1
-"Platymantis_neckeri",3.84850113127681,NA,"rdataretriever-vertnet-amphibians","NA",1
+"Platymantis_neckeri",3.8485011312768,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Platymantis_pelewensis",4.13458743307365,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Platymantis_solomonis",15.3,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Platymantis_weberi",5.54779317027228,NA,"rdataretriever-vertnet-amphibians","NA",1
@@ -21424,7 +21424,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Plocepasser_rufoscapulatus",45.2327315115946,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Plocepasser_superciliosus",35.5161934897309,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Ploceus_albinucha",27.5971012970565,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
-"Ploceus_alienus",22.4345715359131,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Ploceus_alienus",22.434571535913,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Ploceus_aurantius",23.3473767263048,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Ploceus_baglafecht",31.15,NA,"Lislevand_etal_2007","NA",1
 "Ploceus_bannermani",NA,NA,"Lislevand_etal_2007","NA",1
@@ -21539,7 +21539,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Podoces_pleskei",88.75,NA,"rdataretriever-amniote-life-hist","NA",1
 "Podocnemis_erythrocephala",NA,18,"AnAge","AnAge",1
 "Podocnemis_expansa",NA,25.3,"AnAge","AnAge",1
-"Podocnemis_lewyana",9599.00000000001,NA,"rdataretriever-amniote-life-hist","NA",1
+"Podocnemis_lewyana",9599,NA,"rdataretriever-amniote-life-hist","NA",1
 "Podocnemis_sextuberculata",14.3,NA,"rdataretriever-amniote-life-hist","NA",1
 "Podocnemis_unifilis",4500,NA,"AnAge","NA",1
 "Podocnemis_vogli",2013,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -21608,7 +21608,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pogoniulus_scolopaceus",15.6076904121013,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Pogoniulus_simplex",8.62409415533017,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Pogoniulus_subsulphureus",10.375,NA,"rdataretriever-amniote-life-hist","NA",1
-"Pogonocichla_stellata",21.0978671907849,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Pogonocichla_stellata",21.097867190785,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Pogonomelomys_bruijni",159.22,NA,"rdataretriever-amniote-life-hist","NA",1
 "Pogonomelomys_mayeri",109.7,NA,"Smith_2003","NA",1
 "Pogonomelomys_sevia",60.9,NA,"rdataretriever-mammal-life-hist","NA",1
@@ -21670,7 +21670,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Polioptila_plumbea",6.1,NA,"rdataretriever-amniote-life-hist","NA",1
 "Polioptila_schistaceigula",6,NA,"rdataretriever-amniote-life-hist","NA",1
 "Polioxolmis_rufipennis",34.5,NA,"rdataretriever-amniote-life-hist","NA",1
-"Pollachius_pollachius",9955.00000000001,8,"AnAge","AnAge",1
+"Pollachius_pollachius",9955,8,"AnAge","AnAge",1
 "Pollachius_virens",3920.17400831066,1532.904,"Brown_etal_2018","Brown_etal_2018",1
 "Pollimyrus_isidori",4,29,"AnAge","AnAge",1
 "Polyarthra_vulgaris",3.47706773014274e-07,NA,"rdataretriever-predator-prey-body-ratio","NA",1
@@ -21698,7 +21698,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Polyplectron_katsumatae",685,NA,"rdataretriever-amniote-life-hist","NA",1
 "Polyplectron_malacense",630.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Polyplectron_napoleonis",550,15,"AnAge","AnAge",1
-"Polyprion_oxygeneios",54999.9999999999,60,"AnAge","AnAge",1
+"Polyprion_oxygeneios",55000,60,"AnAge","AnAge",1
 "Polypterus_senegalus",NA,34,"AnAge","AnAge",1
 "Polysiphonia_sp.",50,NA,"Brown_etal_2018","NA",1
 "Polysticta_stelleri",201.716756864669,1901.506,"Brown_etal_2018","Brown_etal_2018",1
@@ -22263,7 +22263,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pseudalopex_culpaeus",7413.10241300918,NA,"Tucker_etal_2014b","NA",1
 "Pseudalopex_griseus",3981.07170553497,NA,"Tucker_etal_2014b","NA",1
 "Pseudalopex_gymnocercus",4690,NA,"rdataretriever-mammal-life-hist","NA",1
-"Pseudalopex_peruanus",6430.00000000001,NA,"Smith_2003","NA",1
+"Pseudalopex_peruanus",6430,NA,"Smith_2003","NA",1
 "Pseudalsophis_biserialis",294.8,NA,"Feldman_etal_2016","NA",1
 "Pseudalsophis_dorsalis",267.8,NA,"Feldman_etal_2016","NA",1
 "Pseudalsophis_elegans",177.3,NA,"Feldman_etal_2016","NA",1
@@ -22362,7 +22362,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Pseudocalotes_tympanistriga",17.2,NA,"Feldman_etal_2016","NA",1
 "Pseudocalotes_ziegleri",15.6,NA,"Feldman_etal_2016","NA",1
 "Pseudocalyptomena_graueri",31.9706897016627,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
-"Pseudocaranx_dentex",9955.00000000001,49,"AnAge","AnAge",1
+"Pseudocaranx_dentex",9955,49,"AnAge","AnAge",1
 "Pseudocarcharias_kamoharai",5000,NA,"Quaardvark","NA",1
 "Pseudoceramodactylus_khobarensis",6.8,NA,"Feldman_etal_2016","NA",1
 "Pseudocerastes_fieldi",371.3,NA,"Feldman_etal_2016","NA",1
@@ -22926,7 +22926,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Ptyonoprogne_rupestris",20.475,NA,"rdataretriever-amniote-life-hist","NA",1
 "Ptyrticus_turdinus",64.15,NA,"Lislevand_etal_2007","NA",1
 "Pucrasia_macrolopha",1177.5,NA,"rdataretriever-amniote-life-hist","NA",1
-"Pudu_mephistophiles",9599.97299999999,NA,"Smith_2003","NA",1
+"Pudu_mephistophiles",9599.973,NA,"Smith_2003","NA",1
 "Pudu_puda",9749.896,NA,"Smith_2003","NA",1
 "Puffinus_assimilis",226,NA,"rdataretriever-amniote-life-hist","NA",1
 "Puffinus_auricularis",80.75,708.738,"Brown_etal_2018","Brown_etal_2018",1
@@ -23167,7 +23167,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Ramphastos_dicolorus",325.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Ramphastos_sulfuratus",400,NA,"Quaardvark","NA",1
 "Ramphastos_swainsonii",665,NA,"Quaardvark","NA",1
-"Ramphastos_toco",676,9490.00000000001,"Quaardvark","Quaardvark",1
+"Ramphastos_toco",676,9490,"Quaardvark","Quaardvark",1
 "Ramphastos_tucanus",688.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Ramphastos_vitellinus",361.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Ramphocaenus_melanurus",10.0439036235918,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
@@ -23495,7 +23495,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Rhaphidura_leucopygialis",13.625,NA,"rdataretriever-amniote-life-hist","NA",1
 "Rhaphidura_sabini",18.8075117971517,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Rhea_americana",23000,NA,"Quaardvark","NA",1
-"Rhea_pennata",17958.2849960679,NA,"rdataretriever-home-ranges_rdataretriever-amniote-life-hist","NA",2
+"Rhea_pennata",17958.284996068,NA,"rdataretriever-home-ranges_rdataretriever-amniote-life-hist","NA",2
 "Rhegmatorhina_gymnops",28.5,NA,"rdataretriever-amniote-life-hist","NA",1
 "Rhegmatorhina_hoffmannsi",30.95,NA,"rdataretriever-amniote-life-hist","NA",1
 "Rhegmatorhina_melanosticta",31,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -23505,7 +23505,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Rheomys_raptor",38,NA,"Smith_2003","NA",1
 "Rheomys_thomasi",40,NA,"Smith_2003","NA",1
 "Rhincalanus_gigas",0.056626506,NA,"rdataretriever-socean-diet-data","NA",1
-"Rhincodon_typus",30843999.9999999,54750,"Quaardvark","Quaardvark",1
+"Rhincodon_typus",30844000,54750,"Quaardvark","Quaardvark",1
 "Rhinechis_scalaris",386.6,NA,"Feldman_etal_2016","NA",1
 "Rhinella_marina",106.25,3650,"Quaardvark","Quaardvark",1
 "Rhinella_schneideri",NA,15.1,"AnAge","AnAge",1
@@ -23519,7 +23519,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Rhinobothryum_bovallii",493.9,NA,"Feldman_etal_2016","NA",1
 "Rhinobothryum_lentiginosum",389.7,NA,"Feldman_etal_2016","NA",1
 "Rhinoceros_sondaicus",1750000,NA,"Smith_2003","NA",1
-"Rhinoceros_unicornis",4e+05,6465.36799999999,"Brown_etal_2018","Brown_etal_2018",1
+"Rhinoceros_unicornis",4e+05,6465.368,"Brown_etal_2018","Brown_etal_2018",1
 "Rhinocheilus_lecontei",339.4,NA,"Feldman_etal_2016","NA",1
 "Rhinoclemmys_areolata",NA,19.3,"AnAge","AnAge",1
 "Rhinoclemmys_diademata",1126,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -24129,7 +24129,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Scaphiophis_albopunctatus",386.6,NA,"Feldman_etal_2016","NA",1
 "Scaphiophis_raffreyi",328.2,NA,"Feldman_etal_2016","NA",1
 "Scaphiophryne_gottlebei",NA,2,"AnAge","AnAge",1
-"Scaphiopus_bombifrons",15.7185206475069,NA,"rdataretriever-vertnet-amphibians","NA",2
+"Scaphiopus_bombifrons",15.718520647507,NA,"rdataretriever-vertnet-amphibians","NA",2
 "Scaphiopus_bombifrons..",12.6,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Scaphiopus_couchi",22.6617391416103,NA,"rdataretriever-vertnet-amphibians","NA",1
 "Scaphiopus_couchii",NA,6.7,"AnAge","AnAge",1
@@ -24842,7 +24842,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Sillago_sihama",NA,7,"AnAge","AnAge",1
 "Silometopus_elegans",0.000225,NA,"rdataretriever-predator-prey-body-ratio","NA",1
 "Silurana_tropicalis",4.33456930579274,NA,"rdataretriever-vertnet-amphibians","NA",1
-"Silurus_glanis",45000,9124.99999999999,"Quaardvark","Quaardvark",1
+"Silurus_glanis",45000,9125,"Quaardvark","Quaardvark",1
 "Silvascincus_murrayi",27.6,NA,"Feldman_etal_2016","NA",1
 "Silvascincus_tryoni",24.4,NA,"Feldman_etal_2016","NA",1
 "Silvicultrix_diadema",11.5,NA,"rdataretriever-amniote-life-hist","NA",1
@@ -25792,7 +25792,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Stizostedion_vitreum",NA,NA,"Killen_etal_2016","NA",1
 "Stochomys_longicaudatus",70.95,NA,"Smith_2003","NA",1
 "Stockoceros_conklingi",51000,NA,"Smith_2003","NA",1
-"Stockoceros_onusrosagris",54999.9999999999,NA,"Smith_2003","NA",1
+"Stockoceros_onusrosagris",55000,NA,"Smith_2003","NA",1
 "Stoliczkia_borneensis",93.1,NA,"Feldman_etal_2016","NA",1
 "Stoliczkia_khasiensis",70.9,NA,"Feldman_etal_2016","NA",1
 "Stolothrissa_tanganicae",1.5,70.192,"Brown_etal_2018","Brown_etal_2018",1
@@ -25981,7 +25981,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Sus_ahoenobarbus",102750,NA,"rdataretriever-amniote-life-hist","NA",1
 "Sus_barbatus",96666.6670000001,NA,"Smith_2003","NA",1
 "Sus_cebifrons",140013.959393341,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
-"Sus_celebensis",54999.9999999999,NA,"Smith_2003","NA",1
+"Sus_celebensis",55000,NA,"Smith_2003","NA",1
 "Sus_oliveri",102750,NA,"rdataretriever-amniote-life-hist","NA",1
 "Sus_philippensis",140013.959393341,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
 "Sus_salvanius",7718,NA,"Smith_2003","NA",1
@@ -26223,7 +26223,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Tadarida_ventralis",37.43,NA,"rdataretriever-amniote-life-hist","NA",1
 "Tadorna_cana",1556.44595151904,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Tadorna_ferruginea",1298.61464645983,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
-"Tadorna_radjah",898.838138932701,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
+"Tadorna_radjah",898.8381389327,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Tadorna_tadorna",1152,24.8,"AnAge","AnAge",1
 "Tadorna_tadornoides",1458.24414965396,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
 "Tadorna_variegata",1556.43181668842,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist","NA",2
@@ -27014,7 +27014,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Thunnus_maccoyii",143000,20,"AnAge","AnAge",1
 "Thunnus_macoyi",49000,1825,"Brown_etal_2018","Brown_etal_2018",1
 "Thunnus_obesus",115500,11,"AnAge","AnAge",1
-"Thunnus_orientalis",8500.00000000001,NA,"Killen_etal_2016","NA",1
+"Thunnus_orientalis",8500,NA,"Killen_etal_2016","NA",1
 "Thunnus_thynnus",27220,NA,"Hirt_etal_2017","NA",1
 "Thylacinus_cynocephalus",30000,NA,"Smith_2003","NA",1
 "Thylacoleo_carnifex",115000,NA,"Smith_2003","NA",1
@@ -27172,7 +27172,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Topaza_pella",11.25,NA,"rdataretriever-amniote-life-hist","NA",1
 "Topaza_pyra",11.25,NA,"rdataretriever-amniote-life-hist","NA",1
 "Torgos_tracheliotos",6800,NA,"rdataretriever-amniote-life-hist","NA",1
-"Torgos_tracheliotus",6699.99999999999,NA,"Lislevand_etal_2007","NA",1
+"Torgos_tracheliotus",6700,NA,"Lislevand_etal_2007","NA",1
 "Toropuku_stephensi",12.4,NA,"Feldman_etal_2016","NA",1
 "Torpedo_californica",NA,16,"AnAge","AnAge",1
 "Torpedo_marmorata",1650,20,"AnAge","AnAge",1
@@ -27437,12 +27437,12 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Tretioscincus_agilis",5.5,NA,"Feldman_etal_2016","NA",1
 "Tretioscincus_bifasciatus",4.4,NA,"Feldman_etal_2016","NA",1
 "Tretioscincus_oriximinensis",3.1,NA,"Feldman_etal_2016","NA",1
-"Triaenodon_obesus",20000,9124.99999999999,"Quaardvark","Quaardvark",1
+"Triaenodon_obesus",20000,9125,"Quaardvark","Quaardvark",1
 "Triaenops_auritus",5.56,NA,"rdataretriever-amniote-life-hist","NA",1
 "Triaenops_furculus",5.56,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
 "Triaenops_persicus",12.578,NA,"Smith_2003","NA",1
 "Triaenops_rufus",10.0684656229239,NA,"rdataretriever-pantheria_rdataretriever-amniote-life-hist","NA",2
-"Triakis_semifasciata",18400,9490.00000000001,"Quaardvark","Quaardvark",1
+"Triakis_semifasciata",18400,9490,"Quaardvark","Quaardvark",1
 "Tribolonotus_annectens",2.3,NA,"Feldman_etal_2016","NA",1
 "Tribolonotus_blanchardi",1.1,NA,"Feldman_etal_2016","NA",1
 "Tribolonotus_brongersmai",5.1,NA,"Feldman_etal_2016","NA",1
@@ -27456,7 +27456,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Trichastoma_bicolor",26.925,NA,"rdataretriever-amniote-life-hist","NA",1
 "Trichastoma_celebense",24.05,NA,"rdataretriever-amniote-life-hist","NA",1
 "Trichechus_inunguis",1e+05,4345.238,"Brown_etal_2018","Brown_etal_2018",1
-"Trichechus_manatus",62499.9999999999,4345.238,"Brown_etal_2018","Brown_etal_2018",1
+"Trichechus_manatus",62500,4345.238,"Brown_etal_2018","Brown_etal_2018",1
 "Trichechus_senegalensis",454000,NA,"Smith_2003","NA",1
 "Tricheilostoma_bicolor",1.9,NA,"Feldman_etal_2016","NA",1
 "Tricheilostoma_broadleyi",0.6,NA,"Feldman_etal_2016","NA",1
@@ -28538,7 +28538,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Vespertilio_sinensis",24.475,NA,"Smith_2003","NA",1
 "Vestiaria_coccinea",18.3,NA,"Lislevand_etal_2007","NA",1
 "Vhembelacerta_rupicola",3.2,NA,"Feldman_etal_2016","NA",1
-"Vicugna_pacos",62000.0000000001,25.8,"AnAge","AnAge",1
+"Vicugna_pacos",62000,25.8,"AnAge","AnAge",1
 "Vicugna_vicugna",11870,2874.016,"Brown_etal_2018","Brown_etal_2018",1
 "Vidua_camerunensis",12.2,NA,"rdataretriever-amniote-life-hist","NA",1
 "Vidua_chalybeata",12.95,NA,"Lislevand_etal_2007","NA",1
@@ -28865,7 +28865,7 @@ s",2754.22870333817,NA,"Tucker_etal_2014b","NA",1
 "Zaglossus_bruijni",10139.5,NA,"Smith_2003","NA",1
 "Zaglossus_bruijnii",7800,NA,"Smith_2003","NA",1
 "Zaglossus_hacketti",30000,NA,"Smith_2003","NA",1
-"Zalophus_californianus",62499.9999999999,2449.664,"Brown_etal_2018","Brown_etal_2018",1
+"Zalophus_californianus",62500,2449.664,"Brown_etal_2018","Brown_etal_2018",1
 "Zalophus_japonicus",158597.43,NA,"rdataretriever-amniote-life-hist","NA",1
 "Zalophus_wollebaeki",150000,7300,"Quaardvark","Quaardvark",1
 "Zamenis_hohenackeri",58.4,NA,"Feldman_etal_2016","NA",1
