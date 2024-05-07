@@ -2,8 +2,10 @@
 # Match (and correct) consumers in FracFeed data to Tree of Life
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##########################################################################
-# This code is iterative in that you'll have to repeat a few steps 
-# by jumping back up in the code a few times.
+message("
+    This taxon-clearning code is iterative in that you'll have to repeat 
+    a few steps by jumping back up in the code a few times.
+")
 ##########################################################################
 options(warn = 1) # to issue warnings immediately
 ##########################################################################
@@ -38,9 +40,11 @@ ConsIdent <- sort(unique(dat$Consumer.identity))
 #######################################################################
 # Problem taxa identified during prior attempts to match to Tree of Life
 #######################################################################
-warning(
-  'INCERTAE_SEDIS detected.  These species should be periodically checked in the ToL to see if their status has changed.'
-)
+message('
+    INCERTAE_SEDIS detected.  
+    These species should be periodically checked in the ToL 
+    to see if their status has changed.
+')
 # See below for source of names
 rem <-
   c(
@@ -48,13 +52,16 @@ rem <-
     # "Chromis_chrysura",
     # "Platycephalus_speculator",
     # "Psellogrammus_kennedyi",
-    "Astropecten_platyacanthus",
+    # "Astropecten_platyacanthus",
     "Hemigrammus_arriba"
   )
 print(rem)
 
 test <- tnrs_match_names(rem, context_name = "Animals")
 
+message('
+        Unmatched species have been removed.
+')
 ConsIdent <- ConsIdent[ConsIdent %!in% rem]
 
 ###################################
@@ -65,7 +72,10 @@ taxa <- tnrs_match_names(ConsIdent, context_name = "Animals")
 write.csv(taxa, 
           file = '../tmp/TaxonClean/Taxa.csv',
           row.names = FALSE)
-warning("\nFinished matching taxa to the tree of life.\nYou should now check for instances of, and select among, multiple matches.")
+message("
+    Finished matching taxa to the tree of life.
+    You should now check for instances of, and select among, multiple matches.
+")
 
 ##################
 # Resolve problems
@@ -82,7 +92,7 @@ warning("\nFinished matching taxa to the tree of life.\nYou should now check for
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 multmatch <- taxa[taxa$number_matches > 1, ]
 if(nrow(multmatch) > 0){
-  warning(paste0(nrow(multmatch),
+  message(paste0(nrow(multmatch),
                 ' (', round(nrow(multmatch) / nrow(taxa) * 100, 1), '%) ',
                 'of the taxa have multiple matches in the Tree of Life.'))
 }
@@ -96,7 +106,11 @@ if (matchAllTaxa) {
 }
 
 if (!matchNewTaxa){
-  warning('You have decided not to select among multiple matches, instead relying on prior selections.  This will be a problem if there are new taxa in the database.')
+  message('
+  You have decided not to select among multiple matches, 
+            instead relying on prior selections.
+            This will be a problem if there are new taxa in the database.
+  ')
 }
   
 if (matchNewTaxa | matchAllTaxa) {
@@ -143,6 +157,10 @@ if (matchNewTaxa | matchAllTaxa) {
           inf[1:nrow(tlin), r] <- rev(tlin[, 1])
         }
         inf <- inf[-which(apply(is.na(inf), 1, sum) == ncol(inf)), ]
+        
+        if(select_max_score){
+          sel_tax <- which.max(insp$score)
+        }else{
         print(inf)
         print(insp)
         sel_tax <-
@@ -157,6 +175,7 @@ if (matchNewTaxa | matchAllTaxa) {
               readline(prompt = 
 "Try again. Which row (i.e. taxon) do you want to choose to replace the existing one? ")
             )
+        }
         }
         multmatch$chosen.ott_id[i] <- insp$ott_id[sel_tax]
       }
@@ -217,7 +236,9 @@ Dups <- merge(a[, c(1, 2, 4)], b[, c(1, 2, 4)], all = TRUE)
 # All "duplicates" have different search_strings,
 # meaning these are species with synonymous names in the original data.
 if (nrow(Dups) > 0) {
-  warning('\nThere are duplicate species due to synonyms that may need to be fixed in the original data.')
+  message('
+  There are duplicate species due to synonyms that may need to be fixed in the original data.
+  ')
   print(Dups[order(Dups$unique_name), ])
 }
 

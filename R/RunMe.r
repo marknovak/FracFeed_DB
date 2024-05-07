@@ -9,6 +9,9 @@ rm(list = ls())
 matchNewTaxa <- TRUE
 # Prompt for each taxon (TRUE) or just unmatched (FALSE)
 promptNext <- FALSE
+# Rather than prompting for unmatched, select the taxon with
+# the highest matching score.
+select_max_score <- TRUE
 
 # CAREFUL HERE: 
 # Erase previously saved matches and start over
