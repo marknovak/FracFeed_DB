@@ -39,7 +39,7 @@ ggsave('../Figs/Freq_Ecosystem.png',
        device = 'png')
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Sample year
+# Survey year
 p <- ggplot(dat,
             aes(x = Year)) +
   geom_histogram(binwidth = 1,
@@ -53,7 +53,6 @@ ggsave('../Figs/Freq_SurveyYear.png',
        width = 6,
        height = 4,
        device = 'png')
-
 
 ###########################################################################
 ###########################################################################

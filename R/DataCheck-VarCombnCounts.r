@@ -62,8 +62,10 @@ for (foc in 2:nrow(MVarCnt2)) {
               row.names = FALSE)
 }
 
-message("Inspect the contents of 'tmp/VarCombnCount/' to see if there are
-surveys for which additional covariate information could be obtained.")
+message("
+Inspect the contents of 'tmp/VarCombnCount/' to see if there are
+surveys for which additional covariate information could be obtained.
+")
 
 ##################################################################
 # Given that consumer body mass information is most commonly missing variable,
@@ -79,8 +81,11 @@ write.table(tdat,
           sep = ',',
           row.names = FALSE)
           
-message("Inspect 'tmp/BodyMass/BodyMass_ValueTaxa.csv' to see which
-taxa of 'high value' (many surveys) need body mass estimates.")
+message("
+Inspect 'tmp/BodyMass/BodyMass_ValueTaxa.csv' to see which
+taxa of 'high value' (those that have many surveys) need 
+body mass estimates.
+")
 
 ###############################################################################
 ###############################################################################
