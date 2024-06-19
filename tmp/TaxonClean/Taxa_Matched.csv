@@ -375,6 +375,7 @@
 "Gobionotothen_gibberifrons","Gobionotothen_gibberifrons",TRUE,0.961538434028625,448828,FALSE,"",1
 "Gobiosoma_bosc","Gobiosoma_bosc",TRUE,0.928571403026581,230857,FALSE,"",3
 "Gobiosoma_robustum","Gobiosoma_robustum",TRUE,0.944444417953491,1064480,FALSE,"",1
+"Gobius_ruthensparri","Gobiusculus_flavescens",TRUE,0.947368443012238,637893,FALSE,"",3
 "Gonatodes_concinnatus","Gonatodes_concinnatus",TRUE,0.952380955219269,597542,FALSE,"",1
 "Gonatodes_hasemani","Gonatodes_hasemani",TRUE,0.944444417953491,723078,FALSE,"",2
 "Gonatodes_humeralis","Gonatodes_humeralis",TRUE,0.947368443012238,126729,FALSE,"",3
@@ -390,6 +391,7 @@
 "Haddadus_binotatus","Haddadus_binotatus",TRUE,0.944444417953491,798788,FALSE,"",1
 "Haldea_valeriae","Virginia_valeriae",TRUE,0.933333337306976,4121174,FALSE,"",1
 "Halichoerus_grypus","Halichoerus_grypus",TRUE,0.944444417953491,1040694,FALSE,"",1
+"Harmothoe_imbricata","Harmothoe_imbricata",TRUE,0.947368443012238,694272,FALSE,"sibling_higher",2
 "Harpagifer_antarcticus","Harpagifer_antarcticus",TRUE,0.954545438289642,56123,FALSE,"",1
 "Harpalus_rufipes","Harpalus_rufipes",TRUE,0.9375,326464,FALSE,"sibling_higher",5
 "Haustrum_haustorium","Haustrum_haustorium",TRUE,0.947368443012238,976141,FALSE,"",1
@@ -466,6 +468,7 @@
 "Latastia_longicaudata","Latastia_longicaudata",TRUE,0.952380955219269,437767,FALSE,"",1
 "Latirolagena_smaragdula","Latirolagena_smaragdulus",TRUE,0.95652174949646,2898419,FALSE,"",2
 "Latirus_polygonus","Latirus_polygonus",TRUE,0.941176474094391,2898512,FALSE,"",1
+"Leander_adspersus","Palaemon_adspersus",TRUE,0.941176474094391,958834,FALSE,"sibling_higher",1
 "Leiostomus_xanthurus","Leiostomus_xanthurus",TRUE,0.949999988079071,1052160,FALSE,"",1
 "Lensia_conoidea","Lensia_conoidea",TRUE,0.933333337306976,863148,FALSE,"",1
 "Lepidonotothen_nudifrons","Lepidonotothen_nudifrons",TRUE,0.958333313465118,260052,FALSE,"",1
@@ -596,6 +599,7 @@
 "Nerodia_erythrogaster","Nerodia_erythrogaster",TRUE,0.952380955219269,353725,FALSE,"",2
 "Nerodia_fasciata","Nerodia_fasciata",TRUE,0.9375,353717,FALSE,"",2
 "Nerodia_rhombifera","Nerodia_rhombifer",TRUE,0.944444417953491,505612,FALSE,"",2
+"Nerophis_ophidion","Nerophis_ophidion",TRUE,0.941176474094391,806821,FALSE,"",1
 "Notiophilus_biguttatus","Notiophilus_biguttatus",TRUE,0.954545438289642,479488,FALSE,"",1
 "Notophthalmus_viridescens","Notophthalmus_viridescens",TRUE,0.959999978542328,566015,FALSE,"",1
 "Notostomus_gibbosus","Notostomus_gibbosus",TRUE,0.947368443012238,475269,FALSE,"",1
@@ -694,6 +698,7 @@
 "Pleurobrachia_pileus","Pleurobrachia_pileus",TRUE,0.949999988079071,626459,FALSE,"",1
 "Pleurobranchaea_californica","Pleurobranchaea_californica",TRUE,0.962962985038757,473886,FALSE,"",1
 "Pleurodema_diplolister","Pleurodema_diplolister",TRUE,0.954545438289642,806505,FALSE,"sibling_higher",2
+"Pleuronectes_platessa","Pleuronectes_platessa",TRUE,0.952380955219269,408337,FALSE,"",4
 "Plica_plica","Plica_plica",TRUE,0.90909093618393,761851,FALSE,"",1
 "Plica_umbra","Plica_umbra",TRUE,0.90909093618393,761862,FALSE,"",1
 "Poecilia_latipinna","Poecilia_latipinna",TRUE,0.944444417953491,998174,FALSE,"",1
@@ -732,6 +737,7 @@
 "Ptychadena_anchietae","Ptychadena_anchietae",TRUE,0.949999988079071,160735,FALSE,"",1
 "Ptychadena_mascareniensis","Ptychadena_mascareniensis",TRUE,0.959999978542328,799886,FALSE,"",2
 "Puma_concolor","Puma_concolor",TRUE,0.923076927661896,42307,FALSE,"",1
+"Pungitius_pungitius","Pungitius_pungitius",TRUE,0.947368443012238,561269,FALSE,"",1
 "Pycnopodia_helianthoides","Pycnopodia_helianthoides",TRUE,0.958333313465118,197638,FALSE,"",1
 "Pygocentrus_cariba","Pygocentrus_cariba",TRUE,0.944444417953491,681015,FALSE,"",2
 "Pygopristis_denticulatus","Pygopristis_denticulata",TRUE,0.869565188884735,512352,FALSE,"",1
@@ -817,6 +823,7 @@
 "Solea_senegalensis","Solea_senegalensis",TRUE,0.944444417953491,366998,FALSE,"",2
 "Somateria_mollissima","Somateria_mollissima",TRUE,0.949999988079071,785961,FALSE,"",2
 "Spea_multiplicata","Spea_multiplicata",TRUE,0.941176474094391,1013104,FALSE,"",1
+"Spinachia_spinachia","Spinachia_spinachia",TRUE,0.947368443012238,111671,FALSE,"",1
 "Sprattus_sprattus","Sprattus_sprattus",TRUE,0.941176474094391,25768,FALSE,"",2
 "Stenobrachius_leucopsarus","Stenobrachius_leucopsarus",TRUE,0.959999978542328,169233,FALSE,"",1
 "Stenobrachius_nannochir","Stenobrachius_nannochir",TRUE,0.95652174949646,341485,FALSE,"",1

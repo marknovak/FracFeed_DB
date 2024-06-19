@@ -148,6 +148,7 @@
 "gobiomorus_dormitor","Gobiomorus dormitor",TRUE,0.947368443012238,740272,FALSE,"",2,NA,740272
 "gobionellus_boleosoma","Ctenogobius boleosoma",TRUE,0.952380955219269,763961,FALSE,"",2,NA,763961
 "gobiosoma_bosc","Gobiosoma bosc",TRUE,0.928571403026581,230857,FALSE,"",3,NA,230857
+"gobius_ruthensparri","Gobiusculus flavescens",TRUE,0.947368443012238,637893,FALSE,"",3,NA,637893
 "gonatodes_hasemani","Gonatodes hasemani",TRUE,0.944444417953491,723078,FALSE,"",2,NA,723078
 "gonatodes_humeralis","Gonatodes humeralis",TRUE,0.947368443012238,126729,FALSE,"",3,NA,126729
 "grayia_smythii","Grayia smithii",TRUE,0.928571403026581,994633,FALSE,"",4,NA,994633
@@ -155,6 +156,7 @@
 "gymnoscopelus_nicholsi","Gymnoscopelus nicholsi",TRUE,0.954545438289642,211050,FALSE,"",3,NA,211050
 "gymnotus_carapo","Gymnotus carapo",TRUE,0.933333337306976,445408,FALSE,"",2,NA,445408
 "gymnotus_cylindricus","Gymnotus cylindricus",TRUE,0.949999988079071,463673,FALSE,"",2,NA,463673
+"harmothoe_imbricata","Harmothoe imbricata",TRUE,0.947368443012238,694272,FALSE,"sibling_higher",2,NA,694272
 "harpalus_rufipes","Harpalus rufipes",TRUE,0.9375,326464,FALSE,"sibling_higher",5,NA,326464
 "hemidactylus_brooki","Hemidactylus brookii",TRUE,0.947368443012238,818134,FALSE,"sibling_higher",3,NA,818134
 "hemidactylus_mabouia","Hemidactylus mabouia",TRUE,0.949999988079071,737831,FALSE,"sibling_higher",3,NA,737831
@@ -272,6 +274,7 @@
 "platichthys_flesus","Platichthys flesus",TRUE,0.944444417953491,408331,FALSE,"",2,NA,408331
 "platycephalus_speculator","Platycephalus speculator",TRUE,0.958333313465118,411598,FALSE,"",2,NA,411598
 "pleurodema_diplolister","Pleurodema diplolister",TRUE,0.954545438289642,806505,FALSE,"sibling_higher",2,NA,806505
+"pleuronectes_platessa","Pleuronectes platessa",TRUE,0.952380955219269,408337,FALSE,"",4,NA,408337
 "polysticta_stelleri","Polysticta stelleri",TRUE,0.947368443012238,1050966,FALSE,"",2,NA,1050966
 "pristobrycon_striolatus","Pristobrycon striolatus",TRUE,0.95652174949646,597346,FALSE,"",2,NA,597346
 "pseudis_minuta","Pseudis minuta",TRUE,0.928571403026581,173495,FALSE,"",2,NA,173495
