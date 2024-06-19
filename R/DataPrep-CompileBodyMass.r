@@ -10,7 +10,11 @@ DataRetrieve <- FALSE
 # Geometric mean
 gmean <- function(x){
   exp(mean(log(x[!is.infinite(x)]),na.rm=TRUE))
-  }
+}
+
+# Not in
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
 ##########################################################################
 ##########################################################################
 ##########################################################################
@@ -671,6 +675,11 @@ Cons$mass_g <- NA
 Cons$gen_time_days <- NA
 Cons$mass_Source <- NA
 Cons$gen_Source <- NA
+Cons$Fishbase.a <- NA
+Cons$Fishbase.b <- NA
+Cons$Fishbase.TL.cm <- NA
+
+Cons <- Cons[ do.call(order, Cons), ]
 
 write.csv(Cons, 
           file = '../tmp/BodyMass/BodyMass_Needs.csv', 
@@ -688,7 +697,8 @@ colnames(DBs)[which(colnames(DBs) == 'source')] <- 'source_mass'
 ddat <-
   read_sheet("https://docs.google.com/spreadsheets/d/1_TzVFXjcUrDBGHbpRuLh3NwYIF1I8AucsJh8heIFulY/edit?usp=sharing",
              sheet = 'BM_data',
-             col_types = 'cnncc')
+             col_types = 'ccnnccnnn')
+
 
 ddat <- ddat[which(!is.na(ddat$mass_g) | !is.na(ddat$gen_time_days)), ]
 DBs <- DBs[DBs$taxon %!in% ddat$taxon, ]

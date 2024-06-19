@@ -87,7 +87,7 @@ dat <- merge(dat,
 ####################################################
 ####################################################
 save(dat, 
-     file = '../tmp/FracFeed_Data_Clean.Rdata')
+     file = '../tmp/tmp_DB/FracFeed_Data_Clean.Rdata')
 ####################################################
 ####################################################
 
@@ -115,7 +115,7 @@ source('DataCheck-Maps.r')
 # Convert to factor levels and abbreviate
 # Convert to ordinal scale where appropriate
 #########################################
-load('../tmp/FracFeed_FactorLevels.Rdata')
+load('../tmp/FracFeed_Data_FactorLevels.Rdata')
 
 fdatc <- data.frame(Cite = factor(dat$Citation),
                    ConID = factor(dat$Consumer.identity),
@@ -208,11 +208,11 @@ fdatc <- fdatc[, vars]
 ##############################################################################
 
 save(fdatc, 
-     file = '../tmp_DB/FracFeed_Data.Rdata')
+     file = '../tmp/FracFeed_Data.Rdata')
 
 write.csv(
   fdatc,
-  '../tmp_DB/FracFeed_Data.csv',
+  '../tmp/FracFeed_Data.csv',
   row.names = FALSE
 )
 
@@ -220,7 +220,7 @@ message("
 \n******************************************************************
 ******************************************************************
 The data have been imported and processed.
-They have been placed into the 'tmp_DB' directory.
+They have been placed into the 'tmp' directory.
 If these data are 'good to use', 
   manually move or copy them into the repository's main directory.
 ******************************************************************

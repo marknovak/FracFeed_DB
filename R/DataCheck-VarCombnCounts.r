@@ -1,7 +1,7 @@
 ###############################################
 # Count data set sizes by variable combinations
 ###############################################
-load('../tmp/FracFeed_Data_Clean.Rdata')
+load('../tmp/tmp_DB/FracFeed_Data_Clean.Rdata')
 
 vars <- c(
   'First.entry.Name',

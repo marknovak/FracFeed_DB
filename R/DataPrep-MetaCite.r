@@ -16,7 +16,7 @@ pub.meta <- subset(meta,
                      meta$VariableName != 'First.entry.Name')
 
 write.csv(pub.meta, 
-          file = '../tmp_DB/FracFeed_Metadata.csv', 
+          file = '../tmp/FracFeed_Data_Metadata.csv', 
           row.names = FALSE)
 
 #~~~~~~~~~~~~~~~~~~~
@@ -34,7 +34,7 @@ pub.cite <- pub.cite[, c('CitationID',
                          'Citation')]
 
 write.csv(pub.cite, 
-          file = '../tmp_DB/FracFeed_Citations.csv', 
+          file = '../tmp/FracFeed_Citations.csv', 
           row.names = FALSE)
 
 #~~~~~~~~~~~~~~~~~~~~
@@ -48,7 +48,7 @@ dcite <-
 pub.dcite <- dcite[order(dcite$CitationID), ]
 
 write.csv(pub.dcite,
-          '../tmp_DB/FracFeed_Citations_BodyMass.csv',
+          '../tmp/FracFeed_Citations_BodyMass.csv',
           row.names = FALSE)
 
 ###############################################################################

@@ -314,7 +314,8 @@ ok <- c('Bucephala.clangula',
         'Rhinella.marina',
         'Phalacrocorax.varius',
         'Bufo.marinus',
-        'Rana.catesbeiana'
+        'Rana.catesbeiana',
+        'Syngnathus.typhle'
         )
 tab <- tab[!(names(tab) %in% ok)]
 err.me <-
@@ -462,7 +463,7 @@ save(
   DietResolutionLevels,
   PopnSplitLevels,
   FeedDataTypeLevels,
-  file = '../tmp/FracFeed_FactorLevels.Rdata'
+  file = '../tmp/FracFeed_Data_FactorLevels.Rdata'
 )
 
 ######################################
@@ -583,7 +584,7 @@ dat$tWinterSolstice[which(is.na(dat$Month))] <- NA
 ##############
 # Save to file
 ##############
-save(dat, file = '../tmp/FracFeed_Data_Imported.Rdata')
+save(dat, file = '../tmp/tmp_DB/FracFeed_Data_Imported.Rdata')
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

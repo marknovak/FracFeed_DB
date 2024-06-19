@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # load saved database
-load('../tmp/FracFeed_Data_Clean.Rdata')
-load('../tmp/FracFeed_FactorLevels.Rdata')
+load('../tmp/tmp_DB/FracFeed_Data_Clean.Rdata')
+load('../tmp/FracFeed_Data_FactorLevels.Rdata')
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ldat = dat[, c('Latitude',
                'Longitude',
