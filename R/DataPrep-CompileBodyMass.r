@@ -3,6 +3,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wd <- getwd()
 setwd('../OtherData/BodyMass/')
+wd2 <- getwd()
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Retrieve from dataretriever databases?
 DataRetrieve <- FALSE
@@ -29,16 +30,12 @@ gmean <- function(x){
 # # List the datasets available via the Retriever
 # rdataretriever::datasets()
 
-# # Install the Gentry forest transects dataset into csv files in your working directory
-# rdataretriever::install('mammal-life-hist', 'csv')
-#
-# # Download the raw Gentry dataset files without any processing to the
-# # subdirectory named data
-# rdataretriever::download('mammal-life-hist', './data/')
-
 if (DataRetrieve) {
+  setwd('../OtherData/BodyMass/data/')
+  
   # Install and load a dataset as a list
-  mlh = rdataretriever::fetch('mammal-life-hist')
+  rdataretriever::install_csv('mammal-life-hist')
+  mlh = read.csv('mammal_life_hist_species.csv')
   mlh <- mlh$species[, 1:5]
   mlh$taxon <- paste(mlh$genus, mlh$species)
   mlh <- mlh[, c('taxon', 'mass_g')]
@@ -51,8 +48,9 @@ if (DataRetrieve) {
           n = length(mass_g))
   mlh$source <- 'rdataretriever-mammal-life-hist'
   
-  bir = rdataretriever::fetch('bird-size')
-  bir <- bir$species[, c('species_name', 'm_mass')]
+  rdataretriever::install_csv('bird_size')
+  bir = read.csv('bird_size_species.csv')
+  bir <- bir[, c('species_name', 'm_mass')]
   colnames(bir) <- c('taxon', 'mass_g')
   bir <- bir[which(!is.na(bir$mass_g) & bir$mass_g > 0), ]
   bir <-
@@ -63,22 +61,8 @@ if (DataRetrieve) {
           n = length(mass_g))
   bir$source <- 'rdataretriever-bird-size'
   
-  ver = rdataretriever::fetch('home-ranges')
-  ver <- ver$home_ranges
-  ver$taxon <- paste(ver$genus, ver$species)
-  ver <- ver[, c('taxon', 'mean_mass_g')]
-  colnames(ver) <- c('taxon', 'mass_g')
-  ver <- ver[which(!is.na(ver$mass_g) & ver$mass_g > 0), ]
-  ver <-
-    ddply(ver,
-          .(taxon),
-          summarise,
-          mass_g = gmean(mass_g),
-          n = length(mass_g))
-  ver$source <- 'rdataretriever-home-ranges'
-  
-  ppb = rdataretriever::fetch('predator-prey-body-ratio')
-  ppb <- ppb$bodysizes
+  ppb = rdataretriever::install_csv('predator-prey-body-ratio')
+  ppb <- read.csv('predator_prey_body_ratio_bodysizes.csv')
   ppb <-
     ppb[which(ppb$taxonomy_consumer != '' & ppb$taxonomy_resource != ''), ]
   ppb1 <- ppb[, c('taxonomy_consumer', 'mean_mass_g_consumer')]
@@ -94,8 +78,8 @@ if (DataRetrieve) {
           n = length(mass_g))
   ppb$source <- 'rdataretriever-predator-prey-body-ratio'
   
-  pan = rdataretriever::fetch('pantheria')
-  pan <- pan$species
+  pan = rdataretriever::install_csv('pantheria')
+  pan <- read.csv('pantheria_species.csv')
   pan <- pan[, c('msw05_binomial', 'adultbodymass_g')]
   colnames(pan) <- c('taxon', 'mass_g')
   pan <- pan[which(!is.na(pan$mass_g) & pan$mass_g > 0), ]
@@ -107,26 +91,26 @@ if (DataRetrieve) {
           n = length(mass_g))
   pan$source <- 'rdataretriever-pantheria'
   
-  # amn = rdataretriever::fetch('amniote-life-hist') # takes a long time to download
-  # amn<-amn$main
+  # amn = rdataretriever::install_csv('amniote-life-hist')
+  # amn <- read.csv('amniote_life_hist_main.csv')
+  # amn <- subset(amn, trait == 'adult_body_mass_g')
+  # amn <- amn[!is.na(amn$trait_value), ]
+  # amn$taxon <- paste(amn$genus, amn$species)
+  # amn <- amn[, c('taxon', 'trait_value')]
+  # colnames(amn) <- c('taxon', 'mass_g')
+  # amn <- amn[which(!is.na(amn$mass_g) & amn$mass_g > 0), ]
+  # amn <-
+  #   ddply(amn,
+  #         .(taxon),
+  #         summarise,
+  #         mass_g = gmean(mass_g),
+  #         n = length(mass_g))
+  # amn$source <- 'rdataretriever-amniote-life-hist'
   # save(amn,file='BodyMass_amniote-life-hist.Rdata')
   load(file = 'BodyMass_amniote-life-hist.Rdata')
-  amn <- subset(amn, trait == 'adult_body_mass_g')
-  amn <- amn[!is.na(amn$trait_value), ]
-  amn$taxon <- paste(amn$genus, amn$species)
-  amn <- amn[, c('taxon', 'trait_value')]
-  colnames(amn) <- c('taxon', 'mass_g')
-  amn <- amn[which(!is.na(amn$mass_g) & amn$mass_g > 0), ]
-  amn <-
-    ddply(amn,
-          .(taxon),
-          summarise,
-          mass_g = gmean(mass_g),
-          n = length(mass_g))
-  amn$source <- 'rdataretriever-amniote-life-hist'
   
-  sdd = rdataretriever::fetch('socean-diet-data')
-  sdd <- sdd$diet
+  sdd = rdataretriever::install_csv('socean-diet-data')
+  sdd <- read.csv('socean_diet_data_diet.csv')
   sdd1 <- sdd[, c('predator_name', 'predator_mass_mean')]
   sdd2 <- sdd[, c('prey_name', 'prey_mass_mean')]
   colnames(sdd1) <- colnames(sdd2) <- c('taxon', 'mass_g')
@@ -140,13 +124,16 @@ if (DataRetrieve) {
           n = length(mass_g))
   sdd$source <- 'rdataretriever-socean-diet-data'
   
-  # vra = rdataretriever::fetch('vertnet-amphibians') # takes a VERY long time to download
+  # vra = rdataretriever::install_csv('vertnet-amphibians') # takes a VERY long time to download
   # vra<-vra$amphibians
   # vra<-vra[!is.na(vra$massing),]
   # vra<-vra[,c('scientificname','massing')]
   # colnames(vra)<-c('taxon','mass_g')
   # vra<-vra[which(!is.na(vra$mass_g)&vra$mass_g>0),]
-  # vra<-ddply(vra,.(taxon),summarise,mass_g=gmean(mass_g),n=length(mass_g))
+  # vra<-ddply(vra,.(taxon),
+  #            summarise,
+  #            mass_g=gmean(mass_g),
+  #            n=length(mass_g))
   # vra$source<-'rdataretriever-vertnet-amphibians'
   # save(vra,file='BodyMass_vertnet-amphibians.Rdata')
   load(file = 'BodyMass_vertnet-amphibians.Rdata')
@@ -165,7 +152,7 @@ if (DataRetrieve) {
   # nem = rdataretriever::fetch('nematode-traits') # downlaod failed
   # ppm = rdataretriever::fetch('predator-prey-size-marine') # download failed
   # ~~~~~~~~~~~~~~~~~~~~~~~~
-  adat <- rbind(mlh, bir, ver, ppb, pan, amn, sdd, vra, vrr)
+  adat <- rbind(mlh, bir, ppb, pan, amn, sdd, vra, vrr)
   adat <- FixNames(adat)
   adat <- adat[which(!is.na(adat$mass_g) & adat$mass_g > 0), ]
   adat <-
@@ -174,14 +161,15 @@ if (DataRetrieve) {
       .(taxon),
       summarise,
       mass_g = gmean(mass_g),
-      gen_time_days = NA,
       n = sum(n),
       source = paste(unique(source), collapse = '_')
     )
   adat <- adat[!adat$taxon == 0, ]
   DR <- adat
-  save(DR, file = '../OtherData/BodyMass_DataRetrieverAll.Rdata')
+  setwd(wd2)
+  save(DR, file = '../BodyMass_DataRetrieverAll.Rdata')
 }
+
 ##########################################################################
 # devtools::install_github("BiologicalRecordsCentre/rYoutheria")
 # library('rYoutheria')
@@ -228,7 +216,7 @@ if (DataRetrieve) {
 #
 # colnames(adat)[c(1,3)]<-c('taxon','mass_g')
 # adat<-adat[,c('taxon','mass_g')]
-# adat<-ddply(adat,.(taxon),summarise, mass_g=gmean(mass_g), gen_time_days=NA,n=sum(n))
+# adat<-ddply(adat,.(taxon),summarise, mass_g=gmean(mass_g),n=sum(n))
 # adat$source<-'EOL_TraitBank'
 # TB<-adat
 # save(TB,file='BodyMass_EOLTraitBank.Rdata')
@@ -246,16 +234,14 @@ dat1 <-
   read.csv('Brown_etal_2018/41559_2017_430_MOESM3_ESM.csv')
 dat1$taxon <- paste(dat1$Genus, dat1$Species)
 dat1 <-
-  dat1[, c('taxon', 'Dry.mass.g', 'Uncorrected.mortality.rate.y.1')]
-colnames(dat1) <- c('taxon', 'mass_g', 'gen_time_yrs')
-dat1$gen_time_yrs <- 1 / dat1$gen_time_yrs
+  dat1[, c('taxon', 'Dry.mass.g')]
+colnames(dat1) <- c('taxon', 'mass_g')
 dat1 <-
   ddply(
     dat1,
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = round(gmean(gen_time_yrs) * 365, 3),
     n = length(mass_g)
   )
 
@@ -270,7 +256,6 @@ dat2 <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 
@@ -282,7 +267,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = gmean(gen_time_days),
     n = sum(n)
   )
 adat$source <- 'Brown_etal_2018'
@@ -318,8 +302,8 @@ save(MM, file = 'BodyMass_Smith_2003.Rdata')
 ##################################
 adat <-
   read.csv('AndersonGillooly_2017/AndersonGillooly_2017_EER_data.csv')
-adat <- adat[, c('Species', 'Mass_g', 'Gen_Time_days')]
-colnames(adat) <- c('taxon', 'mass_g', 'gen_time_days')
+adat <- adat[, c('Species', 'Mass_g')]
+colnames(adat) <- c('taxon', 'mass_g')
 adat <- FixNames(adat)
 adat <-
   ddply(
@@ -327,7 +311,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = gmean(gen_time_days),
     n = length(mass_g)
   )
 adat$source <- 'AndersonGillooly_2017'
@@ -350,8 +333,6 @@ adat <-
     adat,
     .(taxon),
     summarise,
-    mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Jennings_2002'
@@ -380,7 +361,6 @@ adat <-
     adat,
     .(taxon),
     summarise,
-    mass_g = gmean(mass_g),
     gen_time_days = NA,
     n = length(mass_g)
   )
@@ -404,7 +384,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Eklof_etal_2017'
@@ -425,7 +404,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Feldman_etal_2016'
@@ -445,7 +423,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Killen_etal_2016'
@@ -468,7 +445,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Tucker_etal_2014a'
@@ -483,7 +459,7 @@ adat <-
 adat <- adat[, c('Taxon', 'log10.Mass..kg.')]
 colnames(adat) <- c('taxon', 'mass_g')
 adat$mass_g <-
-  (10 ^ adat$mass_g) * 1000 # convert natural scale and then to grams
+  (10 ^ adat$mass_g) * 1000 # convert to natural scale and then to grams
 adat <- FixNames(adat)
 adat <-
   ddply(
@@ -491,7 +467,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Tucker_etal_2014b'
@@ -512,7 +487,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Hirt_etal_2017'
@@ -534,7 +508,6 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = NA,
     n = length(mass_g)
   )
 adat$source <- 'Gillooly_etal_2016'
@@ -546,7 +519,7 @@ save(GI, file = 'BodyMass_Gillooly_etal_2016.Rdata')
 adat <-
   read.csv('Quaardvark/report-201802270108.csv',
            header = TRUE)
-adat <- adat[, c(1:5, 8:10, 16)]
+adat <- adat[, c(1:5, 8:9)]
 adat[which(adat == 0, arr.ind = TRUE)] <- NA
 nNAdat <- !is.na(adat)
 dat1 <-
@@ -556,17 +529,7 @@ dat2 <-
   adat[which(nNAdat[, 2] == FALSE &
               nNAdat[, 3] == TRUE), c(1, 3)]
 colnames(dat2) <- c('taxon', 'mass_g')
-dat12 <- rbind(dat1, dat2)
-dat3 <-
-  adat[which(nNAdat[, 8] == TRUE), c(1, 8)]
-colnames(dat3) <- c('taxon', 'gen_time_days')
-dat4 <-
-  adat[which(nNAdat[, 8] == FALSE &
-              nNAdat[, 9] == TRUE), c(1, 9)]
-colnames(dat4) <- c('taxon', 'gen_time_days')
-dat34 <- rbind(dat3, dat4)
-dat34$gen_time_days <- dat34$gen_time_days * 365 # convert years to days
-adat <- merge(dat12, dat34, all = TRUE)
+adat <- rbind(dat1, dat2)
 adat <- FixNames(adat)
 adat <-
   ddply(
@@ -574,12 +537,12 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = gmean(gen_time_days),
     n = length(mass_g)
   )
 adat$source <- 'Quaardvark'
 AA <- adat
 save(AA, file = 'BodyMass_Quaardvark.Rdata')
+
 ##########################################################################
 # AnAge - Tacutu, R., Craig, T., Budovsky, A., Wuttke, D., Lehmann, G., Taranukha, D., Costa, J., Fraifeld, V. E., de Magalhaes, J. P. (2013) "Human Ageing Genomic Resources: Integrated databases and tools for the biology and genetics of ageing." Nucleic Acids Research 41(D1):D1027-D1033
 adat <- read.csv('AnAge/AnAge_data.csv', header = TRUE)
@@ -587,9 +550,8 @@ adat$taxon <- paste(adat$Genus, adat$Species)
 adat <-
   adat[, c('taxon',
           'Adult.weight..g.',
-          'Body.mass..g.',
-          'Maximum.longevity..yrs.')]
-colnames(adat) <- c('taxon', 'a.mass_g', 'mass_g', 'MaxLong')
+          'Body.mass..g.')]
+colnames(adat) <- c('taxon', 'a.mass_g', 'mass_g')
 adat$mass_g[is.na(adat$mass_g) &
              !is.na(adat$a.mass_g)] <-
   adat$a.mass_g[is.na(adat$mass_g) & !is.na(adat$a.mass_g)]
@@ -600,11 +562,10 @@ adat <-
     .(taxon),
     summarise,
     mass_g = gmean(mass_g),
-    gen_time_days = gmean(MaxLong),
     n = length(mass_g)
   )
 adat$source <- 'AnAge'
-AN <- adat[!is.na(adat$mass_g) | !is.na(adat$gen_time_days), ]
+AN <- adat[!is.na(adat$mass_g), ]
 save(AN, file = 'BodyMass_AnAge.Rdata')
 
 ##########################################################################
@@ -659,25 +620,40 @@ adat <- merge(adat, DR[!DR$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 
 adat$mass_g[is.nan(adat$mass_g)] <- NA
-adat$gen_time_days[is.nan(adat$gen_time_days)] <- NA
 nrow(adat)
 DBs <- adat
 
-##########################################################################
+
+#############################################################################
+# Add these to additional (or corrected) body sizes that the lab has collated
+#############################################################################
+setwd(wd)
+
+ddat <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1_TzVFXjcUrDBGHbpRuLh3NwYIF1I8AucsJh8heIFulY/edit?usp=sharing",
+             sheet = 'BM_data',
+             col_types = 'ccncnnn')
+
+colnames(DBs)[4] <- 'source_mass'
+
+ddat <- ddat[which(!is.na(ddat$mass_g)), 1:4 ]
+ddat$n <- 1
+
+DBs <- DBs[DBs$taxon %!in% ddat$taxon, ]
+
+adat <- merge(ddat, DBs, all = TRUE)
+
+write.csv(adat, 
+          file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
+          row.names = FALSE)
+
+#################################################################
 # Export and have lab fill in as many of the rest that are needed
 #################################################################
-setwd(wd)
 
 Cons <- unique(dat[, c('Taxon.group', 'Consumer.identity')])
 
-Cons <- Cons[Cons$Consumer.identity %!in% unique(DBs$taxon), ]
-Cons$mass_g <- NA
-Cons$gen_time_days <- NA
-Cons$mass_Source <- NA
-Cons$gen_Source <- NA
-Cons$Fishbase.a <- NA
-Cons$Fishbase.b <- NA
-Cons$Fishbase.TL.cm <- NA
+Cons <- Cons[Cons$Consumer.identity %!in% unique(adat$taxon), ]
 
 Cons <- Cons[ do.call(order, Cons), ]
 
@@ -686,28 +662,6 @@ write.csv(Cons,
           row.names = FALSE)
 
 # Paste the above into a Google Doc to have lab add data
-
-##########################################################
-# Bring in additional body sizes that the lab has collated
-DBs$source_gen <- 'NA'
-DBs$source_gen[!is.na(DBs$gen_time_days)] <-
-  DBs$source[!is.na(DBs$gen_time_days)]
-colnames(DBs)[which(colnames(DBs) == 'source')] <- 'source_mass'
-
-ddat <-
-  read_sheet("https://docs.google.com/spreadsheets/d/1_TzVFXjcUrDBGHbpRuLh3NwYIF1I8AucsJh8heIFulY/edit?usp=sharing",
-             sheet = 'BM_data',
-             col_types = 'ccnnccnnn')
-
-
-ddat <- ddat[which(!is.na(ddat$mass_g) | !is.na(ddat$gen_time_days)), ]
-DBs <- DBs[DBs$taxon %!in% ddat$taxon, ]
-
-adat <- merge(ddat, DBs, all = TRUE)
-
-write.csv(adat, 
-          file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
-          row.names = FALSE)
 
 #######################################################################
 #######################################################################

@@ -27,7 +27,7 @@ firstup <-
 
 # Fix taxon names
 FixNames <- function(dat) {
-  dat$taxon <- gsub(' ', '_', dat$taxon)
+  dat$taxon <- gsub(' ', '_', iconv(dat$taxon, from = "ISO-8859-1", to = "UTF-8"))
   dat$taxon <- firstup(dat$taxon)
   dat <- subset(dat, taxon != '')
   dat$taxon <- word(dat$taxon, 1, 2, sep = '_') # Remove subspecies names
