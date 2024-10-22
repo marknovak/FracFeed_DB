@@ -32,6 +32,7 @@
 "Astrotoma_agassizii",10
 "Meganyctiphanes_norvegica",10
 "Ophiosparte_gigas",10
+"Physeter_catodon",10
 "Rissa_tridactyla",10
 "Uria_lomvia",10
 "Lampropeltis_calligaster",9
@@ -42,7 +43,6 @@
 "Thamnophis_elegans",9
 "Acanthinucella_punctulata",8
 "Dryophytes_japonicus",8
-"Phoca_groenlandica",8
 "Crotaphytus_collaris",7
 "Diadophis_punctatus",7
 "Ichthyosaura_alpestris",7
@@ -101,6 +101,7 @@
 "Callianira_antarctica",3
 "Craspedacusta_sowerbii",3
 "Crotalus_horridus",3
+"Dasyatis_lata",3
 "Haddadus_binotatus",3
 "Heterodon_platirhinos",3
 "Hippasteria_phrygiana",3
@@ -178,9 +179,9 @@
 "Pseudis_bolbodactyla",2
 "Quelea_erythrops",2
 "Rhinella_hoogmoedi",2
+"Stenella_attenuata",2
 "Storeria_dekayi",2
 "Storeria_occipitomaculata",2
-"Tursiops_truncatus",2
 "Varanus_gouldii",2
 "Vulpes_chama",2
 "Acanthephyra_acutifrons",1
@@ -232,7 +233,6 @@
 "Aspidoscelis_tigris",1
 "Astropecten_articulatus",1
 "Astropecten_platyacanthus",1
-"Atlantoraja_cyclophora",1
 "Aythya_affinis",1
 "Aythya_americana",1
 "Aythya_ferina",1
@@ -311,7 +311,6 @@
 "Cyphomyrus_discorhynchus",1
 "Cyrba_algerina",1
 "Delma_butleri",1
-"Delphinus_delphis",1
 "Dendropsophus_branneri",1
 "Dendropsophus_nanus",1
 "Dendropsophus_sanborni",1
@@ -334,6 +333,7 @@
 "Electrona_antarctica",1
 "Eleutherodactylus_coqui",1
 "Ensatina_eschscholtzii",1
+"Etmopterus_spinax",1
 "Eucopia_sculpticauda",1
 "Eucopia_unguiculata",1
 "Eudyptes_chrysolophus",1
@@ -350,6 +350,7 @@
 "Freyella_elegans",1
 "Gadus_morhua",1
 "Gadus_ogac",1
+"Galeus_melastomus",1
 "Gambelia_wislizenii",1
 "Gehyra_variegata",1
 "Genetta_cristata",1
@@ -361,12 +362,12 @@
 "Gonatodes_hasemani",1
 "Gonatodes_humeralis",1
 "Gowidon_longirostris",1
+"Grampus_griseus",1
 "Graptemys_geographica",1
 "Grayia_smithii",1
 "Gulosus_aristotelis",1
 "Gymnophthalmus_underwoodi",1
 "Gymnoscopelus_nicholsi",1
-"Halichoerus_grypus",1
 "Halobaena_caerulea",1
 "Harmothoe_imbricata",1
 "Harpagifer_antarcticus",1
@@ -391,6 +392,7 @@
 "Kentropyx_calcarata",1
 "Kentropyx_pelviceps",1
 "Kentropyx_striata",1
+"Lagenodelphis_hosei",1
 "Lampropeltis_getula",1
 "Lamyctes_fulvicornis",1
 "Lanius_excubitor",1
@@ -433,7 +435,6 @@
 "Moloch_horridus",1
 "Morethia_butleri",1
 "Morone_americana",1
-"Mustelus_canis",1
 "Nannobrachium_ritteri",1
 "Nebria_brevicollis",1
 "Nephrurus_laevissimus",1
@@ -443,6 +444,7 @@
 "Nerodia_erythrogaster",1
 "Nerodia_taxispilota",1
 "Notiophilus_biguttatus",1
+"Notorynchus_cepedianus",1
 "Notostomus_gibbosus",1
 "Notothenia_coriiceps",1
 "Notothenia_rossii",1
@@ -494,6 +496,7 @@
 "Pisaster_brevispinus",1
 "Pithecopus_rohdei",1
 "Pituophis_melanoleucus",1
+"Platyrhina_tangi",1
 "Plesionika_gigliolii",1
 "Plesionika_heterocarpus",1
 "Plethodon_cinereus",1
@@ -518,6 +521,7 @@
 "Pterostichus_melanarius",1
 "Ptychadena_anchietae",1
 "Ptychadena_mascareniensis",1
+"Pusa_hispida",1
 "Pygopristis_denticulata",1
 "Pygopus_nigriceps",1
 "Pygoscelis_papua",1
@@ -530,7 +534,6 @@
 "Rattus_rattus",1
 "Regina_grahamii",1
 "Remorina_albescens",1
-"Rhizoprionodon_terraenovae",1
 "Rhonciscus_crocro",1
 "Rhynchoedura_ornata",1
 "Sagitta_gazellae",1
@@ -538,7 +541,7 @@
 "Salamandrina_perspicillata",1
 "Sceloporus_magister",1
 "Sclerophrys_garmani",1
-"Scyliorhinus_canicula",1
+"Scyliorhinus_stellaris",1
 "Scytodes_longipes",1
 "Serrapinnus",1
 "Serrapinnus_notomelas",1
@@ -570,11 +573,11 @@
 "Trachylepis_variegata",1
 "Trematomus_bernacchii",1
 "Trematomus_newnesi",1
-"Triakis_megalopterus",1
 "Trimeresurus_gracilis",1
 "Tropidurus_oreadicus",1
 "Trygonorrhina_fasciata",1
 "Tubularia_ralphii",1
+"Tursiops_aduncus",1
 "Uma_scoparia",1
 "Uracentron_flaviceps",1
 "Uranoscodon_superciliosus",1
@@ -591,6 +594,5 @@
 "Xantusia_vigilis",1
 "Xenopus_borealis",1
 "Zachaenus_parvulus",1
-"Zapteryx_exasperata",1
 "Zenaida_asiatica",1
 "Zenaida_macroura",1

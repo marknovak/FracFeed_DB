@@ -35,6 +35,7 @@
 "aphanius_fasciatus","Aphanius fasciatus",TRUE,0.944444417953491,763270,FALSE,"",4,NA,763270
 "aplocheilichthys_johnstoni","Micropanchax johnstoni",TRUE,0.961538434028625,3641893,FALSE,"",3,NA,3641893
 "aplodinotus_grunniens","Aplodinotus grunniens",TRUE,0.952380955219269,691811,FALSE,"",2,NA,691811
+"arctocephalus_australis","Arctocephalus australis",TRUE,0.95652174949646,796568,FALSE,"",6,NA,796568
 "argyropelecus_lychnus","Argyropelecus lychnus",TRUE,0.952380955219269,462614,FALSE,"",2,NA,462614
 "artedidraco_loennbergi","Artedidraco lonnbergi",TRUE,0.954545438289642,816890,FALSE,"",4,NA,816890
 "artedidraco_orianae","Artedidraco orianae",TRUE,0.947368443012238,871232,FALSE,"",2,NA,871232
@@ -144,6 +145,7 @@
 "gadus_morhua","Gadus morhua (species in domain Eukaryota)",TRUE,0.916666686534882,114170,FALSE,"",2,NA,114170
 "gadus_ogac","Gadus ogac",TRUE,0.899999976158142,635898,FALSE,"",4,NA,635898
 "galeocerdo_cuvier","Galeocerdo cuvier",TRUE,0.941176474094391,976355,FALSE,"",3,NA,976355
+"galeus_melastomus","Galeus melastomus",TRUE,0.941176474094391,327712,FALSE,"",2,NA,327712
 "gambelia_wislizeni","Gambelia wislizenii",TRUE,0.89473682641983,244470,FALSE,"",2,NA,244470
 "gambusia_holbrooki","Gambusia holbrooki",TRUE,0.944444417953491,553631,FALSE,"",3,NA,553631
 "gehyra_variegata","Gehyra variegata",TRUE,0.9375,24139,FALSE,"",4,NA,24139
@@ -183,6 +185,7 @@
 "kentropyx_pelviceps","Kentropyx pelviceps",TRUE,0.947368443012238,348432,FALSE,"",2,NA,348432
 "kentropyx_striata","Kentropyx striata",TRUE,0.941176474094391,348431,FALSE,"",2,NA,348431
 "labidiaster_annulatus","Labidiaster annulatus",TRUE,0.952380955219269,414552,FALSE,"",2,NA,414552
+"lagenodelphis_hosei","Lagenodelphis hosei",TRUE,0.947368443012238,336237,FALSE,"",2,NA,336237
 "lampanyctodes_hectoris","Lampanyctodes hectoris",TRUE,0.954545438289642,866174,FALSE,"",2,NA,866174
 "lampanyctus_jordani","Lampanyctus jordani",TRUE,0.947368443012238,168912,FALSE,"",2,NA,168912
 "lampropeltis_getula","Lampropeltis getula",TRUE,0.947368443012238,547409,FALSE,"",2,NA,547409
@@ -240,6 +243,7 @@
 "nerodia_erythrogaster","Nerodia erythrogaster",TRUE,0.952380955219269,353725,FALSE,"",2,NA,353725
 "nerodia_fasciata","Nerodia fasciata",TRUE,0.9375,353717,FALSE,"",2,NA,353717
 "nerodia_rhombifera","Nerodia rhombifer",TRUE,0.944444417953491,505612,FALSE,"",2,NA,505612
+"notorynchus_cepedianus","Notorynchus cepedianus",TRUE,0.954545438289642,290409,FALSE,"",2,NA,290409
 "notothenia_coriiceps","Notothenia coriiceps",TRUE,0.949999988079071,258643,FALSE,"",2,NA,258643
 "nucella_canaliculata","Nucella canaliculata",TRUE,0.949999988079071,1085941,FALSE,"",2,NA,1085941
 "nucella_emarginata","Nucella emarginata",TRUE,0.944444417953491,1085951,FALSE,"",2,NA,1085951
@@ -317,6 +321,7 @@
 "somateria_mollissima","Somateria mollissima",TRUE,0.949999988079071,785961,FALSE,"",2,NA,785961
 "sphyrna_lewini","Sphyrna lewini",TRUE,0.928571403026581,450134,FALSE,"",2,NA,450134
 "sprattus_sprattus","Sprattus sprattus",TRUE,0.941176474094391,25768,FALSE,"",2,NA,25768
+"stenella_attenuata","Stenella attenuata",TRUE,0.944444417953491,124220,FALSE,"sibling_higher",2,NA,124220
 "sternoptyx_diaphana","Sternoptyx diaphana",TRUE,0.947368443012238,602717,FALSE,"",3,NA,602717
 "sternoptyx_pseudobscura","Sternoptyx pseudobscura",TRUE,0.95652174949646,568250,FALSE,"",2,NA,568250
 "stramonita_haemastoma","Stramonita haemastoma",TRUE,0.952380955219269,663884,FALSE,"",2,NA,663884
