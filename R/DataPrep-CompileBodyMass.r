@@ -643,6 +643,14 @@ DBs <- DBs[DBs$taxon %!in% ddat$taxon, ]
 
 adat <- merge(ddat, DBs, all = TRUE)
 
+dups <- max(table(adat$taxon))
+
+if(dups > 1){
+  warning('Duplicate body mass values found')
+  print(adat[duplicated(adat$taxon) | duplicated(adat$taxon, fromLast=TRUE),])
+  adat <- adat[!duplicated(adat$taxon, fromLast = TRUE),] # remove duplicates
+}
+
 write.csv(adat, 
           file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
           row.names = FALSE)

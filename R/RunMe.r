@@ -71,9 +71,9 @@ colnames(dat) <- sub('unique_name','Consumer.identity', colnames(dat))
 dat$Consumer.identity[is.na(dat$Consumer.identity)] <- 
   dat$Consumer.identity.orig[is.na(dat$Consumer.identity)]
 
-#############################################
-# Merge in body mass and generation time data 
-#############################################
+#########################
+# Merge in body mass data 
+#########################
 source('DataPrep-CompileBodyMass.r')
 
 adat <- read.csv(file = '../tmp/BodyMass/FracFeed_BodyMass.csv')
