@@ -8657,6 +8657,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Dipsochelys_dussumieri","205000",1,NA,NA,"Quaardvark",NA
 "Dipsosaurus_dorsalis","159.7",1,NA,NA,"Feldman_etal_2016",NA
 "Diptera_spp","0.000422085",1,NA,NA,"rdataretriever-predator-prey-body-ratio",NA
+"Dipturus_australis","fishbase",1,"Fish",45,NA,NA
 "Dipturus_batis","53405",1,NA,NA,"AnAge",NA
 "Dipus_sagitta","85.65",1,NA,NA,"Smith_2003",NA
 "Discodeles_bufoniformis","17.8",1,NA,NA,"rdataretriever-vertnet-amphibians",NA
@@ -17022,7 +17023,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Myiozetetes_luteiventris","19",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Myiozetetes_similis","27.55",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Myliobatis_californica","45155",1,NA,NA,"AnAge",NA
-"Myliobatis_freminvillii","fishbase",1,"Fish",65,NA,NA
+"Myliobatis_freminvillei","fishbase",1,"Fish",65,NA,NA
 "Myllaena_dubia","0.000108498847920151",1,NA,NA,"rdataretriever-predator-prey-body-ratio",NA
 "Myllaena_minuta","5.36e-05",1,NA,NA,"rdataretriever-predator-prey-body-ratio",NA
 "Mylodon_darwini","2500000",1,NA,NA,"Smith_2003",NA
@@ -20088,8 +20089,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Phoca_hispida","22936.2640652624",1,NA,NA,"Brown_etal_2018",NA
 "Phoca_largha","150000",1,NA,NA,"Smith_2003",NA
 "Phoca_sibirica","25000",1,NA,NA,"Brown_etal_2018",NA
-"Phoca_vitulina","25000",1,NA,NA,"Brown_etal_2018",NA
-"Phoca_vitulina_richardsi","AnAge",1,"Mammals",115000,NA,NA
+"Phoca_vitulina","AnAge",1,"Mammals",115000,NA,NA
 "Phocarctos_hookeri","112300",1,NA,NA,"Smith_2003",NA
 "Phocoena_dioptrica","65000",1,NA,NA,"Smith_2003",NA
 "Phocoena_phocoena","12500",1,NA,NA,"Brown_etal_2018",NA

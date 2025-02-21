@@ -231,7 +231,7 @@
 "mugil_cephalus","Mugil cephalus",TRUE,0.928571403026581,418648,FALSE,"",4,NA,418648
 "myctophum_aurolaternatum","Myctophum aurolaternatum",TRUE,0.958333313465118,519259,FALSE,"",2,NA,519259
 "myctophum_spinosum","Myctophum spinosum",TRUE,0.944444417953491,114280,FALSE,"",2,NA,114280
-"myliobatis_freminvillii","Myliobatis freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2,NA,781226
+"myliobatis_freminvillei","Myliobatis freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2,NA,781226
 "nandopsis_urophthalmus","Cichlasoma urophthalmum",TRUE,0.954545438289642,969102,FALSE,"sibling_higher",2,NA,969102
 "natrix_sipedon","Nerodia sipedon",TRUE,0.928571403026581,405962,FALSE,"",2,NA,405962
 "negaprion_brevirostris","Negaprion brevirostris",TRUE,0.954545438289642,450137,FALSE,"",2,NA,450137
@@ -274,7 +274,6 @@
 "petrocephalus_catostoma","Petrocephalus catostoma",TRUE,0.95652174949646,39898,FALSE,"",3,NA,39898
 "phalacrocorax_sulcirostris","Phalacrocorax sulcirostris",TRUE,0.961538434028625,443642,FALSE,"",2,NA,443642
 "phalacrocorax_varius","Phalacrocorax varius",TRUE,0.949999988079071,701202,FALSE,"",2,NA,701202
-"phoca_vitulina_richardsi","Phoca vitulina richardii",TRUE,0.916666686534882,357731,FALSE,"infraspecific",3,NA,357731
 "phrynobatrachus_mababiensis","Phrynobatrachus mababiensis",TRUE,0.962962985038757,406427,FALSE,"",3,NA,406427
 "phrynosoma_platyrhinos","Phrynosoma platyrhinos",TRUE,0.954545438289642,671419,FALSE,"",2,NA,671419
 "phtheirichthys_lineatus","Phtheirichthys lineatus",TRUE,0.95652174949646,204918,FALSE,"",3,NA,204918

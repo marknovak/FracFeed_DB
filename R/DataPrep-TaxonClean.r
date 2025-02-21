@@ -219,8 +219,12 @@ taxa[which(taxa$flags == 'INCERTAE_SEDIS'), ]
 #####################
 # Hardwire name fixes (some rotl names have extra text)
 #####################
-taxa$unique_name[grep('Gadus morhua', taxa$unique_name)] <-
+taxa$unique_name[grep('Gadus morhua', taxa$unique_name)] <- 
   'Gadus morhua'
+taxa$unique_name[grep('Physeter catodon', taxa$unique_name)] <- 
+  'Physeter macrocephalus'
+
+
 
 
 taxa$search_string <- firstup(taxa$search_string)

@@ -594,7 +594,7 @@
 "Mustelus_henlei","Mustelus_henlei",TRUE,0.933333337306976,1035182,FALSE,"",1
 "Myctophum_aurolaternatum","Myctophum_aurolaternatum",TRUE,0.958333313465118,519259,FALSE,"",2
 "Myctophum_spinosum","Myctophum_spinosum",TRUE,0.944444417953491,114280,FALSE,"",2
-"Myliobatis_freminvillii","Myliobatis_freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2
+"Myliobatis_freminvillei","Myliobatis_freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2
 "Mysis_mixta","Mysis_mixta",TRUE,0.90909093618393,777293,FALSE,"",1
 "Nandopsis_dovii","Parachromis_dovii",TRUE,0.933333337306976,295717,FALSE,"",1
 "Nandopsis_friedrichsthalii","Parachromis_friedrichsthalii",TRUE,0.961538434028625,63349,FALSE,"",1
@@ -689,14 +689,14 @@
 "Phalacrocorax_varius","Phalacrocorax_varius",TRUE,0.949999988079071,701202,FALSE,"",2
 "Pharyngochromis_darlingi","Pharyngochromis_darlingi",TRUE,0.958333313465118,3635799,FALSE,"",1
 "Phoca_groenlandica","Phoca_groenlandica",TRUE,0.944444417953491,664062,FALSE,"sibling_higher",1
-"Phoca_vitulina_richardsi","Phoca_vitulina_richardii",TRUE,0.916666686534882,357731,FALSE,"infraspecific",3
+"Phoca_vitulina","Phoca_vitulina",TRUE,0.928571403026581,698422,FALSE,"sibling_higher",1
 "Phrynobatrachus_mababiensis","Phrynobatrachus_mababiensis",TRUE,0.962962985038757,406427,FALSE,"",3
 "Phrynosoma_platyrhinos","Phrynosoma_platyrhinos",TRUE,0.954545438289642,671419,FALSE,"",2
 "Phtheirichthys_lineatus","Phtheirichthys_lineatus",TRUE,0.95652174949646,204918,FALSE,"",3
 "Phyllodytes_luteolus","Phyllodytes_luteolus",TRUE,0.949999988079071,144103,FALSE,"",1
 "Phyllomedusa_burmeisteri","Phyllomedusa_burmeisteri",TRUE,0.958333313465118,65473,FALSE,"sibling_higher",1
 "Phyllomedusa_rohdei","Pithecopus_rohdei",TRUE,0.947368443012238,364552,FALSE,"",1
-"Physeter_macrocephalus","Physeter_catodon",TRUE,0.954545438289642,276851,FALSE,"sibling_higher",1
+"Physeter_macrocephalus","Physeter_macrocephalus",TRUE,0.954545438289642,276851,FALSE,"sibling_higher",1
 "Pimelodella","Pimelodella",FALSE,1,957296,FALSE,"",1
 "Pisaster_brevispinus","Pisaster_brevispinus",TRUE,0.949999988079071,76842,FALSE,"",2
 "Pisaster_ochraceus","Pisaster_ochraceus",TRUE,0.944444417953491,76843,FALSE,"",1

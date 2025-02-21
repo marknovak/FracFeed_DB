@@ -594,7 +594,7 @@
 "mustelus_henlei","Mustelus henlei",TRUE,0.933333337306976,1035182,FALSE,"",1
 "myctophum_aurolaternatum","Myctophum aurolaternatum",TRUE,0.958333313465118,519259,FALSE,"",2
 "myctophum_spinosum","Myctophum spinosum",TRUE,0.944444417953491,114280,FALSE,"",2
-"myliobatis_freminvillii","Myliobatis freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2
+"myliobatis_freminvillei","Myliobatis freminvillei",TRUE,0.95652174949646,781226,FALSE,"",2
 "mysis_mixta","Mysis mixta",TRUE,0.90909093618393,777293,FALSE,"",1
 "nandopsis_dovii","Parachromis dovii",TRUE,0.933333337306976,295717,FALSE,"",1
 "nandopsis_friedrichsthalii","Parachromis friedrichsthalii",TRUE,0.961538434028625,63349,FALSE,"",1
@@ -689,7 +689,7 @@
 "phalacrocorax_varius","Phalacrocorax varius",TRUE,0.949999988079071,701202,FALSE,"",2
 "pharyngochromis_darlingi","Pharyngochromis darlingi",TRUE,0.958333313465118,3635799,FALSE,"",1
 "phoca_groenlandica","Phoca groenlandica",TRUE,0.944444417953491,664062,FALSE,"sibling_higher",1
-"phoca_vitulina_richardsi","Phoca vitulina richardii",TRUE,0.916666686534882,357731,FALSE,"infraspecific",3
+"phoca_vitulina","Phoca vitulina",TRUE,0.928571403026581,698422,FALSE,"sibling_higher",1
 "phrynobatrachus_mababiensis","Phrynobatrachus mababiensis",TRUE,0.962962985038757,406427,FALSE,"",3
 "phrynosoma_platyrhinos","Phrynosoma platyrhinos",TRUE,0.954545438289642,671419,FALSE,"",2
 "phtheirichthys_lineatus","Phtheirichthys lineatus",TRUE,0.95652174949646,204918,FALSE,"",3
