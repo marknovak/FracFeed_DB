@@ -51,6 +51,7 @@ pandoc_convert(input = '../Bib/FracFeed_Citations.md',
                output = '../Bib/README.md',
                citeproc = TRUE
                )
+file.remove("../Bib/FracFeed_Citations.md")
 
 #~~~~~~~~~~~~~~~~~~~~
 # Body mass citations
