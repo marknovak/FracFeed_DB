@@ -175,8 +175,9 @@ if (length(err.nopf) > 0) {
     'Consumer.identity',
     'Percent.feeding',
     'Percent.feeding.given',
-    'Total.stomachs.count',
-    'Empty.stomachs.count'
+    'Total.stomachs.count.given',
+    'Empty.stomachs.count.given',
+    'Feeding.stomachs.count'
   )])
   err.cnt <- err.cnt + 1
   print("")
@@ -198,8 +199,9 @@ if (length(err.spf) > 0) {
     'Consumer.identity',
     'Percent.feeding',
     'Percent.feeding.given',
-    'Total.stomachs.count',
-    'Empty.stomachs.count'
+    'Total.stomachs.count.given',
+    'Empty.stomachs.count.given',
+    'Feeding.stomachs.count'
   )])
   err.cnt <- err.cnt + 1
   print("")
@@ -233,8 +235,8 @@ if (length(err.sc) > 0) {
   print(warn)
   print(dat[err.sc, c('Citation',
                       'Consumer.identity',
-                      'Total.stomachs.count',
-                      'Empty.stomachs.count')])
+                      'Total.stomachs.count.given',
+                      'Empty.stomachs.count.given')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -593,8 +595,9 @@ save(dat, file = '../tmp/tmp_DB/FracFeed_Data_Imported.Rdata')
 
 if (err.cnt > 0) {
   system(
-    "say -v Victoria Your database contains potential errors that may need fixing! I have not, repeat, not removed these errors."
+    "say -v Samantha Your database contains potential errors that may need fixing! I have not, repeat, not removed these errors."
   )
+  stop()
 }
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

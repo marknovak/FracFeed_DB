@@ -1,1 +1,39 @@
 [1] "The following are errors associated with Google doc meta-analysis data."
+[1] "These records have given percent feeding 0 < % < 1, so confirm."
+             Citation      Consumer.identity Percent.feeding Percent.feeding.given Total.stomachs.count.given
+3162 Borcherding_2019          Aspius.aspius        99.75962                  0.24                        416
+3163 Borcherding_2019  Neogobius.fluviatilis        99.00990                  0.99                        606
+3164 Borcherding_2019 Neogobius.melanostomus        99.81297                  0.19                       1604
+3166 Borcherding_2019     Ponticola.kessleri        99.67585                  0.32                        617
+     Empty.stomachs.count.given Feeding.stomachs.count
+3162                          1                    415
+3163                          6                    600
+3164                          3                   1601
+3166                          2                    615
+[1] ""
+[1] ""
+[1] "The calculated and citation-given estimates of percent\n      feeding differ by more than 0.6%.\n"
+               Citation      Consumer.identity Percent.feeding Percent.feeding.given
+3156      Mendonca_2009        Prionace.glauca        94.38755                  6.00
+3162   Borcherding_2019          Aspius.aspius        99.75962                  0.24
+3163   Borcherding_2019  Neogobius.fluviatilis        99.00990                  0.99
+3164   Borcherding_2019 Neogobius.melanostomus        99.81297                  0.19
+3165   Borcherding_2019      Perca.fluviatilis        98.04618                  1.95
+3166   Borcherding_2019     Ponticola.kessleri        99.67585                  0.32
+3167   Borcherding_2019      Sander.lucioperca        97.94050                  2.06
+3208 VacquezLinero_2025        Sphyrna.zygaena        85.00000                 84.00
+[1] ""
+[1] ""
+[1] "These taxa have multiple ecosystems assigned to them.\n"
+             Citation      Consumer.identity Ecosystem
+214    Mustamaki_2014      Perca.fluviatilis    Marine
+2173        Jarv_2011 Neogobius.melanostomus    Marine
+2174        Jarv_2011 Neogobius.melanostomus    Marine
+2175        Jarv_2011 Neogobius.melanostomus    Marine
+2176        Jarv_2011      Perca.fluviatilis    Marine
+2177        Jarv_2011      Perca.fluviatilis    Marine
+2178        Jarv_2011      Perca.fluviatilis    Marine
+3164 Borcherding_2019 Neogobius.melanostomus     Lotic
+3165 Borcherding_2019      Perca.fluviatilis     Lotic
+[1] ""
+[1] ""
