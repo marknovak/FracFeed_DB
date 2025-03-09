@@ -25,6 +25,9 @@ library(googlesheets4) # to read in Google spreadsheet
 library(geosphere) # for daylength()
 library(lubridate) # for yday() and other functions
 
+# For citations
+library(rmarkdown)
+
 # For 'DataPrep-TaxonClean.r'
 library(rotl)
 

@@ -37,6 +37,21 @@ write.csv(pub.cite,
           file = '../tmp/FracFeed_Citations.csv', 
           row.names = FALSE)
 
+yaml <- c("---",
+    "bibliography: FracFeed_Citations.bib",
+    "nocite: '@*'",
+    "...",
+    "# Data sources"
+)
+
+writeLines(yaml, "../Bib/FracFeed_Citations.md")
+
+pandoc_convert(input = '../Bib/FracFeed_Citations.md', 
+               to = 'markdown_phpextra',
+               output = '../Bib/README.md',
+               citeproc = TRUE
+               )
+
 #~~~~~~~~~~~~~~~~~~~~
 # Body mass citations
 #~~~~~~~~~~~~~~~~~~~~
