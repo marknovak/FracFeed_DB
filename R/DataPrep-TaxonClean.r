@@ -225,8 +225,6 @@ taxa$unique_name[grep('Physeter catodon', taxa$unique_name)] <-
   'Physeter macrocephalus'
 
 
-
-
 taxa$search_string <- firstup(taxa$search_string)
 taxa$unique_name <- gsub(' ', '_', taxa$unique_name)
 
@@ -240,10 +238,12 @@ Dups <- merge(a[, c(1, 2, 4)], b[, c(1, 2, 4)], all = TRUE)
 # All "duplicates" have different search_strings,
 # meaning these are species with synonymous names in the original data.
 if (nrow(Dups) > 0) {
-  message('
-  There are duplicate species due to synonyms that may need to be fixed in the original data.
-  ')
-  print(Dups[order(Dups$unique_name), ])
+  warn <-
+    'There are duplicate species due to synonyms that may need to be fixed in the original data..\n'
+  warning(warn, immediate. = TRUE)
+  sink(file = '../tmp/ErrorReports/TaxonErrors.txt')
+    print(Dups[order(Dups$unique_name), ])
+  sink()
 }
 
 message(paste0('\nThere are a total of ', 

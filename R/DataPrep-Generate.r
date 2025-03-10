@@ -115,8 +115,7 @@ dat$Total.stomachs.count.given <- round(dat$Total.stomachs.count.given, 0)
 #~~~~~~~~~~~~~~~~~~~~
 # Initiate error file
 #~~~~~~~~~~~~~~~~~~~~
-ErrFile <-
-  paste0('../tmp/ErrorReports/ImportErrors.txt')
+ErrFile <- '../tmp/ErrorReports/ImportErrors.txt'
 sink(file = ErrFile)
 print("The following are errors associated with Google doc meta-analysis data.")
 sink()
@@ -317,7 +316,9 @@ ok <- c('Bucephala.clangula',
         'Phalacrocorax.varius',
         'Bufo.marinus',
         'Rana.catesbeiana',
-        'Syngnathus.typhle'
+        'Syngnathus.typhle',
+        'Perca.fluviatilis',
+        'Neogobius.melanostomus'
         )
 tab <- tab[!(names(tab) %in% ok)]
 err.me <-

@@ -646,8 +646,11 @@ adat <- merge(ddat, DBs, all = TRUE)
 dups <- max(table(adat$taxon))
 
 if(dups > 1){
-  warning('Duplicate body mass values found')
-  print(adat[duplicated(adat$taxon) | duplicated(adat$taxon, fromLast=TRUE),])
+  warn <- 'Duplicate body mass values found.'
+  warning(warn, immediate. = TRUE)
+  sink(file = '../tmp/ErrorReports/BodyMassErrors.txt')
+    print(adat[duplicated(adat$taxon) | duplicated(adat$taxon, fromLast=TRUE),])
+  sink()
   adat <- adat[!duplicated(adat$taxon, fromLast = TRUE),] # remove duplicates
 }
 

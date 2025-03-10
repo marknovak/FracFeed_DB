@@ -2,6 +2,8 @@
 # load saved database
 load('../tmp/tmp_DB/FracFeed_Data_Clean.Rdata')
 
+options(warn = -1) # Turn warnings off
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 fill.color <- 'steelblue'
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,6 +55,8 @@ ggsave('../Figs/Freq_SurveyYear.png',
        width = 6,
        height = 4,
        device = 'png')
+
+options(warn = 0) # Turn warnings back on
 
 ###########################################################################
 ###########################################################################

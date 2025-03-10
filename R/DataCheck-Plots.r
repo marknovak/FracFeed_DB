@@ -14,9 +14,11 @@ load('../tmp/FracFeed_Data_FactorLevels.Rdata')
 
 alpha <- 0.3 # alpha level for colours
 
-##################
+# ~~~~~~~~~~~~~~~~
 # Data exploration
-##################
+# ~~~~~~~~~~~~~~~~
+
+options(warn = -1) # Suppress ggplot warnings
 
 pdf('../Figs/FracFeed-DataSummaryPlots.pdf',
     height = 11,
@@ -31,7 +33,7 @@ op <-
     cex.lab = 1.3
   )
 
-# Count of surveys by name
+# Count of surveys by name ----
 tab <- sort(table(dat$First.entry.Name))
 barplot(tab,
         las = 2,
@@ -39,7 +41,7 @@ barplot(tab,
         log = 'y')
 legend('topleft', legend = paste('n = ', sum(tab)), bty = 'n')
 
-# Count of citations by name
+# Count of citations by name ----
 tab <-
   apply(table(dat$First.entry.Name, dat$Citation), 1, function(x) {
     sum(x > 0)
@@ -47,14 +49,14 @@ tab <-
 barplot(sort(tab), las = 2, ylab = 'Citations')
 legend('topleft', legend = paste('n = ', sum(tab)), bty = 'n')
 
-# Count of Taxon groups
+# Count of Taxon groups ----
 taxCnt <- tab <- sort(table(dat$Taxon.group))
 barplot(tab,
         las = 2,
         ylab = 'Frequency',
         log = 'y')
 
-# Count of Taxon groups by species
+# Count of Taxon groups by species ----
 tab <- table(dat$Consumer.identity, dat$Taxon.group)
 tab <- tab[, order(apply(tab, 2, sum))]
 predCnt <- apply(tab, 2, function(x) {
@@ -69,7 +71,7 @@ legend('topleft',
        legend = paste0(sum(predCnt), ' taxa'),
        bty = 'n')
 
-# Count of ecosystems
+# Count of ecosystems ----
 tab <- table(factor(dat$Ecosystem,
                     levels = EcosystemLevels),
              useNA = 'ifany')
@@ -78,7 +80,7 @@ barplot(tab,
         ylab = 'Frequency',
         log = 'y')
 
-# Count of SpaceTime.replicate types
+# Count of SpaceTime.replicate types----
 tab <- rev(table(factor(
   dat$SpaceTime.replicate,
   levels = rev(SpaceTimeLevels)
@@ -86,20 +88,20 @@ tab <- rev(table(factor(
 useNA = 'ifany'))
 barplot(tab, las = 2, ylab = 'Frequency')
 
-# Count of Spatial averaging scales
+# Count of Spatial averaging scales ----
 tab <- rev(table(factor(
   dat$Space.averaging,
   levels = rev(SpaceAvgLevels)
 ), useNA = 'ifany'))
 barplot(tab, las = 2, ylab = 'Frequency')
 
-# Count of Temporal averaging scales
+# Count of Temporal averaging scales ----
 tab <- table(factor(dat$Time.averaging,
                     levels = TimeAvgLevels),
              useNA = 'ifany')
 barplot(tab, las = 2, ylab = 'Frequency')
 
-# Histogram of citation year
+# Histogram of citation year ----
 cite.yrs <-
   as.numeric(substring(sapply(strsplit(dat$Citation, "_"), "[", 2), 1, 4))
 rng <- range(cite.yrs, na.rm = TRUE)
@@ -115,7 +117,7 @@ plot(
 axis(2)
 axis(1, at = h$mids[h$mids %% 10 == 0], labels = h$mids[h$mids %% 10 == 0])
 
-# Histogram of sampling year
+# Histogram of sampling year ----
 rng <- range(dat$Year, na.rm = TRUE)
 yrs <- seq(rng[1] - 1, rng[2] + 2, 1) + 0.5
 h <- hist(dat$Year, plot = FALSE, breaks = yrs)
@@ -130,7 +132,7 @@ axis(2)
 axis(1, at = h$mids[h$mids %% 10 == 0], 
      labels = h$mids[h$mids %% 10 == 0])
 
-# Histogram of latitude
+# Histogram of latitude ----
 h <- hist(dat$Latitude, breaks = seq(-90, 90, 5), plot = FALSE)
 plot(
   h,
@@ -143,7 +145,7 @@ labs <- c('90S', abs(seq(-80, 80, 10)), '90N')
 axis(2)
 axis(1, at = seq(-90, 90, 10), labels = labs)
 
-# Histogram of longitude
+# Histogram of longitude ----
 h <- hist(dat$Longitude,
           breaks = seq(-180, 180, 10),
           plot = FALSE)
@@ -158,7 +160,8 @@ labs <- c('180W', abs(seq(-140, 140, 40)), '180E')
 axis(2)
 axis(1, at = seq(-180, 180, 40), labels = labs)
 
-# Histogram of sampling month - Should split by Northern/Southern hemisphere  - see below
+# Histogram of sampling month ----
+# Should split by Northern/Southern hemisphere  - see below
 mnths <- seq(0.5, 12.5, 1)
 h <- hist(dat$Month, plot = FALSE, breaks = mnths)
 plot(
@@ -171,7 +174,7 @@ plot(
 axis(2)
 axis(1, at = h$mids, labels = h$mids)
 
-# Histogram of sample sizes per survey
+# Histogram of sample sizes per survey ----
 h <- hist(log10(dat$Total.stomachs.count.given),
           plot = FALSE,
           breaks = 50)
@@ -190,7 +193,7 @@ axis(1, at = h$breaks, labels = round(10 ^ (h$breaks), 2))
 # table(subset(dat, dat$Total.stomachs.count.given > 48 &
 #                   dat$Total.stomachs.count.given < 52)$Citation)
 
-# Histogram of diet richness per survey
+# Histogram of diet richness per survey ----
 h <- hist(log10(dat$Diet.richness.minimum),
           plot = FALSE,
           breaks = 20)
@@ -205,7 +208,7 @@ ax1.at <- pretty(h$breaks)
 axis(2)
 axis(1, at = ax1.at, labels = round(10 ^ ax1.at, 1))
 
-# Histogram of body mass
+# Histogram of body mass ----
 h <- hist(log10(dat$mass_g),
           plot = FALSE,
           breaks = 20)
@@ -220,7 +223,7 @@ ax1.at <- pretty(h$breaks)
 axis(2)
 axis(1, at = ax1.at, labels = round(10 ^ ax1.at, 1))
 
-# Histogram of Percent feeding
+# Histogram of Percent feeding ----
 h <- hist(dat$Percent.feeding, plot = FALSE, breaks = 50)
 plot(
   h,
@@ -232,7 +235,7 @@ plot(
 axis(2)
 axis(1)
 
-# Compare given and calculated Percent Feeding
+# Compare given and calculated Percent Feeding ----
 op2 <- par(pty = 's', xaxs = 'i')
 plot(
   dat$Percent.feeding,
@@ -245,7 +248,7 @@ plot(
 par(op2)
 par(yaxs = 'r')
 
-# Compare given and calculated Percent Feeding
+# Compare given and calculated Percent Feeding ----
 op2 <- par(pty = 's', xaxs = 'i')
 plot(
   dat$Percent.feeding,
@@ -258,7 +261,7 @@ plot(
 par(op2)
 par(yaxs = 'r')
 
-# Diet richness vs. Individuals surveys
+# Diet richness vs. Individuals surveys ----
 plot(
   dat$Diet.richness.minimum ~ dat$Total.stomachs.count.given,
   log = 'x',
@@ -268,7 +271,7 @@ plot(
   ylab = 'Minimmum diet richness'
 )
 
-# Percent feeding vs. Individuals surveyed
+# Percent feeding vs. Individuals surveyed ----
 plot(
   dat$Percent.feeding ~ dat$Total.stomachs.count.given,
   log = 'x',
@@ -278,7 +281,7 @@ plot(
   ylab = 'Percent feeding'
 )
 
-# Percent feeding vs. Diet richness
+# Percent feeding vs. Diet richness ----
 plot(
   dat$Percent.feeding ~ dat$Diet.richness.min,
   log = 'x',
@@ -288,7 +291,7 @@ plot(
   ylab = 'Percent feeding'
 )
 
-# Percent feeding vs. Latitude
+# Percent feeding vs. Latitude ----
 plot(
   dat$Percent.feeding ~ dat$Latitude,
   pch = 21,
@@ -297,7 +300,7 @@ plot(
   ylab = 'Percent feeding'
 )
 
-# Percent feeding vs. Year
+# Percent feeding vs. Year ----
 plot(
   dat$Percent.feeding ~ dat$Year,
   pch = 21,
@@ -307,7 +310,7 @@ plot(
 )
 
 
-# Percent feeding vs. Month split by hemisphere
+# Percent feeding vs. Month split by hemisphere ----
 datN <- subset(dat, Latitude > 0)
 datS <- subset(dat, Latitude < 0)
 plot(
@@ -336,7 +339,7 @@ axis(2)
 axis(1, at = 1:12)
 box(lwd = 1)
 
-# Percent feeding vs. Hour
+# Percent feeding vs. Hour ----
 plot(
   dat$Percent.feeding ~ dat$Hour,
   pch = 21,
@@ -349,7 +352,7 @@ axis(2)
 axis(1, seq(0, 24, 2))
 box(lwd = 1)
 
-# Percent feeding vs. Daylength
+# Percent feeding vs. Daylength ----
 plot(
   dat$DayLength,
   dat$Percent.feeding,
@@ -359,7 +362,7 @@ plot(
   bg = adjustcolor('grey', alpha)
 )
 
-# Daylength vs. Days since winter solstice
+# Daylength vs. Days since winter solstice ----
 plot(
   dat$tWinterSolstice,
   dat$DayLength,
@@ -369,7 +372,7 @@ plot(
   bg = adjustcolor('grey', alpha)
 )
 
-# Percent feeding vs. Days since winter solstice
+# Percent feeding vs. Days since winter solstice ----
 plot(
   dat$tWinterSolstice,
   dat$Percent.feeding,
@@ -379,7 +382,7 @@ plot(
   bg = adjustcolor('grey', alpha)
 )
 
-# Evaluate potential methodological biases over time
+# Evaluate potential methodological biases over time ----
 decades <- seq(1880, 2040, 10)
 lab.decades <- decades[-length(decades)]
 # By Feeding Data Type
@@ -401,7 +404,7 @@ p1 <- ggplot(dat) +
   theme(strip.text.y = element_text(angle = 0))
 
 
-# By Survey type
+# By Survey type ----
 p2 <- ggplot(dat) +
   aes(
     x = cut(
@@ -421,7 +424,7 @@ p2 <- ggplot(dat) +
 
 multiplot(p1, p2, rows = 2)
 
-# Percent feeding vs. Time-averaging
+# Percent feeding vs. Time-averaging ----
 p1 <-
   ggplot(dat,
          aes(
@@ -438,7 +441,7 @@ p2 <-  ggplot(dat,
               )) +
   geom_violin(scale = "width") + labs(x = '')
 
-# Percent feeding vs. Taxon group
+# Percent feeding vs. Taxon group ----
 PercFeed.Taxon <-
   ddply(
     dat,
@@ -456,7 +459,7 @@ p3 <- ggplot(dat,
              )) +
   geom_violin(scale = "width") + labs(x = '')
 
-# Percent feeding vs. Ecosystem
+# Percent feeding vs. Ecosystem ----
 PercFeed.Ecosystem <-
   ddply(
     dat,
@@ -475,7 +478,7 @@ p4 <- ggplot(dat,
 multiplot(p1, p2, p3, p4, rows = 4)
 
 
-# Diet richness vs. Individuals surveys
+# Diet richness vs. Individuals surveys ----
 p1 <- ggplot(dat) +
   geom_point(
     aes(x = Total.stomachs.count.given,
@@ -487,7 +490,7 @@ p1 <- ggplot(dat) +
         panel.grid.minor = element_blank()) +
   scale_x_log10()
 
-# Percent feeding vs. Individuals surveyed
+# Percent feeding vs. Individuals surveyed ----
 p2 <- ggplot(dat) +
   geom_point(aes(x = Total.stomachs.count.given,
                  y = Percent.feeding,
@@ -498,7 +501,7 @@ p2 <- ggplot(dat) +
         panel.grid.minor = element_blank()) +
   scale_x_log10()
 
-# Percent feeding vs. Diet richness
+# Percent feeding vs. Diet richness ----
 p3 <- ggplot(dat) +
   geom_point(aes(x = Diet.richness.minimum,
                  y = Percent.feeding,
@@ -509,7 +512,7 @@ p3 <- ggplot(dat) +
         panel.grid.minor = element_blank()) +
   scale_x_log10()
 
-# Percent feeding vs. Latitude
+# Percent feeding vs. Latitude ----
 p4 <- ggplot(dat) +
   geom_point(aes(x = Latitude,
                  y = Percent.feeding,
@@ -518,7 +521,7 @@ p4 <- ggplot(dat) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 
-# Percent feeding vs. Year
+# Percent feeding vs. Year ----
 p5 <- ggplot(dat) +
   geom_point(aes(x = Year,
                  y = Percent.feeding,
@@ -527,7 +530,7 @@ p5 <- ggplot(dat) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 
-# Percent feeding vs. Hour
+# Percent feeding vs. Hour ----
 p6 <- ggplot(dat) +
   geom_point(aes(x = Hour,
                  y = Percent.feeding,
@@ -536,7 +539,7 @@ p6 <- ggplot(dat) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 
-# Percent feeding vs. Month split by hemisphere
+# Percent feeding vs. Month split by hemisphere ----
 datN <- subset(dat, Latitude > 0)
 datS <- subset(dat, Latitude < 0)
 p7 <- ggplot(datN) +
@@ -553,7 +556,7 @@ p8 <- ggplot(datS) +
   theme_bw() + theme(panel.grid.major = element_blank(),
                      panel.grid.minor = element_blank())
 
-# Percent feedings vs. Daylength
+# Percent feedings vs. Daylength ----
 p9 <- ggplot(dat) +
   geom_point(aes(x = DayLength,
                  y = Percent.feeding,
@@ -563,7 +566,7 @@ p9 <- ggplot(dat) +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 
-# Percent feeding vs. Days since winter solstice
+# Percent feeding vs. Days since winter solstice ----
 p10 <- ggplot(dat) +
   geom_point(aes(x = tWinterSolstice,
                  y = Percent.feeding,
@@ -579,6 +582,8 @@ multiplot(p10, p10, p10)
 
 
 dev.off()
+
+options(warn = 0) # Turn warnings back on
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

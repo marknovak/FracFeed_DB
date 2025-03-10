@@ -43,7 +43,10 @@ MVarCnt <- MVarCnt[, c(ncol(MVarCnt),
                              decreasing = TRUE))]
 colnames(MVarCnt) <- sub('x.', '', colnames(MVarCnt))
 
-write.table(MVarCnt,
+dropCols <- grep('TRUE', apply(MVarCnt[,-1], 2, all)) + 1
+MVarCnt.Out <- MVarCnt[, -dropCols]
+
+write.table(MVarCnt.Out,
             '../tmp/VarCombnCounts/aaaVarCombnCounts.csv',
             sep = ',',
             row.names = FALSE)
