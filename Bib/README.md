@@ -241,6 +241,15 @@ Western Georgia.” *Southeastern Naturalist* 11 (2): 287–96.
 
 </div>
 
+<div id="ref-Battaglia:2014aa" class="csl-entry" markdown="1">
+
+Battaglia, P, V Esposito, D Malara, M Falautano, L Castriota, and F
+Andaloro. 2014. “Diet of the Spothead Lanternfish Diaphus Metopoclampus
+(Cocco, 1829)(pisces: Myctophidae) in the Central Mediterranean Sea.”
+*Italian Journal of Zoology* 81 (4): 530–43.
+
+</div>
+
 <div id="ref-Battle:1998ua" class="csl-entry" markdown="1">
 
 Battle, K. 1998. “The Feeding Habits of Pleurobranchaea Californica in
@@ -252,6 +261,14 @@ Monterey Bay, California.” *The Veliger* 41: 213–26.
 
 Beard, Karen H. 2007. “Diet of the Invasive Frog, Eleutherodactylus
 Coqui, in Hawaii.” *Copeia* 2007 (2): 281–91.
+
+</div>
+
+<div id="ref-Behn:2019aa" class="csl-entry" markdown="1">
+
+Behn, Kathrine E, and Colden V Baxter. 2019. “The Trophic Ecology of a
+Desert River Fish Assemblage: Influence of Season and Hydrologic
+Variability.” *Ecosphere* 10 (1): e02583.
 
 </div>
 
@@ -383,6 +400,23 @@ Boelter, Ruben Alexandre, Sonia Zanini Cechin, et al. 2007. “Impact of
 the Bullfrog Diet (Lithobates Catesbeianus-Anura, Kanidae) on Native
 Fauna: Case Study from the Region of Agudo-RS-Brazil.” *Natureza &
 Conservação* 5 (2): 115–23.
+
+</div>
+
+<div id="ref-Bolstad:2004aa" class="csl-entry" markdown="1">
+
+Bolstad, Kat S, and Steve O’Shea. 2004. “Gut Contents of a Giant Squid
+Architeuthis Dux (Cephalopoda: Oegopsida) from New Zealand Waters.” *New
+Zealand Journal of Zoology* 31 (1): 15–21.
+
+</div>
+
+<div id="ref-Borcherding:2019aa" class="csl-entry" markdown="1">
+
+Borcherding, Jost, Katja Heubel, and Svenja Storm. 2019. “Competition
+Fluctuates Across Years and Seasons in a 6-Species-Fish Community:
+Empirical Evidence from the Field.” *Reviews in Fish Biology and
+Fisheries* 29: 589–604.
 
 </div>
 
@@ -549,6 +583,15 @@ Mediterranean Slope.” *Marine Ecology Progress Series* 96: 49–61.
 
 </div>
 
+<div id="ref-Casali:2023aa" class="csl-entry" markdown="1">
+
+Casali, Sandro, Matteo Pagliarani, Martina Cofani, Fabio Cianferoni, and
+Enrico Lunghi. 2023. “First Data on the Consumed Prey by Speleomantes
+Italicus from the Republic of San Marino.” *Acta Herpetologica* 18 (2):
+159–63.
+
+</div>
+
 <div id="ref-Castaneda-Gaytan:2006ty" class="csl-entry" markdown="1">
 
 Castañeda-Gaytán, Gamaliel, Cristina Garcı́a-De La Peña, and David
@@ -669,6 +712,15 @@ Christiansen, Jorgen S., Haakon Hop, Einar M. Nilssen, and John Joensen.
 (Peters, 1872) and Boreogadus Saida (Lepechin, 1774), in NE Greenland.”
 *Polar Biology* 35 (8): 1247–57.
 <https://doi.org/10.1007/s00300-012-1170-y>.
+
+</div>
+
+<div id="ref-Clarke:1996aa" class="csl-entry" markdown="1">
+
+Clarke, MR, DC Clarke, Helen R Martins, and Hélder M Silva. 1996. “The
+Diet of the Blue Shark (Prionace Glauca l.) in Azorean Waters.”
+*ARQUIPÉLAGO. Ciências Biológicas e Marinhas= Life and Marine Sciences*
+14: 41–56.
 
 </div>
 
@@ -1237,6 +1289,15 @@ Scoparius, in Ise Bay, Central Japan.” *Fisheries Science* 69 (6):
 
 </div>
 
+<div id="ref-Gao:2022aa" class="csl-entry" markdown="1">
+
+Gao, Xiaodi, Yi Gong, Xinjun Chen, and Yunkai Li. 2022. “Dietary Shifts
+and Niche Partitioning Throughout Ontogeny Reduce Intraspecific
+Competition in a Pelagic Generalist Predator.” *Marine Ecology Progress
+Series* 692: 81–97.
+
+</div>
+
 <div id="ref-Garcia:1988uh" class="csl-entry" markdown="1">
 
 Garcı́a, Constantino Macı́as, and Hugh Drummond. 1988. “Seasonal and
@@ -1430,6 +1491,15 @@ Araneophagic Jumping Spider (Salticidae: Spartaeinae) from Azerbaijan.”
 Hales, Andrea L, Jerrold L Belant, and Jacqueline Bird. 2008. “Effects
 of Sex and Age on Winter Diet of American Martens in Michigan.” *The
 Ohio Journal of Science* 108 (4): 60–65.
+
+</div>
+
+<div id="ref-Hamilton:2019aa" class="csl-entry" markdown="1">
+
+Hamilton, Santiago, Ronaldo Barradas Peregrino Júnior, Ernesto Carvalho
+Domingues, Fábio Hissa Vieira Hazin, Teodoro Vaske Júnior, and William
+Severi. 2019. “HÁBITO ALIMENTAR DO BEIJUPIRÁ EM PERNAMBUCO, NORDESTE DO
+BRASIL.” *Boletim Do Instituto de Pesca* 45 (1).
 
 </div>
 
@@ -1725,6 +1795,15 @@ UROSALPINX-CINEREUS POPULATIONS.” *VELIGER* 23 (3): 277–81.
 Johnson, James H. 2015. “Summer Diel Diet and Feeding Periodicity of
 Four Species of Cyprinids in the Salmon River, New York.” *The American
 Midland Naturalist* 173 (2): 326–34.
+
+</div>
+
+<div id="ref-Joyce:2002aa" class="csl-entry" markdown="1">
+
+Joyce, WN, SE Campana, LJ Natanson, NE Kohler, HL Pratt Jr, and CF
+Jensen. 2002. “Analysis of Stomach Contents of the Porbeagle Shark
+(Lamna Nasus Bonnaterre) in the Northwest Atlantic.” *ICES Journal of
+Marine Science* 59 (6): 1263–69.
 
 </div>
 
@@ -2275,6 +2354,14 @@ Herpetology* 41 (1): 16–23.
 
 </div>
 
+<div id="ref-Maia:2006aa" class="csl-entry" markdown="1">
+
+Maia, Anabela, Nuno Queiroz, Joao P Correia, and Henrique Cabral. 2006.
+“Food Habits of the Shortfin Mako, Isurus Oxyrinchus, Off the Southwest
+Coast of Portugal.” *Environmental Biology of Fishes* 77: 157–67.
+
+</div>
+
 <div id="ref-Maia-Carneiro:2012tn" class="csl-entry" markdown="1">
 
 Maia-Carneiro, Thiago, Thiago A Dorigo, Mauricio Almeida-Gomes, Monique
@@ -2299,6 +2386,14 @@ Majaneva, S, J Berge, PE Renaud, A Vader, E Stübner, AM Rao, Ø Sparre,
 and M Lehtiniemi. 2013. “Aggregations of Predators and Prey Affect
 Predation Impact of the Arctic Ctenophore Mertensia Ovum.” *Marine
 Ecology Progress Series* 476: 87–100.
+
+</div>
+
+<div id="ref-Mansilla:2012aa" class="csl-entry" markdown="1">
+
+Mansilla, Lorena, Carlos Olavarrı́a, and Marco A Vega. 2012. “Stomach
+Contents of Long-Finned Pilot Whales (Globicephala Melas) from Southern
+Chile.” *Polar Biology* 35 (12): 1929–33.
 
 </div>
 
@@ -2370,6 +2465,15 @@ https://doi.org/<https://doi.org/10.1016/j.gecco.2020.e01396>.
 
 </div>
 
+<div id="ref-McDermott:1987aa" class="csl-entry" markdown="1">
+
+McDermott, JJ. 1987. “The Distribution and Food Habits of Nephtys Bucera
+Ehlers, 1868,(polychaeta: Nephtyidae) in the Surf Zone of a Sandy
+Beach.” *Proceedings of the Biological Society of Washington* 100 (1):
+21–27.
+
+</div>
+
 <div id="ref-McDonald:2000um" class="csl-entry" markdown="1">
 
 McDonald, Robbie A, Charlotte Webbon, and Stephen Harris. 2000. “The
@@ -2434,6 +2538,14 @@ Ecology & Management/Journal of Range Management Archives* 28 (1):
 Meise, CJ, and LL Stehlik. 2003. “Habitat Use, Temporal Abundance
 Variability, and Diet of Blue Crabs from a New Jersey Estuarine System.”
 *Estuaries* 26 (3): 731–45.
+
+</div>
+
+<div id="ref-Mendonca:2009aa" class="csl-entry" markdown="1">
+
+Mendonça, Ana. 2009. “Diet of the Blue Shark, Prionace Glauca, in the
+Northeast Atlantic.” *Departamento de Biologia Faculdade de Ciências Da
+Universidade Do Porto: Porto, Portugal*.
 
 </div>
 
@@ -2864,6 +2976,14 @@ Bathydraconidae) from the Indian Sector of the Southern Ocean.”
 
 </div>
 
+<div id="ref-Pallaoro:2003aa" class="csl-entry" markdown="1">
+
+Pallaoro, Armin, Mate Santic, and Ivan Jardas. 2003. “Feeding Habits of
+the Saddled Bream, Oblada Melanura (Sparidae), in the Adriatic Sea.”
+*Cybium* 27 (4): 261–68.
+
+</div>
+
 <div id="ref-Palmer:1988va" class="csl-entry" markdown="1">
 
 Palmer, A RICHARD. 1988. “Feeding Biology of Ocenebra Lurida
@@ -2936,6 +3056,15 @@ Elegans Verrill.” *Ecology* 54 (2): 300–314.
 
 </div>
 
+<div id="ref-Peda:2015aa" class="csl-entry" markdown="1">
+
+Pedà, Cristina, Pietro Battaglia, Alessia Scuderi, Alessandro Voliani,
+Cecilia Mancusi, Franco Andaloro, and Teresa Romeo. 2015. “Cephalopod
+Prey in the Stomach Contents of Odontocete Cetaceans Stranded in the
+Western Mediterranean Sea.” *Marine Biology Research* 11 (6): 593–602.
+
+</div>
+
 <div id="ref-Perez-Bote:2006vm" class="csl-entry" markdown="1">
 
 Pérez-Bote, José Luis, Antonio Muñoz, Ricardo Morán, Rafael Roso, and
@@ -2967,6 +3096,15 @@ Feeding Habitat in Winter.” *Bird Study* 38 (2): 118–22.
 Pietersen, Darren W, and Craig T Symes. 2010. “Assessing the Diet of
 Amur Falcon Falco Amurensis and Lesser Kestrel Falco Naumanni Using
 Stomach Content Analysis.” *Ostrich* 81 (1): 39–44.
+
+</div>
+
+<div id="ref-Pincay-Espinoza:2022aa" class="csl-entry" markdown="1">
+
+Pincay-Espinoza, Jonathan E, and José L Varela. 2022. “Spatial-and
+Size-Related Shifts in Feeding Habits of the Common Dolphinfish
+(Coryphaena Hippurus) in the Southeast Pacific Ocean.” *Environmental
+Biology of Fishes* 105 (2): 313–26.
 
 </div>
 
@@ -3021,12 +3159,28 @@ Research* 6 (3): 271–81.
 
 </div>
 
+<div id="ref-Polis:1979aa" class="csl-entry" markdown="1">
+
+Polis, Gary A. 1979. “Prey and Feeding Phenology of the Desert Sand
+Scorpion Pamroctonus Mesaensis (Scorpionidae: Vaejovidae).” *Journal of
+Zoology* 188 (3): 333–46.
+
+</div>
+
 <div id="ref-Polymeni:2011vb" class="csl-entry" markdown="1">
 
 Polymeni, Rosa-Maria, Canella Radea, and Costis Papanayotou. 2011. “Diet
 Composition of the Salamander Lyciasalamandra Luschani Basoglui on the
 Greek Island of Kastellorizo in the Southeast Aegean Sea.” *Asian
 Herpetological Research* 2 (3): 155–60.
+
+</div>
+
+<div id="ref-Pomerleau:2011aa" class="csl-entry" markdown="1">
+
+Pomerleau, Corinne, Steven H Ferguson, and Wojciech Walkusz. 2011.
+“Stomach Contents of Bowhead Whales (Balaena Mysticetus) from Four
+Locations in the Canadian Arctic.” *Polar Biology* 34: 615–20.
 
 </div>
 
@@ -3229,6 +3383,14 @@ Signature Fatty Acid Analyses.” *Marine Ecology Progress Series* 493:
 
 </div>
 
+<div id="ref-Romanov:2008aa" class="csl-entry" markdown="1">
+
+Romanov, E, and V Zamorov. 2008. “Regional Feeding Patterns of the
+Longnose Lancetfish (Alepisaurus Ferox Lowe, 1833) of the Western Indian
+Ocean.” *Western Indian Ocean Journal of Marine Science* 6 (1).
+
+</div>
+
 <div id="ref-Romero:2012aa" class="csl-entry" markdown="1">
 
 Romero, Marı́a Alejandra, Silvana L Dans, Nestor Garcı́a, Guillermo M
@@ -3278,6 +3440,15 @@ Marten Martes Foina, in the Czech Republic.” *Folia Zoologica* 58 (1):
 
 </div>
 
+<div id="ref-Sallami:2015aa" class="csl-entry" markdown="1">
+
+Sallami, Balkis, Mohamed Ben Salem, Christian Reynaud, and Christian
+Capape. 2015. “Diet of European Conger Eel Conger Conger (Osteichthyes,
+Congridae) from the Northeastern Coast of Tunisia (Central
+Mediterranean).” *Cahiers de Biologie Marine* 56 (3): 253–62.
+
+</div>
+
 <div id="ref-Salvidio:1999ub" class="csl-entry" markdown="1">
 
 Salvidio, Sebastiano, Roberto Sindaco, and Livio Emanueli. 1999.
@@ -3296,12 +3467,36 @@ Waters.” *Marine Biology Research* 11 (8): 814–23.
 
 </div>
 
+<div id="ref-Santic:2021aa" class="csl-entry" markdown="1">
+
+Santić, Mate, Armin Pallaoro, and Biljana Radja. 2021. “Feeding Habits
+of Scorpaena Notata (Scorpaenidae) from Eastern Adriatic Sea.” *Cybium*
+45 (3): 217–24.
+
+</div>
+
 <div id="ref-Santic:2012uw" class="csl-entry" markdown="1">
 
 Santić, Mate, Biljana Radja, and Armin Pallaoro. 2012. “Feeding Habits
 of Small-Spotted Catshark (Scyliorhinus Canicula Linnaeus, 1758) from
 the Eastern Central Adriatic Sea.” *Marine Biology Research* 8 (10):
 1003–11.
+
+</div>
+
+<div id="ref-Santic:2003aa" class="csl-entry" markdown="1">
+
+Šantić, Mate, Ivan Jardas, and Armin Pallaoro. 2003. “Feeding Habits of
+Mediterranean Horse Mackerel, Trachurus Mediterraneus (Carangidae), in
+the Central Adriatic Sea.” *Cybium* 27 (4): 247–53.
+
+</div>
+
+<div id="ref-Santic:2013aa" class="csl-entry" markdown="1">
+
+Šantić, Mate, Biljana Rada, and Armin Pallaoro. 2013. “Feeding Habits of
+Brown Ray (Raja Miraletus Linnaeus, 1758) from the Eastern Central
+Adriatic Sea.” *Marine Biology Research* 9 (3): 301–8.
 
 </div>
 
@@ -3394,6 +3589,16 @@ Right Whale Caperea Marginata.” *Marine Mammal Science* 8 (3): 288–93.
 Selleslagh, Jonathan, and Rachid Amara. 2015. “Are Estuarine Fish
 Opportunistic Feeders? The Case of a Low Anthropized Nursery Ground (the
 Canche Estuary, France).” *Estuaries and Coasts* 38 (1): 252–67.
+
+</div>
+
+<div id="ref-Setyobudi:2024aa" class="csl-entry" markdown="1">
+
+Setyobudi, Eko, Murwantoko Murwantoko, Tony Budi Satriyo, Eko Hardianto,
+Wahyu Novianto Bagas Waskitho, Niken Astuti, Hana Cahya Maharani, and
+Fentriana Aji Prastiwi. 2024. “Food Preference of Purple-Spotted Bigeye
+(Priacanthus Tayenus Richardson 1846) in Northern Coast of Java,
+Indonesia.” *Marine Ecology* 45 (6): e12846.
 
 </div>
 
@@ -3512,6 +3717,22 @@ Soekoe, M, MJ Smale, and WM Potts. 2022. “Highly Conserved Tooth
 Morphology in Allopatric Elasmobranch Populations Despite Contrasting
 Diets—a Case of Triakis Megalopterus in Southern Africa.” *Environmental
 Biology of Fishes* 105 (7): 821–50.
+
+</div>
+
+<div id="ref-Solmundsson:2025aa" class="csl-entry" markdown="1">
+
+Sólmundsson, Jón, Klara B Jakobsdóttir, and Hildur Pétursdóttir. 2025.
+“Deepwater Sharks at Their Northern Limits—Distribution, Diet and
+Trophic Relations.” *Marine Ecology* 46 (1): e12854.
+
+</div>
+
+<div id="ref-Song:2014aa" class="csl-entry" markdown="1">
+
+Song, Kyung-Jun, and Chang Ik Zhang. 2014. “Stomach Contents of Bycaught
+Minke Whales (Balaenoptera Acutorostrata) in Korean Waters.” *Marine
+Biology Research* 10 (4): 400–406.
 
 </div>
 
@@ -3830,11 +4051,41 @@ Endangered Colombian Toad Osornophryne Percrassa (Anura, Bufonidae).”
 
 </div>
 
+<div id="ref-Varghese:2014aa" class="csl-entry" markdown="1">
+
+Varghese, Sijo P, VS Somvanshi, and Rishikesh S Dalvi. 2014. “Diet
+Composition, Feeding Niche Partitioning and Trophic Organisation of
+Large Pelagic Predatory Fishes in the Eastern Arabian Sea.”
+*Hydrobiologia* 736 (1): 99–114.
+
+</div>
+
+<div id="ref-Vazquez-Linero:2025aa" class="csl-entry" markdown="1">
+
+Vázquez-Liñero, Mariana Alejandra, Felipe Galván-Magaña, Arturo
+Tripp-Valdez, Alberto Sánchez-González, Sergio Alejandro
+Briones-Hernández, Edgar Mauricio Hoyos-Padilla, and Alejandra
+Piñón-Gimate. 2025. “Trophic Ecology of Juvenile Smooth Hammerhead Shark
+Sphyrna Zygaena (Carcharhiniformes: Sphyrnidae) in the Central Gulf of
+California, Mexico.” *Environmental Biology of Fishes*, 1–14.
+
+</div>
+
 <div id="ref-Viana:2014aa" class="csl-entry" markdown="1">
 
 Viana, Alessandra da Fonseca, and Marcelo Vianna. 2014. “The Feeding
 Habits of the Eyespot Skate Atlantoraja Cyclophora (Elasmobranchii:
 Rajiformes) in Southeastern Brazil.” *Zoologia (Curitiba)* 31: 119–25.
+
+</div>
+
+<div id="ref-Vital:2024aa" class="csl-entry" markdown="1">
+
+Vital, Nerelle, Emi Brinatti Guari, Tatiana Lemos Bisi, Leonardo Flach,
+José Lailson Brito Junior, and Alexandre de Freitas Azevedo. 2024.
+“Feeding Habits of the Guiana Dolphin, Sotalia Guianensis,(van bénéden,
+1864)(cetacea: Delphinidae) in Sepetiba and Ilha Grande Bays,
+Southeastern Brazil.” *Regional Studies in Marine Science* 73: 103446.
 
 </div>
 
@@ -3872,12 +4123,31 @@ Science* 28 (2): E143–57.
 
 </div>
 
+<div id="ref-Wang:2003aa" class="csl-entry" markdown="1">
+
+Wang, Ming-Chih, William A Walker, Kwang-Tsao Shao, and Lien-Siang Chou.
+2003. “Feeding Habits of the Pantropical Spotted Dolphin, Stenella
+Attenuata, Off the Eastern Coast of Taiwan.” *ZOOLOGICAL
+STUDIES-TAIPEI-* 42 (2): 368–78.
+
+</div>
+
 <div id="ref-Ward:1988ws" class="csl-entry" markdown="1">
 
 Ward, S, and GP Quinn. 1988. “Preliminary Investigations of the Ecology
 of the Intertidal Predatory Gastropod Lepsiella Vinosa
 (Lamarck)(gastropoda Muricidae).” *Journal of Molluscan Studies* 54 (1):
 109–17.
+
+</div>
+
+<div id="ref-Washburn:2013aa" class="csl-entry" markdown="1">
+
+Washburn, Brian E, Glen E Bernhardt, Lisa Kutschbach-Brohl, Richard B
+Chipman, and Laura C Francoeur. 2013. “Foraging Ecology of Four Gull
+Species at a Coastal-Urban Interface: Ecologı́a de Forrajeo de Cuatro
+Especies de Gaviota En Una Interface Costera-Urbana.” *The Condor* 115
+(1): 67–76.
 
 </div>
 
@@ -3981,6 +4251,15 @@ Wu, Zhengjun, Yiming Li, Yanping Wang, and Michael J Adams. 2005. “Diet
 of Introduced Bullfrogs (Rana Catesbeiana): Predation on and Diet
 Overlap with Native Frogs on Daishan Island, China.” *Journal of
 Herpetology* 39 (4): 668–74.
+
+</div>
+
+<div id="ref-Xavier:2010aa" class="csl-entry" markdown="1">
+
+Xavier, José C, Yves Cherel, Carlos A Assis, João Sendão, and Teresa C
+Borges. 2010. “Feeding Ecology of Conger Eels (Conger Conger) in
+North-East Atlantic Waters.” *Journal of the Marine Biological
+Association of the United Kingdom* 90 (3): 493–501.
 
 </div>
 
