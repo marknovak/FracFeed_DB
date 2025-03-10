@@ -815,7 +815,7 @@
 "Alectroenas_sganzini","158.5",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Alectrurus_tricolor","16",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Alectura_lathami","1100",1,NA,NA,"Gillooly_etal_2016",NA
-"Alepisaurus_ferox","fishbase, Froese_2014",1,"Fish",23952.6919729551,NA,NA
+"Alepisaurus_ferox","Varghese_2014",1,"Fish",2940,NA,NA
 "Alethe_castanea","32.45",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Alethe_diademata","32.2481007192672",2,NA,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist",NA
 "Alethe_fuelleborni","49",1,NA,NA,"rdataretriever-bird-size",NA
@@ -870,6 +870,7 @@
 "Alophoixus_ochraceus","42.425",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Alophoixus_pallidus","46.25",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Alophoixus_phaeocephalus","32",1,NA,NA,"rdataretriever-amniote-life-hist",NA
+"Alopias_pelagicus","Varghese_2014",1,"Fish",33720,NA,NA
 "Alopias_superciliosus","200090",1,NA,NA,"AnAge",NA
 "Alopias_vulpinus","fishbase",1,"Fish",348000,NA,NA
 "Alopochelidon_fucata","14",1,NA,NA,"rdataretriever-amniote-life-hist",NA
@@ -4576,7 +4577,7 @@
 "Carcharhinus_amblyrhynchos","18535",1,NA,NA,"Quaardvark",NA
 "Carcharhinus_brachyurus","167530",1,NA,NA,"AnAge",NA
 "Carcharhinus_brevipinna","49335",1,NA,NA,"AnAge",NA
-"Carcharhinus_falciformis","262000",1,NA,NA,"Quaardvark",NA
+"Carcharhinus_falciformis","Varghese_2014",1,"Fish",14740,NA,NA
 "Carcharhinus_galapagensis","47025",1,NA,NA,"AnAge",NA
 "Carcharhinus_leucas","fishbase",1,"Fish",316500,NA,NA
 "Carcharhinus_limbatus","65000",1,NA,NA,"Quaardvark",NA
@@ -6627,7 +6628,7 @@
 "Corynorhinus_mexicanus","7.7",1,NA,NA,"Smith_2003",NA
 "Corynorhinus_rafinesquii","9.08",1,NA,NA,"Smith_2003",NA
 "Corynorhinus_townsendii","9.92",1,NA,NA,"Smith_2003",NA
-"Coryphaena_hippurus",NA,1,NA,NA,"Killen_etal_2016",NA
+"Coryphaena_hippurus","Varghese_2014",1,"Fish",6250,NA,NA
 "Coryphaennoides_acrolepis","450",1,NA,NA,"Brown_etal_2018",NA
 "Coryphaenoides_rupestris","239",1,NA,NA,"Brown_etal_2018",NA
 "Coryphaspiza_melanotis","15.7",1,NA,NA,"rdataretriever-amniote-life-hist",NA
@@ -12918,9 +12919,9 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Ispidina_picta","13.15",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Isthmomys_flavidus","233.684",1,NA,NA,"Smith_2003",NA
 "Isthmomys_pirrensis","138",1,NA,NA,"Smith_2003",NA
-"Istiompax_indica","150000",1,NA,NA,"Hirt_etal_2017",NA
+"Istiompax_indica","Varghese_2014",1,"Fish",68820,NA,NA
 "Istiophorus_albicans","90000",1,NA,NA,"Hirt_etal_2017",NA
-"Istiophorus_platypterus","69999.9999999999",1,NA,NA,"Quaardvark",NA
+"Istiophorus_platypterus","Varghese_2014",1,"Fish",26730,NA,NA
 "Isurus_oxyrinchus","fishbase, Froese_2014",1,"Fish",150405.848279269,NA,NA
 "Ithaginis_cruentus","525",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Ithycyphus_blanci","37.3",1,NA,NA,"Feldman_etal_2016",NA
@@ -13012,7 +13013,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Kassina_arboricola","4.37228695122499",1,NA,NA,"rdataretriever-vertnet-amphibians",NA
 "Kassina_fusca","3.89615194775563",1,NA,NA,"rdataretriever-vertnet-amphibians",NA
 "Kassina_senegalensis","2.63371256381267",1,NA,NA,"rdataretriever-vertnet-amphibians",NA
-"Katsuwonus_pelamis","4521.32723876519",1,NA,NA,"Brown_etal_2018",NA
+"Katsuwonus_pelamis","Varghese_2014",1,"Fish",5360,NA,NA
 "Kaupifalco_monogrammicus","280.5",1,NA,NA,"AnAge",NA
 "Kelicottia_bostoniensis","2e-08",1,NA,NA,"rdataretriever-predator-prey-body-ratio",NA
 "Kelicottia_longispina","4.49999999999999e-08",1,NA,NA,"rdataretriever-predator-prey-body-ratio",NA
@@ -15345,7 +15346,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Magliophis_stahli","35.1",1,NA,NA,"Feldman_etal_2016",NA
 "Magnisudis_prionosa","500",1,NA,NA,"rdataretriever-socean-diet-data",NA
 "Magumma_parva","9.75",1,NA,NA,"rdataretriever-amniote-life-hist",NA
-"Makaira_nigricans","153500",1,NA,NA,"Hirt_etal_2017",NA
+"Makaira_nigricans","Varghese_2014",1,"Fish",43290,NA,NA
 "Makalata_armata","276",1,NA,NA,"rdataretriever-mammal-life-hist",NA
 "Makalata_didelphoides","207.845134655589",1,NA,NA,"Smith_2003",NA
 "Makalata_grandis","583.996",1,NA,NA,"Smith_2003",NA
@@ -22234,6 +22235,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Pteronotus_quadridens","5.155",1,NA,NA,"Smith_2003",NA
 "Pteronura_brasiliensis","23999.931",1,NA,NA,"Smith_2003",NA
 "Pterophanes_cyanopterus","9.9498743710662",2,NA,NA,"rdataretriever-bird-size_rdataretriever-amniote-life-hist",NA
+"Pteroplatytrygon_violacea","Varghese_2014",1,"Fish",3170,NA,NA
 "Pteroptochos_castaneus","162",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Pteroptochos_megapodius","112",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Pteroptochos_tarnii","146.25",1,NA,NA,"rdataretriever-amniote-life-hist",NA
@@ -24888,7 +24890,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Sphiggurus_villosus","1750.008",1,NA,NA,"Smith_2003",NA
 "Sphinx_pinastri","1.449",1,NA,NA,"AndersonGillooly_2017",NA
 "Sphyraena_argentea","4500",1,NA,NA,"Hirt_etal_2017",NA
-"Sphyraena_barracuda","26560",1,NA,NA,"Hirt_etal_2017",NA
+"Sphyraena_barracuda","Varghese_2014",1,"Fish",5890,NA,NA
 "Sphyrapicus_nuchalis",NA,1,NA,NA,"Lislevand_etal_2007",NA
 "Sphyrapicus_ruber",NA,1,NA,NA,"Lislevand_etal_2007",NA
 "Sphyrapicus_thyroideus",NA,1,NA,NA,"Lislevand_etal_2007",NA
@@ -26451,7 +26453,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Thuja_occidentalis","170000",1,NA,NA,"Brown_etal_2018",NA
 "Thunnus_alalunga","60300",1,NA,NA,"Quaardvark",NA
 "Thunnus_alaunga","4354.65268419882",1,NA,NA,"Brown_etal_2018",NA
-"Thunnus_albacares","35192.54339955",1,NA,NA,"Brown_etal_2018",NA
+"Thunnus_albacares","Varghese_2014",1,"Fish",27960,NA,NA
 "Thunnus_atlanticus","2440",1,NA,NA,"Brown_etal_2018",NA
 "Thunnus_germo","9230",1,NA,NA,"Brown_etal_2018",NA
 "Thunnus_maccoyii","143000",1,NA,NA,"AnAge",NA
@@ -28218,7 +28220,7 @@ s","2754.22870333817",1,NA,NA,"Tucker_etal_2014b",NA
 "Xerus_inauris","529",1,NA,NA,"Smith_2003",NA
 "Xerus_princeps","636",1,NA,NA,"Smith_2003",NA
 "Xerus_rutilus","317.497",1,NA,NA,"Smith_2003",NA
-"Xiphias_gladius","fishbase, Froese_2014",1,"Fish",228004.981907802,NA,NA
+"Xiphias_gladius","Varghese_2014",1,"Fish",24680,NA,NA
 "Xiphidiopicus_percussus","67",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Xiphocolaptes_albicollis","119",1,NA,NA,"rdataretriever-amniote-life-hist",NA
 "Xiphocolaptes_falcirostris","110",1,NA,NA,"rdataretriever-amniote-life-hist",NA

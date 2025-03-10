@@ -23,6 +23,7 @@
 "Luidia_ciliaris",13
 "Martes_americana",13
 "Astropecten_irregularis",12
+"Nephtys_bucera",12
 "Reishia_clavigera",12
 "Sprattus_sprattus",12
 "Coluber_constrictor",11
@@ -31,12 +32,12 @@
 "Astrotoma_agassizii",10
 "Meganyctiphanes_norvegica",10
 "Ophiosparte_gigas",10
+"Rana_catesbeiana",10
 "Rissa_tridactyla",10
 "Uria_lomvia",10
 "Lampropeltis_calligaster",9
 "Panthera_leo",9
 "Paralithodes_camtschaticus",9
-"Rana_catesbeiana",9
 "Thamnophis_elegans",9
 "Acanthinucella_punctulata",8
 "Dryophytes_japonicus",8
@@ -75,6 +76,7 @@
 "Cambarincola_chirocephalus",4
 "Cambarincola_vitreus",4
 "Characidium",4
+"Conger_conger",4
 "Cosmasterias_lurida",4
 "Crossaster_papposus",4
 "Cyprinus_carpio",4
@@ -93,6 +95,7 @@
 "Rana_graeca",4
 "Thamnophis_saurita",4
 "Thoropa_miliaris",4
+"Trachurus_mediterraneus",4
 "Agkistrodon_contortrix",3
 "Arthroleptis_xenodactyloides",3
 "Callianira_antarctica",3
@@ -108,6 +111,7 @@
 "Pimelodella",3
 "Plesionika_edwardsii",3
 "Pleurodema_diplolister",3
+"Priacanthus_tayenus",3
 "Pseudis_limellum",3
 "Regina_septemvittata",3
 "Rhamdia",3
@@ -143,6 +147,7 @@
 "Hemidactylus_mabouia",2
 "Homarus_americanus",2
 "Hoplobatrachus_occipitalis",2
+"Hydromantes_italicus",2
 "Hyperolius_concolor",2
 "Hyperolius_fusciventris",2
 "Hyperolius_guttulatus",2
@@ -226,6 +231,7 @@
 "Artedidraco_lonnbergi",1
 "Arthrosaura_reticulata",1
 "Aspidoscelis_tigris",1
+"Aspius_aspius",1
 "Astropecten_articulatus",1
 "Astropecten_platyacanthus",1
 "Aythya_affinis",1
@@ -233,6 +239,7 @@
 "Aythya_ferina",1
 "Aythya_marila",1
 "Aythya_valisineria",1
+"Balaena_mysticetus",1
 "Batrachoseps_attenuatus",1
 "Bdeogale_nigripes",1
 "Bembidion_lampros",1
@@ -382,6 +389,7 @@
 "Kentropyx_calcarata",1
 "Kentropyx_pelviceps",1
 "Kentropyx_striata",1
+"Lamna_nasus",1
 "Lampropeltis_getula",1
 "Lamyctes_fulvicornis",1
 "Lanius_excubitor",1
@@ -426,6 +434,7 @@
 "Morone_americana",1
 "Nannobrachium_ritteri",1
 "Nebria_brevicollis",1
+"Neogobius_fluviatilis",1
 "Nephrurus_laevissimus",1
 "Nephrurus_levis",1
 "Nephrurus_vertebralis",1
@@ -438,6 +447,7 @@
 "Notothenia_rossii",1
 "Nucifraga_columbiana",1
 "Nucras_tessellata",1
+"Oblada_melanura",1
 "Oceanites_oceanicus",1
 "Ocinebrina_lurida",1
 "Odorrana_swinhoana",1
@@ -492,6 +502,7 @@
 "Plica_plica",1
 "Plica_umbra",1
 "Pontaster_tenuispinus",1
+"Ponticola_kessleri",1
 "Potamites_ecpleopus",1
 "Potamites_juruazensis",1
 "Pristobrycon",1
@@ -524,6 +535,7 @@
 "Sagitta_gazellae",1
 "Salamandra_corsica",1
 "Salamandrina_perspicillata",1
+"Sander_lucioperca",1
 "Sceloporus_magister",1
 "Sclerophrys_garmani",1
 "Scytodes_longipes",1
@@ -531,6 +543,7 @@
 "Serrapinnus_notomelas",1
 "Somateria_mollissima",1
 "Spea_multiplicata",1
+"Sphyrna_zygaena",1
 "Strophurus_ciliaris",1
 "Strophurus_elderi",1
 "Strophurus_strophurus",1
@@ -546,7 +559,6 @@
 "Thamnophis_rufipunctatus",1
 "Thecadactylus_rapicauda",1
 "Thrissacanthias_penicillatus",1
-"Thunnus_albacares",1
 "Timon_lepidus",1
 "Tomopterna_cryptotis",1
 "Tosia_australis",1
