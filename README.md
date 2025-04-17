@@ -1,16 +1,16 @@
-# FracFeed Database
+# FracFeed: Global database of the fraction of feeding predators
 
 A compilation of predator diet surveys that report on the proportion of "empty stomachs" or "not feeding individuals" (i.e., the *Frac*tion of *Feed*ing individuals).
 
 
-This main directory contains the complete, curated, and quality-controlled *FracFeed* database:
+This main directory contains the complete, quality-controlled *FracFeed* database:
 
-* *FracFeed_Data.csv* and *FracFeed_Data.Rdata*
+* *FracFeed_Data.csv*
 * *FracFeed_Data_Metadata.csv*
 * *FracFeed_Citations.csv*
 * *FracFeed_Citations_BodyMass.csv*
 
-(The equivalent files in [*/tmp*](tmp) have not been quality-controlled.)
+(The equivalent files in [*/tmp*](tmp) have not completed final quality-control.)
 
 Taxonomic standardization uses the [Open Tree of Life](https://opentreeoflife.github.io/) through the [rotl package](https://cran.r-project.org/web/packages/rotl/index.html).
 
@@ -25,6 +25,9 @@ Taxonomic standardization uses the [Open Tree of Life](https://opentreeoflife.gi
 ## Data sources
 To view all studies included in the database, see the README of [Bib](Bib).
 The database includes the compilations of [Huey et al. 2001](https://doi.org/10.1890/0012-9658(2001)082[0001:HODLRO]2.0.CO;2) and [Arrington et al. 2002](https://doi.org/10.1890/0012-9658(2002)083[2145:HODFRO]2.0.CO;2).
+
+## Citation
+Forthcoming.  For now, please see [FigShare: doi.org/10.6084/m9.figshare.13139705](https://doi.org/10.6084/m9.figshare.13139705).
 
 ## Funding
 The compilation of this database began with the support of a National Science Foundation award [DEB-1353827](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1353827&HistoricalAwards=false).
