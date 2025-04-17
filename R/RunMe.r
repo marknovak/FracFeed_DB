@@ -219,6 +219,19 @@ write.csv(
   row.names = FALSE
 )
 
+# Summary stats
+SummFile <- '../tmp/SummaryStats.txt'
+sink(file = SummFile)
+print(paste("The database includes a total of",
+            nrow(fdatc), "surveys of",
+            length(unique(fdatc$ConID)), "taxa from",
+            length(unique(fdatc$Cite)), "studies."))
+print(paste("Date range:", 
+            paste(range(fdatc$Yr, na.rm = TRUE), collapse = ' to ')))
+print(paste("Latitude range:", 
+            paste(range(fdatc$Lat, na.rm = TRUE), collapse = ' to ')))
+sink()
+
 message("
 \n******************************************************************
 ******************************************************************
@@ -228,7 +241,7 @@ If these data are 'good to use',
   manually move or copy them into the repository's main directory.
 ******************************************************************
 ******************************************************************")
-
+        
 ##############################################################################
 ##############################################################################
 ##############################################################################
