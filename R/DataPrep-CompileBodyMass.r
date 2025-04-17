@@ -225,348 +225,355 @@ if (DataRetrieve) {
 # # unlink('EOL_Traits')
 
 ##################################
-##########################################################################
-# Brown, J. H., C. A. S. Hall, and R. M. Sibly. 2018.
-# Equal fitness paradigm explained by a trade-off between generation time and energy production rate.
-# Nature Ecology & Evolution 2:262-268.
+if(regBMcompilations){
 ##################################
-dat1 <-
-  read.csv('Brown_etal_2018/41559_2017_430_MOESM3_ESM.csv')
-dat1$taxon <- paste(dat1$Genus, dat1$Species)
-dat1 <-
-  dat1[, c('taxon', 'Dry.mass.g')]
-colnames(dat1) <- c('taxon', 'mass_g')
-dat1 <-
-  ddply(
-    dat1,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
+  
+  ##########################################################################
+  # Brown, J. H., C. A. S. Hall, and R. M. Sibly. 2018.
+  # Equal fitness paradigm explained by a trade-off between generation time and energy production rate.
+  # Nature Ecology & Evolution 2:262-268.
+  ##################################
+  dat1 <-
+    read.csv('Brown_etal_2018/41559_2017_430_MOESM3_ESM.csv')
+  dat1$taxon <- paste(dat1$Genus, dat1$Species)
+  dat1 <-
+    dat1[, c('taxon', 'Dry.mass.g')]
+  colnames(dat1) <- c('taxon', 'mass_g')
+  dat1 <-
+    ddply(
+      dat1,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  
+  dat2 <-
+    read.csv('Brown_etal_2018/41559_2017_430_MOESM2_ESM.csv')
+  dat2$taxon <- gsub('.*: (.*)', '\\1', dat2$Taxon2)
+  dat2 <- dat2[, c('taxon', 'Body.mass.g')]
+  colnames(dat2) <- c('taxon', 'mass_g')
+  dat2 <-
+    ddply(
+      dat2,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  
+  adat <- rbind(dat1, dat2)
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = sum(n)
+    )
+  adat$source <- 'Brown_etal_2018'
+  BR <- adat
+  save(BR, file = 'BodyMass_Brown_etal_2018.Rdata')
+  
+  
+  ##########################################################################
+  # F. A. Smith, S. K. Lyons, S. K. M. Ernest, K. E. Jones, D. M. Kaufman, T. Dayan, P. A. Marquet, J. H. Brown, and J. P. Haskell. Body mass of late quaternary mammals (v.10.2). Ecology, 84(12):3403–3403, 2019/08/01 2003.
+  ##################################
+  adat <- read.csv('Smith_etal_2003/MOMv10.2.csv')
+  adat <- adat[, c('Genus', 'Species', 'Combined.Mass..g.')]
+  adat$taxon <- paste(adat$Genus, adat$Species, sep = '_')
+  colnames(adat)[3] <- 'mass_g'
+  adat <- adat[, c('taxon', 'mass_g')]
+  adat <- FixNames(adat)
+  adat <- adat[which(adat$mass_g != -999), ]
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Smith_2003'
+  MM <- adat
+  save(MM, file = 'BodyMass_Smith_2003.Rdata')
+  
+  
+  ##########################################################################
+  # Anderson, D. M., and J. F. Gillooly. 2017.
+  # Physiological constraints on long-term population cycles: a broad-scale view.
+  # Evolutionary Ecology Research 18:693-707.
+  ##################################
+  adat <-
+    read.csv('AndersonGillooly_2017/AndersonGillooly_2017_EER_data.csv')
+  adat <- adat[, c('Species', 'Mass_g')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'AndersonGillooly_2017'
+  AG <- adat
+  save(AG, file = 'BodyMass_AndersonGillooly_2017.Rdata')
+  
+  
+  
+  ##########################################################################
+  # Simon Jennings, John K. Pinnegar, Nicholas V. C. Polunin, Karema J. Warr
+  # Linking size-based and trophic analyses of benthic community structure
+  # MEPS Vol. 226: 77–85, 2002
+  ##################################
+  adat <- read.csv('Jennings_2002/Jennings_2002.csv')
+  adat <- adat[, c('Species', 'Mean_mass_g')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      n = length(mass_g)
+    )
+  adat$source <- 'Jennings_2002'
+  JE <- adat
+  save(JE, file = 'BodyMass_Jennings_2002.Rdata')
+  
+  ##########################################################################
+  # Lislevand, T., J. Figuerola, and T. Székely. 2007.
+  # AVIAN BODY SIZES IN RELATION TO FECUNDITY, MATING SYSTEM, DISPLAY BEHAVIOR, AND RESOURCE SHARING.
+  # Ecology 88:1605-1605.
+  ##################################
+  adat <-
+    read.table(
+      'Lislevand_etal_2007/avian_ssd_jan07.txt',
+      sep = '\t',
+      header = TRUE
+    )
+  adat <- adat[, c('Species_name', 'M_mass', 'F_mass', 'unsexed_mass')]
+  colnames(adat)[1] <- c('taxon')
+  adat[which(adat == '-999', arr.ind = TRUE)] <- NA
+  adat$mass_g <- apply(adat[, -1], 1, mean, na.rm = TRUE)
+  adat <- adat[, c('taxon', 'mass_g')]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      gen_time_days = NA,
+      n = length(mass_g)
+    )
+  adat$source <- 'Lislevand_etal_2007'
+  LI <- adat
+  save(LI, file = 'BodyMass_Lislevand_etal_2007.Rdata')
+  
+  ##########################################################################
+  # Eklöf, J., Å. Austin, U. Bergström, S. Donadi, B. D. H. K. Eriksson, J. Hansen, and G. Sundblad. 2017.
+  # Size matters: relationships between body size and body mass of common coastal, aquatic invertebrates in the Baltic Sea.
+  # PeerJ 5:e2906.
+  adat <-
+    read.csv('Eklof_etal_2017/Eklof_etal_2017.csv',
+             header = TRUE)
+  adat <- adat[, c('Taxa', 'DW')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Eklof_etal_2017'
+  EK <- adat
+  save(EK, file = 'BodyMass_Eklof_etal_2017.Rdata')
+  
+  ##########################################################################
+  # Feldman, A., N. Sabath, R. A. Pyron, I. Mayrose, and S. Meiri. 2016. Body sizes and diversification rates of lizards, snakes, amphisbaenians and the tuatara. Global Ecology and Biogeography 25:187-197.
+  adat <-
+    read.csv('Feldman_etal_2016/Appendix S1 - Lepidosaur body sizes.csv',
+             header = TRUE)
+  adat <- adat[, c('binomial', 'mass..g.')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Feldman_etal_2016'
+  FE <- adat
+  save(FE, file = 'BodyMass_Feldman_etal_2016.Rdata')
+  
+  ##########################################################################
+  # Killen, S. S., D. S. Glazier, E. L. Rezende, T. D. Clark, D. Atkinson, A. S. T. Willener, and L. G. Halsey. 2016. Ecological Influences and Morphological Correlates of Resting and Maximal Metabolic Rates across Teleost Fish Species. The American Naturalist 187:592-606.
+  adat <-
+    read.csv('Killen_etal_2016/TableS1.csv', header = TRUE)
+  adat <- adat[, c('species', 'MMRmass')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Killen_etal_2016'
+  KI <- adat
+  save(KI, file = 'BodyMass_Killen_etal_2016.Rdata')
+  
+  ##########################################################################
+  # Tucker, M. A., and T. L. Rogers. 2014. Examining predator–prey body size, trophic level and body mass across marine and terrestrial mammals. Proceedings of the Royal Society B: Biological Sciences 281.
+  adat <-
+    read.csv('Tucker_etal_2014a/TrophicLevel_Appendix1.csv',
+             header = TRUE)
+  adat <- adat[, c('Taxon', 'Mass..log10.kg.')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <-
+    (10 ^ adat$mass_g) * 1000 # convert natural scale and then to grams
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Tucker_etal_2014a'
+  TU1 <- adat
+  save(TU1, file = 'BodyMass_Tucker_etal_2014a.Rdata')
+  
+  ##########################################################################
+  # Tucker, M. A., T. J. Ord, and T. L. Rogers. 2014. Evolutionary predictors of mammalian home range size: body mass, diet and the environment. Global Ecology and Biogeography 23:1105-1114.
+  adat <-
+    read.csv('Tucker_etal_2014b/Tucker_etal_2014b.csv',
+             header = TRUE)
+  adat <- adat[, c('Taxon', 'log10.Mass..kg.')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <-
+    (10 ^ adat$mass_g) * 1000 # convert to natural scale and then to grams
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Tucker_etal_2014b'
+  TU2 <- adat
+  save(TU2, file = 'BodyMass_Tucker_etal_2014b.Rdata')
+  
+  ##########################################################################
+  # Hirt, M. R., W. Jetz, B. C. Rall, and U. Brose. 2017. A general scaling law reveals why the largest animals are not the fastest. Nature Ecology & Evolution 1:1116-1122.
+  adat <-
+    read.csv('Hirt_etal_2017/Hirt_etal_2017.csv', header = TRUE)
+  adat <- adat[, c('species', 'body.mass..kg.')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- adat$mass_g * 1000 # convert to grams
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Hirt_etal_2017'
+  HI <- adat
+  save(HI, file = 'BodyMass_Hirt_etal_2017.Rdata')
+  
+  ##########################################################################
+  # Gillooly, J. F., J. P. Gomez, E. V. Mavrodiev, Y. Rong, and E. S. McLamore. 2016. Body mass scaling of passive oxygen diffusion in endotherms and ectotherms. Proceedings of the National Academy of Sciences 113:5340-5345.
+  adat <-
+    read.csv('Gillooly_etal_2016/Gillooly_etal_2016.csv',
+             header = TRUE)
+  adat$taxon <- paste(adat$Genus, adat$Species)
+  adat <- adat[, c('taxon', 'M')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Gillooly_etal_2016'
+  GI <- adat
+  save(GI, file = 'BodyMass_Gillooly_etal_2016.Rdata')
+  
+  ##########################################################################
+  # Quaardvark from ADW https://animaldiversity.ummz.umich.edu/quaardvark/
+  adat <-
+    read.csv('Quaardvark/report-201802270108.csv',
+             header = TRUE)
+  adat <- adat[, c(1:5, 8:9)]
+  adat[which(adat == 0, arr.ind = TRUE)] <- NA
+  nNAdat <- !is.na(adat)
+  dat1 <-
+    adat[which(nNAdat[, 2] == TRUE), c(1, 2)]
+  colnames(dat1) <- c('taxon', 'mass_g')
+  dat2 <-
+    adat[which(nNAdat[, 2] == FALSE &
+                nNAdat[, 3] == TRUE), c(1, 3)]
+  colnames(dat2) <- c('taxon', 'mass_g')
+  adat <- rbind(dat1, dat2)
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'Quaardvark'
+  AA <- adat
+  save(AA, file = 'BodyMass_Quaardvark.Rdata')
+  
+  ##########################################################################
+  # AnAge - Tacutu, R., Craig, T., Budovsky, A., Wuttke, D., Lehmann, G., Taranukha, D., Costa, J., Fraifeld, V. E., de Magalhaes, J. P. (2013) "Human Ageing Genomic Resources: Integrated databases and tools for the biology and genetics of ageing." Nucleic Acids Research 41(D1):D1027-D1033
+  adat <- read.csv('AnAge/AnAge_data.csv', header = TRUE)
+  adat$taxon <- paste(adat$Genus, adat$Species)
+  adat <-
+    adat[, c('taxon',
+            'Adult.weight..g.',
+            'Body.mass..g.')]
+  colnames(adat) <- c('taxon', 'a.mass_g', 'mass_g')
+  adat$mass_g[is.na(adat$mass_g) &
+               !is.na(adat$a.mass_g)] <-
+    adat$a.mass_g[is.na(adat$mass_g) & !is.na(adat$a.mass_g)]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  adat$source <- 'AnAge'
+  AN <- adat[!is.na(adat$mass_g), ]
+  save(AN, file = 'BodyMass_AnAge.Rdata')
 
-dat2 <-
-  read.csv('Brown_etal_2018/41559_2017_430_MOESM2_ESM.csv')
-dat2$taxon <- gsub('.*: (.*)', '\\1', dat2$Taxon2)
-dat2 <- dat2[, c('taxon', 'Body.mass.g')]
-colnames(dat2) <- c('taxon', 'mass_g')
-dat2 <-
-  ddply(
-    dat2,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-
-adat <- rbind(dat1, dat2)
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = sum(n)
-  )
-adat$source <- 'Brown_etal_2018'
-BR <- adat
-save(BR, file = 'BodyMass_Brown_etal_2018.Rdata')
-
-
-##########################################################################
-# F. A. Smith, S. K. Lyons, S. K. M. Ernest, K. E. Jones, D. M. Kaufman, T. Dayan, P. A. Marquet, J. H. Brown, and J. P. Haskell. Body mass of late quaternary mammals (v.10.2). Ecology, 84(12):3403–3403, 2019/08/01 2003.
 ##################################
-adat <- read.csv('Smith_etal_2003/MOMv10.2.csv')
-adat <- adat[, c('Genus', 'Species', 'Combined.Mass..g.')]
-adat$taxon <- paste(adat$Genus, adat$Species, sep = '_')
-colnames(adat)[3] <- 'mass_g'
-adat <- adat[, c('taxon', 'mass_g')]
-adat <- FixNames(adat)
-adat <- adat[which(adat$mass_g != -999), ]
-adat <-
-  ddply(adat,
-        .(taxon),
-        summarise,
-        mass_g = gmean(mass_g),
-        n = length(mass_g))
-adat$source <- 'Smith_2003'
-MM <- adat
-save(MM, file = 'BodyMass_Smith_2003.Rdata')
-
-
-##########################################################################
-# Anderson, D. M., and J. F. Gillooly. 2017.
-# Physiological constraints on long-term population cycles: a broad-scale view.
-# Evolutionary Ecology Research 18:693-707.
+}
 ##################################
-adat <-
-  read.csv('AndersonGillooly_2017/AndersonGillooly_2017_EER_data.csv')
-adat <- adat[, c('Species', 'Mass_g')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'AndersonGillooly_2017'
-AG <- adat
-save(AG, file = 'BodyMass_AndersonGillooly_2017.Rdata')
-
-
-
-##########################################################################
-# Simon Jennings, John K. Pinnegar, Nicholas V. C. Polunin, Karema J. Warr
-# Linking size-based and trophic analyses of benthic community structure
-# MEPS Vol. 226: 77–85, 2002
-##################################
-adat <- read.csv('Jennings_2002/Jennings_2002.csv')
-adat <- adat[, c('Species', 'Mean_mass_g')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    n = length(mass_g)
-  )
-adat$source <- 'Jennings_2002'
-JE <- adat
-save(JE, file = 'BodyMass_Jennings_2002.Rdata')
-
-##########################################################################
-# Lislevand, T., J. Figuerola, and T. Székely. 2007.
-# AVIAN BODY SIZES IN RELATION TO FECUNDITY, MATING SYSTEM, DISPLAY BEHAVIOR, AND RESOURCE SHARING.
-# Ecology 88:1605-1605.
-##################################
-adat <-
-  read.table(
-    'Lislevand_etal_2007/avian_ssd_jan07.txt',
-    sep = '\t',
-    header = TRUE
-  )
-adat <- adat[, c('Species_name', 'M_mass', 'F_mass', 'unsexed_mass')]
-colnames(adat)[1] <- c('taxon')
-adat[which(adat == '-999', arr.ind = TRUE)] <- NA
-adat$mass_g <- apply(adat[, -1], 1, mean, na.rm = TRUE)
-adat <- adat[, c('taxon', 'mass_g')]
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    gen_time_days = NA,
-    n = length(mass_g)
-  )
-adat$source <- 'Lislevand_etal_2007'
-LI <- adat
-save(LI, file = 'BodyMass_Lislevand_etal_2007.Rdata')
-
-##########################################################################
-# Eklöf, J., Å. Austin, U. Bergström, S. Donadi, B. D. H. K. Eriksson, J. Hansen, and G. Sundblad. 2017.
-# Size matters: relationships between body size and body mass of common coastal, aquatic invertebrates in the Baltic Sea.
-# PeerJ 5:e2906.
-adat <-
-  read.csv('Eklof_etal_2017/Eklof_etal_2017.csv',
-           header = TRUE)
-adat <- adat[, c('Taxa', 'DW')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Eklof_etal_2017'
-EK <- adat
-save(EK, file = 'BodyMass_Eklof_etal_2017.Rdata')
-
-##########################################################################
-# Feldman, A., N. Sabath, R. A. Pyron, I. Mayrose, and S. Meiri. 2016. Body sizes and diversification rates of lizards, snakes, amphisbaenians and the tuatara. Global Ecology and Biogeography 25:187-197.
-adat <-
-  read.csv('Feldman_etal_2016/Appendix S1 - Lepidosaur body sizes.csv',
-           header = TRUE)
-adat <- adat[, c('binomial', 'mass..g.')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Feldman_etal_2016'
-FE <- adat
-save(FE, file = 'BodyMass_Feldman_etal_2016.Rdata')
-
-##########################################################################
-# Killen, S. S., D. S. Glazier, E. L. Rezende, T. D. Clark, D. Atkinson, A. S. T. Willener, and L. G. Halsey. 2016. Ecological Influences and Morphological Correlates of Resting and Maximal Metabolic Rates across Teleost Fish Species. The American Naturalist 187:592-606.
-adat <-
-  read.csv('Killen_etal_2016/TableS1.csv', header = TRUE)
-adat <- adat[, c('species', 'MMRmass')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Killen_etal_2016'
-KI <- adat
-save(KI, file = 'BodyMass_Killen_etal_2016.Rdata')
-
-##########################################################################
-# Tucker, M. A., and T. L. Rogers. 2014. Examining predator–prey body size, trophic level and body mass across marine and terrestrial mammals. Proceedings of the Royal Society B: Biological Sciences 281.
-adat <-
-  read.csv('Tucker_etal_2014a/TrophicLevel_Appendix1.csv',
-           header = TRUE)
-adat <- adat[, c('Taxon', 'Mass..log10.kg.')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat$mass_g <-
-  (10 ^ adat$mass_g) * 1000 # convert natural scale and then to grams
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Tucker_etal_2014a'
-TU1 <- adat
-save(TU1, file = 'BodyMass_Tucker_etal_2014a.Rdata')
-
-##########################################################################
-# Tucker, M. A., T. J. Ord, and T. L. Rogers. 2014. Evolutionary predictors of mammalian home range size: body mass, diet and the environment. Global Ecology and Biogeography 23:1105-1114.
-adat <-
-  read.csv('Tucker_etal_2014b/Tucker_etal_2014b.csv',
-           header = TRUE)
-adat <- adat[, c('Taxon', 'log10.Mass..kg.')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat$mass_g <-
-  (10 ^ adat$mass_g) * 1000 # convert to natural scale and then to grams
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Tucker_etal_2014b'
-TU2 <- adat
-save(TU2, file = 'BodyMass_Tucker_etal_2014b.Rdata')
-
-##########################################################################
-# Hirt, M. R., W. Jetz, B. C. Rall, and U. Brose. 2017. A general scaling law reveals why the largest animals are not the fastest. Nature Ecology & Evolution 1:1116-1122.
-adat <-
-  read.csv('Hirt_etal_2017/Hirt_etal_2017.csv', header = TRUE)
-adat <- adat[, c('species', 'body.mass..kg.')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat$mass_g <- adat$mass_g * 1000 # convert to grams
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Hirt_etal_2017'
-HI <- adat
-save(HI, file = 'BodyMass_Hirt_etal_2017.Rdata')
-
-##########################################################################
-# Gillooly, J. F., J. P. Gomez, E. V. Mavrodiev, Y. Rong, and E. S. McLamore. 2016. Body mass scaling of passive oxygen diffusion in endotherms and ectotherms. Proceedings of the National Academy of Sciences 113:5340-5345.
-adat <-
-  read.csv('Gillooly_etal_2016/Gillooly_etal_2016.csv',
-           header = TRUE)
-adat$taxon <- paste(adat$Genus, adat$Species)
-adat <- adat[, c('taxon', 'M')]
-colnames(adat) <- c('taxon', 'mass_g')
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Gillooly_etal_2016'
-GI <- adat
-save(GI, file = 'BodyMass_Gillooly_etal_2016.Rdata')
-
-##########################################################################
-# Quaardvark from ADW https://animaldiversity.ummz.umich.edu/quaardvark/
-adat <-
-  read.csv('Quaardvark/report-201802270108.csv',
-           header = TRUE)
-adat <- adat[, c(1:5, 8:9)]
-adat[which(adat == 0, arr.ind = TRUE)] <- NA
-nNAdat <- !is.na(adat)
-dat1 <-
-  adat[which(nNAdat[, 2] == TRUE), c(1, 2)]
-colnames(dat1) <- c('taxon', 'mass_g')
-dat2 <-
-  adat[which(nNAdat[, 2] == FALSE &
-              nNAdat[, 3] == TRUE), c(1, 3)]
-colnames(dat2) <- c('taxon', 'mass_g')
-adat <- rbind(dat1, dat2)
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'Quaardvark'
-AA <- adat
-save(AA, file = 'BodyMass_Quaardvark.Rdata')
-
-##########################################################################
-# AnAge - Tacutu, R., Craig, T., Budovsky, A., Wuttke, D., Lehmann, G., Taranukha, D., Costa, J., Fraifeld, V. E., de Magalhaes, J. P. (2013) "Human Ageing Genomic Resources: Integrated databases and tools for the biology and genetics of ageing." Nucleic Acids Research 41(D1):D1027-D1033
-adat <- read.csv('AnAge/AnAge_data.csv', header = TRUE)
-adat$taxon <- paste(adat$Genus, adat$Species)
-adat <-
-  adat[, c('taxon',
-          'Adult.weight..g.',
-          'Body.mass..g.')]
-colnames(adat) <- c('taxon', 'a.mass_g', 'mass_g')
-adat$mass_g[is.na(adat$mass_g) &
-             !is.na(adat$a.mass_g)] <-
-  adat$a.mass_g[is.na(adat$mass_g) & !is.na(adat$a.mass_g)]
-adat <- FixNames(adat)
-adat <-
-  ddply(
-    adat,
-    .(taxon),
-    summarise,
-    mass_g = gmean(mass_g),
-    n = length(mass_g)
-  )
-adat$source <- 'AnAge'
-AN <- adat[!is.na(adat$mass_g), ]
-save(AN, file = 'BodyMass_AnAge.Rdata')
 
 ##########################################################################
 ##########################################################################

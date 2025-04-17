@@ -13,6 +13,9 @@ promptNext <- FALSE
 # the highest matching score.
 select_max_score <- TRUE
 
+# Regenerate body mass compilations
+regBMcompilations <- FALSE
+
 # CAREFUL HERE: 
 # Erase previously saved matches and start over
 matchAllTaxa <- FALSE
