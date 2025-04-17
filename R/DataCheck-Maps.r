@@ -32,7 +32,7 @@ p = ggplot() +
   coord_sf(expand = FALSE) +
   labs(x = "",
        y = "", 
-       title = paste(nrow(ldat), 'of', nrow(dat), 'surveys shown')) +
+       title = paste(nrow(ldat), 'of', nrow(dat), 'surveys have Lat-Long information')) +
   geom_point(data = ldat, 
              aes(x = Longitude, 
                  y = Latitude, 
@@ -43,6 +43,9 @@ p = ggplot() +
   theme(panel.background = element_rect(fill = "grey", 
                                         colour = "white"),
         legend.key.size = unit(0.3, 'cm'),
+        legend.text = element_text(size = 6),
+        legend.title = element_text(size = 8),
+        plot.title = element_text(size = 8),
         plot.margin = grid::unit(c(-15,0,-25,0), "mm"),
         axis.ticks = element_blank(),
         axis.text = element_blank())
@@ -62,7 +65,7 @@ p = ggplot() +
   coord_sf(expand = FALSE) +
   labs(x = "",
        y = "", 
-       title = paste(nrow(ldat), 'of', nrow(dat), 'surveys shown')) +
+       title = paste(nrow(ldat), 'of', nrow(dat), 'surveys have Lat-Long information')) +
   geom_point(data = ldat, 
              aes(x = Longitude, 
                  y = Latitude, 
@@ -72,6 +75,9 @@ p = ggplot() +
   theme(panel.background = element_rect(fill = "grey", 
                                         colour = "white"),
         legend.key.size = unit(0.3, 'cm'),
+        legend.text = element_text(size = 6),
+        legend.title = element_text(size = 8),
+        plot.title = element_text(size = 8),
         plot.margin = grid::unit(c(-15,0,-25,0), "mm"),
         axis.ticks = element_blank(),
         axis.text = element_blank())
