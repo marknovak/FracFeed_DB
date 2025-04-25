@@ -226,7 +226,8 @@ write.csv(
 SummFile <- '../tmp/SummaryStats.txt'
 sink(file = SummFile)
 print(paste("The database includes a total of",
-            nrow(fdatc), "surveys of",
+            nrow(fdatc), "surveys of at least",
+            sum(fdatc$TSc), "individuals from ",
             length(unique(fdatc$ConID)), "taxa from",
             length(unique(fdatc$Cite)), "studies."))
 print(paste("Date range:", 
