@@ -319,7 +319,8 @@ ok <- c('Bucephala.clangula',
         'Syngnathus.typhle',
         'Perca.fluviatilis',
         'Neogobius.melanostomus',
-        'Salvelinus.alpinus'
+        'Salvelinus.alpinus',
+        'Natrix.sipedon'
         )
 tab <- tab[!(names(tab) %in% ok)]
 err.me <-
