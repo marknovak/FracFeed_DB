@@ -233,6 +233,15 @@ a Tropical Mountain River.” *Neotropical Ichthyology* 7 (4): 693–700.
 
 </div>
 
+<div id="ref-Bandeira:2018aa" class="csl-entry" markdown="1">
+
+Bandeira, Victor, Emı́lio Virgós, João Carvalho, Tânia Barros, Mónica V
+Cunha, and Carlos Fonseca. 2018. “Diet Footprint of Egyptian Mongoose
+Along Ecological Gradients: Effects of Primary Productivity and Life
+History Traits.” *Mammalian Biology* 88: 16–25.
+
+</div>
+
 <div id="ref-Baranovskaya:1935aa" class="csl-entry" markdown="1">
 
 Baranovskaya, TN, and AM Kolosov. 1935. “Food Habits of the Fox (Vulpes
@@ -306,6 +315,15 @@ Marine Shore Invertebrates.” *Oikos*, 152–57.
 
 </div>
 
+<div id="ref-Bengtsson:2023aa" class="csl-entry" markdown="1">
+
+Bengtsson, Olof, Christian Lydersen, Guttorm Christensen, Jan Marcin
+Weslawski, and Kit M Kovacs. 2023. “Marine Diets of Anadromous Arctic
+Char (Salvelinus Alpinus) and Pink Salmon (Oncorhynchus Gorbuscha) in
+Svalbard, Norway.” *Polar Biology* 46 (11): 1219–34.
+
+</div>
+
 <div id="ref-Berazategui:2007wl" class="csl-entry" markdown="1">
 
 Berazategui, Mauro, Arley Camargo, and Raúl Maneyro. 2007.
@@ -321,6 +339,14 @@ Berchtold, AE, SF Colborne, FJ Longstaffe, and BD Neff. 2015.
 “Ecomorphological Patterns Linking Morphology and Diet Across Three
 Populations of Pumpkinseed Sunfish (Lepomis Gibbosus).” *Canadian
 Journal of Zoology* 93 (4): 289–97.
+
+</div>
+
+<div id="ref-Berg:2002aa" class="csl-entry" markdown="1">
+
+Berg, Inge, Tore Haug, and Kjell T Nilssen. 2002. “Harbour Seal (Phoca
+Vitulina) Diet in Vesteralen, North Norway.” *Sarsia: North Atlantic
+Marine Science* 87 (6): 451–61.
 
 </div>
 
@@ -1037,6 +1063,23 @@ Food and Substrate Heterogeneity.” *MARINE ECOLOGY PROGRESS SERIES* 291:
 
 </div>
 
+<div id="ref-Djait:2019aa" class="csl-entry" markdown="1">
+
+Djait, Houda, Lilia Bahri-Sfar, Houcine Laouar, Néjiba MiSSaoui, and Oum
+Kalthoum Ben Hassine. 2019. “Dietary Comparison of Pike-Perch, Sander
+Lucioperca (Linnaeus, 1758) and Catfish, Silurus Glanis Linnaeus, 1758
+in Sidi Salem Dam Reservoir (Tunisia).” *Cybium* 43 (1): 61–69.
+
+</div>
+
+<div id="ref-Dominguez:2000aa" class="csl-entry" markdown="1">
+
+Dominguez, J, and JC Pena. 2000. “Spatio-Temporal Variation in the Diet
+of Northern Pike (Esox Lucius) in a Colonised Area (Esla Basin, NW
+Spain).” *Limnetica* 19: 1–20.
+
+</div>
+
 <div id="ref-dosReis:1996us" class="csl-entry" markdown="1">
 
 dosReis, SF, JP Pombal, JL Nessimian, and LM Pessoa. 1996. “Altitudinal
@@ -1147,6 +1190,14 @@ Atlantic Puffins (Fratercula Arctica) in the Northeast Atlantic.”
 
 </div>
 
+<div id="ref-Falke:2024aa" class="csl-entry" markdown="1">
+
+Falke, Landon P, Brian E Smith, Stacy Rowe, Rebecca J Peters, and
+Timothy F Sheehan. 2024. “Trophic Ecology of Groundfishes in Nearshore
+Areas of the Gulf of Maine.” *Journal of Fish Biology*.
+
+</div>
+
 <div id="ref-Fanelli:2004wy" class="csl-entry" markdown="1">
 
 Fanelli, Emanuela, and Joan E. Cartes. 2004. “Feeding Habits of Pandalid
@@ -1185,6 +1236,15 @@ Mountain and Seal Salamanders.” *Northeastern Naturalist* 13 (4):
 Fenchel, Tom. 1965. “Feeding Biology of the Sea-Star Luidia Sarsi düben
 & Koren.” *Ophelia* 2 (2): 223–36.
 <https://doi.org/10.1080/00785326.1965.10409601>.
+
+</div>
+
+<div id="ref-Fernandes:2024aa" class="csl-entry" markdown="1">
+
+Fernandes, Timothy J, Brian J Shuter, and Bailey C McMeans. 2024. “Do
+Invasive Terrestrial Invertebrates Subsidize North-Temperate Fish
+Populations? The Case of the Spongy Moth (Lymantria Dispar Dispar).”
+*Food Webs* 40: e00357.
 
 </div>
 
@@ -1285,6 +1345,14 @@ Jan A Van Franeker, Erik HWG Meesters, and Filip AM Volckaert. 2008.
 “Distribution, Abundance and Ecological Relevance of Pelagic Fishes in
 the Lazarev Sea, Southern Ocean.” *Marine Ecology Progress Series* 367:
 271–82.
+
+</div>
+
+<div id="ref-Force:1935aa" class="csl-entry" markdown="1">
+
+Force, Edith R. 1935. “A LOCAL STUDY OF THE OPISTHOGLYPH SNAKE TANTILLA
+GRACILIS BAIRD AND GIRARD.” *Papers Michigan Acade Sci Arts Letters* 20:
+645–59.
 
 </div>
 
@@ -2031,6 +2099,15 @@ Herpetology* 32 (3): 447–52.
 
 </div>
 
+<div id="ref-Kangur:1998aa" class="csl-entry" markdown="1">
+
+Kangur, Andu, and Peeter Kangur. 1998. “Diet Composition and
+Size-Related Changes in the Feeding of Pikeperch, Stizostedion
+Lucioperca (Percidae) and Pike, Esox Lucius (Esocidae) in the Lake
+Peipsi (Estonia).” *Italian Journal of Zoology* 65 (S1): 255–59.
+
+</div>
+
 <div id="ref-Kehayias:1996to" class="csl-entry" markdown="1">
 
 Kehayias, G, J Lykakis, and N Fragopoulu. 1996. “The Diets of the
@@ -2068,6 +2145,14 @@ Southern Brazil Wetlands.” *Italian Journal of Zoology* 80 (2): 291–302.
 Kerle, Robert, Ralf Britz, and Peter KL Ng. 2000. “Habitat Preference,
 Reproduction and Diet of the Earthworm Eel, Chendol Keelini (Teleostei:
 Chaudhuriidae).” *Environmental Biology of Fishes* 57 (4): 413–22.
+
+</div>
+
+<div id="ref-Keskinen:2004aa" class="csl-entry" markdown="1">
+
+Keskinen, T, and TJ Marjomäki. 2004. “Diet and Prey Size Spectrum of
+Pikeperch in Lakes in Central Finland.” *Journal of Fish Biology* 65
+(4): 1147–53.
 
 </div>
 
@@ -2264,6 +2349,15 @@ Ross Sea.” *Hydrobiologia* 761 (1): 249–59.
 
 </div>
 
+<div id="ref-Lanszki:2014aa" class="csl-entry" markdown="1">
+
+Lanszki, József, Éva A Bauer-Haáz, Gabriella L Széles, and Miklós
+Heltai. 2014. “Diet and Feeding Habits of the Eurasian Otter (Lutra
+Lutra): Experiences from Post Mortem Analysis.” *Mammal Study* 40 (1):
+1–11.
+
+</div>
+
 <div id="ref-Lanszki:2007wx" class="csl-entry" markdown="1">
 
 Lanszki, József, and Miklós HeLtai. 2007. “Diet of the Weasel in
@@ -2358,6 +2452,15 @@ Southwestern Atlantic Ocean.” *Marine Mammal Science* 40 (1): 26–53.
 Lin, Chia-Fan, and Ming-Chung Tu. 2008. “Food Habits of the Taiwanese
 Mountain Pitviper, Trimeresurus Gracilis.” *Zoological Studies* 47 (6):
 697–703.
+
+</div>
+
+<div id="ref-Lisboa:2012aa" class="csl-entry" markdown="1">
+
+Lisboa, Carolina MCA, Raul FD Sales, and Eliza MX Freire. 2012. “Feeding
+Ecology of the Pygmy Gecko Coleodactylus Natalensis (Squamata:
+Sphaerodactylidae) in the Brazilian Atlantic Forest.” *Zoologia
+(Curitiba)* 29: 293–99.
 
 </div>
 
@@ -2507,6 +2610,15 @@ Research* 51 (3): 233–40.
 
 </div>
 
+<div id="ref-Magnusdottir:2012aa" class="csl-entry" markdown="1">
+
+Magnusdottir, Rannveig, Robert A Stefansson, Menja von Schmalensee,
+David W Macdonald, and Pall Hersteinsson. 2012. “Habitat-and Sex-Related
+Differences in a Small Carnivore’s Diet in a Competitor-Free
+Environment.” *European Journal of Wildlife Research* 58: 669–76.
+
+</div>
+
 <div id="ref-Mahan:2007vu" class="csl-entry" markdown="1">
 
 Mahan, Rachel D, and Jarrett R Johnson. 2007. “Diet of the Gray Treefrog
@@ -2617,6 +2729,15 @@ Pisaster Ochraceus.” *The Biological Bulletin* 131 (1): 127–44.
 
 </div>
 
+<div id="ref-Mazzotti:2020aa" class="csl-entry" markdown="1">
+
+Mazzotti, Frank J, Jennifer H Nestler, Jenna M Cole, Colleen Closius,
+William H Kern, Michael R Rochford, Eric Suarez, et al. 2020. “Diet of
+Nile Monitors (Varanus Niloticus) Removed from Palm Beach and Broward
+Counties, Florida, USA.” *Journal of Herpetology* 54 (2): 189–95.
+
+</div>
+
 <div id="ref-McClintock:1985wn" class="csl-entry" markdown="1">
 
 McClintock, James B, and John M Lawrence. 1985. “Characteristics of
@@ -2692,6 +2813,15 @@ Southern India.” *Comptes Rendus Biologies* 327 (1): 65–76.
 Meckstroth, Anne M, A Keith Miles, and Sudeep Chandra. 2007. “Diets of
 Introduced Predators Using Stable Isotopes and Stomach Contents.” *The
 Journal of Wildlife Management* 71 (7): 2387–92.
+
+</div>
+
+<div id="ref-Megina:2002aa" class="csl-entry" markdown="1">
+
+Megina, C, JL Carballo, JL Cervera, and JC Garcı́a-Gómez. 2002. “The Diet
+of Platydoris Argo (Gastropoda: Nudibranchia) and the Dietary
+Specialization of Sponge Eating Dorids.” *Journal of Molluscan Studies*
+68 (2): 173–79.
 
 </div>
 
@@ -2801,6 +2931,13 @@ Moku, Masatoshi, Kouichi Kawaguchi, Hikaru Watanabe, and Akinori Ohno.
 Stenobrachius Leucopsarus and s. Nannochir, in the Subarctic and
 Transitional Waters of the Western North Pacific.” *Marine Ecology
 Progress Series* 207: 129–40.
+
+</div>
+
+<div id="ref-Monadjem:1997aa" class="csl-entry" markdown="1">
+
+Monadjem, A. 1997. “Stomach Contents of 19 Species of Small Mammals from
+Swaziland.” *South African Journal of Zoology* 32 (1): 23–26.
 
 </div>
 
@@ -2921,6 +3058,22 @@ of Zoology* 67 (6): 1394–1400.
 
 </div>
 
+<div id="ref-Nakagawa:2023aa" class="csl-entry" markdown="1">
+
+Nakagawa, Hikaru. 2023. “Diel and Seasonal Changes in Gut Contents of
+Omnivorous–Carnivorous Macroinvertebrates in the Yura River, Japan.”
+*Ecological Research* 38 (2): 347–59.
+
+</div>
+
+<div id="ref-Nakano:2017aa" class="csl-entry" markdown="1">
+
+Nakano, Rie. 2017. “Natural Feeding Habits of Two Nudibranchs: Kalinga
+Ornata and Plocamopherus Tilesii (Nudibranchia: Doridacea:
+Polyceridae).” *Molluscan Research* 37 (2): 153–57.
+
+</div>
+
 <div id="ref-Navarrete:2008ul" class="csl-entry" markdown="1">
 
 Navarrete, Sergio A, and Tatiana Manzur. 2008. “Individual-and
@@ -2959,6 +3112,15 @@ Prey Preference of Juvenile Lemon Sharks Negaprion Brevirostris.”
 Ngo, Binh V, Nghiep T Hoang, and Chung D Ngo. 2014. “Diet of the Bannan
 Caecilian Ichthyophis Bannanicus (Amphibia: Gymnophiona: Ichthyophiidae)
 in the Mekong Delta, Vietnam.” *Journal of Herpetology* 48 (4): 506–13.
+
+</div>
+
+<div id="ref-Ngo:2014aa" class="csl-entry" markdown="1">
+
+Ngo, Chung D, Binh V Ngo, Phong B Truong, Loi D Duong, et al. 2014.
+“Sexual Size Dimorphism and Feeding Ecology of Eutropis Multifasciata
+(Reptilia: Squamata: Scincidae) in the Central Highlands of Vietnam.”
+*Herpetological Conservation and Biology* 9 (2): 322–33.
 
 </div>
 
@@ -3177,6 +3339,14 @@ the Saddled Bream, Oblada Melanura (Sparidae), in the Adriatic Sea.”
 Palmer, A RICHARD. 1988. “Feeding Biology of Ocenebra Lurida
 (Prosobranchia: Muricacea): Diet, Predator-Prey Size Relations, and
 Attack Behavior.” *Veliger* 31 (3–4): 192–203.
+
+</div>
+
+<div id="ref-Paltridge:1997aa" class="csl-entry" markdown="1">
+
+Paltridge, Rachel, David Gibson, and Glenn Edwards. 1997. “Diet of the
+Feral Cat (Felis Catus) in Central Australia.” *Wildlife Research* 24
+(1): 67–76.
 
 </div>
 
@@ -4262,6 +4432,15 @@ Freshwater Research* 14 (4): 427–35.
 
 </div>
 
+<div id="ref-Townhill:2021aa" class="csl-entry" markdown="1">
+
+Townhill, Bryony L, Rebecca E Holt, Bjarte Bogstad, Joël M Durant, John
+K Pinnegar, Andrey V Dolgov, Natalia A Yaragina, Edda Johannesen, and
+Geir Ottersen. 2021. “Diets of the Barents Sea Cod (Gadus Morhua) from
+the 1930s to 2018.” *Earth System Science Data* 13 (3): 1361–70.
+
+</div>
+
 <div id="ref-Tremblay-Gagnon:2023aa" class="csl-entry" markdown="1">
 
 Tremblay-Gagnon, Félix, Sarah Brown-Vuillemin, Katherine Skanes, Hannah
@@ -4344,6 +4523,13 @@ Mediterranean.” *Marine Ecology Progress Series* 531: 207–19.
 Van Heezik, Yolanda. 1990. “Seasonal, Geographical, and Age-Related
 Variations in the Diet of the Yellow-Eyed Penguin (Megadyptes
 Antipodes).” *New Zealand Journal of Zoology* 17 (2): 201–12.
+
+</div>
+
+<div id="ref-Van-Hyning:1932aa" class="csl-entry" markdown="1">
+
+Van Hyning, OC. 1932. “Food of Some Florida Snakes.” *Copeia* 1932 (1):
+37–37.
 
 </div>
 
@@ -4502,6 +4688,14 @@ Zealand.” *Marine Ecology Progress Series*, 39–49.
 
 Weber, D. 1989. “The Diet of Polecats (Mustela Putorius l.) in
 Switzerland.” *Zeitschrift für Säugetierkunde* 54 (3): 157–71.
+
+</div>
+
+<div id="ref-Weidel:2000aa" class="csl-entry" markdown="1">
+
+Weidel, Brian C, Daniel C Josephson, and Charles C Krueger. 2000. “Diet
+and Prey Selection of Naturalized Smallmouth Bass in an Oligotrophic
+Adirondack Lake.” *Journal of Freshwater Ecology* 15 (3): 411–20.
 
 </div>
 
