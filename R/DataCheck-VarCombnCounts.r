@@ -75,17 +75,19 @@ surveys for which additional covariate information could be obtained.
 # count the number of surveys for the consumers with missing body mass
 # to identify most valuable consumers.
 
-tdat <- dat[,c('Consumer.identity','mass_g')]
-tdat <- table(tdat[is.na(tdat$mass_g),]$Consumer.identity)
-tdat <- as.data.frame(sort(tdat, decreasing = TRUE))
-
-write.table(tdat,
-          '../tmp/BodyMass/BodyMass_ValueTaxa.csv',
+tdat <- dat[is.na(dat$mass_g), 
+            c('Taxon.group', 'Consumer.identity', 'mass_g')]
+tdats <- data.frame(table(tdat$Consumer.identity,
+               dnn = c('Consumer.identity')))
+tdatx <- unique(merge(tdat, tdats))
+tdatx <- tdatx[order(tdatx$Freq, decreasing = TRUE),]
+write.table(tdatx,
+          '../tmp/BodyMass/BodyMass_Needs.csv',
           sep = ',',
           row.names = FALSE)
           
 message("
-Inspect 'tmp/BodyMass/BodyMass_ValueTaxa.csv' to see which
+Inspect 'tmp/BodyMass/BodyMass_Needs.csv' to see which
 taxa of 'high value' (those that have many surveys) need 
 body mass estimates.
 ")

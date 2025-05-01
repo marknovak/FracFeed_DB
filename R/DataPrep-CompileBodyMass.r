@@ -10,11 +10,11 @@ DataRetrieve <- FALSE
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Geometric mean
 gmean <- function(x){
-  exp(mean(log(x[!is.infinite(x)]),na.rm=TRUE))
+  exp(mean(log(x[!is.infinite(x)]), na.rm = TRUE))
 }
 
 # Not in
-'%!in%' <- function(x,y)!('%in%'(x,y))
+'%!in%' <- function(x, y)!('%in%'(x, y))
 
 ##########################################################################
 ##########################################################################
@@ -227,6 +227,26 @@ if (DataRetrieve) {
 ##################################
 if(regBMcompilations){
 ##################################
+  ##########################################################################
+  # Meiri 2018.
+  # Traits of lizards of the world: Variation around a successful evolutionary design.
+  # Global Ecol Biogeogr. 2018; 27: 1168–1172..
+  ##################################
+  dat0 <- read.csv('Meiri_2018/geb12773-sup-0001-appendixs1.csv')
+  dat0$taxon <- gsub('.*: (.*)', '\\1', dat0$Binomial)
+  dat0 <- FixNames(dat0)
+  
+  # Quote: "Mass equations – the best equation I have for converting the 
+  # species (log10) SVL (in mm) into (log 10) mass (in grams; 
+  # Feldman et al., 2016; Meiri, 2008). Data are the intercept and slope."
+  intercept <- as.numeric(dat0$intercept)
+  slope <- as.numeric(dat0$slope)
+  maxSVL <- as.numeric(dat0$maximum.SVL)
+  dat0$mass_g <- round(10^( intercept + slope * log(maxSVL, 10)), 3)
+  dat0 <- dat0[!is.na(dat0$mass_g)]
+  ME <- dat0[, c('taxon','mass_g')]
+  ME$source <- 'Meiri_2018'
+  save(ME, file = 'BodyMass_Meiri_2018.Rdata')
   
   ##########################################################################
   # Brown, J. H., C. A. S. Hall, and R. M. Sibly. 2018.
@@ -580,6 +600,7 @@ if(regBMcompilations){
 # Combine databases, given ordered preference:
 ##############################################
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+load(file = 'BodyMass_Meiri_2018.Rdata')
 load(file = 'BodyMass_Brown_etal_2018.Rdata')
 load(file = 'BodyMass_Smith_2003.Rdata')
 load(file = 'BodyMass_AndersonGillooly_2017.Rdata')
@@ -596,7 +617,9 @@ load(file = 'BodyMass_Quaardvark.Rdata')
 load(file = 'BodyMass_AnAge.Rdata')
 load(file = 'BodyMass_DataRetrieverAll.Rdata')
 
-adat <- BR
+adat <- ME
+adat <- merge(adat, BR[!BR$taxon %in% adat$taxon, ], all = TRUE)
+nrow(adat)
 adat <- merge(adat, MM[!MM$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 adat <- merge(adat, AG[!AG$taxon %in% adat$taxon, ], all = TRUE)
@@ -628,8 +651,9 @@ adat <- merge(adat, DR[!DR$taxon %in% adat$taxon, ], all = TRUE)
 
 adat$mass_g[is.nan(adat$mass_g)] <- NA
 nrow(adat)
-DBs <- adat
+DBs <- adat[,c('taxon','mass_g','n','source')]
 
+colnames(DBs)[ncol(DBs)] <- 'source_mass'
 
 #############################################################################
 # Add these to additional (or corrected) body sizes that the lab has collated
@@ -641,14 +665,13 @@ ddat <-
              sheet = 'BM_data',
              col_types = 'ccncnnn')
 
-colnames(DBs)[4] <- 'source_mass'
-
 ddat <- ddat[which(!is.na(ddat$mass_g)), 1:4 ]
 ddat$n <- 1
 
-DBs <- DBs[DBs$taxon %!in% ddat$taxon, ]
+sel <- DBs$taxon %!in% ddat$taxon
+DBs <- DBs[sel, ]
 
-adat <- merge(ddat, DBs, all = TRUE)
+adat <- merge(ddat[, c('taxon','mass_g','source_mass')], DBs, all = TRUE)
 
 dups <- max(table(adat$taxon))
 
@@ -664,22 +687,6 @@ if(dups > 1){
 write.csv(adat, 
           file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
           row.names = FALSE)
-
-#################################################################
-# Export and have lab fill in as many of the rest that are needed
-#################################################################
-
-Cons <- unique(dat[, c('Taxon.group', 'Consumer.identity')])
-
-Cons <- Cons[Cons$Consumer.identity %!in% unique(adat$taxon), ]
-
-Cons <- Cons[ do.call(order, Cons), ]
-
-write.csv(Cons, 
-          file = '../tmp/BodyMass/BodyMass_Needs.csv', 
-          row.names = FALSE)
-
-# Paste the above into a Google Doc to have lab add data
 
 #######################################################################
 #######################################################################
