@@ -1,0 +1,4 @@
+"search_string","unique_name","approximate_match","score","ott_id","is_synonym","flags","number_matches"
+"hemigrammus arriba","Hemigrammus arua",TRUE,0.8125,3625400,FALSE,"",1
+"hydropsyche japonica","Hydropsyche javanica",TRUE,0.899999976158142,3025480,FALSE,"",7
+"micropterus nigricans","Microtus agrestis",TRUE,0.833333313465118,754333,FALSE,"",2
