@@ -40,33 +40,30 @@ ConsIdent <- sort(unique(dat$Consumer.identity))
 #######################################################################
 # Problem taxa identified during prior attempts to match to Tree of Life
 #######################################################################
-message('
-    INCERTAE_SEDIS detected.  
-    These species should be periodically checked in the ToL 
-    to see if their status has changed.
-')
 # See below for source of names
 rem <-
   c(
-    # "Centropomus_pectinatus",
-    # "Chromis_chrysura",
-    # "Platycephalus_speculator",
-    # "Psellogrammus_kennedyi",
-    # "Astropecten_platyacanthus",
-    "Hemigrammus_arriba"
   )
-print(rem)
 
-test <- tnrs_match_names(rem, context_name = "Animals")
-
-message('
-        Unmatched species have been removed.
-')
-ConsIdent <- ConsIdent[ConsIdent %!in% rem]
-
+if(length(rem>0)){
+  message('
+      INCERTAE_SEDIS detected.  
+      These species should be periodically checked in the ToL 
+      to see if their status has changed.
+  ')
+  print(rem)
+  
+  test <- tnrs_match_names(rem, context_name = "Animals")
+  
+  message('
+          Unmatched species have been removed.
+  ')
+  ConsIdent <- ConsIdent[ConsIdent %!in% rem]
+}
 ###################################
 # Identify taxa in the Tree of Life
 ###################################
+ConsIdent <- firstup(sub('_', ' ', ConsIdent))
 taxa <- tnrs_match_names(ConsIdent, context_name = "Animals")
 
 write.csv(taxa, 
@@ -208,6 +205,14 @@ if (matchNewTaxa | matchAllTaxa) {
   print('All done matching.')
 }
 
+impmatch <- subset(taxa, score < 1)
+if(nrow(impmatch > 0)){
+  write.csv(impmatch, file = '../tmp/TaxonClean/Taxa_ApproxMatches.csv',
+            row.names = FALSE)
+  message(paste0(nrow(impmatch),
+                 ' (', round(nrow(impmatch) / nrow(taxa) * 100, 1), '%) ',
+                 'of the taxa have approximate matches in the Tree of Life.'))
+}
 # ~~~~~~~~~~~~~~~~~~~~~
 # Inspect flagged taxa
 # ~~~~~~~~~~~~~~~~~~~~~
@@ -223,6 +228,8 @@ taxa$unique_name[grep('Gadus morhua', taxa$unique_name)] <-
   'Gadus morhua'
 taxa$unique_name[grep('Physeter catodon', taxa$unique_name)] <- 
   'Physeter macrocephalus'
+taxa$unique_name[grep('Oncorhynchus mykiss', taxa$unique_name)] <- 
+  'Oncorhynchus mykiss'
 
 
 taxa$search_string <- firstup(taxa$search_string)
@@ -237,18 +244,22 @@ b <- taxa[duplicated(taxa[, c('unique_name', 'ott_id')],
 Dups <- merge(a[, c(1, 2, 4)], b[, c(1, 2, 4)], all = TRUE)
 # All "duplicates" have different search_strings,
 # meaning these are species with synonymous names in the original data.
+TE <- '../tmp/ErrorReports/TaxonErrors.txt'
+if (file.exists(TE)) {
+  file.remove(TE)
+}
 if (nrow(Dups) > 0) {
   warn <-
     'There are duplicate species due to synonyms that may need to be fixed in the original data..\n'
   warning(warn, immediate. = TRUE)
-  sink(file = '../tmp/ErrorReports/TaxonErrors.txt')
+  sink(file = TE)
     print(Dups[order(Dups$unique_name), ])
   sink()
 }
 
 message(paste0('\nThere are a total of ', 
                length(unique(taxa$unique_name)),
-               ' unique and identified taxa in the database.'))
+               ' taxa in the database.'))
 
 #################################################
 
