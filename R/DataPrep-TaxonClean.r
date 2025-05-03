@@ -234,6 +234,7 @@ taxa$unique_name[grep('Oncorhynchus mykiss', taxa$unique_name)] <-
 
 taxa$search_string <- firstup(taxa$search_string)
 taxa$unique_name <- gsub(' ', '_', taxa$unique_name)
+taxa$search_string <- gsub(' ', '_', taxa$search_string)
 
 #################################################
 # Check to ensure there are no duplicates in taxa

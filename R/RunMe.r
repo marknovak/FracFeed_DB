@@ -123,7 +123,7 @@ source('DataCheck-Maps.r')
 #########################################
 load('../tmp/FracFeed_Data_FactorLevels.Rdata')
 
-fdatc <- data.frame(Cite = factor(dat$Citation),
+fdatc <- data.frame(CiteID = factor(dat$Citation),
                    ConID = factor(dat$Consumer.identity),
                    ConIDorig = dat$Consumer.identity.orig,
                    ott_id = dat$ott_id)
@@ -136,6 +136,7 @@ fdatc$BM <- dat$mass_g
 fdatc$BMlog <- log10(dat$mass_g)
 fdatc$PS <- factor(dat$Survey.population.split, 
                   levels = PopnSplitLevels)
+fdatc$PST <- dat$Subpopulation.type
 
 fdatc$TSc <- dat$Total.stomachs.count.given
 fdatc$ESc <- dat$Empty.stomachs.count.given
@@ -143,7 +144,6 @@ fdatc$FSc <- dat$Feeding.stomachs.count
 fdatc$fF <- round(dat$Percent.feeding / 100, 4)
 
 fdatc$DR <- dat$Diet.richness.minimum
-fdatc$DRlog <- log10(dat$Diet.richness.minimum + 1)
 fdatc$Drc <- factor(dat$Diet.resolution.coarsest, 
                               levels = DietResolutionLevels)
 fdatc$Drf <- factor(dat$Diet.resolution.finest, 
@@ -182,8 +182,7 @@ fdatc$TAlog <- log10(fdatc$TAnum)
 ###########################################
 vars <-
   c(
-    'Cite',
-    'ConIDorig',
+    'CiteID',
     'ConID',
     'ott_id',
     'TSc',
@@ -192,22 +191,22 @@ vars <-
     'TG',
     'EE',
     'BM',
-    'BMlog',
     'Eco',
     'Lat',
     'Long',
-    'DR',
-    'DRlog',
-    'Drf',
-    'Drc',
     'TA',
     'TAlog',
     'SA',
     'SAlog',
     'Yr',
-    'tWS',
     'DT',
-    'FD'
+    'tWS',
+    'FD',
+    'PS',
+    'PST',
+    'DR',
+    'Drf',
+    'Drc'
   )
 fdatc <- fdatc[, vars]
 

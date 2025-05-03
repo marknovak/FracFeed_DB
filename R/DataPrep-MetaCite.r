@@ -13,7 +13,9 @@ meta <-
 pub.meta <- subset(meta, 
                    meta$VariableName != 'Checked' & 
                      meta$VariableName != 'Consult.needed' &
-                     meta$VariableName != 'First.entry.Name')
+                     meta$VariableName != 'First.entry.Name' &
+                     meta$VariableAbbreviation != '-'
+                     )
 
 write.csv(pub.meta, 
           file = '../tmp/FracFeed_Data_Metadata.csv', 
@@ -28,8 +30,8 @@ cite <-
     sheet = 'Citations',
     col_types = 'lccclc')
 
-pub.cite <- cite[order(cite$CitationID),]
-pub.cite <- pub.cite[, c('CitationID',
+pub.cite <- cite[order(cite$CiteID),]
+pub.cite <- pub.cite[, c('CiteID',
                          'Bibcite',
                          'Citation')]
 
@@ -61,7 +63,7 @@ dcite <-
     sheet = 'BM_citations',
     col_types = 'ccc')
 
-pub.dcite <- dcite[order(dcite$CitationID), ]
+pub.dcite <- dcite[order(dcite$CiteID), ]
 
 write.csv(pub.dcite,
           '../tmp/FracFeed_Citations_BodyMass.csv',
