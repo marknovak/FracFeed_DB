@@ -30,7 +30,7 @@ The database includes the compilations of [Huey et al. 2001](https://doi.org/10.
 Forthcoming.  For now, please see [FigShare: doi.org/10.6084/m9.figshare.13139705](https://doi.org/10.6084/m9.figshare.13139705).
 
 ## Funding
-The compilation of this database began with the support of a National Science Foundation award [DEB-1353827](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1353827&HistoricalAwards=false).
+The compilation of this database began with the support of the National Science Foundation [DEB-1353827](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1353827&HistoricalAwards=false).  The involvement of several contributors was made possible by Oregon State University’s URSA Engage Program for undergraduate research and the [OSU College of Science Research and Innovation Seed (SciRIS) Program](https://beav.es/ihi).
 
 ## Please contribute data!
 If you have or know of published predator diet surveys for which information with which to calculate the fraction of (non-)feeding individuals is available, please send us the associated citation ([mark.novak@oregonstate.edu](mark.novak@oregonstate.edu)).  Feel free to also suggest additional co-variates to start collecting information on.
