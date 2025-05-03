@@ -299,6 +299,13 @@ Coqui, in Hawaii.” *Copeia* 2007 (2): 281–91.
 
 </div>
 
+<div id="ref-Beeton:1956aa" class="csl-entry" markdown="1">
+
+Beeton, Alfred M. 1956. “Food Habits of the Burbot (Lota Lota Lacustris)
+in the White River, a Michigan Trout Stream.” *Copeia* 1956 (1): 58–60.
+
+</div>
+
 <div id="ref-Behn:2019aa" class="csl-entry" markdown="1">
 
 Behn, Kathrine E, and Colden V Baxter. 2019. “The Trophic Ecology of a
@@ -532,6 +539,14 @@ BRUN, E. 1972. “FOOD AND FEEDING HABITS OF LUIDIA-CILIARIS
 ECHINODERMATA - ASTEROIDEA.” *JOURNAL OF THE MARINE BIOLOGICAL
 ASSOCIATION OF THE UNITED KINGDOM* 52 (1): 225–25 &.
 <https://doi.org/10.1017/S0025315400018671>.
+
+</div>
+
+<div id="ref-Buckley:1997aa" class="csl-entry" markdown="1">
+
+Buckley, TROY W, and PA Livingston. 1997. “Geographic Variation in the
+Diet of Pacific Hake, with a Note on Cannibalism.” *California
+Cooperative Oceanic Fisheries Investigations Report*, 53–62.
 
 </div>
 
@@ -827,6 +842,14 @@ Christiansen, Jorgen S., Haakon Hop, Einar M. Nilssen, and John Joensen.
 (Peters, 1872) and Boreogadus Saida (Lepechin, 1774), in NE Greenland.”
 *Polar Biology* 35 (8): 1247–57.
 <https://doi.org/10.1007/s00300-012-1170-y>.
+
+</div>
+
+<div id="ref-Clady:1974aa" class="csl-entry" markdown="1">
+
+Clady, Michael D. 1974. “Food Habits of Yellow Perch, Smallmouth Bass
+and Largemouth Bass in Two Unproductive Lakes in Northern Michigan.”
+*American Midland Naturalist*, 453–59.
 
 </div>
 
@@ -1146,6 +1169,15 @@ Echinodermen*. Druck von Schmidt & Klaunig.
 
 </div>
 
+<div id="ref-Elrod:1981aa" class="csl-entry" markdown="1">
+
+Elrod, Joseph H, Wolf-Dieter N Busch, Bernard L Griswold, Clifford P
+Schneider, and David R Wolfert. 1981. “Food of White Perch, Rock Bass
+and Yellow Perch in Eastern Lake Ontario.” *New York Fish and Game
+Journal* 28 (2): 191–201.
+
+</div>
+
 <div id="ref-Espinoza:2015vf" class="csl-entry" markdown="1">
 
 Espinoza, Mario, Samantha E. M. Munroe, Tayler M. Clarke, Aaron T. Fisk,
@@ -1204,6 +1236,15 @@ Fanelli, Emanuela, and Joan E. Cartes. 2004. “Feeding Habits of Pandalid
 Shrimps in the Alboran Sea (SW Mediterranean): Influence of Biological
 and Environmental Factors.” *Marine Ecology Progress Series* 280:
 227–38. <https://www.int-res.com/abstracts/meps/v280/p227-238/>.
+
+</div>
+
+<div id="ref-Fay:1989aa" class="csl-entry" markdown="1">
+
+Fay, Francis H, and Robert O Stephenson. 1989. “Annual, Seasonal, and
+Habitat-Related Variation in Feeding Habits of the Arctic Fox (Alopex
+Lagopus) on St. Lawrence Island, Bering Sea.” *Canadian Journal of
+Zoology* 67 (8): 1986–94.
 
 </div>
 
@@ -1362,6 +1403,13 @@ Foskolos, Ilias, Niki Koutouzi, Lysimachos Polychronidis, Paraskevi
 Alexiadou, and Alexandros Frantzis. 2020. “A Taste for Squid: The Diet
 of Sperm Whales Stranded in Greece, Eastern Mediterranean.” *Deep Sea
 Research Part I: Oceanographic Research Papers* 155: 103164.
+
+</div>
+
+<div id="ref-Frantz:1970aa" class="csl-entry" markdown="1">
+
+Frantz, TC, and ALMO J Cordone. 1970. “Food of Lake Trout in Lake
+Tahoe.” *California Fish and Game* 56 (1): 21–35.
 
 </div>
 
@@ -2941,6 +2989,15 @@ Swaziland.” *South African Journal of Zoology* 32 (1): 23–26.
 
 </div>
 
+<div id="ref-Moncada-Rosas:2025aa" class="csl-entry" markdown="1">
+
+Moncada-Rosas, Ana M, Alejandra Castro-Dı́az, Arturo Tripp-Valdez, and
+Felipe Galván-Magaña. 2025. “Feeding Habits of the Brown Smooth-Hound
+Mustelus Henlei (Chondrichthyes: Triakidae) on the West Coast of Baja
+California Sur, Mexico.” *Environmental Biology of Fishes*, 1–18.
+
+</div>
+
 <div id="ref-Montague:1988tz" class="csl-entry" markdown="1">
 
 Montague, TL, and JM Cullen. 1988. “The Diet of the Little Penguin
@@ -3124,6 +3181,15 @@ Ngo, Chung D, Binh V Ngo, Phong B Truong, Loi D Duong, et al. 2014.
 
 </div>
 
+<div id="ref-Niethammer:1992aa" class="csl-entry" markdown="1">
+
+Niethammer, Kenneth R, George H Balazs, Glynnis L Nakai, and Duane K
+McDermond. 1992. “Great Frigatebird (Fregata Minor) Predation: Not a
+Factor in Hatchling Green Turtle (Chelonia Mydas) Survival at French
+Frigate Shoals, Hawaii.” *Colonial Waterbirds*, 128–31.
+
+</div>
+
 <div id="ref-Nilssen:1995vn" class="csl-entry" markdown="1">
 
 Nilssen, KT, T Haug, V Potelov, and YK Timoshenko. 1995. “Feeding Habits
@@ -3291,6 +3357,14 @@ Sportfishing Waters in Southwestern Utah.” *The Great Basin Naturalist*,
 Ovaska, Kristiina. 1991. “Diet of the Frog Eleutherodactylus Johnstonei
 (Leptodactylidae) in Barbados, West Indies.” *Journal of Herpetology* 25
 (4): 486–88.
+
+</div>
+
+<div id="ref-Ozaki:2023aa" class="csl-entry" markdown="1">
+
+Ozaki, Kotaro, and Kanto Nishikawa. 2023. “Feeding Habits of the
+Japanese Fire-Belly Newt (Ampbihia: Urodela: Salamandridae) in Central
+Honshu, Japan.” *Current Herpetology* 42 (2): 162–70.
 
 </div>
 
@@ -4538,6 +4612,15 @@ Van Hyning, OC. 1932. “Food of Some Florida Snakes.” *Copeia* 1932 (1):
 Van Ngo, Binh, Chung Dac Ngo, et al. 2014. “Variation in Dietary
 Composition of Granular Spiny Frogs (Quasipaa Verrucospinosa) in Central
 Vietnam.” *The Herpetological Journal* 24 (4): 245–53.
+
+</div>
+
+<div id="ref-Van-Oosten:1938aa" class="csl-entry" markdown="1">
+
+Van Oosten, John, and Hilary J Deason. 1938. “The Food of the Lake Trout
+(Cristivomer Namaycush Namaycush) and of the Lawyer (Lota Maculosa) of
+Lake Michigan.” *Transactions of the American Fisheries Society* 67 (1):
+155–77.
 
 </div>
 
