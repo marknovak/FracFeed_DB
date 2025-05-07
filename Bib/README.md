@@ -299,6 +299,14 @@ Coqui, in Hawaii.” *Copeia* 2007 (2): 281–91.
 
 </div>
 
+<div id="ref-Beauchamp:1990aa" class="csl-entry" markdown="1">
+
+Beauchamp, David A. 1990. “Seasonal and Diel Food Habits of Rainbow
+Trout Stocked as Juveniles in Lake Washington.” *Transactions of the
+American Fisheries Society* 119 (3): 475–82.
+
+</div>
+
 <div id="ref-Beeton:1956aa" class="csl-entry" markdown="1">
 
 Beeton, Alfred M. 1956. “Food Habits of the Burbot (Lota Lota Lacustris)
@@ -470,6 +478,15 @@ Bojsen, Berit Horskjær. 2005. “Diet and Condition of Three Fish Species
 
 </div>
 
+<div id="ref-Bolek:1997aa" class="csl-entry" markdown="1">
+
+Bolek, Matthew G. 1997. “Seasonal Occurrence of Cosmocercoides Dukae and
+Prey Analysis in the Blue-Spotted Salamander, Ambystoma Laterale, in
+Southeastern Wisconsin.” *JOURNAL-HELMINTHOLOGICAL SOCIETY WASHINGTON*
+64: 292–95.
+
+</div>
+
 <div id="ref-Bolstad:2004aa" class="csl-entry" markdown="1">
 
 Bolstad, Kat S, and Steve O’Shea. 2004. “Gut Contents of a Giant Squid
@@ -598,6 +615,15 @@ Zuanon, Alberto Akama, and Lucelia Nobre Carvalho. 2015. “The
 Microhabitat, Behavior and Diet of Centromochlus Meridionalis, a Small
 Catfish of Amazon Streams (Teleostei: Auchenipteridae).” *ICHTHYOLOGICAL
 EXPLORATION OF FRESHWATERS* 26 (3): 221–28.
+
+</div>
+
+<div id="ref-Cada:1987aa" class="csl-entry" markdown="1">
+
+Cada, Glenn F, James M Loar, and Michael J Sale. 1987. “Evidence of Food
+Limitation of Rainbow and Brown Trout in Southern Appalachian Soft-Water
+Streams.” *Transactions of the American Fisheries Society* 116 (5):
+692–702.
 
 </div>
 
@@ -814,6 +840,14 @@ Cherel, Y, and G Duhamel. 2003. “Diet of the Squid Moroteuthis Ingens
 (Teuthoidea : Onychoteuthidae) in the Upper Slope Waters of the
 Kerguelen Islands.” *MARINE ECOLOGY PROGRESS SERIES* 250: 197–203.
 <https://doi.org/10.3354/meps250197>.
+
+</div>
+
+<div id="ref-Cherel:2004aa" class="csl-entry" markdown="1">
+
+Cherel, Yves, and Guy Duhamel. 2004. “Antarctic Jaws: Cephalopod Prey of
+Sharks in Kerguelen Waters.” *Deep Sea Research Part I: Oceanographic
+Research Papers* 51 (1): 17–31.
 
 </div>
 
@@ -1449,6 +1483,15 @@ Arousa (Galicia, NW Spain).” *Marine Ecology Progress Series. Oldendorf*
 
 Fritz, Eugene S. 1974. “Total Diet Comparison in Fishes by Spearman Rank
 Correlation Coefficients.” *Copeia*, 210–14.
+
+</div>
+
+<div id="ref-Froese:2014aa" class="csl-entry" markdown="1">
+
+Froese, R., J. T. Thorson, and R. B. Reyes Jr. 2014. “A Bayesian
+Approach for Estimating Length-Weight Relationships in Fishes.” *Journal
+of Applied Ichthyology* 30 (1): 78–85.
+https://doi.org/<https://doi.org/10.1111/jai.12299>.
 
 </div>
 
@@ -2421,6 +2464,16 @@ History and Population Characteristics of the Antarctic Starfish,
 Anasterias Antarctica l <span class="nocase">ü</span> Tken, 1856
 (Asteroidea: Forcipulatida: Asteriidae) Around the Falkland Islands.”
 *Polar Biology* 38: 463–74.
+
+</div>
+
+<div id="ref-Laufer:2021aa" class="csl-entry" markdown="1">
+
+Laufer, Gabriel, Noelia Gobel, Mauro Berazategui, Matias Zarucki, Sofı́a
+Cortizas, Alvaro Soutullo, Claudio Martinez Debat, and Rafael O De Sa.
+2021. “American Bullfrog (Lithobates Catesbeianus) Diet in Uruguay
+Compared with Other Invasive Populations in Southern South America.”
+*North-Western Journal of Zoology* 17 (1).
 
 </div>
 
@@ -3567,6 +3620,15 @@ Biology of Fishes* 105 (2): 313–26.
 
 </div>
 
+<div id="ref-Pine-III:2005aa" class="csl-entry" markdown="1">
+
+Pine III, William E, Thomas J Kwak, D Scott Waters, and James A Rice.
+2005. “Diet Selectivity of Introduced Flathead Catfish in Coastal
+Rivers.” *Transactions of the American Fisheries Society* 134 (4):
+901–9.
+
+</div>
+
 <div id="ref-Piontek:2015vi" class="csl-entry" markdown="1">
 
 Piontek, Aleksandra M, Izabela A Wierzbowska, Kjetil Bevanger, and
@@ -3678,12 +3740,39 @@ Amphibians in the Diet and Distribution of the Aquatic Gartersnake
 
 </div>
 
-<div id="ref-Preti:2012wb" class="csl-entry" markdown="1">
+<div id="ref-Preti:2008aa" class="csl-entry" markdown="1">
 
-Preti, Antonella, Candan U Soykan, Heidi Dewar, RJ Wells, Natalie Spear,
-and Suzanne Kohin. 2012. “Comparative Feeding Ecology of Shortfin Mako,
-Blue and Thresher Sharks in the California Current.” *Environmental
-Biology of Fishes* 95 (1): 127–46.
+Preti, Antonella, Suzanne Kohin, Heidi Dewar, and Darlene Ramon. 2008.
+“Feeding Habits of the Bigeye Thresher Shark (Alopias Superciliosus)
+Sampled from the California-Based Drift Gillnet Fishery.” *CalCOFI Rep*
+49: 202–11.
+
+</div>
+
+<div id="ref-Preti:2001aa" class="csl-entry" markdown="1">
+
+Preti, ANTONELLA, SUSAN E Smith, and DARLENE A Ramon. 2001. “Feeding
+Habits of the Common Thresher Shark (Alopias Vulpinus) Sampled from the
+California-Based Drift Gill Net Fishery, 1998-1999.” *California
+Cooperative Oceanic Fisheries Investigations Report*, 145–52.
+
+</div>
+
+<div id="ref-Preti:2004aa" class="csl-entry" markdown="1">
+
+———. 2004. “Diet Differences in the Thresher Shark (Alopias Vulpinus)
+During Transition from a Warm-Water Regime to a Cool-Water Regime Off
+California-Oregon, 1998-2000.” *California Cooperative Oceanic Fisheries
+Investigations Report* 45: 118.
+
+</div>
+
+<div id="ref-Preti:2012aa" class="csl-entry" markdown="1">
+
+Preti, Antonella, Candan U Soykan, Heidi Dewar, RJ David Wells, Natalie
+Spear, and Suzanne Kohin. 2012. “Comparative Feeding Ecology of Shortfin
+Mako, Blue and Thresher Sharks in the California Current.”
+*Environmental Biology of Fishes* 95: 127–46.
 
 </div>
 
@@ -3702,6 +3791,29 @@ Pueta, Mariana, and Maria Gabriela Perotti. 2013. “Feeding Habits of
 Juvenile Chacophrys Pierottii (Ceratophryidae-Ceratophryinae) from
 Northwestern córdoba Province, Argentina.” *Herpetological Conservation
 and Biology* 8 (2): 376–84.
+
+</div>
+
+<div id="ref-Purcell:1981aa" class="csl-entry" markdown="1">
+
+Purcell, JE. 1981a. “Dietary Composition and Diel Feeding Patterns of
+Epipelagic Siphonophores.” *Marine Biology* 65: 83–90.
+
+</div>
+
+<div id="ref-Purcell:1981ab" class="csl-entry" markdown="1">
+
+———. 1981b. “Selective Predation and Caloric Consumption by the
+Siphonophore Rosacea Cymbiformis in Nature.” *Marine Biology* 63:
+283–94.
+
+</div>
+
+<div id="ref-Purcell:1982aa" class="csl-entry" markdown="1">
+
+Purcell, Jennifer E. 1982. “Feeding and Growth of the Siphonophore
+Muggiaea Atlantica (Cunningham 1893).” *Journal of Experimental Marine
+Biology and Ecology* 62 (1): 39–54.
 
 </div>
 
