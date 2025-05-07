@@ -17,6 +17,9 @@ p <- ggplot(tab,
            fill = fill.color) +
   geom_text(label = tab$Freq,
             hjust = -0.2) +
+  expand_limits(y = c(0, 1.05*max(tab$Freq))) +
+  theme(axis.title.y = element_blank()) +
+  ylab('Count') +
   coord_flip()
 
 ggsave('../Figs/Freq_TaxonGroups.png',
@@ -34,6 +37,9 @@ p <- ggplot(tab,
            fill = fill.color) +
   geom_text(label = tab$Freq,
             hjust = -0.2) +
+  expand_limits(y = c(0, 1.05*max(tab$Freq))) +
+  theme(axis.title.y = element_blank()) +
+  ylab('Count') +
   coord_flip()
 
 ggsave('../Figs/Freq_Ecosystem.png',
@@ -49,7 +55,10 @@ p <- ggplot(dat,
                  color = 'black') +
   scale_x_continuous(breaks = seq(1850, 2040, by = 10)) +
   xlab('Survey year') + 
-  theme_bw()
+  scale_y_continuous(expand=c(0, 2)) +
+  theme_bw() +
+  ylab('Count')
+
 ggsave('../Figs/Freq_SurveyYear.png',
        p,
        width = 6,
