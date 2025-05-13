@@ -56,6 +56,13 @@ dat4 <-
     col_types = colTypes
   )
 
+dat5 <-
+  read_sheet(
+    'https://docs.google.com/spreadsheets/d/16zumXsmbAU-MbBgDmiTjNX8m9YxmbHRUAtSm2xNOJ4I/edit?usp=sharing',
+    sheet = 'Data5',
+    col_types = colTypes
+  )
+
 message(
   "Google sheets imported."
 )
@@ -72,6 +79,9 @@ if (nrow(dat3) > 0) {
 }
 if (nrow(dat4) > 0) {
   dat <- rbind(dat, dat4)
+}
+if (nrow(dat5) > 0) {
+  dat <- rbind(dat, dat5)
 }
 dat <- as.data.frame(dat) # convert from tibble to data.frame
 
@@ -323,7 +333,9 @@ ok <- c('Bucephala.clangula',
         'Natrix.sipedon',
         'Esox.lucius',
         'Sander.lucioperca',
-        'Lota.lota'
+        'Lota.lota',
+        'Oncorhynchus.mykiss',
+        'Ichthyosaura.alpestris'
         )
 tab <- tab[!(names(tab) %in% ok)]
 err.me <-
