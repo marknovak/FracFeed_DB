@@ -81,6 +81,7 @@ tdats <- data.frame(table(tdat$Consumer.identity,
                dnn = c('Consumer.identity')))
 tdatx <- unique(merge(tdat, tdats))
 tdatx <- tdatx[order(tdatx$Freq, decreasing = TRUE),]
+tdatx <- tdatx[, c('Taxon.group','Consumer.identity','Freq')]
 write.table(tdatx,
           '../tmp/BodyMass/BodyMass_Needs.csv',
           sep = ',',

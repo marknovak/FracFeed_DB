@@ -384,7 +384,7 @@ if(regBMcompilations){
       adat,
       .(taxon),
       summarise,
-      gen_time_days = NA,
+      mass_g = mean(mass_g),
       n = length(mass_g)
     )
   adat$source <- 'Lislevand_etal_2007'
@@ -537,6 +537,20 @@ if(regBMcompilations){
   GI <- adat
   save(GI, file = 'BodyMass_Gillooly_etal_2016.Rdata')
   
+    ##########################################################################
+  # T. Cai, Z. Wen, Z. Jiang, and Y. Zhen. 2025. Distinct latitudinal patterns of molecular rates across vertebrates. Proceedings of the National Academy of Sciences, 122(19):e2423386122
+  adat <-
+    read.csv('Cai_etal_2025/Dataset S27.csv',
+             skip = 1,
+             header = TRUE)
+  adat$taxon <- adat$Species
+  adat <- adat[, c('taxon', 'BodyMass..g.')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$source <- 'Cai_etal_2025'
+  CA <- adat
+  save(CA, file = 'BodyMass_Cai_etal_2025.Rdata')
+  
+  
   ##########################################################################
   # Quaardvark from ADW https://animaldiversity.ummz.umich.edu/quaardvark/
   adat <-
@@ -605,6 +619,7 @@ load(file = 'BodyMass_Brown_etal_2018.Rdata')
 load(file = 'BodyMass_Smith_2003.Rdata')
 load(file = 'BodyMass_AndersonGillooly_2017.Rdata')
 load(file = 'BodyMass_Gillooly_etal_2016.Rdata')
+load(file = 'BodyMass_Cai_etal_2025.Rdata')
 load(file = 'BodyMass_Jennings_2002.Rdata')
 load(file = 'BodyMass_Lislevand_etal_2007.Rdata')
 load(file = 'BodyMass_Killen_etal_2016.Rdata')
@@ -641,6 +656,8 @@ adat <- merge(adat, TU2[!TU2$taxon %in% adat$taxon, ], all = TRUE)
 adat <- merge(adat, HI[!HI$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 adat <- merge(adat, EK[!EK$taxon %in% adat$taxon, ], all = TRUE)
+  nrow(adat)
+adat <- merge(adat, CA[!CA$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 adat <- merge(adat, AA[!AA$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
