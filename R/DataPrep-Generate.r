@@ -317,32 +317,8 @@ tab <- table(dat$Consumer.identity, dat$Ecosystem)
 tab <- apply(tab > 0, 1, sum)
 tab <- tab[tab > 1]
 # Don't report confirmed multi-ecosystem species
-ok <- c('Bucephala.clangula',
-        'Dicentrarchus.labrax',
-        'Nerodia.fasciata',
-        'Phalacrocorax.carbo',
-        'Pomatoschistus.microps',
-        'Rhinella.marina',
-        'Phalacrocorax.varius',
-        'Bufo.marinus',
-        'Rana.catesbeiana',
-        'Syngnathus.typhle',
-        'Perca.fluviatilis',
-        'Neogobius.melanostomus',
-        'Salvelinus.alpinus',
-        'Natrix.sipedon',
-        'Esox.lucius',
-        'Sander.lucioperca',
-        'Lota.lota',
-        'Oncorhynchus.mykiss',
-        'Ichthyosaura.alpestris',
-        'Opsanus.tau',
-        'Hemichromis.fasciatus',
-        'Atractosteus.spatula',
-        'Lepisosteus.oculatus',
-        'Lepisosteus.osseus',
-        'Salvelinus.fontinalis'
-        )
+ok <- read.csv('../OtherData/MultiEcosystemTaxa.txt',
+               header = FALSE)[,1]
 tab <- tab[!(names(tab) %in% ok)]
 err.me <-
   which(dat$Consumer.identity %in% names(tab))
@@ -524,6 +500,13 @@ EndoEcto <-
              EndoEcto = c(rep('Ectotherm', 10),
                           rep('Endotherm', 2)))
 dat <- merge(dat, EndoEcto, all.x = TRUE)
+
+genera <- sub('_.*','', dat$Consumer.identity)
+
+EndoGenera <- read.csv('../OtherData/EndothermicGenera.txt',
+                       header = FALSE)[,1]
+sel <- which(genera %in% EndoGenera)
+dat$EndoEcto[sel] <- 'Endotherm'
 
 #########################################################
 # Convert date-time columns into a single column
