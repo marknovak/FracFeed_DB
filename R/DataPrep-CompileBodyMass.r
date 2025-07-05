@@ -241,9 +241,11 @@ if(regBMcompilations){
   # Feldman et al., 2016; Meiri, 2008). Data are the intercept and slope."
   intercept <- as.numeric(dat0$intercept)
   slope <- as.numeric(dat0$slope)
-  maxSVL <- as.numeric(dat0$maximum.SVL)
+  suppressWarnings(
+    maxSVL <- as.numeric(dat0$maximum.SVL)
+  )
   dat0$mass_g <- round(10^( intercept + slope * log(maxSVL, 10)), 3)
-  dat0 <- dat0[!is.na(dat0$mass_g)]
+  dat0 <- dat0[!is.na(dat0$mass_g),]
   ME <- dat0[, c('taxon','mass_g')]
   ME$source <- 'Meiri_2018'
   save(ME, file = 'BodyMass_Meiri_2018.Rdata')
@@ -537,7 +539,7 @@ if(regBMcompilations){
   GI <- adat
   save(GI, file = 'BodyMass_Gillooly_etal_2016.Rdata')
   
-    ##########################################################################
+  ##########################################################################
   # T. Cai, Z. Wen, Z. Jiang, and Y. Zhen. 2025. Distinct latitudinal patterns of molecular rates across vertebrates. Proceedings of the National Academy of Sciences, 122(19):e2423386122
   adat <-
     read.csv('Cai_etal_2025/Dataset S27.csv',
@@ -604,6 +606,19 @@ if(regBMcompilations){
   adat$source <- 'AnAge'
   AN <- adat[!is.na(adat$mass_g), ]
   save(AN, file = 'BodyMass_AnAge.Rdata')
+  
+  ##########################################################################
+  # Oliveira B. F., V. A. Sao-Pedro, G. Santos-Barrera, C. Penone, and G. C. Costa. AmphiBIO, a global database for amphibian ecological traits. Scientific Data, 4(1):170123, 2017.
+  adat <-
+    read.csv('AmphiBio/AmphiBIO_v1.csv',
+             header = TRUE)
+  adat <- adat[, c('Species', 'Body_mass_g')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat$source <- 'AmphiBIO'
+  AM <- adat
+  save(AM, file = 'BodyMass_AmphiBIO.Rdata')
 
 ##################################
 }
@@ -614,6 +629,7 @@ if(regBMcompilations){
 # Combine databases, given ordered preference:
 ##############################################
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+load(file = 'BodyMass_AmphiBio.Rdata')
 load(file = 'BodyMass_Meiri_2018.Rdata')
 load(file = 'BodyMass_Brown_etal_2018.Rdata')
 load(file = 'BodyMass_Smith_2003.Rdata')
@@ -632,9 +648,11 @@ load(file = 'BodyMass_Quaardvark.Rdata')
 load(file = 'BodyMass_AnAge.Rdata')
 load(file = 'BodyMass_DataRetrieverAll.Rdata')
 
-adat <- ME
+adat <- AM
+adat <- merge(adat, ME[!ME$taxon %in% adat$taxon, ], all = TRUE)
+  nrow(dat)
 adat <- merge(adat, BR[!BR$taxon %in% adat$taxon, ], all = TRUE)
-nrow(adat)
+  nrow(adat)
 adat <- merge(adat, MM[!MM$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 adat <- merge(adat, AG[!AG$taxon %in% adat$taxon, ], all = TRUE)
