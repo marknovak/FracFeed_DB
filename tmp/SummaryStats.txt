@@ -1,3 +1,3 @@
-[1] "The database includes a total of 4033 surveys of at least 4272074 individuals from  1184 taxa from 585 studies."
-[1] "Date range: 1900 to 2023"
+[1] "The database includes a total of 4899 surveys of at least 4346226 individuals from  1505 taxa from 634 studies."
+[1] "Date range: 1887 to 2023"
 [1] "Latitude range: -74.66 to 81.65"

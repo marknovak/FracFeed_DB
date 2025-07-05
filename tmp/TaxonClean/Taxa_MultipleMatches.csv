@@ -3,7 +3,6 @@
 "anolis chrysolepis","Anolis chrysolepis",FALSE,1,901110,FALSE,"",3,NA,901110
 "anolis limifrons","Anolis limifrons",FALSE,1,245842,FALSE,"",4,NA,245842
 "arctocephalus australis","Arctocephalus australis",FALSE,1,796568,FALSE,"",2,NA,796568
-"artedidraco lonnbergi","Artedidraco lonnbergi",FALSE,1,816890,FALSE,"",2,NA,816890
 "asterias rubens","Asterias rubens",FALSE,1,721252,FALSE,"",4,NA,721252
 "astropecten platyacanthus","Astropecten platyacanthus",FALSE,1,964772,FALSE,"",2,NA,964772
 "athorybia rosacea","Athorybia rosacea",FALSE,1,15314,FALSE,"",2,NA,15314
@@ -14,12 +13,16 @@
 "crotaphytus collaris","Crotaphytus collaris",FALSE,1,244476,FALSE,"",2,NA,244476
 "cryptoblepharus plagiocephalus","Cryptoblepharus plagiocephalus",FALSE,1,4123649,FALSE,"",2,NA,4123649
 "ctenotus colletti","Ctenotus colletti",FALSE,1,4123858,FALSE,"",2,NA,4123858
+"diplodus caudimacula","Diplodus caudimacula",FALSE,1,7650827,FALSE,"",2,NA,7650827
+"epinephelus striatus","Epinephelus striatus",FALSE,1,64613,FALSE,"",2,NA,64613
 "evermannella","Evermannella",FALSE,1,86556,FALSE,"",2,NA,86556
 "felis catus","Felis catus",FALSE,1,563166,FALSE,"",2,NA,563166
 "forskalia","Forskalia",FALSE,1,555360,FALSE,"",2,NA,555360
 "gadus ogac","Gadus ogac",FALSE,1,635898,FALSE,"",2,NA,635898
 "gehyra variegata","Gehyra variegata",FALSE,1,24139,FALSE,"",3,NA,24139
+"gobiosoma","Gobiosoma",FALSE,1,714412,FALSE,"",2,NA,714412
 "goerodes","Lepidostoma (genus in Opisthokonta)",FALSE,1,222291,TRUE,"",2,NA,222291
+"harengula humeralis","Harengula humeralis",FALSE,1,763963,FALSE,"",2,NA,763963
 "harpalus rufipes","Harpalus rufipes",FALSE,1,326464,FALSE,"sibling_higher",4,NA,326464
 "hemidactylus mabouia","Hemidactylus mabouia",FALSE,1,737831,FALSE,"sibling_higher",2,NA,737831
 "hydropsyche japonica","Hydropsyche javanica",TRUE,0.899999976158142,3025480,FALSE,"",7,NA,3025480
@@ -32,13 +35,17 @@
 "mesoplodon densirostris","Mesoplodon densirostris",FALSE,1,6470,FALSE,"",3,NA,6470
 "micropterus nigricans","Microtus agrestis",TRUE,0.833333313465118,754333,FALSE,"",2,NA,754333
 "nephrurus levis","Nephrurus levis",FALSE,1,256960,FALSE,"",2,NA,256960
+"osmerus dentex","Osmerus mordax dentex",FALSE,1,9650,TRUE,"infraspecific",2,NA,9650
 "pachydactylus capensis","Pachydactylus capensis",FALSE,1,676900,FALSE,"",2,NA,676900
 "paruroctonus mesaensis","Paruroctonus mesaensis",FALSE,1,964149,FALSE,"",2,NA,964149
 "pituophis melanoleucus","Pituophis melanoleucus",FALSE,1,405961,FALSE,"",2,NA,405961
+"pristis","Pristis",FALSE,1,234349,FALSE,"",3,NA,234349
 "rana draytonii","Rana draytonii",FALSE,1,597569,FALSE,"",2,NA,597569
 "sagitta elegans","Sagitta elegans",FALSE,1,49627,FALSE,"",2,NA,49627
 "sagitta enflata","Sagitta enflata",FALSE,1,273695,FALSE,"",2,NA,273695
 "sagitta gazellae","Sagitta gazellae",FALSE,1,476665,FALSE,"",2,NA,476665
 "sagitta serratodentata","Sagitta serratodentata",FALSE,1,476667,FALSE,"",2,NA,476667
 "sagitta setosa","Sagitta setosa",FALSE,1,476668,FALSE,"",2,NA,476668
+"salmo gairdnerii","Oncorhynchus mykiss gairdneri",FALSE,1,57412,TRUE,"infraspecific",2,NA,57412
 "thamnophis cyrtopsis","Thamnophis cyrtopsis",FALSE,1,786613,FALSE,"",2,NA,786613
+"trachinotus falcatus","Trachinotus falcatus",FALSE,1,130375,FALSE,"",2,NA,130375
