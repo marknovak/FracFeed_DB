@@ -39,6 +39,7 @@ library(plyr)
 library(devtools)
 library(stringr)
 library(rdataretriever)
+library(rfishbase)
 
 # For 'DataCheck-SummaryViews.r' and 'DataCheck-Plots.r'
 library(ggplot2)

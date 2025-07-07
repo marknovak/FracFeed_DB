@@ -232,21 +232,31 @@ if(regBMcompilations){
   # Traits of lizards of the world: Variation around a successful evolutionary design.
   # Global Ecol Biogeogr. 2018; 27: 1168–1172..
   ##################################
-  dat0 <- read.csv('Meiri_2018/geb12773-sup-0001-appendixs1.csv')
-  dat0$taxon <- gsub('.*: (.*)', '\\1', dat0$Binomial)
-  dat0 <- FixNames(dat0)
+  adat <- read.csv('Meiri_2018/geb12773-sup-0001-appendixs1.csv')
+  adat$taxon <- gsub('.*: (.*)', '\\1', adat$Binomial)
+  adat <- FixNames(adat)
   
   # Quote: "Mass equations – the best equation I have for converting the 
   # species (log10) SVL (in mm) into (log 10) mass (in grams; 
   # Feldman et al., 2016; Meiri, 2008). Data are the intercept and slope."
-  intercept <- as.numeric(dat0$intercept)
-  slope <- as.numeric(dat0$slope)
+  intercept <- as.numeric(adat$intercept)
+  slope <- as.numeric(adat$slope)
   suppressWarnings(
-    maxSVL <- as.numeric(dat0$maximum.SVL)
+    maxSVL <- as.numeric(adat$maximum.SVL)
   )
-  dat0$mass_g <- round(10^( intercept + slope * log(maxSVL, 10)), 3)
-  dat0 <- dat0[!is.na(dat0$mass_g),]
-  ME <- dat0[, c('taxon','mass_g')]
+  adat$mass_g <- round(10^( intercept + slope * log(maxSVL, 10)), 3)
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- adat[, c('taxon','mass_g')]
+  adat <- adat[!is.na(adat$mass_g), ]
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
+  ME <- adat
   ME$source <- 'Meiri_2018'
   save(ME, file = 'BodyMass_Meiri_2018.Rdata')
   
@@ -294,6 +304,7 @@ if(regBMcompilations){
       mass_g = gmean(mass_g),
       n = sum(n)
     )
+  adat <- adat[!is.na(adat$mass_g), ]
   adat$source <- 'Brown_etal_2018'
   BR <- adat
   save(BR, file = 'BodyMass_Brown_etal_2018.Rdata')
@@ -309,6 +320,7 @@ if(regBMcompilations){
   adat <- adat[, c('taxon', 'mass_g')]
   adat <- FixNames(adat)
   adat <- adat[which(adat$mass_g != -999), ]
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(adat,
           .(taxon),
@@ -330,6 +342,7 @@ if(regBMcompilations){
   adat <- adat[, c('Species', 'Mass_g')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -341,8 +354,7 @@ if(regBMcompilations){
   adat$source <- 'AndersonGillooly_2017'
   AG <- adat
   save(AG, file = 'BodyMass_AndersonGillooly_2017.Rdata')
-  
-  
+
   
   ##########################################################################
   # Simon Jennings, John K. Pinnegar, Nicholas V. C. Polunin, Karema J. Warr
@@ -353,6 +365,7 @@ if(regBMcompilations){
   adat <- adat[, c('Species', 'Mean_mass_g')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -380,6 +393,7 @@ if(regBMcompilations){
   adat[which(adat == '-999', arr.ind = TRUE)] <- NA
   adat$mass_g <- apply(adat[, -1], 1, mean, na.rm = TRUE)
   adat <- adat[, c('taxon', 'mass_g')]
+  adat <- adat[!is.nan(adat$mass_g), ]
   adat <- FixNames(adat)
   adat <-
     ddply(
@@ -403,6 +417,7 @@ if(regBMcompilations){
   adat <- adat[, c('Taxa', 'DW')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -423,6 +438,7 @@ if(regBMcompilations){
   adat <- adat[, c('binomial', 'mass..g.')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -442,6 +458,7 @@ if(regBMcompilations){
   adat <- adat[, c('species', 'MMRmass')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -464,6 +481,7 @@ if(regBMcompilations){
   adat$mass_g <-
     (10 ^ adat$mass_g) * 1000 # convert natural scale and then to grams
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -486,6 +504,7 @@ if(regBMcompilations){
   adat$mass_g <-
     (10 ^ adat$mass_g) * 1000 # convert to natural scale and then to grams
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -506,6 +525,7 @@ if(regBMcompilations){
   colnames(adat) <- c('taxon', 'mass_g')
   adat$mass_g <- adat$mass_g * 1000 # convert to grams
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -527,6 +547,7 @@ if(regBMcompilations){
   adat <- adat[, c('taxon', 'M')]
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -548,6 +569,15 @@ if(regBMcompilations){
   adat$taxon <- adat$Species
   adat <- adat[, c('taxon', 'BodyMass..g.')]
   colnames(adat) <- c('taxon', 'mass_g')
+  adat <- adat[!is.na(adat$mass_g), ]
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
   adat$source <- 'Cai_etal_2025'
   CA <- adat
   save(CA, file = 'BodyMass_Cai_etal_2025.Rdata')
@@ -570,6 +600,7 @@ if(regBMcompilations){
   colnames(dat2) <- c('taxon', 'mass_g')
   adat <- rbind(dat1, dat2)
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -595,6 +626,7 @@ if(regBMcompilations){
                !is.na(adat$a.mass_g)] <-
     adat$a.mass_g[is.na(adat$mass_g) & !is.na(adat$a.mass_g)]
   adat <- FixNames(adat)
+  adat <- adat[!is.na(adat$mass_g), ]
   adat <-
     ddply(
       adat,
@@ -616,9 +648,53 @@ if(regBMcompilations){
   colnames(adat) <- c('taxon', 'mass_g')
   adat <- adat[!is.na(adat$mass_g),]
   adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g),
+      n = length(mass_g)
+    )
   adat$source <- 'AmphiBIO'
   AM <- adat
   save(AM, file = 'BodyMass_AmphiBIO.Rdata')
+  
+  ###########################################################################
+  # FishBase & SeaLifeBase - maximum mass
+  server <- 'fishbase'
+  sp <- rfishbase::species_names(server = server)[, c('SpecCode','Species')]
+  rfish <- rfishbase::popchar(server = server)
+  rfish <- right_join(sp, rfish)
+  rfish <- rfish[!is.na(rfish$Wmax), c('Species', 'Wmax')]
+  colnames(rfish) <- c('taxon','mass_g')
+  rfish <- FixNames(rfish)
+  adat <- adat[!is.na(adat$mass_g), ]
+  FB <- ddply(rfish,
+              .(taxon),
+              summarise,
+              mass_g = gmean(mass_g),
+              n = length(mass_g))
+  FB$source <- server
+  save(FB, file = 'BodyMass_Fishbase.Rdata')
+
+  ###########################################################################
+  # SeaLifeBase 
+  server <- 'sealifebase'
+  sp <- rfishbase::species_names(server = server)[, c('SpecCode','Species')]
+  rfish <- rfishbase::popchar(server = server)
+  rfish <- right_join(sp, rfish)
+  rfish <- rfish[!is.na(rfish$Wmax), c('Species', 'Wmax')]
+  colnames(rfish) <- c('taxon','mass_g')
+  adat <- adat[!is.na(adat$mass_g), ]
+  rfish <- FixNames(rfish)
+  SB <- ddply(rfish,
+              .(taxon),
+              summarise,
+              mass_g = gmean(mass_g),
+              n = length(mass_g))
+  SB$source <- server
+  save(SB, file = 'BodyMass_SeaLifebase.Rdata')
 
 ##################################
 }
@@ -647,9 +723,11 @@ load(file = 'BodyMass_Eklof_etal_2017.Rdata')
 load(file = 'BodyMass_Quaardvark.Rdata')
 load(file = 'BodyMass_AnAge.Rdata')
 load(file = 'BodyMass_DataRetrieverAll.Rdata')
+load(file = 'BodyMass_Fishbase.Rdata')
+load(file = 'BodyMass_SeaLifebase.Rdata')
 
-adat <- AM
-adat <- merge(adat, ME[!ME$taxon %in% adat$taxon, ], all = TRUE)
+adat <- ME
+adat <- merge(adat, AM[!AM$taxon %in% adat$taxon, ], all = TRUE)
   nrow(dat)
 adat <- merge(adat, BR[!BR$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
@@ -681,11 +759,13 @@ adat <- merge(adat, AA[!AA$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 adat <- merge(adat, AN[!AN$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
+adat <- merge(adat, FB[!FB$taxon %in% adat$taxon, ], all = TRUE)
+  nrow(adat)
+adat <- merge(adat, SB[!SB$taxon %in% adat$taxon, ], all = TRUE)
+  nrow(adat)
 adat <- merge(adat, DR[!DR$taxon %in% adat$taxon, ], all = TRUE)
   nrow(adat)
 
-adat$mass_g[is.nan(adat$mass_g)] <- NA
-nrow(adat)
 DBs <- adat[,c('taxon','mass_g','n','source')]
 
 colnames(DBs)[ncol(DBs)] <- 'source_mass'
@@ -719,6 +799,24 @@ if(dups > 1){
   adat <- adat[!duplicated(adat$taxon, fromLast = TRUE),] # remove duplicates
 }
 
+
+#################################################
+# Assign genus-level averages to genus-level taxa
+#################################################
+gdat <- adat
+gdat$taxon <- sub("\\_.*", "", gdat$taxon)
+gdat <- gdat[nchar(gdat$taxon) > 0 ,]
+gdat <- ddply(gdat,
+            .(taxon),
+            summarise,
+            mass_g = gmean(mass_g),
+            n = sum(n, na.rm = TRUE))
+gdat$source_mass <- 'SourcesAveraged'
+gdat <- gdat[, c('taxon','mass_g','source_mass','n')]
+
+adat <- rbind(adat, gdat)
+
+###################################################
 write.csv(adat, 
           file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
           row.names = FALSE)

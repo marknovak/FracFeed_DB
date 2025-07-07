@@ -1,5 +1,3 @@
-library(rfishbase) # ecosystem() to fill in ecosystem gaps
-
 fish.sel <-
   which(dat$Taxon.group == 'Fish' & 
           is.na(dat$Ecosystem) &

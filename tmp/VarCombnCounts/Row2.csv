@@ -5,6 +5,7 @@
 "Drygala_2013",21,"Terrestrial","Endotherm","Gut content (lethal)","Ben",53.71,1321.08725847032,NA,"100km","Mammals","Years",256,2006
 "Hebe_2025",10,"Marine","Endotherm","Gut content (lethal)","Ben",54.62,52000,NA,"100km","Mammals","Decades",48,2013
 "Heng_2018",5,"Lentic","Ectotherm","Gut content (lethal)","Ben",12.66,349.5,NA,"10km","Fish","Months",236,2014
+"Heng_2018",5,"Lentic","Ectotherm","Gut content (lethal)","Ben",12.66,7000,NA,"10km","Fish","Months",179,2014
 "Heng_2018",5,"Lentic","Ectotherm","Gut content (lethal)","Ben",12.66,1980.5,NA,"10km","Fish","Months",208,2014
 "Lisboa_2012",17,"Terrestrial","Ectotherm","Gut content (lethal)","Ben",-5.83,0.348,NA,"1000m","Reptiles","Months",49,2007
 "Ngo_2014",21,"Terrestrial","Ectotherm","Gut content (lethal)","Ben",12.87,63.804,NA,"10km","Reptiles","Months",157,2013
@@ -16,12 +17,12 @@
 "Killengreen_2011",6,"Terrestrial","Endotherm","Gut content (lethal)","Brian",70.5,1321.08725847032,NA,"10km","Mammals","Years",61,2006
 "Killengreen_2011",6,"Terrestrial","Endotherm","Gut content (lethal)","Brian",70.5,1321.08725847032,NA,"10km","Mammals","Years",62,2006
 "Lanszki_2007",16,"Terrestrial","Endotherm","Gut content (lethal)","Brian",46.28,87.9069938723577,NA,"100km","Mammals","Years",155,2001
-"Martin_1996",19,"Terrestrial","Endotherm","Gut content (lethal)","Brian",-30,3162.27766016838,NA,"1000km","Mammals","Years",53,1993
 "Martin_1996",15,"Terrestrial","Endotherm","Gut content (lethal)","Brian",-32,3162.27766016838,NA,"1000km","Mammals","Years",40,1993
+"Martin_1996",19,"Terrestrial","Endotherm","Gut content (lethal)","Brian",-30,3162.27766016838,NA,"1000km","Mammals","Years",53,1993
 "Meckstroth_2007",13,"Terrestrial","Endotherm","Gut content (lethal)","Brian",37.8,3162.27766016838,NA,"1000m","Mammals","Years",32,2001
 "Meckstroth_2007",13,"Terrestrial","Endotherm","Gut content (lethal)","Brian",37.8,3162.27766016838,NA,"1000m","Mammals","Years",36,2001
-"Piontek_2015",17,"Terrestrial","Endotherm","Gut content (lethal)","Brian",60.28,125.5,NA,"100km","Mammals","Years",101,1997
 "Piontek_2015",9,"Terrestrial","Endotherm","Gut content (lethal)","Brian",60.28,125.5,NA,"100km","Mammals","Years",36,1997
+"Piontek_2015",17,"Terrestrial","Endotherm","Gut content (lethal)","Brian",60.28,125.5,NA,"100km","Mammals","Years",101,1997
 "Rose_2015",24,"Terrestrial","Endotherm","Gut content (lethal)","Brian",39.7,8904.099,NA,"10km","Mammals","Years",120,2009
 "Rysava-Novakova_2009",33,"Terrestrial","Endotherm","Gut content (lethal)","Brian",49.2,1540.8,NA,"100km","Mammals","Years",120,2003
 "Rysava-Novakova_2009",21,"Terrestrial","Endotherm","Gut content (lethal)","Brian",49.2,275,NA,"100km","Mammals","Years",69,2003
@@ -34,13 +35,13 @@
 "Catling_1988",62,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-33.75,1321.08725847032,NA,"10km","Mammals","Months",288,1982
 "Cutter_1958",16,"Terrestrial","Endotherm","Gut content (lethal)","Chris",36.29,2197.506,NA,"10km","Mammals","Months",12,1956
 "Kolb_1979",21,"Terrestrial","Endotherm","Gut content (lethal)","Chris",56.5,1321.08725847032,NA,"100km","Mammals","Years",858,1973
-"Read_2001",77,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-30.6,3162.27766016838,NA,"10km","Mammals","Decades",360,1994
 "Read_2001",77,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-30.6,3162.27766016838,NA,"10km","Mammals","Decades",156,1994
+"Read_2001",77,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-30.6,3162.27766016838,NA,"10km","Mammals","Decades",360,1994
 "Read_2001",22,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-30.6,1321.08725847032,NA,"10km","Mammals","Decades",101,1994
 "Read_2001",22,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-30.6,1321.08725847032,NA,"10km","Mammals","Decades",4,1994
 "Smuts_1979",14,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-23.99,15750,NA,"100km","Mammals","Years",167,1976
-"Thompson_2009",4,"Terrestrial","Endotherm","Gut content (lethal)","Chris",46,51600.035,NA,"1000m","Mammals","Years",4,2005
 "Thompson_2009",5,"Terrestrial","Endotherm","Gut content (lethal)","Chris",46,51600.035,NA,"1000m","Mammals","Years",10,2005
+"Thompson_2009",4,"Terrestrial","Endotherm","Gut content (lethal)","Chris",46,51600.035,NA,"1000m","Mammals","Years",4,2005
 "Baruah_2001",7,"Terrestrial","Ectotherm","Gut content (non-lethal)","Colin",26.23,135.8,NA,"10km","Reptiles","Years",117,1995
 "Boelter_2007",18,"Lentic","Ectotherm","Gut content (lethal)","Colin",-29.66,500,NA,"10km","Amphibians","Years",227,2002
 "Boelter_2007",6,"Lentic","Ectotherm","Gut content (lethal)","Colin",-29.66,500,NA,"10km","Amphibians","Years",64,2002
@@ -50,42 +51,42 @@
 "Chelotti_2022",26,"Marine","Ectotherm","Gut content (lethal)","Colin",-24.08,1334.455,NA,"100km","Fish","Years",321,2008
 "Jeong-Chae_2020",23,"Marine","Ectotherm","Gut content (lethal)","Colin",35.46,15000,NA,"100km","Fish","Years",247,1995
 "Jeong-Chae_2020",23,"Marine","Ectotherm","Gut content (lethal)","Colin",35.46,15000,NA,"100km","Fish","Years",687,2008
-"Megina_2001",6,"Marine","Ectotherm","Gut content (lethal)","Colin",36.17,1,NA,"100m","Molluscs","Days",7,2000
+"Megina_2001",3,"Marine","Ectotherm","Gut content (lethal)","Colin",36.11,1,NA,"100m","Molluscs","Days",5,2000
 "Megina_2001",1,"Marine","Ectotherm","Gut content (lethal)","Colin",36.18,1,NA,"100m","Molluscs","Days",2,2000
+"Megina_2001",7,"Marine","Ectotherm","Gut content (lethal)","Colin",36.18,1,NA,"100m","Molluscs","Days",29,2000
+"Megina_2001",6,"Marine","Ectotherm","Gut content (lethal)","Colin",36.17,1,NA,"100m","Molluscs","Days",7,2000
 "Megina_2001",4,"Marine","Ectotherm","Gut content (lethal)","Colin",36,1,NA,"100m","Molluscs","Days",16,2000
 "Megina_2001",2,"Marine","Ectotherm","Gut content (lethal)","Colin",36.14,1,NA,"100m","Molluscs","Days",2,2000
 "Megina_2001",4,"Marine","Ectotherm","Gut content (lethal)","Colin",36.16,1,NA,"100m","Molluscs","Days",2,2000
-"Megina_2001",3,"Marine","Ectotherm","Gut content (lethal)","Colin",36.11,1,NA,"100m","Molluscs","Days",5,2000
-"Megina_2001",7,"Marine","Ectotherm","Gut content (lethal)","Colin",36.18,1,NA,"100m","Molluscs","Days",29,2000
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",61,2012
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",120,2007
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",30,2015
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",24,2017
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",35.45,60300,NA,"100km","Fish","Months",28,2012
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",32,2008
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",18,2019
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",30,2015
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",35.45,60300,NA,"100km","Fish","Months",27,2013
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",35.45,60300,NA,"100km","Fish","Months",28,2012
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",50,2011
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",68,2009
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",61,2012
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",65,2013
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",49,2018
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",38,2014
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",50,2011
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",35.45,60300,NA,"100km","Fish","Months",27,2013
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",14,2009
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",118,2010
-"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",32.37,60300,NA,"100km","Fish","Months",120,2007
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",65,2013
+"Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",14,2009
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",121,2010
 "Nickels_2023",71,"Marine","Endotherm","Gut content (lethal)","Colin",46.24,60300,NA,"1000km","Fish","Months",50,2012
 "Pereira_2018",18,"Marine","Ectotherm","Gut content (lethal)","Colin",-30,3.68,NA,"100km","Fish","Years",25,2012
 "Pereira_2018",18,"Marine","Ectotherm","Gut content (lethal)","Colin",-30,3.68,NA,"100km","Fish","Years",57,2012
 "Polis_1979",95,"Terrestrial","Ectotherm","Direct observation","Colin",33.86,3.5,NA,"100m","Arthropods","Years",11308,1975
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",72,2009
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",183,2015
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",121,2008
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",110,2014
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",128,2012
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",55,2010
-"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",118,2013
 "Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",114,2016
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",121,2008
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",72,2009
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",128,2012
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",118,2013
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",183,2015
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",55,2010
 "Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",119,2011
+"Portner_2022",189,"Marine","Endotherm","Gut content (lethal)","Colin",32.48,8500,NA,"100km","Fish","Months",110,2014
 "Shufeldt_1887",7,"Lentic","Ectotherm","Gut content (lethal)","Colin",19.42,85,NA,"100m","Amphibians","Months",30,1887
 "Townhill_2021",4,"Marine","Ectotherm","Gut content (lethal)","Colin",74.8,2918.316778275,NA,"1000km","Fish","Decades",3304134,1976
 "Wright_1915",0,"Lentic","Ectotherm","Gut content (lethal)","Colin",30.8,134000,NA,"10km","Reptiles","Months",2,1915
@@ -123,82 +124,127 @@
 "Tickell_2021",2,"Marine","Ectotherm","Direct observation","Dylan",-0.53,326,NA,"100km","Echinoderms","Years",462,2012
 "Beauchamp_1990",7,"Lentic","Ectotherm","Gut content (lethal)","Gray",47.61,389,NA,"100km","Fish","Years",327,1984
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,389,NA,"100m","Fish","Months",13,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,389,NA,"100m","Fish","Months",8,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,389,NA,"100m","Fish","Months",16,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,389,NA,"100m","Fish","Months",1,1982
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.59,389,NA,"100m","Fish","Months",25,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",36.05,389,NA,"100m","Fish","Months",52,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,389,NA,"100m","Fish","Months",1,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,389,NA,"100m","Fish","Months",8,1982
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",36,389,NA,"100m","Fish","Months",31,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",36.05,389,NA,"100m","Fish","Months",52,1982
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,389,NA,"100m","Fish","Months",25,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,96.8245836551855,NA,"100m","Fish","Months",18,1982
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,96.8245836551855,NA,"100m","Fish","Months",16,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,389,NA,"100m","Fish","Months",16,1982
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",36,96.8245836551855,NA,"100m","Fish","Months",54,1982
 "Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,96.8245836551855,NA,"100m","Fish","Months",11,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.41,96.8245836551855,NA,"100m","Fish","Months",18,1982
+"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,96.8245836551855,NA,"100m","Fish","Months",16,1982
 "Crabtree_1998",96,"Marine","Ectotherm","Gut content (lethal)","Gray",25.5,3000,NA,"100km","Fish","Years",385,1993
 "Djait_2019",4,"Lentic","Ectotherm","Gut content (lethal)","Gray",36.58,1000,NA,"10km","Fish","Years",547,2011
-"Djait_2019",3,"Lentic","Ectotherm","Gut content (lethal)","Gray",36.58,95089.8,NA,"10km","Fish","Years",162,2011
+"Djait_2019",3,"Lentic","Ectotherm","Gut content (lethal)","Gray",36.58,95089.8000000001,NA,"10km","Fish","Years",162,2011
 "Dominguez_2000",29,"Lotic","Ectotherm","Gut content (lethal)","Gray",41.93,1345.58537447462,NA,"1000m","Fish","Years",1737,1984
-"Dominguez_2000",33,"Lotic","Ectotherm","Gut content (lethal)","Gray",41.93,1345.58537447462,NA,"1000m","Fish","Years",1058,1984
 "Dominguez_2000",26,"Lotic","Ectotherm","Gut content (lethal)","Gray",41.93,1345.58537447462,NA,"1000m","Fish","Years",1176,1984
 "Dominguez_2000",29,"Lotic","Ectotherm","Gut content (lethal)","Gray",41.93,1345.58537447462,NA,"1000m","Fish","Years",391,1984
+"Dominguez_2000",33,"Lotic","Ectotherm","Gut content (lethal)","Gray",41.93,1345.58537447462,NA,"1000m","Fish","Years",1058,1984
+"Fagade_1973",2,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,900,NA,"1000m","Fish","Years",10,1967
 "Fagade_1973",12,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,2792.3,NA,"1000m","Fish","Years",131,1967
 "Fagade_1973",3,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,1715.6,NA,"1000m","Fish","Years",62,1967
+"Fagade_1973",2,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,15572.4115023974,NA,"1000m","Fish","Years",8,1967
+"Fagade_1973",11,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,26.5,NA,"1000m","Fish","Years",142,1967
 "Fagade_1973",8,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,45,NA,"1000m","Fish","Years",77,1967
 "Fagade_1973",2,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,189.7,NA,"1000m","Fish","Years",15,1967
+"Fagade_1973",5,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,2439.26218353009,NA,"1000m","Fish","Years",44,1967
+"Fagade_1973",3,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,231.754180113326,NA,"1000m","Fish","Years",141,1967
+"Fagade_1973",7,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,32751,NA,"1000m","Fish","Years",55,1967
 "Fagade_1973",5,"Marine","Ectotherm","Gut content (lethal)","Gray",6.40000000000001,179,NA,"1000m","Fish","Years",175,1967
 "Fagade_1973",1,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,3239.5,NA,"1000m","Fish","Years",49,1967
 "Fagade_1973",2,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,5890,NA,"1000m","Fish","Years",7,1967
+"Fagade_1973",2,"Marine","Ectotherm","Gut content (lethal)","Gray",6.4,12,NA,"1000m","Fish","Years",12,1967
 "Force_1935",6,"Terrestrial","Ectotherm","Gut content (lethal)","Gray",36.24,3.4,NA,"100km","Reptiles","Years",73,1929
 "Kangur_1998",8,"Lentic","Ectotherm","Gut content (lethal)","Gray",58.7,1345.58537447462,NA,"10km","Fish","Years",279,1995
 "Kangur_1998",7,"Lentic","Ectotherm","Gut content (lethal)","Gray",58.7,1000,NA,"10km","Fish","Years",680,1995
 "Keskinen_2004",7,"Lentic","Ectotherm","Gut content (lethal)","Gray",64.54,1000,NA,"100km","Fish","Years",587,1996
+"Longhurst_1957",5,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,54912.3363816574,NA,"1000m","Fish","Years",7,1953
 "Longhurst_1957",9,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,1715.6,NA,"1000m","Fish","Years",1681,1953
+"Longhurst_1957",2,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,26.5,NA,"1000m","Fish","Years",10,1953
+"Longhurst_1957",10,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,588,NA,"1000m","Fish","Years",1437,1953
+"Longhurst_1957",1,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,90,NA,"1000m","Fish","Years",38,1953
+"Longhurst_1957",6,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,32751,NA,"1000m","Fish","Years",341,1953
+"Longhurst_1957",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",8.5,256051.918563404,NA,"1000m","Fish","Years",5,1953
 "Longhurst_1957",9,"Marine","Ectotherm","Gut content (lethal)","Gray",8.5,179,NA,"1000m","Fish","Years",3291,1953
+"Marais_1984",15,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,71000,NA,"1000m","Fish","Years",126,1979
+"Marais_1984",12,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,71000,NA,"1000m","Fish","Years",111,1977
+"Marais_1984",15,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,71000,NA,"1000m","Fish","Years",189,1978
+"Marais_1984",22,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,71000,NA,"1000m","Fish","Years",431,1981
+"Marais_1984",10,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,10800,NA,"1000m","Fish","Years",86,1978
+"Marais_1984",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,10800,NA,"1000m","Fish","Years",2,1981
+"Marais_1984",10,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,10800,NA,"1000m","Fish","Years",69,1977
+"Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,10800,NA,"1000m","Fish","Years",4,1979
+"Marais_1984",6,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,347.809089245914,NA,"1000m","Fish","Years",101,1977
+"Marais_1984",9,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,347.809089245914,NA,"1000m","Fish","Years",173,1978
+"Marais_1984",24,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,347.809089245914,NA,"1000m","Fish","Years",300,1979
+"Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,347.809089245914,NA,"1000m","Fish","Years",243,1981
+"Marais_1984",9,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,50000,NA,"1000m","Fish","Years",252,1979
+"Marais_1984",6,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,50000,NA,"1000m","Fish","Years",35,1978
+"Marais_1984",17,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,50000,NA,"1000m","Fish","Years",306,1981
+"Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,50000,NA,"1000m","Fish","Years",125,1977
 "Marais_1984",10,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,7052,NA,"1000m","Fish","Years",40,1977
+"Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,7834.48478803297,NA,"1000m","Fish","Years",42,1979
+"Marais_1984",3,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,7834.48478803297,NA,"1000m","Fish","Years",108,1981
+"Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,7834.48478803297,NA,"1000m","Fish","Years",100,1978
+"Marais_1984",10,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,7834.48478803297,NA,"1000m","Fish","Years",273,1977
 "Marais_1984",2,"Lotic","Ectotherm","Gut content (lethal)","Gray",-34.12,221.1,NA,"1000m","Fish","Years",49,1979
 "Marais_1984",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.96,221.1,NA,"1000m","Fish","Years",7,1981
-"Marais_1984",2,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,221.1,NA,"1000m","Fish","Years",8,1978
 "Marais_1984",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.83,221.1,NA,"1000m","Fish","Years",20,1977
+"Marais_1984",2,"Lotic","Ectotherm","Gut content (lethal)","Gray",-33.69,221.1,NA,"1000m","Fish","Years",8,1978
 "MarquezVelasquez_2019",42,"Lotic","Ectotherm","Gut content (lethal)","Gray",6.22,494.272962839298,NA,"10km","Fish","Years",74,2016
-"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.03065,NA,"100m","Arthropods","Years",3,2017
-"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00486,NA,"100m","Arthropods","Years",1,2017
 "Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,3.9954,NA,"100m","Arthropods","Years",34,2017
-"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.023,NA,"100m","Arthropods","Years",11,2017
 "Nakagawa_2023",5,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.073,NA,"100m","Arthropods","Years",64,2017
 "Nakagawa_2023",7,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.0645,NA,"100m","Arthropods","Years",34,2017
-"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00512,NA,"100m","Arthropods","Years",1,2017
 "Nakagawa_2023",8,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.3252,NA,"100m","Arthropods","Years",69,2017
 "Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.2734,NA,"100m","Arthropods","Years",2,2017
+"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.000739607,NA,"100m","Arthropods","Years",19,2017
+"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,2.85e-05,NA,"100m","Arthropods","Years",1,2017
 "Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.66,NA,"100m","Arthropods","Years",21,2017
 "Nakagawa_2023",11,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.63,NA,"100m","Arthropods","Years",64,2017
+"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00948613311469073,NA,"100m","Arthropods","Years",1,2017
 "Oosten_1938",13,"Lentic","Ectotherm","Gut content (lethal)","Gray",45.49,25294.5,NA,"10km","Fish","Months",612,1932
 "Oosten_1938",7,"Lentic","Ectotherm","Gut content (lethal)","Gray",44.74,25294.5,NA,"10km","Fish","Months",10,1932
 "Oosten_1938",10,"Lentic","Ectotherm","Gut content (lethal)","Gray",42.68,25294.5,NA,"10km","Fish","Months",734,1931
-"Oosten_1938",19,"Lentic","Ectotherm","Gut content (lethal)","Gray",45.49,37930.1,NA,"10km","Fish","Months",1446,1932
-"Oosten_1938",11,"Lentic","Ectotherm","Gut content (lethal)","Gray",42.68,37930.1,NA,"10km","Fish","Months",1253,1931
 "Oosten_1938",17,"Lentic","Ectotherm","Gut content (lethal)","Gray",44.74,37930.1,NA,"10km","Fish","Months",1687,1932
-"Ordiano-Flores_2024",3,"Marine","Ectotherm","Gut content (lethal)","Gray",-3,107510.3,NA,"100km","Fish","Months",11,2017
+"Oosten_1938",11,"Lentic","Ectotherm","Gut content (lethal)","Gray",42.68,37930.1,NA,"10km","Fish","Months",1253,1931
+"Oosten_1938",19,"Lentic","Ectotherm","Gut content (lethal)","Gray",45.49,37930.1,NA,"10km","Fish","Months",1446,1932
 "Ordiano-Flores_2024",3,"Marine","Ectotherm","Gut content (lethal)","Gray",-1,107510.3,NA,"100km","Fish","Months",191,2017
 "Ordiano-Flores_2024",3,"Marine","Ectotherm","Gut content (lethal)","Gray",1,107510.3,NA,"100km","Fish","Months",125,2017
+"Ordiano-Flores_2024",3,"Marine","Ectotherm","Gut content (lethal)","Gray",-3,107510.3,NA,"100km","Fish","Months",11,2017
 "Pinkas_1970",30,"Marine","Endotherm","Gut content (lethal)","Gray",29,27220,NA,"100km","Fish","Months",368,1969
 "Randall_1967",4,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,230000,NA,"100km","Fish","Years",4,1963
 "Randall_1967",15,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,4154.2,NA,"100km","Fish","Years",8,1963
+"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,32.9000015258789,NA,"100km","Fish","Years",11,1963
 "Randall_1967",36,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,730,NA,"100km","Fish","Years",95,1963
+"Randall_1967",11,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,5000,NA,"100km","Fish","Years",10,1963
 "Randall_1967",9,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,5544,NA,"100km","Fish","Years",44,1963
+"Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,17940,NA,"100km","Fish","Years",6,1963
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,69900,NA,"100km","Fish","Years",5,1963
 "Randall_1967",14,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,160,NA,"100km","Fish","Years",58,1963
+"Randall_1967",14,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,165.800003051758,NA,"100km","Fish","Years",29,1963
+"Randall_1967",9,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,71.299368382314,NA,"100km","Fish","Years",7,1963
 "Randall_1967",5,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1815.6,NA,"100km","Fish","Years",2,1963
 "Randall_1967",19,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,3356.9,NA,"100km","Fish","Years",6,1963
 "Randall_1967",66,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,13200.7,NA,"100km","Fish","Years",42,1963
 "Randall_1967",3,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,160.75,NA,"100km","Fish","Years",12,1963
+"Randall_1967",15,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,2342.37759653391,NA,"100km","Fish","Years",56,1963
 "Randall_1967",18,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,470,NA,"100km","Fish","Years",110,1963
+"Randall_1967",6,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,217531.60689886,NA,"100km","Fish","Years",9,1963
+"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,6500,NA,"100km","Fish","Years",5,1963
 "Randall_1967",65,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,3230,NA,"100km","Fish","Years",255,1963
+"Randall_1967",13,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,47.4868402823351,NA,"100km","Fish","Years",19,1963
 "Randall_1967",9,"Marine","Endotherm","Gut content (lethal)","Gray",18.03,28840.5,NA,"100km","Fish","Years",29,1963
+"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,279.010009765625,NA,"100km","Fish","Years",4,1963
 "Randall_1967",3,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1583273.26945176,NA,"100km","Fish","Years",2,1963
 "Randall_1967",6,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,92470,NA,"100km","Fish","Years",24,1963
+"Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,0.404850184017666,NA,"100km","Fish","Years",4,1963
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,13300,NA,"100km","Fish","Years",5,1963
 "Randall_1967",31,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1330,NA,"100km","Fish","Years",57,1963
+"Randall_1967",20,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,85.5999984741211,NA,"100km","Fish","Years",28,1963
 "Randall_1967",40,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,412.5,NA,"100km","Fish","Years",60,1963
+"Randall_1967",7,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,62.7670500516667,NA,"100km","Fish","Years",21,1963
 "Randall_1967",13,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1748.5,NA,"100km","Fish","Years",32,1963
 "Randall_1967",4,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,2092.5,NA,"100km","Fish","Years",26,1963
 "Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1228.4,NA,"100km","Fish","Years",24,1963
@@ -206,28 +252,36 @@
 "Randall_1967",9,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,4.9,NA,"100km","Fish","Years",28,1963
 "Randall_1967",34,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,8580,NA,"100km","Fish","Years",66,1963
 "Randall_1967",26,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,950,NA,"100km","Fish","Years",117,1963
+"Randall_1967",6,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,4501,NA,"100km","Fish","Years",11,1963
 "Randall_1967",32,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,28600,NA,"100km","Fish","Years",92,1963
 "Randall_1967",4,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1941.5,NA,"100km","Fish","Years",6,1963
 "Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,102319.5,NA,"100km","Fish","Years",4,1963
 "Randall_1967",23,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,108.16653826392,NA,"100km","Fish","Years",23,1963
+"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,28500.2105255383,NA,"100km","Fish","Years",6,1963
 "Randall_1967",3,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,5610,NA,"100km","Fish","Years",8,1963
 "Randall_1967",22,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,2080,NA,"100km","Fish","Years",127,1963
 "Randall_1967",5,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,183700,NA,"100km","Fish","Years",2,1963
 "Randall_1967",28,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,900,NA,"100km","Fish","Years",52,1963
+"Randall_1967",7,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,13.6999998092651,NA,"100km","Fish","Years",75,1963
+"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,269.619995117188,NA,"100km","Fish","Years",11,1963
+"Randall_1967",17,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,27.7999992370605,NA,"100km","Fish","Years",23,1963
 "Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,56242.7,NA,"100km","Fish","Years",1,1963
 "Randall_1967",7,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1100,NA,"100km","Fish","Years",7,1963
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,7500,NA,"100km","Fish","Years",5,1963
-"Randall_1967",8,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,68077.3,NA,"100km","Fish","Years",22,1963
+"Randall_1967",8,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,68077.3000000001,NA,"100km","Fish","Years",22,1963
+"Randall_1967",12,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,361.5,NA,"100km","Fish","Years",28,1963
 "Randall_1967",8,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,7367.1,NA,"100km","Fish","Years",26,1963
 "Randall_1967",5,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,88634.2,NA,"100km","Fish","Years",8,1963
 "Randall_1967",20,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,5890,NA,"100km","Fish","Years",104,1963
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,900,NA,"100km","Fish","Years",9,1963
 "Randall_1967",15,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,23000,NA,"100km","Fish","Years",9,1963
+"Randall_1967",6,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,908.361145527,NA,"100km","Fish","Years",13,1963
+"Randall_1967",6,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,1950,NA,"100km","Fish","Years",19,1963
 "Randall_1967",12,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,497.3,NA,"100km","Fish","Years",9,1963
+"Sallami_2015",12,"Marine","Ectotherm","Gut content (lethal)","Gray",37.2,6180,NA,"100km","Fish","Years",61,2009
 "Sallami_2015",16,"Marine","Ectotherm","Gut content (lethal)","Gray",37.2,6180,NA,"100km","Fish","Years",74,2009
 "Sallami_2015",12,"Marine","Ectotherm","Gut content (lethal)","Gray",37.2,6180,NA,"100km","Fish","Years",86,2009
 "Sallami_2015",12,"Marine","Ectotherm","Gut content (lethal)","Gray",37.2,6180,NA,"100km","Fish","Years",67,2009
-"Sallami_2015",12,"Marine","Ectotherm","Gut content (lethal)","Gray",37.2,6180,NA,"100km","Fish","Years",61,2009
 "Scott_1903",7,"Marine","Ectotherm","Gut content (lethal)","Gray",56,1375,NA,"10km","Fish","Months",2,1902
 "Scott_1903",8,"Marine","Ectotherm","Gut content (lethal)","Gray",56,464.558421987461,NA,"100km","Fish","Months",22,1902
 "Scott_1903",8,"Marine","Ectotherm","Gut content (lethal)","Gray",56,155.063657417115,NA,"10km","Fish","Days",1,1902
@@ -249,29 +303,29 @@
 "Varghese_2014",79,"Marine","Endotherm","Gut content (lethal)","Gray",15.81,27960,NA,"1000km","Fish","Years",406,2007
 "Varghese_2014",21,"Marine","Ectotherm","Gut content (lethal)","Gray",15.81,24680,NA,"1000km","Fish","Years",24,2007
 "Xavier_2010",28,"Marine","Ectotherm","Gut content (lethal)","Gray",37.02,6180,NA,"10km","Fish","Years",342,2005
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-43.65,125.5,NA,"10km","Mammals","Days",181,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-44.23,125.5,NA,"10km","Mammals","Days",30,1980
 "King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-43.11,125.5,NA,"10km","Mammals","Days",166,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-39.3,125.5,NA,"10km","Mammals","Days",93,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-43.5,125.5,NA,"10km","Mammals","Days",164,1980
 "King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-40.76,125.5,NA,"10km","Mammals","Days",51,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-38.54,125.5,NA,"10km","Mammals","Days",23,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-45.46,125.5,NA,"10km","Mammals","Days",451,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.94,125.5,NA,"10km","Mammals","Days",97,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.01,125.5,NA,"10km","Mammals","Days",102,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-39.19,125.5,NA,"10km","Mammals","Days",44,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-45.11,125.5,NA,"10km","Mammals","Days",79,1980
-"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.42,125.5,NA,"10km","Mammals","Days",24,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-44.23,125.5,NA,"10km","Mammals","Days",30,1980
 "King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-40.9,125.5,NA,"10km","Mammals","Days",9,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-38.54,125.5,NA,"10km","Mammals","Days",23,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-43.5,125.5,NA,"10km","Mammals","Days",164,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.42,125.5,NA,"10km","Mammals","Days",24,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.01,125.5,NA,"10km","Mammals","Days",102,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-45.46,125.5,NA,"10km","Mammals","Days",451,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-43.65,125.5,NA,"10km","Mammals","Days",181,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-45.11,125.5,NA,"10km","Mammals","Days",79,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-39.3,125.5,NA,"10km","Mammals","Days",93,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-42.94,125.5,NA,"10km","Mammals","Days",97,1980
+"King_1982",25,"Terrestrial","Endotherm","Gut content (lethal)","Jeremy",-39.19,125.5,NA,"10km","Mammals","Days",44,1980
 "Yamaguchi_2011",37,"Marine","Ectotherm","Gut content (lethal)","Kira",33.01,3722.43475701821,NA,"10km","Fish","Years",334,2007
 "DeWitt_1972",3,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.707535602486809,NA,"10km","Fish","Years",71,1965
 "DeWitt_1972",3,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.707535602486809,NA,"10km","Fish","Years",154,1965
+"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",27,1965
+"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",51,1965
+"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",49,1965
+"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",85,1965
 "DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",60,1965
 "DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",5,1965
-"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",49,1965
-"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",27,1965
-"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",85,1965
-"DeWitt_1972",4,"Marine","Ectotherm","Gut content (lethal)","Kurt",33.8,0.103882442658203,NA,"10km","Fish","Years",51,1965
 "Braune_1987",7,"Marine","Endotherm","Gut content (lethal)","Kyle",44.96,200,NA,"10km","Birds","Years",222,1981
 "Plyuscheva_2010",6,"Marine","Ectotherm","Gut content (lethal)","Kyle",67,0.1,NA,"10m","Annelids","Hours",40,2008
 "Kadye_2012",32,"Lotic","Ectotherm","Gut content (lethal)","Landon",-33.1,60000,NA,"100km","Fish","Months",147,2010
@@ -285,8 +339,8 @@
 "Bury_1973",12,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",40.45,1.8,NA,"1000m","Amphibians","Years",36,1968
 "Bury_1973",13,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",40.45,61,NA,"1000m","Amphibians","Years",37,1968
 "Caldart_2012",19,"Terrestrial","Ectotherm","Gut content (non-lethal)","Leah",-27.24,4.1,NA,"1000m","Amphibians","Months",113,2009
-"Crnobrnja-Isailović_2012",19,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",44.69,164.75,NA,"1000m","Amphibians","Years",93,2001
 "Crnobrnja-Isailović_2012",13,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",44.69,164.75,NA,"1000m","Amphibians","Years",49,2001
+"Crnobrnja-Isailović_2012",19,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",44.69,164.75,NA,"1000m","Amphibians","Years",93,2001
 "Evans_1996",20,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",7.5,106.25,NA,"1000m","Amphibians","Years",269,1992
 "Felix_2006",14,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",37.5,8.2,NA,"1000m","Amphibians","Months",27,2000
 "Ferreira_2012",18,"Terrestrial","Ectotherm","Gut content (lethal)","Leah",-19.65,0.74,NA,"1000m","Amphibians","Months",260,1998
@@ -320,11 +374,13 @@
 "Collard_1970",2,"Marine","Ectotherm","Gut content (lethal)","Mark",33.33,6.51215572216549,NA,"100km","Fish","Years",5,1964
 "Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",12,0.46,NA,"1000km","Fish","Years",39,1964
 "Collard_1970",2,"Marine","Ectotherm","Gut content (lethal)","Mark",33.39,0.707535602486809,NA,"100km","Fish","Years",21,1964
-"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",-6,0.11,NA,"100km","Fish","Years",3,1964
+"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",-6,1.63145654639975,NA,"100km","Fish","Years",3,1964
 "Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",-6,0.1,NA,"100km","Fish","Years",2,1964
 "Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",-6,0.1,NA,"100km","Fish","Years",7,1964
 "Collard_1970",4,"Marine","Ectotherm","Gut content (lethal)","Mark",33.42,0.17,NA,"100km","Fish","Years",60,1964
 "Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",33.33,0.32,NA,"100km","Fish","Years",1,1964
+"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",33.33,28.935726672621,NA,"100km","Fish","Years",1,1964
+"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",33.33,28.935726672621,NA,"100km","Fish","Years",1,1964
 "Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",33.45,212.673360614201,NA,"100km","Fish","Years",1,1964
 "Collard_1970",2,"Marine","Ectotherm","Gut content (lethal)","Mark",-31.02,3.19554344186258,NA,"100km","Fish","Years",29,1964
 "Collard_1970",5,"Marine","Ectotherm","Gut content (lethal)","Mark",-47.17,0.98,NA,"100km","Fish","Years",35,1964
@@ -359,22 +415,22 @@
 "Falke_2024",37,"Marine","Ectotherm","Gut content (lethal)","Mark",43.8,2721.55,NA,"100km","Fish","Years",611,2017
 "Falke_2024",40,"Marine","Ectotherm","Gut content (lethal)","Mark",43.8,11550,NA,"100km","Fish","Years",947,2017
 "Feder_1959",33,"Marine","Ectotherm","Direct observation","Mark",36.81,565,NA,"1000m","Echinoderms","Years",3450,1954
-"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.01,200,NA,"10m","Echinoderms","Years",18,2004
-"Gaymer_2008",5,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",65,2004
-"Gaymer_2008",6,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",64,2004
 "Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.06,200,NA,"10m","Echinoderms","Years",19,2004
-"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.06,200,NA,"10m","Echinoderms","Years",10,2004
-"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-26.34,200,NA,"10m","Echinoderms","Years",100,2004
+"Gaymer_2008",6,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",64,2004
+"Gaymer_2008",5,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",65,2004
+"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.01,200,NA,"10m","Echinoderms","Years",18,2004
 "Gaymer_2008",8,"Marine","Ectotherm","Direct observation","Mark",-26.34,200,NA,"10m","Echinoderms","Years",41,2004
-"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.06,200,NA,"10m","Echinoderms","Years",25,2004
-"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",18,2004
 "Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.01,200,NA,"10m","Echinoderms","Years",21,2004
-"Gil_2008",17,"Marine","Ectotherm","Direct observation","Mark",-45.72,15,NA,"100m","Echinoderms","Months",4041,2001
+"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-26.34,200,NA,"10m","Echinoderms","Years",100,2004
+"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.2,200,NA,"10m","Echinoderms","Years",18,2004
+"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.06,200,NA,"10m","Echinoderms","Years",10,2004
+"Gaymer_2008",2,"Marine","Ectotherm","Direct observation","Mark",-27.06,200,NA,"10m","Echinoderms","Years",25,2004
 "Gil_2008",12,"Marine","Ectotherm","Direct observation","Mark",-47.75,15,NA,"100m","Echinoderms","Months",4429,2001
+"Gil_2008",17,"Marine","Ectotherm","Direct observation","Mark",-45.72,15,NA,"100m","Echinoderms","Months",4041,2001
 "Glaudas_2008",36,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",40,300,NA,"100km","Reptiles","Decades",659,1980
-"Glorioso_2010",18,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.17,57,NA,"1000m","Amphibians","Months",558,2003
-"Glorioso_2010",7,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.42,57,NA,"1000m","Amphibians","Months",28,2003
 "Glorioso_2010",12,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.42,57,NA,"1000m","Amphibians","Months",68,2003
+"Glorioso_2010",7,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.42,57,NA,"1000m","Amphibians","Months",28,2003
+"Glorioso_2010",18,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.17,57,NA,"1000m","Amphibians","Months",558,2003
 "Glorioso_2010",9,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",25.39,57,NA,"1000m","Amphibians","Months",113,2003
 "Huckembeck_2014",14,"Lentic","Ectotherm","Gut content (lethal)","Mark",-31.11,5.05,NA,"1000m","Amphibians","Years",45,2008
 "Keough_1979",5,"Marine","Ectotherm","Direct observation","Mark",-35.52,99.79032,NA,"10m","Echinoderms","Years",86,1976
@@ -387,49 +443,49 @@
 "Mauzey_1968",1,"Marine","Ectotherm","Direct observation","Mark",49.2,90,NA,"1000m","Echinoderms","Years",62,1966
 "Mauzey_1968",10,"Marine","Ectotherm","Gut content (lethal)","Mark",48.53,90,NA,"1000m","Echinoderms","Years",156,1966
 "Mauzey_1968",4,"Marine","Ectotherm","Direct observation","Mark",48.23,315,NA,"1000m","Echinoderms","Years",33,1966
-"Mauzey_1968",7,"Marine","Ectotherm","Direct observation","Mark",47.62,315,NA,"1000m","Echinoderms","Years",250,1966
 "Mauzey_1968",17,"Marine","Ectotherm","Direct observation","Mark",48.59,315,NA,"1000m","Echinoderms","Years",198,1966
+"Mauzey_1968",7,"Marine","Ectotherm","Direct observation","Mark",47.62,315,NA,"1000m","Echinoderms","Years",250,1966
 "Mauzey_1968",3,"Marine","Ectotherm","Direct observation","Mark",48.3,400,NA,"1000m","Echinoderms","Years",1028,1966
 "Mauzey_1968",20,"Marine","Ectotherm","Direct observation","Mark",48.3,4,NA,"1000m","Echinoderms","Years",350,1966
-"Mauzey_1968",10,"Marine","Ectotherm","Direct observation","Mark",48.59,200,NA,"1000m","Echinoderms","Years",199,1966
 "Mauzey_1968",9,"Marine","Ectotherm","Direct observation","Mark",48.59,200,NA,"1000m","Echinoderms","Years",64,1966
-"Mauzey_1968",5,"Marine","Ectotherm","Direct observation","Mark",48.38,200,NA,"1000m","Echinoderms","Years",96,1966
+"Mauzey_1968",10,"Marine","Ectotherm","Direct observation","Mark",48.59,200,NA,"1000m","Echinoderms","Years",199,1966
 "Mauzey_1968",2,"Marine","Ectotherm","Direct observation","Mark",48.38,200,NA,"1000m","Echinoderms","Years",176,1966
+"Mauzey_1968",5,"Marine","Ectotherm","Direct observation","Mark",48.38,200,NA,"1000m","Echinoderms","Years",96,1966
 "Mauzey_1968",9,"Marine","Ectotherm","Direct observation","Mark",48.3,140,NA,"1000m","Echinoderms","Years",104,1966
 "Mauzey_1968",8,"Marine","Ectotherm","Direct observation","Mark",48.3,137.5,NA,"1000m","Echinoderms","Years",21,1966
 "Mauzey_1968",8,"Marine","Ectotherm","Direct observation","Mark",48.3,140,NA,"1000m","Echinoderms","Years",306,1966
-"Mauzey_1968",5,"Marine","Ectotherm","Direct observation","Mark",48.3,375,NA,"1000m","Echinoderms","Years",15,1966
 "Mauzey_1968",2,"Marine","Ectotherm","Direct observation","Mark",49.21,375,NA,"100m","Echinoderms","Years",28,1966
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-32.22,200,NA,"100m","Echinoderms","Hours",98,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-31.04,200,NA,"100m","Echinoderms","Hours",97,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.09,200,NA,"100m","Echinoderms","Hours",105,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-29.75,200,NA,"100m","Echinoderms","Hours",83,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-29.8,200,NA,"100m","Echinoderms","Hours",111,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-28.46,200,NA,"100m","Echinoderms","Hours",65,2001
+"Mauzey_1968",5,"Marine","Ectotherm","Direct observation","Mark",48.3,375,NA,"1000m","Echinoderms","Years",15,1966
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-30.17,200,NA,"100m","Echinoderms","Hours",167,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.25,200,NA,"100m","Echinoderms","Hours",258,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.19,200,NA,"100m","Echinoderms","Hours",105,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-34.38,200,NA,"100m","Echinoderms","Hours",136,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.24,200,NA,"100m","Echinoderms","Hours",105,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-31.04,200,NA,"100m","Echinoderms","Hours",97,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-29.75,200,NA,"100m","Echinoderms","Hours",83,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-32.22,200,NA,"100m","Echinoderms","Hours",98,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-32.79,200,NA,"100m","Echinoderms","Hours",93,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-28.46,200,NA,"100m","Echinoderms","Hours",65,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.19,200,NA,"100m","Echinoderms","Hours",105,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.09,200,NA,"100m","Echinoderms","Hours",105,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-32.96,200,NA,"100m","Echinoderms","Hours",80,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-29.8,200,NA,"100m","Echinoderms","Hours",111,2001
+"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.25,200,NA,"100m","Echinoderms","Hours",258,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.24,200,NA,"100m","Echinoderms","Hours",127,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-33.25,200,NA,"100m","Echinoderms","Hours",125,2001
 "Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-29.25,200,NA,"100m","Echinoderms","Hours",64,2001
-"Navarrete_2008",13,"Marine","Ectotherm","Direct observation","Mark",-34.38,200,NA,"100m","Echinoderms","Hours",136,2001
-"Novak_2010",6,"Marine","Ectotherm","Direct observation","Mark",-41.75,0.4,NA,"100m","Molluscs","Years",2004,2006
 "Novak_2010",8,"Marine","Ectotherm","Direct observation","Mark",-41.77,0.4,NA,"100m","Molluscs","Years",2089,2006
+"Novak_2010",6,"Marine","Ectotherm","Direct observation","Mark",-41.75,0.4,NA,"100m","Molluscs","Years",2004,2006
+"Novak_2013",27,"Marine","Ectotherm","Direct observation","Mark",-41.77,3.73,NA,"100m","Molluscs","Years",4392,2006
 "Novak_2013",33,"Marine","Ectotherm","Direct observation","Mark",-42.47,3.73,NA,"100m","Molluscs","Years",4844,2006
-"Novak_2013",19,"Marine","Ectotherm","Direct observation","Mark",-41.75,3.73,NA,"100m","Molluscs","Years",1835,2006
+"Novak_2013",20,"Marine","Ectotherm","Direct observation","Mark",-43.96,3.73,NA,"100m","Molluscs","Years",2977,2006
 "Novak_2013",17,"Marine","Ectotherm","Direct observation","Mark",-43.96,3.73,NA,"100m","Molluscs","Years",3157,2006
 "Novak_2013",25,"Marine","Ectotherm","Direct observation","Mark",-42.26,3.73,NA,"100m","Molluscs","Years",3823,2006
-"Novak_2013",27,"Marine","Ectotherm","Direct observation","Mark",-41.77,3.73,NA,"100m","Molluscs","Years",4392,2006
-"Novak_2013",20,"Marine","Ectotherm","Direct observation","Mark",-43.96,3.73,NA,"100m","Molluscs","Years",2977,2006
-"Novak_2013",14,"Marine","Ectotherm","Direct observation","Mark",-42.47,0.4,NA,"100m","Molluscs","Years",4611,2006
+"Novak_2013",19,"Marine","Ectotherm","Direct observation","Mark",-41.75,3.73,NA,"100m","Molluscs","Years",1835,2006
 "Novak_2013",8,"Marine","Ectotherm","Direct observation","Mark",-41.77,0.4,NA,"100m","Molluscs","Years",2670,2006
 "Novak_2013",7,"Marine","Ectotherm","Direct observation","Mark",-41.75,0.4,NA,"100m","Molluscs","Years",3131,2006
-"Novak_2013",10,"Marine","Ectotherm","Direct observation","Mark",-43.96,0.4,NA,"100m","Molluscs","Years",2229,2006
 "Novak_2013",14,"Marine","Ectotherm","Direct observation","Mark",-42.26,0.4,NA,"100m","Molluscs","Years",1747,2006
 "Novak_2013",11,"Marine","Ectotherm","Direct observation","Mark",-43.96,0.4,NA,"100m","Molluscs","Years",2905,2006
+"Novak_2013",14,"Marine","Ectotherm","Direct observation","Mark",-42.47,0.4,NA,"100m","Molluscs","Years",4611,2006
+"Novak_2013",10,"Marine","Ectotherm","Direct observation","Mark",-43.96,0.4,NA,"100m","Molluscs","Years",2229,2006
 "Rauschenplat_1901",4,"Marine","Ectotherm","Gut content (lethal)","Mark",54.51,0.5,NA,"10km","Arthropods","Years",24,1900
 "Rauschenplat_1901",9,"Marine","Ectotherm","Gut content (lethal)","Mark",54.51,1.6,NA,"10km","Fish","Years",16,1900
 "Rauschenplat_1901",6,"Marine","Ectotherm","Gut content (lethal)","Mark",54.51,0.4,NA,"10km","Annelids","Years",13,1900
@@ -442,14 +498,13 @@
 "Rauschenplat_1901",9,"Marine","Ectotherm","Gut content (lethal)","Mark",54.51,56.3911307062638,NA,"10km","Fish","Years",11,1900
 "Rauschenplat_1901",6,"Marine","Ectotherm","Gut content (lethal)","Mark",54.51,22.6981828317289,NA,"10km","Fish","Years",21,1900
 "Rodríguez-Robles_1999",31,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",38,58.8,NA,"1000km","Reptiles","Decades",397,1980
-"Saunders_2015",19,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,9.00826014586978,NA,"100km","Fish","Years",104,2008
 "Saunders_2015",29,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,9.00826014586978,NA,"100km","Fish","Years",496,2008
-"Saunders_2015",21,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,22.7257207186318,NA,"100km","Fish","Years",41,2008
+"Saunders_2015",19,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,9.00826014586978,NA,"100km","Fish","Years",104,2008
+"Saunders_2015",21,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,47.0999984741211,NA,"100km","Fish","Years",41,2008
 "Saunders_2015b",17,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,1.06047105201331,NA,"100km","Fish","Years",239,2008
 "Saunders_2015b",14,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,3.90972736495645,NA,"100km","Fish","Years",39,2008
 "Saunders_2015b",14,"Marine","Ectotherm","Gut content (lethal)","Mark",-53.6,1.13394935291342,NA,"100km","Fish","Years",49,2008
 "Scheffer_1931",39,"Marine","Endotherm","Gut content (lethal)","Mark",47.6,115000,NA,"100km","Mammals","Years",100,1929
-"Taylor_1995",12,"Marine","Ectotherm","Gut content (lethal)","Mark",-22.28,0.158,NA,"100km","Molluscs","Years",87,1984
 "Tong_1986",5,"Marine","Ectotherm","Gut content (lethal)","Mark",22.43,6,NA,"100m","Molluscs","Years",420,1984
 "Tong_1986",13,"Marine","Ectotherm","Gut content (lethal)","Mark",22.21,6,NA,"100m","Molluscs","Years",430,1984
 "Tong_1986",9,"Marine","Ectotherm","Gut content (lethal)","Mark",22.3,1,NA,"100m","Molluscs","Years",428,1984
@@ -460,8 +515,8 @@
 "Cherel_2004",15,"Marine","Endotherm","Gut content (lethal)","Paige",-49.5,230000,NA,"100km","Fish","Years",26,1999
 "Cherel_2004",19,"Marine","Ectotherm","Gut content (lethal)","Paige",-49.5,1100000,NA,"100km","Fish","Years",36,1999
 "Dale_2011",18,"Marine","Ectotherm","Gut content (lethal)","Paige",21.46,290000,NA,"10km","Fish","Months",66,2011
-"Dale_2011",15,"Marine","Ectotherm","Gut content (lethal)","Paige",21.46,290000,NA,"10km","Fish","Months",48,2011
 "Dale_2011",13,"Marine","Ectotherm","Gut content (lethal)","Paige",21.46,290000,NA,"1000m","Fish","Months",42,2011
+"Dale_2011",15,"Marine","Ectotherm","Gut content (lethal)","Paige",21.46,290000,NA,"10km","Fish","Months",48,2011
 "Gelsleichter_1999",28,"Marine","Ectotherm","Gut content (lethal)","Paige",37.03,346500,NA,"10km","Fish","Years",153,1986
 "Gelsleichter_1999",30,"Marine","Ectotherm","Gut content (lethal)","Paige",37.03,102500,NA,"10km","Fish","Years",54,1986
 "Gelsleichter_1999",24,"Marine","Ectotherm","Gut content (lethal)","Paige",37.03,12200,NA,"10km","Fish","Years",64,1986
@@ -476,186 +531,186 @@
 "Preti_2012",42,"Marine","Endotherm","Gut content (lethal)","Paige",33.39,150405.848279269,NA,"100km","Fish","Years",330,2005
 "Preti_2012",38,"Marine","Ectotherm","Gut content (lethal)","Paige",33.15,240000,NA,"100km","Fish","Years",158,2005
 "Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",33.36,20000,NA,"100km","Mammals","Years",12,2013
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",6,2006
-"Preti_2020",33,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",6,2000
-"Preti_2020",59,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,20000,NA,"100km","Mammals","Years",94,2003
 "Preti_2020",38,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,20000,NA,"100km","Mammals","Years",7,2012
+"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",6,2006
 "Preti_2020",33,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",8,2000
 "Preti_2020",59,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,20000,NA,"100km","Mammals","Years",151,2003
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",33.36,20000,NA,"100km","Mammals","Years",11,2013
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",1,2010
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",33.36,20000,NA,"100km","Mammals","Years",4,2006
 "Preti_2020",38,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,20000,NA,"100km","Mammals","Years",7,2012
+"Preti_2020",33,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",6,2000
+"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",33.36,20000,NA,"100km","Mammals","Years",4,2006
 "Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",1,2010
+"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",33.36,20000,NA,"100km","Mammals","Years",11,2013
+"Preti_2020",59,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,20000,NA,"100km","Mammals","Years",94,2003
+"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,20000,NA,"100km","Mammals","Years",1,2010
+"Preti_2020",5,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,120000,NA,"100km","Mammals","Years",1,2000
 "Preti_2020",36,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,120000,NA,"100km","Mammals","Years",12,2000
 "Preti_2020",36,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,120000,NA,"100km","Mammals","Years",11,2000
 "Preti_2020",5,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,120000,NA,"100km","Mammals","Years",1,2000
-"Preti_2020",5,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,120000,NA,"100km","Mammals","Years",1,2000
-"Preti_2020",47,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",32,2005
-"Preti_2020",30,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",2,2005
-"Preti_2020",30,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",3,2005
 "Preti_2020",47,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",19,2005
+"Preti_2020",47,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",32,2005
+"Preti_2020",30,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",3,2005
+"Preti_2020",30,"Marine","Endotherm","Gut content (lethal)","Paige",35.87,113000,NA,"100km","Mammals","Years",2,2005
 "Preti_2020",60,"Marine","Ectotherm","Gut content (lethal)","Paige",33.02,24680,NA,"100km","Fish","Years",299,2011
 "Rodrigues_2019",43,"Marine","Endotherm","Gut content (lethal)","Paige",-17.62,80000,NA,"100km","Mammals","Years",42,2007
 "Romero_2012",15,"Marine","Endotherm","Gut content (lethal)","Paige",-41.5,20000,NA,"100km","Mammals","Years",30,2004
-"Romero_2012",8,"Marine","Endotherm","Gut content (lethal)","Paige",-41.5,110000,NA,"100km","Mammals","Years",26,2004
 "Romero_2012",9,"Marine","Endotherm","Gut content (lethal)","Paige",-41.5,110000,NA,"100km","Mammals","Years",5,2004
+"Romero_2012",8,"Marine","Endotherm","Gut content (lethal)","Paige",-41.5,110000,NA,"100km","Mammals","Years",26,2004
 "Soekoe_2022",19,"Marine","Ectotherm","Gut content (lethal)","Paige",-32.11,145,NA,"1000km","Fish","Years",120,2012
-"Solmundsson_2025",11,"Marine","Ectotherm","Gut content (lethal)","Paige",63.82,760.392390538519,NA,"100km","Fish","Years",149,2010
 "Solmundsson_2025",11,"Marine","Ectotherm","Gut content (lethal)","Paige",64.74,760.392390538519,NA,"100km","Fish","Years",42,2010
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",60,2014
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",60,2012
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",59,2009
+"Solmundsson_2025",11,"Marine","Ectotherm","Gut content (lethal)","Paige",63.82,760.392390538519,NA,"100km","Fish","Years",149,2010
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",19,2020
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",48,2013
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",41,2007
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",48,2018
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",23,2005
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",22,2019
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",38,2003
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",37,2015
 "Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",27,2016
 "Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",30,2010
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",50,2002
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",22,2019
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",33,2006
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",44,2008
 "Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",20,2004
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",23,2005
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",48,2013
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",48,2018
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",20,2011
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",38,2003
 "Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",38,2017
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",37,2015
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",41,2007
-"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",19,2020
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",6,2012
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",7,2022
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",9,2015
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",16,2018
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",33,2006
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",60,2014
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",20,2011
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",44,2008
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",50,2002
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",59,2009
+"Solmundsson_2025",28,"Marine","Ectotherm","Gut content (lethal)","Paige",64,2203.60737543626,NA,"100km","Fish","Months",60,2012
 "Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",21,2019
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",17,2013
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",20,2017
-"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",11,2020
 "Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",44,2014
 "Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",7,2016
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",283,2017
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",6,2012
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",9,2015
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",11,2020
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",20,2017
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",16,2018
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",17,2013
+"Solmundsson_2025",17,"Marine","Ectotherm","Gut content (lethal)","Paige",63.12,23233.5969787364,NA,"100km","Fish","Months",7,2022
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",264,2005
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",367,2013
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",134,2011
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",278,2009
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",233,2004
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",244,2007
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",304,2003
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",270,2014
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",134,2011
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",283,2017
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",274,2020
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",246,2019
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",251,2016
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",288,2008
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",367,2013
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",270,2014
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",276,1998
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",302,2023
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",244,2018
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",253,2015
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",300,2012
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",430,2002
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",288,2008
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",279,2022
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",197,2010
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",233,2004
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",100,2001
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",276,1998
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",300,2012
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",302,2023
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",274,2020
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",430,2002
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",244,2018
-"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",288,1997
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",304,2003
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",251,2016
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",278,2009
 "Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",346,2006
+"Solmundsson_2025",75,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1822.38671946204,NA,"100km","Fish","Months",288,1997
 "Solmundsson_2025",9,"Marine","Ectotherm","Gut content (lethal)","Paige",64.63,10100,NA,"100km","Fish","Years",131,2010
 "Solmundsson_2025",9,"Marine","Ectotherm","Gut content (lethal)","Paige",63.94,10100,NA,"100km","Fish","Years",24,2010
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",59,2014
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",46,2009
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",38,2005
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",81,2008
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",59,2019
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",28,2013
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",75,2007
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",89,2016
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",11,2011
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",96,2006
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",73,2020
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",85,2004
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",81,2008
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",48,2022
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",221,2017
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",68,2015
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",89,2016
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",38,2005
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",59,2019
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",85,2004
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",59,2014
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",139,2012
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",11,2011
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",73,2002
-"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",96,2006
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",46,2009
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",45,2010
+"Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",48,2022
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",32,2018
 "Solmundsson_2025",21,"Marine","Ectotherm","Gut content (lethal)","Paige",63.23,11333.6753602624,NA,"100km","Fish","Months",83,2003
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",38,2006
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",36,2004
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",26,2019
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",17,2020
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",13,2013
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",28,2007
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",25,2002
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",38,2006
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",13,2013
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",6,2010
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",37,2003
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",1,2015
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",17,2012
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",6,2010
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",13,2016
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",37,2003
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",17,2020
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",45,2014
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",28,2007
-"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",4,2018
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",13,2016
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",56,2017
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",50,1997
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",116,2009
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",26,2019
+"Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.11,8700,NA,"100km","Fish","Months",4,2018
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",107,2002
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",127,2006
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",136,2015
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",56,2011
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",116,2009
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",162,2020
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",135,2019
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",170,2023
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",181,2018
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",105,2008
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",162,2020
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",44,2001
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",65,2005
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",63,2004
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",144,2022
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",207,2014
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",135,2013
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",86,2003
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",161,2017
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",21,1998
-"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",71,2007
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",50,1997
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",136,2015
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",69,2010
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",21,1998
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",181,2018
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",86,2003
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",127,2006
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",63,2004
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",105,2008
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",144,2022
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",138,2016
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",161,2017
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",44,2001
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",71,2007
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",207,2014
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",65,2005
 "Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",125,2012
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",84,2002
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",113,2020
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",78,2004
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",26,2011
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",100,2017
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",119,2009
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",68,2012
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",96,2010
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",67,2013
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",143,2007
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",103,2023
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",95,2006
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",97,2005
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",90,2008
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",94,2003
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",93,2015
-"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",107,2018
+"Solmundsson_2025",61,"Marine","Ectotherm","Gut content (lethal)","Paige",63.63,4145.36965431327,NA,"100km","Fish","Months",135,2013
 "Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",103,2019
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",68,2012
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",93,2015
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",143,2007
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",96,2010
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",103,2023
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",26,2011
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",95,2006
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",94,2003
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",100,2017
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",78,2004
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",119,2009
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",97,2005
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",84,2002
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",107,2018
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",90,2008
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",67,2013
 "Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",79,2016
+"Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",113,2020
 "Solmundsson_2025",26,"Marine","Ectotherm","Gut content (lethal)","Paige",62.97,850,NA,"100km","Fish","Months",112,2014
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",60,2016
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",19,2011
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",91,2015
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",174,2017
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",92,2007
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",91,2018
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",78,2005
 "Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",67,2004
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",83,2006
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",19,2011
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",60,2016
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",61,2013
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",56,2010
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",89,2003
 "Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",95,2020
 "Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",83,2009
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",79,2002
 "Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",110,2014
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",89,2003
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",78,2005
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",56,2010
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",83,2006
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",67,2008
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",55,2012
-"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",61,2013
 "Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",87,2019
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",174,2017
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",55,2012
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",67,2008
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",91,2015
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",92,2007
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",79,2002
+"Solmundsson_2025",46,"Marine","Ectotherm","Gut content (lethal)","Paige",63.7,1236.50889643885,NA,"100km","Fish","Months",91,2018
 "Solmundsson_2025",10,"Marine","Ectotherm","Gut content (lethal)","Paige",63.2,1100000,NA,"100km","Fish","Years",4,2010
 "TinHan_2021",38,"Marine","Ectotherm","Gut content (lethal)","Paige",28.04,316500,NA,"100km","Fish","Years",223,2015
 "Viana_2014",24,"Marine","Ectotherm","Gut content (lethal)","Paige",-23.36,55,NA,"10km","Fish","Years",59,2006
@@ -665,10 +720,11 @@
 "Dehn_2006",21,"Marine","Endotherm","Gut content (lethal)","Serena",71.3,280000,NA,"10km","Mammals","Years",37,2001
 "Dehn_2006",1,"Marine","Endotherm","Gut content (lethal)","Serena",65.76,22500,NA,"10km","Mammals","Months",37,2003
 "Dehn_2006",18,"Marine","Endotherm","Gut content (lethal)","Serena",66.27,150000,NA,"10km","Mammals","Years",43,2002
-"Dehn_2006",15,"Marine","Endotherm","Gut content (lethal)","Serena",71.3,86140,NA,"10km","Mammals","Years",50,2000
 "Dehn_2006",0,"Marine","Endotherm","Gut content (lethal)","Serena",70.74,86140,NA,"10km","Mammals","Months",25,2001
-"Gibbs_2011",22,"Marine","Endotherm","Gut content (lethal)","Serena",-33.4,197500,NA,"100km","Mammals","Decades",91,1990
+"Dehn_2006",15,"Marine","Endotherm","Gut content (lethal)","Serena",71.3,86140,NA,"10km","Mammals","Years",50,2000
+"Eddy_2016",90,"Marine","Ectotherm","Gut content (lethal)","Serena",32.32,1244.13714678085,NA,"10km","Fish","Years",1352,2015
 "Gibbs_2011",29,"Marine","Endotherm","Gut content (lethal)","Serena",-35.53,197500,NA,"100km","Mammals","Decades",3,1990
+"Gibbs_2011",22,"Marine","Endotherm","Gut content (lethal)","Serena",-33.4,197500,NA,"100km","Mammals","Decades",91,1990
 "Hamilton_2019",33,"Marine","Ectotherm","Gut content (lethal)","Serena",-8.15,56242.7,NA,"100km","Fish","Years",110,2005
 "Junior_2007",49,"Marine","Ectotherm","Gut content (lethal)","Serena",-5.59,213.155697623735,NA,"1000km","Fish","Years",185,2005
 "Lanszki_2015",14,"Lotic","Endotherm","Gut content (lethal)","Serena",46.87,8077.45908599107,NA,"100km","Mammals","Decades",231,2006
@@ -678,28 +734,39 @@
 "Moncada-Rosas_2025",44,"Marine","Ectotherm","Gut content (lethal)","Serena",27.87,730.62590280389,NA,"10km","Fish","Years",150,2016
 "Montano_2017",23,"Marine","Ectotherm","Gut content (lethal)","Serena",-0.94,316500,NA,"1000km","Fish","Years",41,2004
 "Montano_2017",12,"Marine","Ectotherm","Gut content (lethal)","Serena",-0.94,1583273.26945176,NA,"1000km","Fish","Years",6,2004
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
@@ -709,16 +776,17 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
@@ -738,48 +806,36 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
+"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,"10m","Fish","Years",1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,"10m","Fish","Years",1,2015
 "Pallaoro_2003",45,"Marine","Ectotherm","Gut content (lethal)","Serena",43.12,627.031814605636,NA,"100km","Fish","Years",926,1993
 "Peda_2015",17,"Marine","Endotherm","Gut content (lethal)","Serena",43.25,150000,NA,"100km","Mammals","Years",19,2001
 "Peda_2015",9,"Marine","Endotherm","Gut content (lethal)","Serena",43.1,197500,NA,"100km","Mammals","Years",13,2001
@@ -790,15 +846,15 @@
 "Vital_2024",50,"Marine","Endotherm","Gut content (lethal)","Serena",-22.79,80000,NA,"100km","Mammals","Years",419,2015
 "Vital_2024",50,"Marine","Endotherm","Gut content (lethal)","Serena",-22.85,80000,NA,"100km","Mammals","Years",95,2015
 "Wang_2003",92,"Marine","Endotherm","Gut content (lethal)","Serena",24.58,119000,NA,"100m","Mammals","Years",45,1995
-"Cerda_1993",38,"Marine","Ectotherm","Gut content (lethal)","Shannon",-29.97,307,NA,"10m","Arthropods","Months",203,1988
 "Cerda_1993",44,"Marine","Ectotherm","Gut content (lethal)","Shannon",-29.97,307,NA,"10m","Arthropods","Months",142,1988
+"Cerda_1993",38,"Marine","Ectotherm","Gut content (lethal)","Shannon",-29.97,307,NA,"10m","Arthropods","Months",203,1988
 "Fenchel_1965",4,"Marine","Ectotherm","Gut content (lethal)","Shannon",56.1,15,NA,"1000m","Echinoderms","Months",42,1964
-"Freire_1995",19,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.56,75,NA,"1000m","Arthropods","Months",622,1989
 "Freire_1995",18,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.52,75,NA,"1000m","Arthropods","Months",110,1989
+"Freire_1995",19,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.56,75,NA,"1000m","Arthropods","Months",622,1989
 "Freire_1995",17,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.62,75,NA,"1000m","Arthropods","Months",228,1989
-"Freire_1996",79,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.55,13.83,NA,"100m","Arthropods","Months",3008,1990
 "Freire_1996",14,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.6,13.83,NA,"100m","Arthropods","Months",75,1990
 "Freire_1996",35,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.62,13.83,NA,"100m","Arthropods","Months",409,1990
+"Freire_1996",79,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.55,13.83,NA,"100m","Arthropods","Months",3008,1990
 "Freire_1996",44,"Marine","Ectotherm","Gut content (lethal)","Shannon",42.57,13.83,NA,"100m","Arthropods","Months",255,1990
 "Meise_2003",17,"Marine","Ectotherm","Gut content (lethal)","Shannon",40.4,140,NA,"10km","Arthropods","Years",831,1997
 "Oh_2001",33,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,0.5,NA,"1000m","Arthropods","Years",2595,1997
