@@ -207,8 +207,8 @@ vars <-
     'PS',
     'PST',
     'DR',
-    'Drf',
-    'Drc'
+    'Drc',
+    'Drf'
   )
 fdatc <- fdatc[, vars]
 
