@@ -15,12 +15,23 @@ AllNA <- function(x) {
   all(is.na(x))
 }
 # ISOdate and ISOdatetime only work for specific combinations, so create own
-coll <-
-  function(x, sel, sep = '-') {
-    if (length(sel) > 0) {
-      apply(x, 1, paste0, collapse = sep)
-    }
+coll <- function(x, sel, sep = '-') {
+  if (length(sel) > 0) {
+    apply(x, 1, paste0, collapse = sep)
   }
+}
+
+decimalplaces <- function(x) {
+  if (!is.na(x) & is.numeric(x)){
+    if (abs(x - round(x)) > .Machine$double.eps^0.5) {
+      nchar(strsplit(sub('0+$', '', as.character(x)), ".", fixed = TRUE)[[1]][[2]])
+    } else {
+      return(0)
+    }
+  } else {
+    return(x)
+  }
+}
 
 #######################
 # Import from GoogleDoc
@@ -145,13 +156,14 @@ if (length(Check.consult) > 0) {
   sink()
 }
 
+
 Check.lat <- which(!is.numeric(dat$Latitude))
 if (length(Check.lat) > 0) {
-  warn <- 'There are problems with the following lat-longs.\n'
+  warn <- 'There are problems with the following latitudes.\n'
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.lat, ])
+  print(dat[Check.lat, c('Citation','Consumer.identity','Latitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -160,11 +172,38 @@ if (length(Check.lat) > 0) {
 
 Check.long <- which(!is.numeric(dat$Longitude))
 if (length(Check.long) > 0) {
-  warn <- 'There are problems with the following lat-longs.\n'
+  warn <- 'There are problems with the following longitudes.\n'
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.long, ])
+  print(dat[Check.long, c('Citation','Consumer.identity','Longitude')])
+  err.cnt <- err.cnt + 1
+  print("")
+  print("")
+  sink()
+}
+
+
+Check.lat.dp <- which(sapply(dat$Latitude, decimalplaces) > 2)
+if (length(Check.lat.dp) > 0) {
+  warn <- 'These latitudes have more than two decimal places.\n'
+  warning(warn, immediate. = TRUE)
+  sink(file = ErrFile, append = TRUE)
+  print(warn)
+  print(dat[Check.lat.dp, c('Citation','Consumer.identity','Latitude')])
+  err.cnt <- err.cnt + 1
+  print("")
+  print("")
+  sink()
+}
+
+Check.long.dp <- which(sapply(dat$Longitude, decimalplaces) > 2)
+if (length(Check.long.dp) > 0) {
+  warn <- 'These longitudes have more than two decimal places.\n'
+  warning(warn, immediate. = TRUE)
+  sink(file = ErrFile, append = TRUE)
+  print(warn)
+  print(dat[Check.long.dp, c('Citation','Consumer.identity','Longitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
