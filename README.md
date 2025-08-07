@@ -26,14 +26,17 @@ Taxonomic standardization uses the [Open Tree of Life](https://opentreeoflife.gi
 To view all studies included in the database, see the README of [Bib](Bib).
 The database includes the compilations of [Huey et al. 2001](https://doi.org/10.1890/0012-9658(2001)082[0001:HODLRO]2.0.CO;2) and [Arrington et al. 2002](https://doi.org/10.1890/0012-9658(2002)083[2145:HODFRO]2.0.CO;2).
 
+## R code
+For open science purposes, this repository contains all code for data quality control and curation, which may be performed using `R/RunMe.r`.  However, because our workflow entails data entry into GoogleSheets that are imported in the first step of the data curation process and have been set to "private" to increase data security, only authorized users are able to perform the full workflow.
+
 ## Citation
 Forthcoming.  For now, please see [FigShare: doi.org/10.6084/m9.figshare.13139705](https://doi.org/10.6084/m9.figshare.13139705).
 
 ## Funding
 The compilation of this database began with the support of the National Science Foundation [DEB-1353827](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1353827&HistoricalAwards=false).  The involvement of several contributors was made possible by Oregon State University’s URSA Engage Program for undergraduate research and the [OSU College of Science Research and Innovation Seed (SciRIS) Program](https://beav.es/ihi).
 
-## Please contribute data!
-If you have or know of published predator diet surveys for which information with which to calculate the fraction of (non-)feeding individuals is available, please send us the associated citation ([mark.novak@oregonstate.edu](mark.novak@oregonstate.edu)).  Feel free to also suggest additional co-variates to start collecting information on.
+## Please contribute!
+If you have or know of published predator diet surveys with information on the fraction of (non-)feeding individuals, please send us the citation ([mark.novak@oregonstate.edu](mark.novak@oregonstate.edu)).
 
 ## Summary views
 ![Global map by Taxon Group and Ecosystem](Figs/Map_global_TaxonGroupEcosystem.png)
