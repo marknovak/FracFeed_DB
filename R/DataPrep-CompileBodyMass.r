@@ -705,13 +705,12 @@ if(regBMcompilations){
 # Combine databases, given ordered preference:
 ##############################################
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-load(file = 'BodyMass_AmphiBio.Rdata')
 load(file = 'BodyMass_Meiri_2018.Rdata')
+load(file = 'BodyMass_AmphiBio.Rdata')
 load(file = 'BodyMass_Brown_etal_2018.Rdata')
 load(file = 'BodyMass_Smith_2003.Rdata')
 load(file = 'BodyMass_AndersonGillooly_2017.Rdata')
 load(file = 'BodyMass_Gillooly_etal_2016.Rdata')
-load(file = 'BodyMass_Cai_etal_2025.Rdata')
 load(file = 'BodyMass_Jennings_2002.Rdata')
 load(file = 'BodyMass_Lislevand_etal_2007.Rdata')
 load(file = 'BodyMass_Killen_etal_2016.Rdata')
@@ -721,6 +720,7 @@ load(file = 'BodyMass_Tucker_etal_2014b.Rdata')
 load(file = 'BodyMass_Hirt_etal_2017.Rdata')
 load(file = 'BodyMass_Eklof_etal_2017.Rdata')
 load(file = 'BodyMass_Quaardvark.Rdata')
+load(file = 'BodyMass_Cai_etal_2025.Rdata')
 load(file = 'BodyMass_AnAge.Rdata')
 load(file = 'BodyMass_DataRetrieverAll.Rdata')
 load(file = 'BodyMass_Fishbase.Rdata')
