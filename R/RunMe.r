@@ -43,6 +43,7 @@ library(rfishbase)
 
 # For 'DataCheck-SummaryViews.r' and 'DataCheck-Plots.r'
 library(ggplot2)
+library(patchwork)
 
 # For 'DataCheck-Maps.r'
 library(sf)
