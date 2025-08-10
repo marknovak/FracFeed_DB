@@ -86,6 +86,8 @@ source('DataPrep-CompileBodyMass.r')
 
 adat <- read.csv(file = '../tmp/BodyMass/FracFeed_BodyMass.csv')
 
+adat$mass_g <- signif(adat$mass_g, digits = 4)
+
 dat <- merge(dat,
              adat[, c('taxon', 'mass_g')],
              by.x = 'Consumer.identity',
@@ -178,6 +180,7 @@ for (i in 1:length(TimeAvgLevels)) {
   fdatc$TAnum[fdatc$TA == TimeAvgLevels[i]] <- secL[i]
 }
 fdatc$TAlog <- log10(fdatc$TAnum)
+fdatc$TAlog <- signif(fdatc$TAlog, digits = 3)
 
 ###########################################
 # Restrict to non-redundant focal variables

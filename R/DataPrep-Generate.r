@@ -163,7 +163,10 @@ if (length(Check.lat) > 0) {
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.lat, c('Citation','Consumer.identity','Latitude')])
+  print(dat[Check.lat, 
+            c('Citation',
+              'Consumer.identity',
+              'Latitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -176,7 +179,10 @@ if (length(Check.long) > 0) {
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.long, c('Citation','Consumer.identity','Longitude')])
+  print(dat[Check.long, 
+            c('Citation',
+              'Consumer.identity',
+              'Longitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -190,7 +196,10 @@ if (length(Check.lat.dp) > 0) {
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.lat.dp, c('Citation','Consumer.identity','Latitude')])
+  print(dat[Check.lat.dp, 
+            c('Citation',
+              'Consumer.identity',
+              'Latitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -203,7 +212,10 @@ if (length(Check.long.dp) > 0) {
   warning(warn, immediate. = TRUE)
   sink(file = ErrFile, append = TRUE)
   print(warn)
-  print(dat[Check.long.dp, c('Citation','Consumer.identity','Longitude')])
+  print(dat[Check.long.dp, 
+            c('Citation',
+              'Consumer.identity',
+              'Longitude')])
   err.cnt <- err.cnt + 1
   print("")
   print("")
@@ -412,6 +424,17 @@ dat$SpaceTime.replicate[dat$SpaceTime.replicate == 'NA'] <-
   'Singleton'
 dat$SpaceTime.replicate[dat$SpaceTime.replicate == 'SpaceTime'] <-
   'Space'
+
+#############################################################
+# Time-averaging and Space-averaging should be 'NA' for
+# surveys in which a single individual was observed only once.
+# (This does not apply to single individuals that were
+# observed repeatedly.)
+#############################################################
+sel <- which(dat$Total.stomachs.count.given == 1 & 
+               dat$Survey.population.split != 'Individual')
+dat$Time.averaging[sel] <- NA
+dat$Space.averaging[sel] <- NA
 
 #############################################################
 # Factor levels allowed and order in which they are to appear
