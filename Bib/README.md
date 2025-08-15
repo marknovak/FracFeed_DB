@@ -1690,6 +1690,15 @@ Scoparius, in Ise Bay, Central Japan.” *Fisheries Science* 69 (6):
 
 </div>
 
+<div id="ref-Gannon:1997aa" class="csl-entry" markdown="1">
+
+Gannon, Damon P, Andrew J Ready, James E Craddock, and James G Mead.
+1997. “Stomach Contents of Long-Finned Pilot Whales (Globicephala Melas)
+Stranded on the US Mid-Atlantic Coast.” *Marine Mammal Science* 13 (3):
+405–18.
+
+</div>
+
 <div id="ref-Gao:2022aa" class="csl-entry" markdown="1">
 
 Gao, Xiaodi, Yi Gong, Xinjun Chen, and Yunkai Li. 2022. “Dietary Shifts
@@ -1809,6 +1818,15 @@ South Florida.” *Caribbean Journal of Science* 46 (2–3): 346–55.
 Godley, J Steve. 1980. “Foraging Ecology of the Striped Swamp Snake,
 Regina Alleni, in Southern Florida.” *Ecological Monographs* 50 (4):
 411–36.
+
+</div>
+
+<div id="ref-Gonzalez:1994aa" class="csl-entry" markdown="1">
+
+González, AF, Alfredo López, A Guerra, and Antonio Barreiro. 1994.
+“Diets of Marine Mammals Stranded on the Northwestern Spanish Atlantic
+Coast with Special Reference to Cephalopoda.” *Fisheries Research* 21
+(1-2): 179–91.
 
 </div>
 
@@ -3467,6 +3485,15 @@ Spider Scytodes Longipes (Araneae, Scytodidae).” *Oecologia* 65 (2):
 
 </div>
 
+<div id="ref-Neves:2009aa" class="csl-entry" markdown="1">
+
+Neves, Ana, Vera Sequeira, Ana Rita Vieira, Rafaela Paiva, and Leonel
+Serrano Gordo. 2009. “Feeding Habits of the Cuttlefish Sepia Officinalis
+During Its Life Cycle in the Sado Estuary (Portugal).” *Hydrobiologia*
+636 (1): 479–88.
+
+</div>
+
 <div id="ref-Neves:2014wn" class="csl-entry" markdown="1">
 
 Neves, Matheus de Oliveira, Carlos Jose da Silva Morais, and Adrian
@@ -4613,6 +4640,15 @@ Series*, 133–44.
 
 </div>
 
+<div id="ref-Simila:2022aa" class="csl-entry" markdown="1">
+
+Similä, Tiu, Tore Haug, Lotta Lindblom, Christina Lockyer, and Seán A
+O’Callaghan. 2022. “Stomach Contents of Three Sperm Whales (Physeter
+Macrocephalus) Stranded on andøya, Northern Norway.” *Aquatic Mammals*
+48 (5).
+
+</div>
+
 <div id="ref-Sinclair:1992tr" class="csl-entry" markdown="1">
 
 Sinclair, Elizabeth Hacker. 1992. “Stomach Contents of Four Short-Finned
@@ -5399,6 +5435,15 @@ Biology* 25: 323–30.
 
 Yang, M. S. 2011. “Diet of Nineteen Mesopelagic Fishes in the Gulf of
 Alaska.” NMFS-AFSC-229. U.S. Dept. of Commerce, NOAA Technical Memo.
+
+</div>
+
+<div id="ref-Yatabe:2010aa" class="csl-entry" markdown="1">
+
+Yatabe, Akiko, Nobutaka Kubo, Mika Otsuka, Shigehisa Shima, Tsunemi
+Kubodera, and Tadasu K Yamada. 2010. “Stomach Contents and Structure of
+a Longman’s Beaked Whale (Indopacetus Pacificus) Stranded in Kyushu,
+Japan.” *Aquatic Mammals* 36 (2): 172–77.
 
 </div>
 

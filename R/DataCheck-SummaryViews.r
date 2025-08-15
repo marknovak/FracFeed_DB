@@ -44,6 +44,7 @@ p <- ggplot(tab,
 
 ggsave('../Figs/Freq_Ecosystem.png',
        p,
+       height = 3,
        device = 'png')
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

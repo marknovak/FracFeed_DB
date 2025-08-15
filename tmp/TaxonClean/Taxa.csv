@@ -695,6 +695,7 @@
 "hyperolius fusciventris","Hyperolius fusciventris",FALSE,1,85268,FALSE,"",1
 "hyperolius guttulatus","Hyperolius guttulatus",FALSE,1,510964,FALSE,"",1
 "hyperolius sylvaticus","Hyperolius sylvaticus",FALSE,1,1088575,FALSE,"",1
+"hyperoodon planifrons","Hyperoodon planifrons",FALSE,1,1021371,FALSE,"sibling_higher",1
 "hypoplectrus aberrans","Hypoplectrus aberrans",FALSE,1,596608,FALSE,"",1
 "hypoplectrus chlorurus","Hypoplectrus chlorurus",FALSE,1,284259,FALSE,"",1
 "hypoplectrus nigricans","Hypoplectrus nigricans",FALSE,1,284247,FALSE,"",1
@@ -710,6 +711,7 @@
 "idiacanthus antrostomus","Idiacanthus antrostomus",FALSE,1,890166,FALSE,"",1
 "ilisha africana","Ilisha africana",FALSE,1,741177,FALSE,"",1
 "incilius mazatlanensis","Incilius mazatlanensis",FALSE,1,931373,FALSE,"",1
+"indopacetus pacificus","Indopacetus pacificus",FALSE,1,575100,FALSE,"",1
 "inermia vittata","Haemulon vittatum",FALSE,1,540860,TRUE,"",1
 "isonychia japonica","Isonychia japonica",FALSE,1,1061757,FALSE,"",1
 "isoperla","Isoperla",FALSE,1,526032,FALSE,"",1
@@ -789,7 +791,7 @@
 "leptasterias polaris","Leptasterias polaris",FALSE,1,463287,FALSE,"sibling_higher",1
 "leptobotia elongata","Leptobotia elongata",FALSE,1,804295,FALSE,"",1
 "leptoclinus maculatus","Leptoclinus maculatus",FALSE,1,272745,FALSE,"",1
-"leptodactylus ocellatus","Leptodactylus ocellatus",FALSE,1,254165,FALSE,"",1
+"leptodactylus latrans","Leptodactylus latrans",FALSE,1,4948324,FALSE,"",1
 "leptodactylus spixi","Leptodactylus spixi",FALSE,1,73489,FALSE,"",1
 "leptonychotes weddellii","Leptonychotes weddellii",FALSE,1,175259,FALSE,"",1
 "leptophis mexicanus","Leptophis mexicanus",FALSE,1,4121530,FALSE,"",1
@@ -1284,7 +1286,6 @@
 "salamandra corsica","Salamandra corsica",FALSE,1,958220,FALSE,"",1
 "salamandra lanzai","Salamandra lanzai",FALSE,1,873622,FALSE,"",1
 "salamandrina perspicillata","Salamandrina perspicillata",FALSE,1,254332,FALSE,"",1
-"salmo gairdnerii","Oncorhynchus mykiss gairdneri",FALSE,1,57412,TRUE,"infraspecific",2
 "salmo salar","Salmo salar",FALSE,1,688328,FALSE,"",1
 "salmo trutta","Salmo trutta",FALSE,1,688332,FALSE,"",1
 "salvelinus alpinus","Salvelinus alpinus",FALSE,1,688324,FALSE,"",1

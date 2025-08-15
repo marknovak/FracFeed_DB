@@ -695,6 +695,7 @@
 "Hyperolius_fusciventris","Hyperolius_fusciventris",FALSE,1,85268,FALSE,"",1
 "Hyperolius_guttulatus","Hyperolius_guttulatus",FALSE,1,510964,FALSE,"",1
 "Hyperolius_sylvaticus","Hyperolius_sylvaticus",FALSE,1,1088575,FALSE,"",1
+"Hyperoodon_planifrons","Hyperoodon_planifrons",FALSE,1,1021371,FALSE,"sibling_higher",1
 "Hypoplectrus_aberrans","Hypoplectrus_aberrans",FALSE,1,596608,FALSE,"",1
 "Hypoplectrus_chlorurus","Hypoplectrus_chlorurus",FALSE,1,284259,FALSE,"",1
 "Hypoplectrus_nigricans","Hypoplectrus_nigricans",FALSE,1,284247,FALSE,"",1
@@ -710,6 +711,7 @@
 "Idiacanthus_antrostomus","Idiacanthus_antrostomus",FALSE,1,890166,FALSE,"",1
 "Ilisha_africana","Ilisha_africana",FALSE,1,741177,FALSE,"",1
 "Incilius_mazatlanensis","Incilius_mazatlanensis",FALSE,1,931373,FALSE,"",1
+"Indopacetus_pacificus","Indopacetus_pacificus",FALSE,1,575100,FALSE,"",1
 "Inermia_vittata","Haemulon_vittatum",FALSE,1,540860,TRUE,"",1
 "Isonychia_japonica","Isonychia_japonica",FALSE,1,1061757,FALSE,"",1
 "Isoperla","Isoperla",FALSE,1,526032,FALSE,"",1
@@ -789,7 +791,7 @@
 "Leptasterias_polaris","Leptasterias_polaris",FALSE,1,463287,FALSE,"sibling_higher",1
 "Leptobotia_elongata","Leptobotia_elongata",FALSE,1,804295,FALSE,"",1
 "Leptoclinus_maculatus","Leptoclinus_maculatus",FALSE,1,272745,FALSE,"",1
-"Leptodactylus_ocellatus","Leptodactylus_ocellatus",FALSE,1,254165,FALSE,"",1
+"Leptodactylus_latrans","Leptodactylus_latrans",FALSE,1,4948324,FALSE,"",1
 "Leptodactylus_spixi","Leptodactylus_spixi",FALSE,1,73489,FALSE,"",1
 "Leptonychotes_weddellii","Leptonychotes_weddellii",FALSE,1,175259,FALSE,"",1
 "Leptophis_mexicanus","Leptophis_mexicanus",FALSE,1,4121530,FALSE,"",1
@@ -1284,7 +1286,6 @@
 "Salamandra_corsica","Salamandra_corsica",FALSE,1,958220,FALSE,"",1
 "Salamandra_lanzai","Salamandra_lanzai",FALSE,1,873622,FALSE,"",1
 "Salamandrina_perspicillata","Salamandrina_perspicillata",FALSE,1,254332,FALSE,"",1
-"Salmo_gairdnerii","Oncorhynchus_mykiss",FALSE,1,57412,TRUE,"infraspecific",2
 "Salmo_salar","Salmo_salar",FALSE,1,688328,FALSE,"",1
 "Salmo_trutta","Salmo_trutta",FALSE,1,688332,FALSE,"",1
 "Salvelinus_alpinus","Salvelinus_alpinus",FALSE,1,688324,FALSE,"",1
