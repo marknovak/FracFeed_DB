@@ -1467,8 +1467,8 @@
 "tubularia ralphii","Tubularia ralphii",FALSE,1,3681769,FALSE,"",1
 "tursiops aduncus","Tursiops aduncus",FALSE,1,257323,FALSE,"",1
 "tursiops truncatus","Tursiops truncatus",FALSE,1,124230,FALSE,"",1
-"tylosurus acus","Tylosurus acus",FALSE,1,1004351,FALSE,"",1
 "tylosurus crocodilus","Tylosurus crocodilus",FALSE,1,1004358,FALSE,"",1
+"tylosurus melanotus","Tylosurus acus",FALSE,1,1004351,TRUE,"",1
 "ulvaria subbifurcata","Ulvaria subbifurcata",FALSE,1,550384,FALSE,"",1
 "uma scoparia","Uma scoparia",FALSE,1,1062444,FALSE,"",1
 "uracentron flaviceps","Uracentron flaviceps",FALSE,1,761858,FALSE,"",1

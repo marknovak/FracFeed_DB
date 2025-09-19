@@ -1467,8 +1467,8 @@
 "Tubularia_ralphii","Tubularia_ralphii",FALSE,1,3681769,FALSE,"",1
 "Tursiops_aduncus","Tursiops_aduncus",FALSE,1,257323,FALSE,"",1
 "Tursiops_truncatus","Tursiops_truncatus",FALSE,1,124230,FALSE,"",1
-"Tylosurus_acus","Tylosurus_acus",FALSE,1,1004351,FALSE,"",1
 "Tylosurus_crocodilus","Tylosurus_crocodilus",FALSE,1,1004358,FALSE,"",1
+"Tylosurus_melanotus","Tylosurus_acus",FALSE,1,1004351,TRUE,"",1
 "Ulvaria_subbifurcata","Ulvaria_subbifurcata",FALSE,1,550384,FALSE,"",1
 "Uma_scoparia","Uma_scoparia",FALSE,1,1062444,FALSE,"",1
 "Uracentron_flaviceps","Uracentron_flaviceps",FALSE,1,761858,FALSE,"",1

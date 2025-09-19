@@ -1,33 +1,33 @@
-"GeneratedByScripts","VariableName","VariableAbbreviation","VariableDescription","VariableValues"
-FALSE,"Taxon.group","TG","taxon group of consumer","Amphibians, Annelids, Arthropods, Birds, Chaetognaths, Cnidarians, Ctenophores, Echinoderms, Fish, Mammals, Molluscs, Reptiles"
-FALSE,"Consumer.identity","ConID","species identity of focal consumer.  (Genus.sp. for non-specific species)","Genus.species (as possible)"
-FALSE,"CitationID","CiteID","citation identifier","LastName_Year (eg Segui_2015a, Segui_2015b)"
-FALSE,"Survey.population.split","PS","whole-, sub-population or individual (eg. male/female, breeding/non-breeding, age, size, etc.)","Whole population,Sub-population, Individual"
-FALSE,"Subpopulation.type","PST","e.g., Male, Female, Adult, Juvenile, Breeding, Non-breeding","string"
-FALSE,"Feeding.data.type","FD","method by which consumption was inferred
-(Gut content - lethal = dissection; Gut content - non-lethal = lavage)","Gut content (lethal), Gut content (non-lethal), Direct observation"
-FALSE,"Total.stomachs.count","TSc","number of stomachs surveyed","numeric"
-FALSE,"Latitude","Lat","reported or mid-point latitude (as decimal degrees to 2 decimal places)","https://www.pgc.umn.edu/apps/convert/"
-FALSE,"Longitude","Lon","reported or mid-point longitude (as decimal degrees to 2 decimal places)","https://www.pgc.umn.edu/apps/convert/"
-FALSE,"Diet.richness.minimum","DR","minimum number of distinct taxa recorded in diet
-(at whatever taxonomic resolution described, including mixed resolutions)","numeric"
-FALSE,"Diet.resolution.coarsest","Drc","lowest resolution recorded in prey data (e.g., Phylum)
-(classify polyphyletic groups into lowest resolution taxonomic category possible, e.g., benthic invertebrate would be ""phylum"")","Kingdom,Phylum,Class,Order,Family,Genus,Species"
-FALSE,"Diet.resolution.finest","Drf","highest resolution recorded in prey data (eg. Species)","Kingdom,Phylum,Class,Order,Family,Genus,Species"
-FALSE,"Time.averaging","TA","how much time does the diet survey encompass (i.e. its temporal extent)
-(rounded down to order of magnitude)","Decades,Years,Months,Days,Hours,Minutes,Seconds"
-FALSE,"Space.averaging","SA","how much space does the diet survey encompass (i.e. its linear spatial extent)
-(rounded down to order of magnitude)","1000km, 100km, 10km, 1000m, 100m, 10m, 1m, 1cm, 1mm"
-FALSE,"Ecosystem","Eco","ecosystem type in which survey was performed
-(Lentic = lakes, Lotic = rivers/streams)","Marine,Lotic,Lentic,Terrestrial"
-FALSE,"Year","Yr","year in which survey was conducted
-(or the mid-point of a range of years)","YYYY"
-TRUE,"ott_id","ott_id","tree of life identifier for consumer","numeric"
-TRUE,"Fraction.feeding","fF","proportion of individuals with non-empty stomachs","numeric (0-1)"
-TRUE,"Feeding.stomachs.count","FSc","number of non-empty stomachs","numeric"
-TRUE,"Days.since.winter.solstice","tWS","approximate number of days since last winter solstice","numeric"
-TRUE,"EndoEcto","EE","endothermic or ectothermic","Endotherm,Ectotherm"
-TRUE,"BodyMass","BM","consumer body mass (grams)","numeric"
-TRUE,"DateTime","DT","date-time","YYYY:MM:DD H:M:S"
-TRUE,"Time.averaging.log","TAlog","time averaging converted to hours and log10-transformed","numeric"
-TRUE,"Space.averaging.log","SAlog","space averaging converted to meters and log10-transformed","numeric"
+"VariableAbbreviation","VariableName","VariableDescription","VariableValues","GeneratedByScripts"
+"CiteID","CitationID","citation identifier","LastName_Year (e.g., Segui_2015a, Segui_2015b)",FALSE
+"ConID","Consumer.identity","species identity of focal consumer (Genus.sp. for non-specific species)","Genus.species (as possible)",FALSE
+"ott_id","ott_id","tree of life identifier for consumer","numeric",TRUE
+"TSc","Total.stomachs.count","number of stomachs surveyed","numeric",FALSE
+"FSc","Feeding.stomachs.count","number of non-empty stomachs","numeric",TRUE
+"fF","Fraction.feeding","proportion of individuals with non-empty stomachs","numeric (0-1)",TRUE
+"TG","Taxon.group","taxon group of consumer","Amphibians, Annelids, Arthropods, Birds, Chaetognaths, Cnidarians, Ctenophores, Echinoderms, Fish, Mammals, Molluscs, Reptiles",FALSE
+"EE","EndoEcto","endothermic or ectothermic","Endotherm,Ectotherm",TRUE
+"BM","BodyMass","consumer body mass (grams) (to 4 signif. digits)","numeric",TRUE
+"Eco","Ecosystem","ecosystem type in which survey was performed
+(Lentic = lakes, Lotic = rivers/streams)","Marine,Lotic,Lentic,Terrestrial",FALSE
+"Lat","Latitude","reported or mid-point latitude (decimal degrees to 2 dp)","numeric",FALSE
+"Lon","Longitude","reported or mid-point longitude (decimal degrees to 2 dp)","numeric",FALSE
+"TA","Time.averaging","how much time do diet data represent (i.e. their temporal extent)
+(rounded down to order of magnitude)","Decades,Years,Months,Days,Hours,Minutes",FALSE
+"TAlog","Time.averaging.log","time averaging converted to hours and log10-transformed (to 3 signif. digits) assuming 30.44 days per month (e.g., TA = 'hours' => TAlog = log10(1) and TA='months' => TAlog = log10(24*30.44) )","numeric",TRUE
+"SA","Space.averaging","how much space do diet data represent (i.e. their linear spatial extent)
+(rounded down to order of magnitude)","1000km, 100km, 10km, 1000m, 100m, 10m, 1m, 1cm, 1mm",FALSE
+"SAlog","Space.averaging.log","space averaging converted to meters and log10-transformed (e.g., SA = '1m' => SAlog = log10(1) and SA='10m' => SAlog = log10(10) )","numeric",TRUE
+"Yr","Year","year in which survey was conducted
+(or the mid-point of a range of years)","YYYY",FALSE
+"DT","DateTime","date-time","YYYY:MM:DD H:M:S",TRUE
+"tWS","Days.since.winter.solstice","approximate number of days since last winter solstice","numeric",TRUE
+"FD","Feeding.data.type","method by which consumption was inferred
+(Gut content - lethal = dissection; Gut content - non-lethal = lavage)","Gut content (lethal), Gut content (non-lethal), Direct observation",FALSE
+"PS","Survey.population.split","whole-, sub-population or individual (eg. male/female, breeding/non-breeding, age, size, etc.)","Whole population,Sub-population, Individual",FALSE
+"PST","Subpopulation.type","(open list) e.g., Male, Female, Adult, Juvenile, Breeding, Non-breeding","string",FALSE
+"DR","Diet.richness.minimum","minimum number of distinct taxa recorded in diet
+(at whatever taxonomic resolution described, including mixed resolutions)","numeric",FALSE
+"Drc","Diet.resolution.coarsest","lowest resolution recorded in prey data (e.g., Phylum)
+(polyphyletic groups classified into lowest resolution taxonomic category possible)","Kingdom,Phylum,Class,Order,Family,Genus,Species",FALSE
+"Drf","Diet.resolution.finest","highest resolution recorded in prey data (e.g., Species)","Kingdom,Phylum,Class,Order,Family,Genus,Species",FALSE
