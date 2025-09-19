@@ -54,13 +54,6 @@ library(rnaturalearth)
 ############################################################
 source('DataPrep-Generate.r')
 
-# load('../tmp/tmp_DB/FracFeed_Data_Imported.Rdata')
-
-######################################################
-# Import, generate, and export meta-data and citations
-######################################################
-source('DataPrep-MetaCite.r')
-
 #############################################################
 # Merge in validated species names and ottIDs from TaxonClean
 #############################################################
@@ -156,7 +149,7 @@ fdatc$Drf <- factor(dat$Diet.resolution.finest,
 fdatc$Eco <- factor(dat$Ecosystem, 
                    levels = EcosystemLevels)
 fdatc$Lat <- dat$Latitude
-fdatc$Long <- dat$Longitude
+fdatc$Lon <- dat$Longitude
 
 fdatc$Yr <- dat$Year
 fdatc$DT <- dat$DateTime
@@ -175,9 +168,8 @@ fdatc$SAlog <- as.numeric(factor(dat$Space.averaging,
                                 levels = SpaceAvgLevels)) - 1
 
 fdatc$TA <- factor(dat$Time.averaging, levels = TimeAvgLevels)
-secL <- c(NA, 1 / 3600, 1 / 60, 1, 24, 730, 8760, 87600) # as a function of hours
 for (i in 1:length(TimeAvgLevels)) {
-  fdatc$TAnum[fdatc$TA == TimeAvgLevels[i]] <- secL[i]
+  fdatc$TAnum[fdatc$TA == TimeAvgLevels[i]] <- TAconversion[i]
 }
 fdatc$TAlog <- log10(fdatc$TAnum)
 fdatc$TAlog <- signif(fdatc$TAlog, digits = 3)
@@ -198,7 +190,7 @@ vars <-
     'BM',
     'Eco',
     'Lat',
-    'Long',
+    'Lon',
     'TA',
     'TAlog',
     'SA',
@@ -215,8 +207,14 @@ vars <-
   )
 fdatc <- fdatc[, vars]
 
-##############################################################################
+######################################################
+# Import, generate, and export meta-data and citations
+######################################################
+source('DataPrep-MetaCite.r')
 
+####################################
+# Export data and summary statistics
+####################################
 save(fdatc, 
      file = '../tmp/FracFeed_Data.Rdata')
 

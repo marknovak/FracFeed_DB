@@ -17,6 +17,22 @@ pub.meta <- subset(meta,
                      meta$VariableAbbreviation != '-'
                      )
 
+# Reorder rows to match order of columns in data file
+all.present <-
+  all(pub.meta$VariableAbbreviation %in% colnames(fdatc) &
+      colnames(fdatc) %in% pub.meta$VariableAbbreviation  )
+if(!all.present){
+  warning("Data columns and meta-data variables don't match.")
+}
+
+pub.meta <-
+  pub.meta[match(colnames(fdatc), pub.meta$VariableAbbreviation),
+           c('VariableAbbreviation',
+             'VariableName',
+             'VariableDescription',
+             'VariableValues',
+             'GeneratedByScripts')]
+
 write.csv(pub.meta, 
           file = '../tmp/FracFeed_Data_Metadata.csv', 
           row.names = FALSE)

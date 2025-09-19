@@ -477,6 +477,15 @@ TimeAvgLevels <-
     'Years',
     'Decades')
 
+TAconversion <- #  Convert TimeAvgLevels to numeric in units of hours
+  c(NA, 
+    1 / 60,
+    1, 
+    24, 
+    24 * 30.44, # Avg. number of days per month = 30.44
+    24 * 30.44 * 12, 
+    24 * 30.44 * 12 * 10)
+
 SpaceTimeLevels <-
   c(NA,
     'Singleton',
@@ -522,6 +531,7 @@ save(
   EndoEctoLevels,
   SpaceAvgLevels,
   TimeAvgLevels,
+  TAconversion,
   SpaceTimeLevels,
   EcosystemLevels,
   DietResolutionLevels,
