@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this software.
+preferred-citation:
+  abstract: |-
+    <jats:title>Abstract</jats:title>
+                      <jats:p>
+                        The proportion of individuals that are found to have empty stomachs during a survey of a predator population's diet has been used as an indicator of the average individual's state of energy balance and of the degree to which its feeding rate (i.e., its functional response) is saturated with respect to prey availability. As such, the proportion of empty stomachs provides insights into the effects of prey on predators and vice versa, although it is typically unreported in deference to descriptions of the contents of the non‐empty stomachs. The
+                        <jats:italic>FracFeed</jats:italic>
+                        database is an ongoing compilation of the proportions of empty and non‐empty stomachs (for gut content surveys) and of feeding and not feeding individuals (for direct observation surveys) reported in publications of predator diet surveys.
+                        <jats:italic>FracFeed</jats:italic>
+                        contains data from 4920 diet surveys on 1507 taxa (&gt;4.3 million individuals) spanning cnidarians, ctenophores, chaetognaths, birds, annelids, amphibians, arthropods, mammals, mollusks, reptiles, echinoderms, and fishes that were surveyed in terrestrial, marine, and freshwater ecosystems across the globe over more than 135 years (1887–2023). For most surveys, covariate data include information on the spatial and temporal extent of the diet survey, its central geographical coordinates, the method by which the survey was performed (lethal gut contents, lavage, or direct observation), as well as each predator's standardized taxonomic name and identifier in the Open Tree of Life, its body mass (compiled mostly from independent compilations and additional publications), and its apparent diet's taxonomic richness and resolution. We appeal to more researchers who perform diet surveys to report on the number of empty stomachs they find and encourage additional contributions to the database—particularly from underrepresented geographic regions (e.g., North and Central Asia, North and Central Africa)—to help grow its scope and utility. The database is provided under a CC‐BY‐NC‐S4 4.0 license. Users are requested to cite this data paper when using the data.
+                      </jats:p>
+  authors:
+    - family-names: Novak
+      given-names: Mark
+      orcid: https://orcid.org/0000-0002-7881-4253
+    - family-names: Foust
+      given-names: Paige
+    - family-names: Hennessey
+      given-names: Shannon
+      orcid: https://orcid.org/0000-0002-6737-1362
+    - family-names: Tanis
+      given-names: Brian P.
+    - family-names: Coblentz
+      given-names: Kyle E.
+      orcid: https://orcid.org/0000-0002-0069-8491
+    - family-names: Wolf
+      given-names: Christopher
+    - family-names: Segui
+      given-names: Leah M.
+    - family-names: Henderson
+      given-names: Jeremy S.
+    - family-names: Ingeman
+      given-names: Kurt E.
+      orcid: https://orcid.org/0000-0002-0111-3619
+    - family-names: Falke
+      given-names: Landon P.
+      orcid: https://orcid.org/0000-0001-6256-2306
+    - family-names: Layden
+      given-names: Tamara J.
+    - family-names: Gradison
+      given-names: Daniel J.
+    - family-names: Randell
+      given-names: Zachary
+      orcid: https://orcid.org/0000-0003-2342-1652
+    - family-names: Harris
+      given-names: Colin L.
+    - family-names: Lester
+      given-names: Serena
+    - family-names: Naito
+      given-names: Kira A.
+    - family-names: Nakata
+      given-names: Thanachot
+    - family-names: Nichols
+      given-names: Grayden
+    - family-names: Postma
+      given-names: Benjamin C.
+    - family-names: Alves
+      given-names: Rodrigo
+    - family-names: Jarman
+      given-names: Cheyenne N.
+    - family-names: Kalytiak‐Davis
+      given-names: Augustin R.
+    - family-names: Martin
+      given-names: Arina
+    - family-names: Pajiah
+      given-names: Timeyin J.
+    - family-names: Pinos‐Sánchez
+      given-names: Andrés
+    - family-names: Preston
+      given-names: Daniel L.
+      orcid: https://orcid.org/0000-0002-0486-3466
+  doi: 10.1002/ecy.70296
+  identifiers:
+    - type: doi
+      value: 10.1002/ecy.70296
+    - type: url
+      value: http://dx.doi.org/10.1002/ecy.70296
+    - type: other
+      value: urn:issn:0012-9658
+  title: |-
+    <i>FracFeed</i>
+                        : Global database of the fraction of feeding predators
+  url: http://dx.doi.org/10.1002/ecy.70296
+  database: Crossref
+  date-published: 2026-01-01
+  year: 2026
+  month: 1
+  issn: 0012-9658
+  issue: '1'
+  journal: Ecology
+  languages:
+    - en
+  publisher:
+    name: Wiley
+  type: article
+  volume: '107'

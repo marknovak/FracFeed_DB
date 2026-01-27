@@ -30,7 +30,7 @@ The database includes the compilations of [Huey et al. 2001](https://doi.org/10.
 For open science purposes, this repository contains all code for data quality control and curation, which may be performed using `R/RunMe.r`.  However, because our workflow entails data entry into GoogleSheets that are imported in the first step of the data curation process and have been set to "private" to increase data security, only authorized users are able to perform the full workflow.
 
 ## Citation
-Forthcoming.  For now, please see [FigShare: doi.org/10.6084/m9.figshare.13139705](https://doi.org/10.6084/m9.figshare.13139705).
+Novak,  Foust,  Hennessey,  Tanis,  Coblentz,  Wolf,  Segui,  Henderson,  Ingeman,  Falke,  Layden,  Gradison,  Randell,  Harris,  Lester,  Naito,  Nakata,  Nichols,  Postma,  Alves,  Jarman,  Kalytiak-Davis, Martin,  Pajiah,  Pinos-Sánchez & Preston (2026) **FracFeed: Global Database of the Fraction of Feeding Predators.** _Ecology_ 107(1): e70296. [https://doi.org/10.1002/ecy.70296](https://doi.org/10.1002/ecy.70296)
 
 ## Funding
 The compilation of this database began with the support of the National Science Foundation [DEB-1353827](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1353827&HistoricalAwards=false).  The involvement of several contributors was made possible by Oregon State University’s URSA Engage Program for undergraduate research and the [OSU College of Science Research and Innovation Seed (SciRIS) Program](https://beav.es/ihi).
