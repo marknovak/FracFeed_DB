@@ -285,7 +285,7 @@ if (length(err.pf) > 0) {
   sink()
 }
 
-err.sc <- which(dat$Total.stomachs.count < dat$Empty.stomachs.count)
+err.sc <- which(dat$Total.stomachs.count.given < dat$Empty.stomachs.count.given)
 if (length(err.sc) > 0) {
   warn <-
     'There are more empty stomachs given than the
@@ -400,7 +400,7 @@ if (sink.number() > 0) {
 }
 if (err.cnt == 0) {
   # Delete if no errors occurred
-  unlink('../ErrorReports/ImportErrors.txt')
+  unlink('../tmp/ErrorReports/ImportErrors.txt')
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

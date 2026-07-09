@@ -36,7 +36,7 @@ if (DataRetrieve) {
   # Install and load a dataset as a list
   rdataretriever::install_csv('mammal-life-hist')
   mlh = read.csv('mammal_life_hist_species.csv')
-  mlh <- mlh$species[, 1:5]
+  mlh <- mlh[, 1:5]
   mlh$taxon <- paste(mlh$genus, mlh$species)
   mlh <- mlh[, c('taxon', 'mass_g')]
   mlh <- mlh[which(!is.na(mlh$mass_g) & mlh$mass_g > 0), ]
@@ -371,6 +371,7 @@ if(regBMcompilations){
       adat,
       .(taxon),
       summarise,
+      mass_g = gmean(mass_g),
       n = length(mass_g)
     )
   adat$source <- 'Jennings_2002'

@@ -36,7 +36,7 @@ for (f in 1:length(fish$Consumer.identity)) {
   print(paste(f, 'of ', length(fish$Consumer.identity), 'completed.'))
 }
 
-fish$Consumer.identity <- gsub(" ", ".", fish$Consumer.identity)
+fish$Consumer.identity <- gsub(" ", "_", fish$Consumer.identity)
 print("New fishes matched to their ecosystems.")
 
 newEcos <- fish[!is.na(fish$Ecosystem),c('Consumer.identity','Ecosystem')]

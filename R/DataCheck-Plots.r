@@ -283,7 +283,7 @@ plot(
 
 # Percent feeding vs. Diet richness ----
 plot(
-  dat$Percent.feeding ~ dat$Diet.richness.min,
+  dat$Percent.feeding ~ dat$Diet.richness.minimum,
   log = 'x',
   pch = 21,
   bg = adjustcolor('grey', alpha),
@@ -578,7 +578,7 @@ p10 <- ggplot(dat) +
 multiplot(p1, p2, p3)
 multiplot(p4, p5, p6)
 multiplot(p7, p8, p9)
-multiplot(p10, p10, p10)
+multiplot(p10)
 
 
 dev.off()

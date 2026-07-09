@@ -45,7 +45,7 @@ rem <-
   c(
   )
 
-if(length(rem>0)){
+if(length(rem) > 0){
   message('
       INCERTAE_SEDIS detected.  
       These species should be periodically checked in the ToL 
@@ -206,7 +206,7 @@ if (matchNewTaxa | matchAllTaxa) {
 }
 
 impmatch <- subset(taxa, score < 1)
-if(nrow(impmatch > 0)){
+if(nrow(impmatch) > 0){
   write.csv(impmatch, file = '../tmp/TaxonClean/Taxa_ApproxMatches.csv',
             row.names = FALSE)
   message(paste0(nrow(impmatch),
