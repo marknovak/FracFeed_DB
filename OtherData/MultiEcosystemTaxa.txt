@@ -16,6 +16,9 @@ Esox.lucius
 Sander.lucioperca
 Lota.lota
 Oncorhynchus.mykiss
+Oncorhynchus.nerka
+Oncorhynchus.tshawytscha
+Oncorhynchus.kisutch
 Ichthyosaura.alpestris
 Opsanus.tau
 Hemichromis.fasciatus
@@ -24,3 +27,11 @@ Lepisosteus.oculatus
 Lepisosteus.osseus
 Salvelinus.fontinalis
 Mesoclemmys.vanderhaegei
+Chaenobryttus.gulosus
+Dorosoma.cepedianum
+Fundulus.diaphanus
+Alosa.sapidissima
+Spea.multiplicata
+Tilapia.mariae
+Cottus.bairdii
+

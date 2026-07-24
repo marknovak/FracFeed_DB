@@ -15,6 +15,7 @@
 "ctenotus colletti","Ctenotus colletti",FALSE,1,4123858,FALSE,"",2,NA,4123858
 "diplodus caudimacula","Diplodus caudimacula",FALSE,1,7650827,FALSE,"",2,NA,7650827
 "epinephelus striatus","Epinephelus striatus",FALSE,1,64613,FALSE,"",2,NA,64613
+"esox vermiculatus","Esox americanus vermiculatus",FALSE,1,47023,TRUE,"infraspecific",2,NA,47023
 "evermannella","Evermannella",FALSE,1,86556,FALSE,"",2,NA,86556
 "felis catus","Felis catus",FALSE,1,563166,FALSE,"",2,NA,563166
 "forskalia","Forskalia",FALSE,1,555360,FALSE,"",2,NA,555360
@@ -28,12 +29,12 @@
 "hydropsyche japonica","Hydropsyche javanica",TRUE,0.899999976158142,3025480,FALSE,"",7,NA,3025480
 "kiotina","Kiotina",FALSE,1,5017117,FALSE,"sibling_higher",2,NA,5017117
 "lamyctes fulvicornis","Lamyctes fulvicornis",FALSE,1,942627,FALSE,"",2,NA,942627
+"lepomis pallidus","Lepomis pallidus",TRUE,1,3634766,FALSE,"hidden",3,NA,3634766
 "liparis","Liparis (genus in Opisthokonta)",FALSE,1,577723,FALSE,"",3,NA,577723
 "luidia sarsi","Luidia sarsi",FALSE,1,24895,FALSE,"",2,NA,24895
 "lygodactylus picturatus","Lygodactylus picturatus",FALSE,1,1085744,FALSE,"sibling_higher",2,NA,1085744
 "melamphaes lugubris","Melamphaes lugubris",FALSE,1,273421,FALSE,"",2,NA,273421
 "mesoplodon densirostris","Mesoplodon densirostris",FALSE,1,6470,FALSE,"",3,NA,6470
-"micropterus nigricans","Microtus agrestis",TRUE,0.833333313465118,754333,FALSE,"",2,NA,754333
 "nephrurus levis","Nephrurus levis",FALSE,1,256960,FALSE,"",2,NA,256960
 "osmerus dentex","Osmerus mordax dentex",FALSE,1,9650,TRUE,"infraspecific",2,NA,9650
 "pachydactylus capensis","Pachydactylus capensis",FALSE,1,676900,FALSE,"",2,NA,676900
@@ -46,5 +47,6 @@
 "sagitta gazellae","Sagitta gazellae",FALSE,1,476665,FALSE,"",2,NA,476665
 "sagitta serratodentata","Sagitta serratodentata",FALSE,1,476667,FALSE,"",2,NA,476667
 "sagitta setosa","Sagitta setosa",FALSE,1,476668,FALSE,"",2,NA,476668
+"salmo gairdneri","Oncorhynchus mykiss gairdneri",FALSE,1,57412,TRUE,"infraspecific",2,NA,57412
 "thamnophis cyrtopsis","Thamnophis cyrtopsis",FALSE,1,786613,FALSE,"",2,NA,786613
 "trachinotus falcatus","Trachinotus falcatus",FALSE,1,130375,FALSE,"",2,NA,130375

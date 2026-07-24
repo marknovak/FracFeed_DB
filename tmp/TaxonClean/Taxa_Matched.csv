@@ -33,6 +33,7 @@
 "Aglantha_digitale","Aglantha_digitale",FALSE,1,459324,FALSE,"",1
 "Agonostomus_monticola","Agonostomus_monticola",FALSE,1,760514,FALSE,"",1
 "Agonum_dorsale","Anchomenus_dorsalis",FALSE,1,222324,TRUE,"",1
+"Agonus_acipenserinus","Podothecus_accipenserinus",FALSE,1,290399,TRUE,"",1
 "Albula_vulpes","Albula_vulpes",FALSE,1,133398,FALSE,"",1
 "Alectis_alexandrina","Alectis_alexandrina",FALSE,1,115540,FALSE,"",1
 "Alepisaurus_ferox","Alepisaurus_ferox",FALSE,1,587926,FALSE,"",1
@@ -64,6 +65,7 @@
 "Ambystoma_texanum","Ambystoma_texanum",FALSE,1,1092555,FALSE,"",1
 "Ameiurus_melas","Ameiurus_melas",FALSE,1,343941,FALSE,"",1
 "Ameiurus_natalis","Ameiurus_natalis",FALSE,1,362803,FALSE,"",1
+"Ameiurus_nebulosus","Ameiurus_nebulosus",FALSE,1,804481,FALSE,"",1
 "Ameiva_ameiva","Ameiva_ameiva",FALSE,1,661799,FALSE,"",1
 "Ameiva_festiva","Holcosus_festivus",FALSE,1,153490,TRUE,"",1
 "Amia_calva","Amia_calva",FALSE,1,329623,FALSE,"",1
@@ -82,6 +84,7 @@
 "Anaxyrus_debilis","Anaxyrus_debilis",FALSE,1,436339,FALSE,"",1
 "Anaxyrus_punctatus","Anaxyrus_punctatus",FALSE,1,931362,FALSE,"",1
 "Anchoa_mitchilli","Anchoa_mitchilli",FALSE,1,681352,FALSE,"",1
+"Ancylopsetta_quadrocellata","Ancylopsetta_ommata",FALSE,1,631040,TRUE,"",1
 "Andinobates_minutus","Andinobates_minutus",FALSE,1,947666,FALSE,"",1
 "Aneides_ferreus","Aneides_ferreus",FALSE,1,459361,FALSE,"",1
 "Aneides_flavipunctatus","Aneides_flavipunctatus",FALSE,1,459362,FALSE,"",1
@@ -101,6 +104,7 @@
 "Anolis_scypheus","Anolis_scypheus",FALSE,1,6157172,FALSE,"",1
 "Anolis_tandai","Anolis_tandai",FALSE,1,5852450,FALSE,"",1
 "Anolis_trachyderma","Anolis_trachyderma",FALSE,1,196312,FALSE,"",1
+"Anoplopoma_fimbria","Anoplopoma_fimbria",FALSE,1,441856,FALSE,"",1
 "Antennarius_multiocellatus","Antennarius_multiocellatus",FALSE,1,53892,FALSE,"",1
 "Antennarius_scaber","Antennarius_striatus",FALSE,1,496400,TRUE,"",1
 "Anthomastus_bathyproctus","Anthomastus_bathyproctus",FALSE,1,3679052,FALSE,"",1
@@ -137,6 +141,7 @@
 "Artedidraco_orianae","Artedidraco_orianae",FALSE,1,871232,FALSE,"",1
 "Artedidraco_skottsbergi","Artedidraco_skottsbergi",FALSE,1,268814,FALSE,"",1
 "Artediellus_atlanticus","Artediellus_atlanticus",FALSE,1,654509,FALSE,"",1
+"Artedius_lateralis","Artedius_lateralis",FALSE,1,401750,FALSE,"",1
 "Arthrosaura_reticulata","Arthrosaura_reticulata",FALSE,1,170675,FALSE,"",1
 "Aspidophoroides_olrikii","Ulcina_olrikii",FALSE,1,272765,TRUE,"",1
 "Aspidoscelis_tigris","Aspidoscelis_tigris",FALSE,1,690595,FALSE,"",1
@@ -153,6 +158,8 @@
 "Astrostole_scabra","Astrostole_scabra",FALSE,1,1045256,FALSE,"",1
 "Astrotoma_agassizii","Astrotoma_agassizii",FALSE,1,19793,FALSE,"",1
 "Astyanax_zonatus","Jupiaba_zonata",FALSE,1,3625542,TRUE,"incertae_sedis_inherited",1
+"Atheresthes_evermanni","Atheresthes_evermanni",FALSE,1,357203,FALSE,"",1
+"Atheresthes_stomias","Atheresthes_stomias",FALSE,1,786093,FALSE,"",1
 "Atherina_boyeri","Atherina_boyeri",FALSE,1,415774,FALSE,"sibling_higher",1
 "Atherinella_hubbsi","Atherinella_hubbsi",FALSE,1,680147,FALSE,"",1
 "Atherinomorus_stipes","Atherinomorus_stipes",FALSE,1,758195,FALSE,"",1
@@ -163,6 +170,7 @@
 "Aulostomus_maculatus","Aulostomus_maculatus",FALSE,1,231977,FALSE,"incertae_sedis_inherited",1
 "Aurelia_aurita","Aurelia_aurita",FALSE,1,404481,FALSE,"",1
 "Aurelia_limbata","Aurelia_limbata",FALSE,1,408842,FALSE,"",1
+"Auxis_rochei","Auxis_rochei",FALSE,1,841211,FALSE,"",1
 "Aythya_affinis","Aythya_affinis",FALSE,1,1044556,FALSE,"",1
 "Aythya_americana","Aythya_americana",FALSE,1,693332,FALSE,"",1
 "Aythya_ferina","Aythya_ferina",FALSE,1,817989,FALSE,"",1
@@ -176,6 +184,7 @@
 "Barbus_strumicae","Barbus_strumicae",FALSE,1,441746,FALSE,"",1
 "Bassia_bassensis","Bassia_bassensis",FALSE,1,610171,FALSE,"",1
 "Bathylagidae","Bathylagidae",FALSE,1,562637,FALSE,"",1
+"Bathyraja_parmifera","Bathyraja_parmifera",FALSE,1,529910,FALSE,"",1
 "Bathyraja_spinicauda","Bathyraja_spinicauda",FALSE,1,580254,FALSE,"",1
 "Batrachoseps_attenuatus","Batrachoseps_attenuatus",FALSE,1,57755,FALSE,"",1
 "Bdeogale_nigripes","Bdeogale_nigripes",FALSE,1,670218,FALSE,"",1
@@ -195,6 +204,7 @@
 "Bolitoglossa_rufescens","Bolitoglossa_rufescens",FALSE,1,999154,FALSE,"",1
 "Bombina_variegata","Bombina_variegata",FALSE,1,991539,FALSE,"",1
 "Boreogadus_saida","Boreogadus_saida",FALSE,1,877055,FALSE,"",1
+"Bothrocara_brunneum","Bothrocara_brunneum",FALSE,1,580289,FALSE,"",1
 "Bothus_lunatus","Bothus_lunatus",FALSE,1,183862,FALSE,"",1
 "Bothus_ocellatus","Bothus_ocellatus",FALSE,1,28834,FALSE,"",1
 "Boulengerella_cuvieri","Boulengerella_cuvieri",FALSE,1,3625788,FALSE,"",1
@@ -209,6 +219,7 @@
 "Bucephala_clangula","Bucephala_clangula",FALSE,1,166683,FALSE,"",1
 "Bucephala_islandica","Bucephala_islandica",FALSE,1,780952,FALSE,"",1
 "Bufo_bufo","Bufo_bufo",FALSE,1,889350,FALSE,"",1
+"Bufo_cognatus","Anaxyrus_cognatus",FALSE,1,436344,TRUE,"",1
 "Bufo_gargarizans","Bufo_gargarizans",FALSE,1,279549,FALSE,"",1
 "Bufo_japonicus","Bufo_japonicus",FALSE,1,889333,FALSE,"",1
 "Bufo_marinus","Rhinella_marina",FALSE,1,889340,TRUE,"",1
@@ -225,6 +236,8 @@
 "Callinectes_sapidus","Callinectes_sapidus",FALSE,1,182906,FALSE,"",1
 "Callinectes_similis","Callinectes_similis",FALSE,1,454975,FALSE,"",1
 "Callisaurus_draconoides","Callisaurus_draconoides",FALSE,1,819154,FALSE,"",1
+"Callorhinchus_callorynchus","Callorhinchus_callorynchus",FALSE,1,550636,FALSE,"",1
+"Callorhinus_ursinus","Callorhinus_ursinus",FALSE,1,949693,FALSE,"",1
 "Calopteryx_cornelia","Calopteryx_cornelia",FALSE,1,797866,FALSE,"",1
 "Cambarincola_chirocephalus","Cambarincola_chirocephalus",FALSE,1,177815,FALSE,"",1
 "Cambarincola_vitreus","Cambarincola_vitreus",FALSE,1,111931,FALSE,"",1
@@ -263,6 +276,8 @@
 "Caspialosa_brashnikovi","Alosa_braschnikowi",FALSE,1,3628643,TRUE,"",1
 "Catoprion_mento","Catoprion_mento",FALSE,1,597343,FALSE,"",1
 "Catostomus_discobolus","Catostomus_discobolus",FALSE,1,271226,FALSE,"",1
+"Catostomus_nigricans","Hypentelium_nigricans",FALSE,1,584073,TRUE,"",1
+"Caulolatilus_princeps","Caulolatilus_princeps",FALSE,1,694750,FALSE,"",1
 "Cemophora_coccinea","Cemophora_coccinea",FALSE,1,1032598,FALSE,"",1
 "Centromochlus_meridionalis","Ferrarissoaresia_meridionalis",FALSE,1,6141844,TRUE,"",1
 "Centrophorus_squamosus","Centrophorus_squamosus",FALSE,1,449785,FALSE,"",1
@@ -316,6 +331,7 @@
 "Cincticostella_nigra","Cincticostella_nigra",FALSE,1,3046,FALSE,"",1
 "Citharichthys_spilopterus","Citharichthys_spilopterus",FALSE,1,908921,FALSE,"",1
 "Citharichthys_stampflii","Citharichthys_stampflii",FALSE,1,3640432,FALSE,"",1
+"Citharichthys_stigmaeus","Citharichthys_stigmaeus",FALSE,1,776738,FALSE,"",1
 "Clangula_hyemalis","Clangula_hyemalis",FALSE,1,316879,FALSE,"",1
 "Clarias_gariepinus","Clarias_gariepinus",FALSE,1,240811,FALSE,"",1
 "Clarias_ngamensis","Clarias_ngamensis",FALSE,1,1094712,FALSE,"",1
@@ -332,6 +348,7 @@
 "Coleodactylus_natalensis","Coleodactylus_natalensis",FALSE,1,126736,FALSE,"",1
 "Coleodactylus_septentrionalis","Coleodactylus_septentrionalis",FALSE,1,700787,FALSE,"",1
 "Coleonyx_variegatus","Coleonyx_variegatus",FALSE,1,677271,FALSE,"",1
+"Cololabis_saira","Cololabis_saira",FALSE,1,427511,FALSE,"",1
 "Colopus_wahlbergii","Pachydactylus_wahlbergii",FALSE,1,203966,TRUE,"",1
 "Coluber_constrictor","Coluber_constrictor",FALSE,1,405963,FALSE,"",1
 "Conger_conger","Conger_conger",FALSE,1,142596,FALSE,"",1
@@ -344,10 +361,15 @@
 "Corydoras_aeneus","Corydoras_aeneus",FALSE,1,841718,FALSE,"",1
 "Corynopoma_riisei","Corynopoma_riisei",FALSE,1,855287,FALSE,"",1
 "Coryphaena_hippurus","Coryphaena_hippurus",FALSE,1,223663,FALSE,"",1
+"Coryphaenoides_pectoralis","Albatrossia_pectoralis",FALSE,1,1074169,TRUE,"",1
 "Coryphopterus_glaucofraenum","Coryphopterus_glaucofraenum",FALSE,1,494031,FALSE,"",1
 "Coscinasterias_calamaria","Coscinasterias_calamaria",FALSE,1,173128,FALSE,"sibling_higher",2
 "Cosmasterias_lurida","Cosmasterias_lurida",FALSE,1,1059203,FALSE,"",1
 "Cottunculus_microps","Cottunculus_microps",FALSE,1,1046268,FALSE,"",1
+"Cottus_bairdii","Cottus_bairdii",FALSE,1,466855,FALSE,"",1
+"Cottus_cognatus","Cottus_cognatus",FALSE,1,993337,FALSE,"",1
+"Cottus_perplexus","Cottus_perplexus",FALSE,1,520261,FALSE,"",1
+"Cottus_rhotheus","Cottus_rhotheus",FALSE,1,520264,FALSE,"",1
 "Coturnicops_noveboracensis","Coturnicops_noveboracensis",FALSE,1,242758,FALSE,"",1
 "Crangon_crangon","Crangon_crangon",FALSE,1,497498,FALSE,"sibling_higher",1
 "Craspedacusta_sowerbii","Craspedacusta_sowerbii",FALSE,1,127047,FALSE,"",1
@@ -400,6 +422,7 @@
 "Cynops_pyrrhogaster","Cynops_pyrrhogaster",FALSE,1,515334,FALSE,"",1
 "Cynoscion_arenarius","Cynoscion_arenarius",FALSE,1,854147,FALSE,"",1
 "Cynoscion_nebulosus","Cynoscion_nebulosus",FALSE,1,186252,FALSE,"",1
+"Cynoscion_regalis","Cynoscion_regalis",FALSE,1,625589,FALSE,"",1
 "Cyprinella_lutrensis","Cyprinella_lutrensis",FALSE,1,351753,FALSE,"",1
 "Cyprinodon_variegatus","Cyprinodon_variegatus",FALSE,1,82335,FALSE,"",1
 "Cyprinus_carpio","Cyprinus_carpio",FALSE,1,429083,FALSE,"",1
@@ -448,6 +471,7 @@
 "Dissostichus_eleginoides","Dissostichus_eleginoides",FALSE,1,1040385,FALSE,"",1
 "Dolophilodes_commata","Dolophilodes_commata",FALSE,1,3022450,FALSE,"sibling_higher",1
 "Dorosoma_cepedianum","Dorosoma_cepedianum",FALSE,1,975202,FALSE,"",1
+"Doryteuthis_opalescens","Doryteuthis_opalescens",FALSE,1,241282,FALSE,"",1
 "Dosidicus_gigas","Dosidicus_gigas",FALSE,1,125334,FALSE,"",1
 "Drepane_punctata","Drepane_punctata",FALSE,1,250267,FALSE,"",1
 "Drunella_basalis","Drunella_basalis",FALSE,1,5013681,FALSE,"",1
@@ -457,6 +481,7 @@
 "Dytaster_grandis","Dytaster_grandis",FALSE,1,3656994,FALSE,"",1
 "Echeneis_naucrates","Echeneis_naucrates",FALSE,1,776562,FALSE,"",1
 "Echidna_catenata","Echidna_catenata",FALSE,1,369657,FALSE,"",1
+"Echiichthys_vipera","Echiichthys_vipera",FALSE,1,435192,FALSE,"",1
 "Egernia_inornata","Liopholis_inornata",FALSE,1,892819,TRUE,"",1
 "Egernia_striata","Liopholis_striata",FALSE,1,122986,TRUE,"",1
 "Eigenmannia_virescens","Eigenmannia_virescens",FALSE,1,437387,FALSE,"",1
@@ -478,6 +503,7 @@
 "Elops_saurus","Elops_saurus",FALSE,1,329631,FALSE,"",1
 "Enchelyopus_cimbrius","Enchelyopus_cimbrius",FALSE,1,339087,FALSE,"",1
 "Engraulis_encrasicolus","Engraulis_encrasicolus",FALSE,1,222963,FALSE,"",1
+"Engraulis_mordax","Engraulis_mordax",FALSE,1,29754,FALSE,"",1
 "Enneacanthus_gloriosus","Enneacanthus_gloriosus",FALSE,1,476364,FALSE,"",1
 "Ensatina_eschscholtzii","Ensatina_eschscholtzii",FALSE,1,637537,FALSE,"",1
 "Entomocorus_gameroi","Entomocorus_gameroi",FALSE,1,3623579,FALSE,"",1
@@ -497,12 +523,18 @@
 "Equetus_acuminatus","Pareques_acuminatus",FALSE,1,230360,TRUE,"",1
 "Equetus_punctatus","Equetus_punctatus",FALSE,1,702680,FALSE,"",1
 "Erignathus_barbatus","Erignathus_barbatus",FALSE,1,931413,FALSE,"",1
+"Erimyzon_sucetta","Erimyzon_sucetta",FALSE,1,235180,FALSE,"",1
 "Esox_lucius","Esox_lucius",FALSE,1,739941,FALSE,"",1
 "Esox_niger","Esox_niger",FALSE,1,496121,FALSE,"",1
+"Esox_vermiculatus","Esox_americanus_vermiculatus",FALSE,1,47023,TRUE,"infraspecific",2
+"Etheostoma_exile","Etheostoma_exile",FALSE,1,340808,FALSE,"",1
 "Etmopterus_granulosus","Etmopterus_granulosus",FALSE,1,975973,FALSE,"",1
 "Etmopterus_princeps","Etmopterus_princeps",FALSE,1,832502,FALSE,"",1
 "Etmopterus_spinax","Etmopterus_spinax",FALSE,1,1059232,FALSE,"",1
+"Etropus_crossotus","Etropus_crossotus",FALSE,1,654485,FALSE,"",1
+"Etrumeus_micropus","Etrumeus_micropus",FALSE,1,999979,FALSE,"",1
 "Eubasilissa_regina","Eubasilissa_regina",FALSE,1,3027911,FALSE,"",1
+"Eucalia_inconstans","Culaea_inconstans",FALSE,1,591254,TRUE,"",1
 "Eucapnopsis","Eucapnopsis",FALSE,1,720788,FALSE,"",1
 "Eucinostomus_argenteus","Eucinostomus_argenteus",FALSE,1,814321,FALSE,"",1
 "Eucopia_australis","Eucopia_australis",FALSE,1,2989873,FALSE,"",1
@@ -513,6 +545,7 @@
 "Eudyptes_schlegeli","Eudyptes_schlegeli",FALSE,1,605139,FALSE,"",1
 "Eudyptula_minor","Eudyptula_minor",FALSE,1,613299,FALSE,"",1
 "Eukrohnia_hamata","Eukrohnia_hamata",FALSE,1,584274,FALSE,"",1
+"Eumetopias_jubatus","Eumetopias_jubatus",FALSE,1,949686,FALSE,"",1
 "Eumicrotremus_derjugini","Eumicrotremus_derjugini",FALSE,1,971804,FALSE,"",1
 "Eumicrotremus_spinosus","Eumicrotremus_spinosus",FALSE,1,1097394,FALSE,"",1
 "Euproctus_montanus","Euproctus_montanus",FALSE,1,861438,FALSE,"",1
@@ -549,11 +582,13 @@
 "Fundulus_xenicus","Adinia_xenica",FALSE,1,839523,TRUE,"",1
 "Fundulus_zebrinus","Fundulus_zebrinus",FALSE,1,617462,FALSE,"",1
 "Gadiculus_argenteus","Gadiculus_argenteus",FALSE,1,1014044,FALSE,"",1
+"Gadus_macrocephalus","Gadus_macrocephalus",FALSE,1,56885,FALSE,"",1
 "Gadus_morhua","Gadus_morhua",FALSE,1,114170,FALSE,"",1
 "Gadus_ogac","Gadus_ogac",FALSE,1,635898,FALSE,"",2
 "Gaidropsarus_argentatus","Gaidropsarus_argentatus",FALSE,1,933408,FALSE,"",1
 "Galeocerdo_cuvier","Galeocerdo_cuvier",FALSE,1,976355,FALSE,"",1
 "Galeoides_decadactylus","Galeoides_decadactylus",FALSE,1,3633170,FALSE,"incertae_sedis_inherited",1
+"Galeorhinus_zyopterus","Galeorhinus_galeus",FALSE,1,898984,TRUE,"",1
 "Galeus_melastomus","Galeus_melastomus",FALSE,1,327712,FALSE,"",1
 "Galeus_murinus","Galeus_murinus",FALSE,1,647388,FALSE,"",1
 "Gambelia_wislizenii","Gambelia_wislizenii",FALSE,1,244470,FALSE,"",1
@@ -575,6 +610,7 @@
 "Globicephala_macrorhynchus","Globicephala_macrorhynchus",FALSE,1,535886,FALSE,"",1
 "Globicephala_melas","Globicephala_melas",FALSE,1,124212,FALSE,"",1
 "Glyptocephalus_cynoglossus","Glyptocephalus_cynoglossus",FALSE,1,223675,FALSE,"",1
+"Glyptocephalus_zachirus","Glyptocephalus_zachirus",FALSE,1,831488,FALSE,"",1
 "Gnathocharax_steindachneri","Gnathocharax_steindachneri",FALSE,1,597351,FALSE,"",1
 "Gnatholepis_thompsoni","Gnatholepis_thompsoni",FALSE,1,267491,FALSE,"",1
 "Gobiomorus_dormitor","Gobiomorus_dormitor",FALSE,1,740272,FALSE,"",1
@@ -596,6 +632,7 @@
 "Grayia_smythii","Grayia_smithii",FALSE,1,994633,TRUE,"",1
 "Gulo_gulo","Gulo_gulo",FALSE,1,178247,FALSE,"",1
 "Gymnocanthus_tricuspis","Gymnocanthus_tricuspis",FALSE,1,654474,FALSE,"",1
+"Gymnocypris_firmispinatus","Gymnocypris_firmispinatus",FALSE,1,3626723,FALSE,"",1
 "Gymnophthalmus_underwoodi","Gymnophthalmus_underwoodi",FALSE,1,58577,FALSE,"",1
 "Gymnoscopelus_fraseri","Gymnoscopelus_fraseri",FALSE,1,162203,FALSE,"",1
 "Gymnoscopelus_nicholsi","Gymnoscopelus_nicholsi",FALSE,1,211050,FALSE,"",1
@@ -632,6 +669,7 @@
 "Haustrum_haustorium","Haustrum_haustorium",FALSE,1,976141,FALSE,"",1
 "Haustrum_scobina","Haustrum_scobina",FALSE,1,389266,FALSE,"",1
 "Heliaster_helianthus","Heliaster_helianthus",FALSE,1,3657206,FALSE,"",1
+"Helicolenus_dactylopterus","Helicolenus_dactylopterus",FALSE,1,757351,FALSE,"",1
 "Helicops_infrataeniatus","Helicops_infrataeniatus",FALSE,1,1087427,FALSE,"",1
 "Heliobolus_lugubris","Heliobolus_lugubris",FALSE,1,257069,FALSE,"",1
 "Heliobolus_spekii","Heliobolus_spekii",FALSE,1,363306,FALSE,"",1
@@ -649,11 +687,14 @@
 "Hemigrammus_rhodostomus","Hemigrammus_rhodostomus",FALSE,1,3625407,FALSE,"",1
 "Hemigrammus_stictus","Hemigrammus_stictus",FALSE,1,3625413,FALSE,"",1
 "Hemigrammus_vorderwinkleri","Hemigrammus_vorderwinkleri",FALSE,1,3625379,FALSE,"",1
+"Hemilepidotus_hemilepidotus","Hemilepidotus_hemilepidotus",FALSE,1,568667,FALSE,"",1
+"Hemilepidotus_jordani","Hemilepidotus_jordani",FALSE,1,830118,FALSE,"",1
 "Hemipteronotus_novacula","Xyrichtys_novacula",FALSE,1,768449,TRUE,"",1
 "Hemipteronotus_splendens","Xyrichtys_splendens",FALSE,1,768455,TRUE,"",1
 "Hemiramphus_balao","Hemiramphus_balao",FALSE,1,427489,FALSE,"",1
 "Hemiramphus_brasiliensis","Hemiramphus_brasiliensis",FALSE,1,953384,FALSE,"",1
 "Hemisus_marmoratus","Hemisus_marmoratus",FALSE,1,968537,FALSE,"",1
+"Hemitripterus_bolini","Hemitripterus_bolini",FALSE,1,5342917,FALSE,"",1
 "Hepsetus_odoe","Hepsetus_odoe",FALSE,1,128234,FALSE,"",1
 "Herpestes_ichneumon","Herpestes_ichneumon",FALSE,1,749636,FALSE,"",1
 "Heterandria_formosa","Heterandria_formosa",FALSE,1,808633,FALSE,"",1
@@ -666,8 +707,10 @@
 "Hexatoma","Hexatoma",FALSE,1,331969,FALSE,"",1
 "Hippasteria_phrygiana","Hippasteria_phrygiana",FALSE,1,3656615,FALSE,"",1
 "Hippocampus_patagonicus","Hippocampus_patagonicus",FALSE,1,398139,FALSE,"",1
+"Hippoglossoides_elassodon","Hippoglossoides_elassodon",FALSE,1,749773,FALSE,"",1
 "Hippoglossoides_platessoides","Hippoglossoides_platessoides",FALSE,1,223665,FALSE,"",1
 "Hippoglossus_hippoglossus","Hippoglossus_hippoglossus",FALSE,1,408328,FALSE,"",1
+"Hippoglossus_stenolepis","Hippoglossus_stenolepis",FALSE,1,831503,FALSE,"",1
 "Hippopodius_hippopus","Hippopodius_hippopus",FALSE,1,934506,FALSE,"",1
 "Hippopotamyrus_discorhynchus","Cyphomyrus_discorhynchus",FALSE,1,349817,TRUE,"",1
 "Holacanthus_ciliaris","Holacanthus_ciliaris",FALSE,1,250283,FALSE,"",1
@@ -696,6 +739,7 @@
 "Hyperolius_guttulatus","Hyperolius_guttulatus",FALSE,1,510964,FALSE,"",1
 "Hyperolius_sylvaticus","Hyperolius_sylvaticus",FALSE,1,1088575,FALSE,"",1
 "Hyperoodon_planifrons","Hyperoodon_planifrons",FALSE,1,1021371,FALSE,"sibling_higher",1
+"Hypomesus_pretiosus","Hypomesus_pretiosus",FALSE,1,227596,FALSE,"",1
 "Hypoplectrus_aberrans","Hypoplectrus_aberrans",FALSE,1,596608,FALSE,"",1
 "Hypoplectrus_chlorurus","Hypoplectrus_chlorurus",FALSE,1,284259,FALSE,"",1
 "Hypoplectrus_nigricans","Hypoplectrus_nigricans",FALSE,1,284247,FALSE,"",1
@@ -707,9 +751,12 @@
 "Ichnotropis_squamulosa","Meroles_squamulosus",FALSE,1,1014443,TRUE,"",1
 "Ichthyophis_bannanicus","Ichthyophis_bannanicus",FALSE,1,639649,FALSE,"",1
 "Ichthyosaura_alpestris","Ichthyosaura_alpestris",FALSE,1,159060,FALSE,"",1
+"Icichthys_lockingtoni","Icichthys_lockingtoni",FALSE,1,76501,FALSE,"",1
 "Ictalurus_punctatus","Ictalurus_punctatus",FALSE,1,701523,FALSE,"",1
 "Idiacanthus_antrostomus","Idiacanthus_antrostomus",FALSE,1,890166,FALSE,"",1
+"Iheringichthys_labrosus","Iheringichthys_labrosus",FALSE,1,575783,FALSE,"",1
 "Ilisha_africana","Ilisha_africana",FALSE,1,741177,FALSE,"",1
+"Ilisha_amazonica","Ilisha_amazonica",FALSE,1,3628693,FALSE,"",1
 "Incilius_mazatlanensis","Incilius_mazatlanensis",FALSE,1,931373,FALSE,"",1
 "Indopacetus_pacificus","Indopacetus_pacificus",FALSE,1,575100,FALSE,"",1
 "Inermia_vittata","Haemulon_vittatum",FALSE,1,540860,TRUE,"",1
@@ -717,12 +764,14 @@
 "Isoperla","Isoperla",FALSE,1,526032,FALSE,"",1
 "Isoperla_motonis","Isoperla_motonis",FALSE,1,5015870,FALSE,"",1
 "Isoperla_nipponica","Isoperla_nipponica",FALSE,1,5015840,FALSE,"",1
+"Isopsetta_isolepis","Isopsetta_isolepis",FALSE,1,831497,FALSE,"",1
 "Istiompax_indica","Istiompax_indica",FALSE,1,696430,FALSE,"",1
 "Istiophorus_platypterus","Istiophorus_platypterus",FALSE,1,545842,FALSE,"",1
 "Isurus_oxyrinchus","Isurus_oxyrinchus",FALSE,1,73672,FALSE,"",1
 "Itapotihyla_langsdorffii","Itapotihyla_langsdorffii",FALSE,1,528946,FALSE,"",1
 "Jenkinsia_lamprotaenia","Jenkinsia_lamprotaenia",FALSE,1,705329,FALSE,"",1
 "Jordanella_floridae","Jordanella_floridae",FALSE,1,82326,FALSE,"",1
+"Kajikia_audax","Kajikia_audax",FALSE,1,665891,FALSE,"",1
 "Kalinga_ornata","Kalinga_ornata",FALSE,1,2876245,FALSE,"",1
 "Kamimuria_tibialis","Kamimuria_tibialis",FALSE,1,5017003,FALSE,"",1
 "Kamimuria_uenoi","Kamimuria_uenoi",FALSE,1,5017013,FALSE,"",1
@@ -732,6 +781,7 @@
 "Kentropyx_striata","Kentropyx_striata",FALSE,1,348431,FALSE,"",1
 "Kiotina","Kiotina",FALSE,1,5017117,FALSE,"sibling_higher",2
 "Knodus_gamma","Knodus_gamma",FALSE,1,3624964,FALSE,"",1
+"Kogia_simus","Kogia_sima",FALSE,1,276857,TRUE,"",1
 "Kogotus","Kogotus",FALSE,1,96165,FALSE,"",1
 "Labidesthes_sicculus","Labidesthes_sicculus",FALSE,1,125720,FALSE,"",1
 "Labidiaster_annulatus","Labidiaster_annulatus",FALSE,1,414552,FALSE,"",1
@@ -779,9 +829,12 @@
 "Lepisosteus_osseus","Lepisosteus_osseus",FALSE,1,519445,FALSE,"",1
 "Lepisosteus_platyrhincus","Lepisosteus_platyrhincus",FALSE,1,804455,FALSE,"",1
 "Lepomis_gibbosus","Lepomis_gibbosus",FALSE,1,670266,FALSE,"",1
+"Lepomis_humilis","Lepomis_humilis",FALSE,1,892772,FALSE,"",1
 "Lepomis_macrochirus","Lepomis_macrochirus",FALSE,1,836783,FALSE,"",1
 "Lepomis_marginatus","Lepomis_marginatus",FALSE,1,943380,FALSE,"",1
+"Lepomis_megalotis","Lepomis_megalotis",FALSE,1,271249,FALSE,"",1
 "Lepomis_microlophus","Lepomis_microlophus",FALSE,1,271244,FALSE,"",1
+"Lepomis_pallidus","Lepomis_pallidus",TRUE,1,3634766,FALSE,"hidden",3
 "Lepomis_punctatus","Lepomis_punctatus",FALSE,1,271257,FALSE,"",1
 "Leposoma_parietale","Loxopholis_parietalis",FALSE,1,838439,TRUE,"",1
 "Leposoma_percarinatum","Loxopholis_percarinatum",FALSE,1,322420,TRUE,"",1
@@ -809,6 +862,7 @@
 "Lialis_burtoni","Lialis_burtonis",FALSE,1,24142,TRUE,"",1
 "Lichia_amia","Lichia_amia",FALSE,1,1020299,FALSE,"",1
 "Limanda_limanda","Limanda_limanda",FALSE,1,804463,FALSE,"",1
+"Limanda_proboscidea","Myzopsetta_proboscidea",FALSE,1,14276,TRUE,"",1
 "Limnocentropus_insolitus","Limnocentropus_insolitus",FALSE,1,171609,FALSE,"",1
 "Liocarcinus_depurator","Liocarcinus_depurator",FALSE,1,449977,FALSE,"",1
 "Liocarcinus_holsatus","Liocarcinus_holsatus",FALSE,1,99731,FALSE,"",1
@@ -821,6 +875,7 @@
 "Liparis_fabricii","Liparis_fabricii",FALSE,1,496423,FALSE,"",1
 "Lirabuccinum_dirum","Lirabuccinum_dirum",FALSE,1,396109,FALSE,"",1
 "Lissodelphis_borealis","Lissodelphis_borealis",FALSE,1,1093944,FALSE,"",1
+"Lissotriton_vulgaris","Lissotriton_vulgaris",FALSE,1,1041774,FALSE,"",1
 "Lithobates_sphenocephalus","Rana_sphenocephala",FALSE,1,61437,TRUE,"",1
 "Lithobius_crassipes","Lithobius_crassipes",FALSE,1,53152,FALSE,"",1
 "Lithobius_curtipes","Lithobius_curtipes",FALSE,1,925460,FALSE,"",1
@@ -833,6 +888,7 @@
 "Loligo_pealei","Doryteuthis_pealeii",FALSE,1,241285,TRUE,"",1
 "Loligo_vulgaris","Loligo_vulgaris",FALSE,1,1054848,FALSE,"",1
 "Lophius_americanus","Lophius_americanus",FALSE,1,583642,FALSE,"",1
+"Lophius_gastrophysus","Lophius_gastrophysus",FALSE,1,690695,FALSE,"",1
 "Lophius_piscatorius","Lophius_piscatorius",FALSE,1,583649,FALSE,"",1
 "Loricera_pilicornis","Loricera_pilicornis",FALSE,1,230604,FALSE,"",1
 "Lota_lota","Lota_lota",FALSE,1,440414,FALSE,"",1
@@ -863,9 +919,11 @@
 "Lutra_lutra","Lutra_lutra",FALSE,1,348036,FALSE,"",1
 "Luxilus_cornutus","Luxilus_cornutus",FALSE,1,96051,FALSE,"",1
 "Lyciasalamandra_luschani","Lyciasalamandra_luschani",FALSE,1,1012890,FALSE,"",1
+"Lycodes_brevipes","Lycodes_brevipes",FALSE,1,1095237,FALSE,"",1
 "Lycodes_esmarkii","Lycodes_esmarkii",FALSE,1,841648,FALSE,"",1
 "Lycodes_eudipleurostictus","Lycodes_eudipleurostictus",FALSE,1,905435,FALSE,"",1
 "Lycodes_gracilis","Lycodes_vahlii",FALSE,1,178063,TRUE,"",1
+"Lycodes_palearis","Lycodes_palearis",FALSE,1,178068,FALSE,"",1
 "Lycodes_pallidus","Lycodes_pallidus",FALSE,1,178074,FALSE,"",1
 "Lycodes_polaris","Lycodes_polaris",FALSE,1,34255,FALSE,"",1
 "Lycodes_reticulatus","Lycodes_reticulatus",FALSE,1,752411,FALSE,"",1
@@ -898,11 +956,13 @@
 "Melanogrammus_aeglefinus","Melanogrammus_aeglefinus",FALSE,1,635904,FALSE,"",1
 "Melanotaenia_fluviatilis","Melanotaenia_fluviatilis",FALSE,1,224783,FALSE,"",1
 "Melichthys_niger","Melichthys_niger",FALSE,1,183846,FALSE,"",1
+"Mene_maculata","Mene_maculata",FALSE,1,968223,FALSE,"incertae_sedis_inherited",1
 "Menetia_greyii","Menetia_greyii",FALSE,1,733910,FALSE,"",1
 "Menidia_beryllina","Menidia_beryllina",FALSE,1,804705,FALSE,"",1
 "Menidia_peninsulae","Menidia_peninsulae",FALSE,1,800800,FALSE,"",1
 "Meridiastra_gunnii","Meridiastra_gunnii",FALSE,1,644991,FALSE,"",1
 "Merluccius_bilinearis","Merluccius_bilinearis",FALSE,1,351757,FALSE,"",1
+"Merluccius_gayi","Merluccius_gayi",FALSE,1,757319,FALSE,"",1
 "Merluccius_productus","Merluccius_productus",FALSE,1,183169,FALSE,"",1
 "Meroles_suborbitalis","Meroles_suborbitalis",FALSE,1,996385,FALSE,"",1
 "Mertensia_ovum","Mertensia_ovum",FALSE,1,523265,FALSE,"",1
@@ -918,7 +978,6 @@
 "Microphis_brachyurus","Oostethus_brachyurus",FALSE,1,495929,TRUE,"",1
 "Micropogonias_undulatus","Micropogonias_undulatus",FALSE,1,987393,FALSE,"",1
 "Micropterus_dolomieu","Micropterus_dolomieu",FALSE,1,235372,FALSE,"",1
-"Micropterus_nigricans","Microtus_agrestis",TRUE,0.833333313465118,754333,FALSE,"",2
 "Micropterus_salmoides","Micropterus_salmoides",FALSE,1,230493,FALSE,"",1
 "Microspathodon_chrysurus","Microspathodon_chrysurus",FALSE,1,847660,FALSE,"incertae_sedis_inherited",1
 "Microsternarchus_bilineatus","Microsternarchus_bilineatus",FALSE,1,164257,FALSE,"",1
@@ -926,6 +985,7 @@
 "Mikrogeophagus_ramirezi","Mikrogeophagus_ramirezi",FALSE,1,316392,FALSE,"",1
 "Mimetus_notius","Mimetus_notius",FALSE,1,794017,FALSE,"",1
 "Mirounga_angustirostris","Mirounga_angustirostris",FALSE,1,175268,FALSE,"",1
+"Mirounga_leonina","Mirounga_leonina",FALSE,1,175270,FALSE,"",1
 "Mnemiopsis_leidyi","Mnemiopsis_leidyi",FALSE,1,161877,FALSE,"",1
 "Mochlus_sundevallii","Mochlus_sundevalli",FALSE,1,900559,TRUE,"",1
 "Moenkhausia_forestii","Moenkhausia_forestii",FALSE,1,319761,FALSE,"",1
@@ -939,6 +999,7 @@
 "Mormyrus_lacerda","Mormyrus_lacerda",FALSE,1,3643924,FALSE,"",1
 "Morone_americana","Morone_americana",FALSE,1,769292,FALSE,"",1
 "Morone_chrysops","Morone_chrysops",FALSE,1,246133,FALSE,"",1
+"Morone_mississippiensis","Morone_mississippiensis",FALSE,1,769290,FALSE,"",1
 "Moroteuthis_ingens","Onykia_ingens",FALSE,1,784784,TRUE,"",1
 "Muggiaea_atlantica","Muggiaea_atlantica",FALSE,1,913323,FALSE,"",1
 "Mugil_cephalus","Mugil_cephalus",FALSE,1,418648,FALSE,"",1
@@ -958,6 +1019,8 @@
 "Myctophum_aurolaternatum","Myctophum_aurolaternatum",FALSE,1,519259,FALSE,"",1
 "Myctophum_spinosum","Myctophum_spinosum",FALSE,1,114280,FALSE,"",1
 "Myliobatis_freminvillei","Myliobatis_freminvillei",FALSE,1,781226,FALSE,"",1
+"Myoxocephalus_jaok","Myoxocephalus_jaok",FALSE,1,268676,FALSE,"",1
+"Myoxocephalus_polyacanthocephalus","Myoxocephalus_polyacanthocephalus",FALSE,1,582925,FALSE,"",1
 "Myoxocephalus_scorpius","Myoxocephalus_scorpius",FALSE,1,942655,FALSE,"",1
 "Myrichthys_acuminatus","Myrichthys_breviceps",FALSE,1,757162,TRUE,"",1
 "Myrichthys_oculatus","Myrichthys_ocellatus",FALSE,1,953012,TRUE,"",1
@@ -991,6 +1054,7 @@
 "Nerophis_ophidion","Nerophis_ophidion",FALSE,1,806821,FALSE,"",1
 "Nihonogomphus_viridis","Nihonogomphus_viridis",FALSE,1,730900,FALSE,"",1
 "Nocomis_asper","Nocomis_asper",FALSE,1,484803,FALSE,"",1
+"Notemigonus_crysoleucas","Notemigonus_crysoleucas",FALSE,1,317376,FALSE,"",1
 "Notiophilus_biguttatus","Notiophilus_biguttatus",FALSE,1,479488,FALSE,"",1
 "Notophthalmus_viridescens","Notophthalmus_viridescens",FALSE,1,566015,FALSE,"",1
 "Notopterus_notopterus","Notopterus_notopterus",FALSE,1,904617,FALSE,"",1
@@ -998,6 +1062,8 @@
 "Notostomus_gibbosus","Notostomus_gibbosus",FALSE,1,475269,FALSE,"",1
 "Notothenia_coriiceps","Notothenia_coriiceps",FALSE,1,258643,FALSE,"",1
 "Notothenia_rossii","Notothenia_rossii",FALSE,1,598964,FALSE,"",1
+"Notropis","Notropis",FALSE,1,351749,FALSE,"sibling_higher",1
+"Notropis_heterodon","Notropis_heterodon",FALSE,1,258132,FALSE,"",1
 "Notropis_hudsonius","Notropis_hudsonius",FALSE,1,135051,FALSE,"",1
 "Notropis_photogenis","Notropis_photogenis",FALSE,1,550202,FALSE,"",1
 "Noturus_gyrinus","Noturus_gyrinus",FALSE,1,652777,FALSE,"",1
@@ -1017,13 +1083,16 @@
 "Ochmacanthus_alternus","Ochmacanthus_alternus",FALSE,1,56579,FALSE,"",1
 "Ocyurus_chrysurus","Ocyurus_chrysurus",FALSE,1,943183,FALSE,"",1
 "Odontoscion_dentex","Odontoscion_dentex",FALSE,1,902852,FALSE,"",1
+"Oligocottus_snyderi","Oligocottus_snyderi",FALSE,1,735812,FALSE,"",1
 "Oligoplites_saurus","Oligoplites_saurus",FALSE,1,548120,FALSE,"",1
 "Ommastrephes_bartramii","Ommastrephes_bartramii",FALSE,1,754413,FALSE,"",1
+"Ommatotriton_ophryticus","Ommatotriton_ophryticus",FALSE,1,645229,FALSE,"",1
 "Oncorhynchus_gorbuscha","Oncorhynchus_gorbuscha",FALSE,1,739927,FALSE,"",1
 "Oncorhynchus_keta","Oncorhynchus_keta",FALSE,1,739921,FALSE,"",1
 "Oncorhynchus_kisutch","Oncorhynchus_kisutch",FALSE,1,739917,FALSE,"",1
 "Oncorhynchus_mykiss","Oncorhynchus_mykiss",FALSE,1,165368,FALSE,"",1
 "Oncorhynchus_nerka","Oncorhynchus_nerka",FALSE,1,165375,FALSE,"",1
+"Oncorhynchus_tshawytscha","Oncorhynchus_tshawytscha",FALSE,1,730762,FALSE,"",1
 "Oneirodes_thompsoni","Oneirodes_thompsoni",FALSE,1,36648,FALSE,"",1
 "Opheodrys_aestivus","Opheodrys_aestivus",FALSE,1,259049,FALSE,"",1
 "Ophiacantha_pentactis","Ophiacantha_pentactis",FALSE,1,3655196,FALSE,"sibling_higher",1
@@ -1074,6 +1143,7 @@
 "Paranthias_furcifer","Paranthias_furcifer",FALSE,1,781566,FALSE,"",1
 "Pardosa_ramulosa","Pardosa_ramulosa",FALSE,1,3558106,FALSE,"",1
 "Parmaturus_xaniurus","Parmaturus_xaniurus",FALSE,1,568234,FALSE,"",1
+"Parophrys_vetulus","Parophrys_vetulus",FALSE,1,835838,FALSE,"",1
 "Paruroctonus_mesaensis","Paruroctonus_mesaensis",FALSE,1,964149,FALSE,"",2
 "Parvilux_ingens","Parvilux_ingens",FALSE,1,307336,FALSE,"",1
 "Pedioplanis_lineoocellata","Pedioplanis_lineoocellata",FALSE,1,257070,FALSE,"",1
@@ -1085,6 +1155,7 @@
 "Pentaceraster_cumingi","Pentaceraster_cumingi",FALSE,1,890990,FALSE,"",1
 "Perca_flavescens","Perca_flavescens",FALSE,1,186474,FALSE,"",1
 "Perca_fluviatilis","Perca_fluviatilis",FALSE,1,186488,FALSE,"",1
+"Percina_caprodes","Percina_caprodes",FALSE,1,814721,FALSE,"",1
 "Peristernia_australiensis","Peristernia_australiensis",FALSE,1,2898510,FALSE,"",1
 "Peristernia_chlorostoma","Peristernia_chlorostoma",FALSE,1,2898746,FALSE,"",1
 "Peristernia_forskalii","Peristernia_forskalii",FALSE,1,2898743,FALSE,"",1
@@ -1105,6 +1176,7 @@
 "Phoca_largha","Phoca_largha",FALSE,1,89833,FALSE,"sibling_higher",1
 "Phoca_vitulina","Phoca_vitulina",FALSE,1,698422,FALSE,"sibling_higher",1
 "Phocoena_phocoena","Phocoena_phocoena",FALSE,1,851312,FALSE,"",1
+"Phocoenoides_dalli","Phocoenoides_dalli",FALSE,1,851304,FALSE,"",1
 "Phrynobatrachus_mababiensis","Phrynobatrachus_mababiensis",FALSE,1,406427,FALSE,"",1
 "Phrynosoma_platyrhinos","Phrynosoma_platyrhinos",FALSE,1,671419,FALSE,"",1
 "Phtheirichthys_lineatus","Phtheirichthys_lineatus",FALSE,1,204918,FALSE,"",1
@@ -1114,12 +1186,14 @@
 "Phyllomedusa_rohdei","Pithecopus_rohdei",FALSE,1,364552,TRUE,"",1
 "Physeter_macrocephalus","Physeter_macrocephalus",FALSE,1,276851,TRUE,"sibling_higher",1
 "Pimelodella","Pimelodella",FALSE,1,957296,FALSE,"",1
+"Pimelodus_blochii","Pimelodus_blochii",FALSE,1,840989,FALSE,"",1
 "Pimephales_promelas","Pimephales_promelas",FALSE,1,564459,FALSE,"",1
 "Pisaster_brevispinus","Pisaster_brevispinus",FALSE,1,76842,FALSE,"",1
 "Pisaster_ochraceus","Pisaster_ochraceus",FALSE,1,76843,FALSE,"",1
 "Pituophis_melanoleucus","Pituophis_melanoleucus",FALSE,1,405961,FALSE,"",2
 "Plagioscion_squamosissimus","Plagioscion_squamosissimus",FALSE,1,489923,FALSE,"",1
 "Platichthys_flesus","Platichthys_flesus",FALSE,1,408331,FALSE,"",1
+"Platichthys_stellatus","Platichthys_stellatus",FALSE,1,296735,FALSE,"",1
 "Platybelone_argalus","Platybelone_argala",FALSE,1,953365,TRUE,"",1
 "Platycephalus_indicus","Platycephalus_indicus",FALSE,1,599906,FALSE,"",1
 "Platycephalus_speculator","Platycephalus_speculator",FALSE,1,411598,FALSE,"",1
@@ -1140,7 +1214,9 @@
 "Pleurobrachia_pileus","Pleurobrachia_pileus",FALSE,1,626459,FALSE,"",1
 "Pleurobranchaea_californica","Pleurobranchaea_californica",FALSE,1,473886,FALSE,"",1
 "Pleurodema_diplolister","Pleurodema_diplolister",FALSE,1,806505,FALSE,"sibling_higher",1
+"Pleurogrammus_monopterygius","Pleurogrammus_monopterygius",FALSE,1,185876,FALSE,"",1
 "Pleuronectes_platessa","Pleuronectes_platessa",FALSE,1,408337,FALSE,"",1
+"Pleuronectes_quadrituberculatus","Pleuronectes_quadrituberculatus",FALSE,1,535447,FALSE,"",1
 "Plica_plica","Plica_plica",FALSE,1,761851,FALSE,"",1
 "Plica_umbra","Plica_umbra",FALSE,1,761862,FALSE,"",1
 "Plocamopherus_tilesii","Plocamopherus_tilesii",FALSE,1,2875191,FALSE,"",1
@@ -1188,6 +1264,7 @@
 "Protomyctophum_tenisoni","Protomyctophum_tenisoni",FALSE,1,3629399,FALSE,"sibling_higher",1
 "Protomyctophum_thompsoni","Protomyctophum_thompsoni",FALSE,1,785202,FALSE,"sibling_higher",1
 "Psellogrammus_kennedyi","Psellogrammus_kennedyi",FALSE,1,575370,FALSE,"",1
+"Psettichthys_melanostictus","Psettichthys_melanostictus",FALSE,1,282295,FALSE,"",1
 "Psettodes_belcheri","Psettodes_belcheri",FALSE,1,196242,FALSE,"",1
 "Pseudis_bolbodactyla","Pseudis_bolbodactyla",FALSE,1,677455,FALSE,"",1
 "Pseudis_limellum","Pseudis_limellum",FALSE,1,1088048,FALSE,"",1
@@ -1199,6 +1276,7 @@
 "Pseudocrenilabrus_philander","Pseudocrenilabrus_philander",FALSE,1,828443,FALSE,"",1
 "Pseudogonatodes_guianensis","Pseudogonatodes_guianensis",FALSE,1,935362,FALSE,"",1
 "Pseudopleuronectes_americanus","Pseudopleuronectes_americanus",FALSE,1,261419,FALSE,"",1
+"Pseudorca_crassidens","Pseudorca_crassidens",FALSE,1,209644,FALSE,"",1
 "Pseudotolithus_elongatus","Pseudotolithus_elongatus",FALSE,1,24399,FALSE,"",1
 "Pseudotolithus_epipercus","Pseudotolithus_epipercus",FALSE,1,3634289,FALSE,"",1
 "Pseudotolithus_senegalensis","Pseudotolithus_senegallus",FALSE,1,139692,TRUE,"",1
@@ -1253,6 +1331,7 @@
 "Retropinna_semoni","Retropinna_semoni",FALSE,1,37102,FALSE,"",1
 "Rhamdia","Rhamdia",FALSE,1,218153,FALSE,"",1
 "Rhamdia_guatemalensis","Rhamdia_guatemalensis",FALSE,1,195322,FALSE,"",1
+"Rhamdia_quelen","Rhamdia_quelen",FALSE,1,730419,FALSE,"",1
 "Rhamphichthys_marmoratus","Rhamphichthys_marmoratus",FALSE,1,444,FALSE,"",1
 "Rhincodon_typus","Rhincodon_typus",FALSE,1,214509,FALSE,"",1
 "Rhinella_hoogmoedi","Rhinella_hoogmoedi",FALSE,1,777275,FALSE,"",1
@@ -1271,6 +1350,7 @@
 "Rhynchoedura_ornata","Rhynchoedura_ornata",FALSE,1,495356,FALSE,"",1
 "Rissa_tridactyla","Rissa_tridactyla",FALSE,1,585161,FALSE,"",1
 "Rivulus_isthmensis","Cynodonichthys_isthmensis",FALSE,1,684063,TRUE,"",1
+"Rivulus_santensis","Atlantirivulus_santensis",FALSE,1,710134,TRUE,"",1
 "Roeboides_dayi","Roeboides_dayi",FALSE,1,482072,FALSE,"",1
 "Roeboides_guatemalensis","Roeboides_guatemalensis",FALSE,1,482068,FALSE,"",1
 "Rosacea_cymbiformis","Rosacea_cymbiformis",FALSE,1,945676,FALSE,"",1
@@ -1286,6 +1366,8 @@
 "Salamandra_corsica","Salamandra_corsica",FALSE,1,958220,FALSE,"",1
 "Salamandra_lanzai","Salamandra_lanzai",FALSE,1,873622,FALSE,"",1
 "Salamandrina_perspicillata","Salamandrina_perspicillata",FALSE,1,254332,FALSE,"",1
+"Salmo_clarki","Oncorhynchus_clarkii",FALSE,1,800432,TRUE,"",1
+"Salmo_gairdneri","Oncorhynchus_mykiss",FALSE,1,57412,TRUE,"infraspecific",2
 "Salmo_salar","Salmo_salar",FALSE,1,688328,FALSE,"",1
 "Salmo_trutta","Salmo_trutta",FALSE,1,688332,FALSE,"",1
 "Salvelinus_alpinus","Salvelinus_alpinus",FALSE,1,688324,FALSE,"",1
@@ -1302,12 +1384,14 @@
 "Schilbe_mystus","Schilbe_mystus",FALSE,1,1016850,FALSE,"",1
 "Schoutedenella_xenodactyloides","Arthroleptis_xenodactyloides",FALSE,1,107609,TRUE,"",1
 "Sciaenops_ocellatus","Sciaenops_ocellatus",FALSE,1,433079,FALSE,"",1
+"Scomber_japonicus","Scomber_japonicus",FALSE,1,70556,FALSE,"",1
 "Scomber_scombrus","Scomber_scombrus",FALSE,1,70561,FALSE,"",1
 "Scomberomorus_cavalla","Scomberomorus_cavalla",FALSE,1,70546,FALSE,"",1
 "Scomberomorus_maculatus","Scomberomorus_maculatus",FALSE,1,266387,FALSE,"",1
 "Scomberomorus_regalis","Scomberomorus_regalis",FALSE,1,266392,FALSE,"",1
 "Scopelogadus_mizolepis","Scopelogadus_mizolepis",FALSE,1,960323,FALSE,"",1
 "Scopelosaurus_adleri","Scopelosaurus_adleri",FALSE,1,3629276,FALSE,"",1
+"Scophthalmus_aquosus","Scophthalmus_aquosus",FALSE,1,404837,FALSE,"",1
 "Scorpaena_brasiliensis","Scorpaena_brasiliensis",FALSE,1,1003126,FALSE,"",1
 "Scorpaena_grandicornis","Scorpaena_grandicornis",FALSE,1,177095,FALSE,"",1
 "Scorpaena_inermis","Scorpaena_inermis",FALSE,1,252580,FALSE,"",1
@@ -1318,12 +1402,20 @@
 "Scyliorhinus_canicula","Scyliorhinus_canicula",FALSE,1,1026500,FALSE,"",1
 "Scyliorhinus_stellaris","Scyliorhinus_stellaris",FALSE,1,901864,FALSE,"",1
 "Scytodes_longipes","Scytodes_longipes",FALSE,1,3541723,FALSE,"",1
+"Sebastes_aleutianus","Sebastes_aleutianus",FALSE,1,206121,FALSE,"sibling_higher",1
+"Sebastes_alutus","Sebastes_alutus",FALSE,1,480735,FALSE,"sibling_higher",1
+"Sebastes_borealis","Sebastes_borealis",FALSE,1,561983,FALSE,"sibling_higher",1
+"Sebastes_flavidus","Sebastes_flavidus",FALSE,1,531059,FALSE,"sibling_higher",1
+"Sebastes_melanops","Sebastes_melanops",FALSE,1,9604,FALSE,"sibling_higher",1
 "Sebastes_mentella","Sebastes_mentella",FALSE,1,1088432,FALSE,"sibling_higher",1
 "Sebastes_norvegicus","Sebastes_norvegicus",FALSE,1,1088441,FALSE,"sibling_higher",1
+"Sebastes_polyspinis","Sebastes_polyspinis",FALSE,1,99009,FALSE,"sibling_higher",1
 "Sebastes_viviparus","Sebastes_viviparus",FALSE,1,99016,FALSE,"sibling_higher",1
 "Sebastodes_rastrelliger","Sebastes_rastrelliger",FALSE,1,582315,TRUE,"sibling_higher",1
+"Sebastolobus_alascanus","Sebastolobus_alascanus",FALSE,1,309989,FALSE,"",1
 "Selar_crumenophthalmus","Selar_crumenophthalmus",FALSE,1,566193,FALSE,"",1
 "Semicossyphus_pulcher","Semicossyphus_pulcher",FALSE,1,98446,FALSE,"",1
+"Semotilus_atromaculatus","Semotilus_atromaculatus",FALSE,1,636318,FALSE,"",1
 "Semotilus_corporalis","Semotilus_corporalis",FALSE,1,964884,FALSE,"",1
 "Sepia_officinalis","Sepia_officinalis",FALSE,1,528817,FALSE,"",1
 "Seriola_dumerili","Seriola_dumerili",FALSE,1,986392,FALSE,"",1
@@ -1332,6 +1424,8 @@
 "Serranochromis_angusticeps","Serranochromis_angusticeps",FALSE,1,465664,FALSE,"",1
 "Serranochromis_macrocephalus","Serranochromis_macrocephalus",FALSE,1,465668,FALSE,"",1
 "Serranochromis_robustus","Serranochromis_robustus",FALSE,1,841786,FALSE,"",1
+"Serranus_hepatus","Serranus_hepatus",FALSE,1,208813,FALSE,"",1
+"Serranus_scriba","Serranus_scriba",FALSE,1,674565,FALSE,"",1
 "Serranus_tabacarius","Serranus_tabacarius",FALSE,1,284266,FALSE,"",1
 "Serranus_tigrinus","Serranus_tigrinus",FALSE,1,807897,FALSE,"",1
 "Serranus_tortugarum","Serranus_tortugarum",FALSE,1,511782,FALSE,"",1
@@ -1351,6 +1445,7 @@
 "Somateria_mollissima","Somateria_mollissima",FALSE,1,785961,FALSE,"",1
 "Somniosus_microcephalus","Somniosus_microcephalus",FALSE,1,442057,FALSE,"",1
 "Sotalia_guianensis","Sotalia_guianensis",FALSE,1,250045,FALSE,"",1
+"Spea_bombifrons","Spea_bombifrons",FALSE,1,1026954,FALSE,"",1
 "Spea_multiplicata","Spea_multiplicata",FALSE,1,1013104,FALSE,"",1
 "Speleomantes_italicus","Hydromantes_italicus",FALSE,1,637551,TRUE,"",1
 "Sphaeroides_spengleri","Sphoeroides_spengleri",FALSE,1,484090,TRUE,"",1
@@ -1365,6 +1460,7 @@
 "Squalus_acanthias","Squalus_acanthias",FALSE,1,1019126,FALSE,"",1
 "Stavsolus","Stavsolus",FALSE,1,5015910,FALSE,"",1
 "Stegastes_fuscus","Stegastes_fuscus",FALSE,1,3635543,FALSE,"incertae_sedis_inherited",1
+"Stellifer_lanceolatus","Stellifer_lanceolatus",FALSE,1,761910,FALSE,"",1
 "Stenella_attenuata","Stenella_attenuata",FALSE,1,124220,FALSE,"sibling_higher",1
 "Stenella_coeruleoalba","Stenella_coeruleoalba",FALSE,1,124224,FALSE,"sibling_higher",1
 "Stenobrachius_leucopsarus","Stenobrachius_leucopsarus",FALSE,1,169233,FALSE,"",1
@@ -1374,6 +1470,7 @@
 "Sternoptyx_diaphana","Sternoptyx_diaphana",FALSE,1,602717,FALSE,"",1
 "Sternoptyx_pseudobscura","Sternoptyx_pseudobscura",FALSE,1,568250,FALSE,"",1
 "Stichaeus_punctatus","Stichaeus_punctatus",FALSE,1,792031,FALSE,"",1
+"Stizostedion_vitreum","Sander_vitreus",FALSE,1,557687,TRUE,"",1
 "Stomias_atriventer","Stomias_atriventer",FALSE,1,47469,FALSE,"",1
 "Storeria_dekayi","Storeria_dekayi",FALSE,1,505605,FALSE,"",1
 "Storeria_occipitomaculata","Storeria_occipitomaculata",FALSE,1,511700,FALSE,"",1
@@ -1390,6 +1487,7 @@
 "Sulculeolaria_turgida","Sulculeolaria_turgida",FALSE,1,3680636,FALSE,"",1
 "Sweltsa","Sweltsa",FALSE,1,952494,FALSE,"",1
 "Symbolophorus_californiensis","Symbolophorus_californiensis",FALSE,1,785193,FALSE,"",1
+"Symphurus_plagiusa","Symphurus_plagiusa",FALSE,1,67298,FALSE,"",1
 "Synaptura_punctatissima","Dagetichthys_lusitanica",FALSE,1,579369,TRUE,"",1
 "Synbranchus_marmoratus","Synbranchus_marmoratus",FALSE,1,989907,FALSE,"",1
 "Syngnathus_abaster","Syngnathus_abaster",FALSE,1,774429,FALSE,"",1
@@ -1428,6 +1526,7 @@
 "Thamnophis_saurita","Thamnophis_saurita",FALSE,1,147067,FALSE,"",1
 "Thamnophis_sirtalis","Thamnophis_sirtalis",FALSE,1,107027,FALSE,"",1
 "Thecadactylus_rapicauda","Thecadactylus_rapicauda",FALSE,1,597587,FALSE,"",1
+"Theragra_chalcogramma","Gadus_chalcogrammus",FALSE,1,1056842,TRUE,"",1
 "Thoropa_miliaris","Thoropa_miliaris",FALSE,1,1008742,FALSE,"",1
 "Thrissacanthias_penicillatus","Thrissacanthias_penicillatus",FALSE,1,769826,FALSE,"",1
 "Thunnus_alalunga","Thunnus_alalunga",FALSE,1,833194,FALSE,"",1
@@ -1435,7 +1534,9 @@
 "Thunnus_orientalis","Thunnus_orientalis",FALSE,1,833202,FALSE,"",1
 "Thunnus_thynnus","Thunnus_thynnus",FALSE,1,833184,FALSE,"",1
 "Thysanoessa_raschii","Thysanoessa_raschii",FALSE,1,874753,FALSE,"",1
+"Tilapia_guineensis","Coptodon_guineensis",FALSE,1,336610,TRUE,"",1
 "Tilapia_mariae","Pelmatolapia_mariae",FALSE,1,910905,TRUE,"",1
+"Tilapia_melanotheron","Sarotherodon_melanotheron",FALSE,1,995302,TRUE,"",1
 "Timon_lepidus","Timon_lepidus",FALSE,1,430811,FALSE,"",1
 "Tipula","Tipula",FALSE,1,990415,FALSE,"",1
 "Tomopterna_cryptotis","Tomopterna_cryptotis",FALSE,1,56902,FALSE,"",1
@@ -1445,6 +1546,7 @@
 "Trachinotus_falcatus","Trachinotus_falcatus",FALSE,1,130375,FALSE,"",2
 "Trachinotus_goodei","Trachinotus_goodei",FALSE,1,130379,FALSE,"",1
 "Trachurus_mediterraneus","Trachurus_mediterraneus",FALSE,1,174577,FALSE,"",1
+"Trachurus_symmetricus","Trachurus_symmetricus",FALSE,1,315506,FALSE,"",1
 "Trachylepis_quinquetaeniata","Trachylepis_quinquetaeniata",FALSE,1,1030886,FALSE,"",1
 "Trachylepis_spilogaster","Trachylepis_spilogaster",FALSE,1,38020,FALSE,"",1
 "Trachylepis_striata","Trachylepis_striata",FALSE,1,689449,FALSE,"",1
@@ -1452,6 +1554,7 @@
 "Trematomus_bernacchii","Trematomus_bernacchii",FALSE,1,985361,FALSE,"",1
 "Trematomus_newnesi","Trematomus_newnesi",FALSE,1,85034,FALSE,"",1
 "Triakis_megalopterus","Triakis_megalopterus",FALSE,1,748396,FALSE,"",1
+"Trichodon_trichodon","Trichodon_trichodon",FALSE,1,1009635,FALSE,"",1
 "Triglops_murrayi","Triglops_murrayi",FALSE,1,3632131,FALSE,"",1
 "Triglops_nybelini","Triglops_nybelini",FALSE,1,112565,FALSE,"",1
 "Triglops_pingelii","Triglops_pingelii",FALSE,1,568671,FALSE,"",1
@@ -1459,6 +1562,7 @@
 "Trinectes_paulistanus","Trinectes_paulistanus",FALSE,1,153497,FALSE,"",1
 "Triphoturus_mexicanus","Triphoturus_mexicanus",FALSE,1,396853,FALSE,"",1
 "Trisopterus_esmarkii","Trisopterus_esmarkii",FALSE,1,926146,FALSE,"",1
+"Triturus_cristatus","Triturus_cristatus",FALSE,1,1041796,FALSE,"",1
 "Trochia_cingulata","Trochia_cingulata",FALSE,1,4157681,FALSE,"",1
 "Tropidophorus_misaminius","Tropidophorus_misaminius",FALSE,1,62330,FALSE,"",1
 "Tropidurus_oreadicus","Tropidurus_oreadicus",FALSE,1,187679,FALSE,"",1
@@ -1471,6 +1575,7 @@
 "Tylosurus_melanotus","Tylosurus_acus",FALSE,1,1004351,TRUE,"",1
 "Ulvaria_subbifurcata","Ulvaria_subbifurcata",FALSE,1,550384,FALSE,"",1
 "Uma_scoparia","Uma_scoparia",FALSE,1,1062444,FALSE,"",1
+"Umbra_limi","Umbra_limi",FALSE,1,586169,FALSE,"",1
 "Uracentron_flaviceps","Uracentron_flaviceps",FALSE,1,761858,FALSE,"",1
 "Uranoscodon_superciliosus","Uranoscodon_superciliosus",FALSE,1,32969,FALSE,"",1
 "Uria_lomvia","Uria_lomvia",FALSE,1,551817,FALSE,"",1
@@ -1501,6 +1606,7 @@
 "Xererpes_fucorum","Apodichthys_fucorum",FALSE,1,208945,TRUE,"",1
 "Xiphias_gladius","Xiphias_gladius",FALSE,1,358621,FALSE,"",1
 "Zachaenus_parvulus","Zachaenus_parvulus",FALSE,1,272157,FALSE,"",1
+"Zalophus_californianus","Zalophus_californianus",FALSE,1,95364,FALSE,"",1
 "Zapteryx_exasperata","Zapteryx_exasperata",FALSE,1,181823,FALSE,"",1
 "Zapteryx_xyster","Zapteryx_xyster",FALSE,1,3594603,FALSE,"",1
 "Zenaida_asiatica","Zenaida_asiatica",FALSE,1,715580,FALSE,"",1

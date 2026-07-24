@@ -74,6 +74,13 @@ dat5 <-
     col_types = colTypes
   )
 
+dat6 <-
+  read_sheet(
+    'https://docs.google.com/spreadsheets/d/16zumXsmbAU-MbBgDmiTjNX8m9YxmbHRUAtSm2xNOJ4I/edit?usp=sharing',
+    sheet = 'Data6',
+    col_types = colTypes
+  )
+
 message(
   "Google sheets imported."
 )
@@ -93,6 +100,9 @@ if (nrow(dat4) > 0) {
 }
 if (nrow(dat5) > 0) {
   dat <- rbind(dat, dat5)
+}
+if (nrow(dat6) > 0) {
+  dat <- rbind(dat, dat6)
 }
 dat <- as.data.frame(dat) # convert from tibble to data.frame
 
@@ -674,7 +684,7 @@ save(dat, file = '../tmp/tmp_DB/FracFeed_Data_Imported.Rdata')
 
 if (err.cnt > 0) {
   system(
-    "say -v Samantha Your database contains potential errors that may need fixing! I have not, repeat, not removed these errors."
+    "say -v Samantha Your database contains potential errors that may need fixing! I have not, repeat, not removed these errors.  Check the error reports for details."
   )
   stop()
 }

@@ -1,7 +1,7 @@
 # Data sources {#data-sources .unnumbered}
 
 <div id="refs" class="references csl-bib-body hanging-indent"
-markdown="1" entry-spacing="0">
+markdown="1">
 
 <div id="ref-Abe:1989vw" class="csl-entry" markdown="1">
 
@@ -22,7 +22,7 @@ Gentoo Penguin Pygoscelis Papua at Sub-Antarctic Marion Island.”
 <div id="ref-Agapov:1938aa" class="csl-entry" markdown="1">
 
 Agapov, I D. 1938. *Age and Growth of Caspialosa Brashnikovi (Borodin)
-in the North-Eastern Part of the Caspian Sea.* *Trudy Po Kompleksnomu
+in the North-Eastern Part of the Caspian Sea.* In *Trudy Po Kompleksnomu
 Izucheniyu Kaspijskogo Morya (Complex Studies of the Caspian Sea)*.
 Academy of Sciences press, Moscow-Leningrad (Russia).
 <https://oregonstate.idm.oclc.org/login?url=https://www.proquest.com/books/age-growth-caspialosa-brashnikovi-borodin-north/docview/17966301/se-2?accountid=13013>.
@@ -102,10 +102,19 @@ New Zealand.” *Journal of Zoology* 243 (4): 869–77.
 
 <div id="ref-Altin:2015aa" class="csl-entry" markdown="1">
 
-Altin, Aytac, Ozcan Ozen, Hakan Ayyildiz, et al. 2015. “Feeding Habits
-of the Marbled Goby, Pomatoschistus Marmoratus (Actinopterygii:
-Perciformes: Gobiidae), in the Çanakkale Strait, Northern Aegean Sea,
-Turkey.” *Acta Ichthyologica Et Piscatoria* 45: 95–100.
+<span class="nocase">Altin, Aytac, Ozcan Ozen, Hakan Ayyildiz, et
+al.</span> 2015. “Feeding Habits of the Marbled Goby, Pomatoschistus
+Marmoratus (Actinopterygii: Perciformes: Gobiidae), in the Çanakkale
+Strait, Northern Aegean Sea, Turkey.” *Acta Ichthyologica Et Piscatoria*
+45: 95–100.
+
+</div>
+
+<div id="ref-Anderson:1999aa" class="csl-entry" markdown="1">
+
+Anderson, Ann M, David A Haukos, and James T Anderson. 1999. “Diet
+Composition of Three Anurans from the Playa Wetlands of Northwest
+Texas.” *Copeia*, 515–20.
 
 </div>
 
@@ -147,6 +156,15 @@ Southeastern Nigeria.” *Italian Journal of Zoology* 81 (4): 544–51.
 Angelici, Francesco M, and Luca Luiselli. 2005. “Habitat Associations
 and Dietary Relationships Between Two Genets, Genetta Maculata and
 Genetta Cristata.” *Revue d’écologie*.
+
+</div>
+
+<div id="ref-Angradi:1990aa" class="csl-entry" markdown="1">
+
+Angradi, TR, and JS Griffith. 1990. “Diel Feeding Chronology and Diet
+Selection of Rainbow Trout (Oncorhynchus Mykiss) in the Henry’s Fork of
+the Snake River, Idaho.” *Canadian Journal of Fisheries and Aquatic
+Sciences* 47 (1): 199–209.
 
 </div>
 
@@ -202,10 +220,10 @@ Akin. 2002. “How Often Do Fishes ‘Run on Empty’?” *Ecology* 83 (8):
 
 <div id="ref-Aykanat:2020aa" class="csl-entry" markdown="1">
 
-Aykanat, Tutku, Martin Rasmussen, Mikhail Ozerov, Eero Niemelä, Lars
-Paulin, Juha-Pekka Vähä, Kjetil Hindar, et al. 2020. “Life-History
-Genomic Regions Explain Differences in Atlantic Salmon Marine Diet
-Specialization.” *Journal of Animal Ecology* 89 (11): 2677–91.
+<span class="nocase">Aykanat, Tutku, Martin Rasmussen, Mikhail Ozerov,
+et al.</span> 2020. “Life-History Genomic Regions Explain Differences in
+Atlantic Salmon Marine Diet Specialization.” *Journal of Animal Ecology*
+89 (11): 2677–91.
 
 </div>
 
@@ -273,6 +291,14 @@ History Traits.” *Mammalian Biology* 88: 16–25.
 
 Baranovskaya, TN, and AM Kolosov. 1935. “Food Habits of the Fox (Vulpes
 Vulpes l.).” *Zoologitscheskij Zh* 14: 523–50.
+
+</div>
+
+<div id="ref-Barber:1971aa" class="csl-entry" markdown="1">
+
+Barber, Willard E, and WL Minckley. 1971. “Summer Foods of the Cyprinid
+Fish Semotilus Atromaculatus.” *Transactions of the American Fisheries
+Society* 100 (2): 283–89.
 
 </div>
 
@@ -498,10 +524,10 @@ Species Do They Eat?” *ANIMAL BIOLOGY* 62 (4): 397–408.
 
 <div id="ref-Boelter:2007aa" class="csl-entry" markdown="1">
 
-Boelter, Ruben Alexandre, Sonia Zanini Cechin, et al. 2007. “Impact of
-the Bullfrog Diet (Lithobates Catesbeianus-Anura, Kanidae) on Native
-Fauna: Case Study from the Region of Agudo-RS-Brazil.” *Natureza &
-Conservação* 5 (2): 115–23.
+<span class="nocase">Boelter, Ruben Alexandre, Sonia Zanini Cechin, et
+al.</span> 2007. “Impact of the Bullfrog Diet (Lithobates
+Catesbeianus-Anura, Kanidae) on Native Fauna: Case Study from the Region
+of Agudo-RS-Brazil.” *Natureza & Conservação* 5 (2): 115–23.
 
 </div>
 
@@ -556,19 +582,17 @@ Carnivora (Mammalia) from the Kalahari Gemsbok Park.” *Koedoe* 9 (1):
 
 <div id="ref-Bothma:1971vm" class="csl-entry" markdown="1">
 
-———. 1971. “Food of Canis Mesomelas in South Africa.” *African Zoology*
-6 (2): 195–203.
+Bothma, J du P. 1971. “Food of Canis Mesomelas in South Africa.”
+*African Zoology* 6 (2): 195–203.
 
 </div>
 
 <div id="ref-Bourque:2018aa" class="csl-entry" markdown="1">
 
-Bourque, Jennifer, Rune Dietz, Christian Sonne, Judy St Leger, Sara
-Iverson, Aqqalu Rosing-Asvid, Martin Hansen, and Melissa A McKinney.
-2018. “Feeding Habits of a New Arctic Predator: Insight from Full-Depth
-Blubber Fatty Acid Signatures of Greenland, Faroe Islands, Denmark, and
-Managed-Care Killer Whales Orcinus Orca.” *Marine Ecology Progress
-Series* 603: 1–12.
+Bourque, Jennifer, Rune Dietz, Christian Sonne, et al. 2018. “Feeding
+Habits of a New Arctic Predator: Insight from Full-Depth Blubber Fatty
+Acid Signatures of Greenland, Faroe Islands, Denmark, and Managed-Care
+Killer Whales Orcinus Orca.” *Marine Ecology Progress Series* 603: 1–12.
 
 </div>
 
@@ -608,6 +632,22 @@ Estuary, Connecticut.” *The Biological Bulletin* 176 (3): 272–81.
 Brito, Elizangela, Franco Souza, and Christine Strüssmann. 2016.
 “Feeding Habits of Mesoclemmys Vanderhaegei (Testudines: Chelidae).”
 *Acta Herpetologica* 11 (1): 1–13.
+
+</div>
+
+<div id="ref-Brodeur:1988aa" class="csl-entry" markdown="1">
+
+Brodeur, Richard D, and Patricia A Livingston. 1988. *Food Habits and
+Diet Overlap of Various Eastern Bering Sea Fishes*.
+
+</div>
+
+<div id="ref-Brodeur:1987aa" class="csl-entry" markdown="1">
+
+Brodeur, Richard D, Harriet V Lorz, and William G Pearcy. 1987. *Food
+Habits and Dietary Variability of Pelagic Nekton Off Oregon and
+Washington, 1979-1984*. Vol. 57. US Department of Commerce, National
+Oceanic; Atmospheric Administration ….
 
 </div>
 
@@ -817,9 +857,9 @@ Tyrrhenian Seas.” *Cybium* 31 (4): 435–41.
 
 <div id="ref-Castro:1990up" class="csl-entry" markdown="1">
 
-Castro, Bernardino G, and Angel Guerra. 1990. “The Diet of Sepia
+Castro, Bernardino G, and Angel Guerra. 1990. *The Diet of Sepia
 Officinalis (Linnaeus, 1758) and Sepia Elegans (d’orbigny,
-1835)(cephalopoda, Sepioidea) from the Ria de Vigo (NW Spain).”
+1835)(cephalopoda, Sepioidea) from the Ria de Vigo (NW Spain)*.
 
 </div>
 
@@ -940,6 +980,15 @@ Christiansen, Jorgen S., Haakon Hop, Einar M. Nilssen, and John Joensen.
 
 </div>
 
+<div id="ref-Cicort-Lucaciu:2007aa" class="csl-entry" markdown="1">
+
+Cicort-Lucaciu, Alfred-Ştefan, Anamaria David, Ramona Covaci, Simona
+Toader, and Iuliana Diaconu. 2007. “Feeding of Some Triturus Cristatus
+Population in Turţ Area (Oas Mountains, Romania).” *Herpetologica
+Romanica* 1: 30–37.
+
+</div>
+
 <div id="ref-Clady:1974aa" class="csl-entry" markdown="1">
 
 Clady, Michael D. 1974. “Food Habits of Yellow Perch, Smallmouth Bass
@@ -959,12 +1008,11 @@ Diet of the Blue Shark (Prionace Glauca l.) in Azorean Waters.”
 
 <div id="ref-Coco:2014tk" class="csl-entry" markdown="1">
 
-Coco, Livia, Vitor N. T. Borges Junior, Luciana A. Fusinatto, Mara C.
-Kiefer, Jane C. F. Oliveira, Pablo G. Araujo, Bianca M. Costa, Monique
-van Sluys, and Carlos F. D. Rocha. 2014. “Feeding Habits of the Leaf
-Litter Frog Haddadus Binotatus (Anura, Craugastoridae) from Two Atlantic
-Forest Areas in Southeastern Brazil.” *ANAIS DA ACADEMIA BRASILEIRA DE
-CIENCIAS* 86 (1): 239–49. <https://doi.org/10.1590/0001-37652014113012>.
+Coco, Livia, Vitor N. T. Borges Junior, Luciana A. Fusinatto, et al.
+2014. “Feeding Habits of the Leaf Litter Frog Haddadus Binotatus (Anura,
+Craugastoridae) from Two Atlantic Forest Areas in Southeastern Brazil.”
+*ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS* 86 (1): 239–49.
+<https://doi.org/10.1590/0001-37652014113012>.
 
 </div>
 
@@ -1005,9 +1053,9 @@ Balanus Balanoides.” *Ecological Monographs* 31 (1): 61–104.
 
 <div id="ref-Connell:1970vu" class="csl-entry" markdown="1">
 
-———. 1970. “A Predator-Prey System in the Marine Intertidal Region. I.
-Balanus Glandula and Several Predatory Species of Thais.” *Ecological
-Monographs* 40 (1): 49–78.
+Connell, Joseph H. 1970. “A Predator-Prey System in the Marine
+Intertidal Region. I. Balanus Glandula and Several Predatory Species of
+Thais.” *Ecological Monographs* 40 (1): 49–78.
 https://doi.org/<https://doi.org/10.2307/1942441>.
 
 </div>
@@ -1022,11 +1070,10 @@ RESEARCH* 13 (3): 441–45. <https://doi.org/10.1071/WR9860441>.
 
 <div id="ref-Cordone:2022aa" class="csl-entry" markdown="1">
 
-Cordone, Georgina, Mariana Lozada, Elisabet Vilacoba, Bettina Thalinger,
-Gregorio Bigatti, Darı́o A Lijtmaer, Dirk Steinke, and David E Galván.
-2022. “Metabarcoding, Direct Stomach Observation and Stable Isotope
-Analysis Reveal a Highly Diverse Diet for the Invasive Green Crab in
-Atlantic Patagonia.” *Biological Invasions*, 1–22.
+Cordone, Georgina, Mariana Lozada, Elisabet Vilacoba, et al. 2022.
+“Metabarcoding, Direct Stomach Observation and Stable Isotope Analysis
+Reveal a Highly Diverse Diet for the Invasive Green Crab in Atlantic
+Patagonia.” *Biological Invasions*, 1–22.
 
 </div>
 
@@ -1036,8 +1083,18 @@ Costa, Andrea, Sebastiano Salvidio, Mario Posillico, Tiziana Altea,
 Giorgio Matteucci, and Antonio Romano. 2014. “What Goes in Does Not Come
 Out: Different Non-Lethal Dietary Methods Give Contradictory
 Interpretation of Prey Selectivity in Amphibians.” *Amphibia-Reptilia*
-35 (2): 255–62.
+(Leiden, The Netherlands) 35 (2): 255–62.
 https://doi.org/<https://doi.org/10.1163/15685381-00002944>.
+
+</div>
+
+<div id="ref-Covaciu-Marcov:2010aa" class="csl-entry" markdown="1">
+
+Covaciu-Marcov, Severus D, Alfred Ş CICORT-LUCACIU, Ion Mitrea, Istvan
+Sas, Aurel V CĂUŞ, and Diana CUPŞA. 2010. “Feeding of Three Syntopic
+Newt Species (Triturus Cristatus, Mesotriton Alpestris and Lissotriton
+Vulgaris) from Western Romania.” *North-Western Journal of Zoology* 6
+(1).
 
 </div>
 
@@ -1191,11 +1248,11 @@ Bristlemouth Fishes, Cyclothone Acclinidens and c. Signata
 
 <div id="ref-Dick:2005ux" class="csl-entry" markdown="1">
 
-Dick, JTA, MP Johnson, S McCambridge, J Johnson, VEE Carson, DW Kelly,
-and C MacNeil. 2005. “Predatory Nature of the Littoral Amphipod
-Echinogammarus Marinus: Gut Content Analysis and Effects of Alternative
-Food and Substrate Heterogeneity.” *MARINE ECOLOGY PROGRESS SERIES* 291:
-151–58. <https://doi.org/10.3354/meps291151>.
+Dick, JTA, MP Johnson, S McCambridge, et al. 2005. “Predatory Nature of
+the Littoral Amphipod Echinogammarus Marinus: Gut Content Analysis and
+Effects of Alternative Food and Substrate Heterogeneity.” *MARINE
+ECOLOGY PROGRESS SERIES* 291: 151–58.
+<https://doi.org/10.3354/meps291151>.
 
 </div>
 
@@ -1205,6 +1262,15 @@ Djait, Houda, Lilia Bahri-Sfar, Houcine Laouar, Néjiba MiSSaoui, and Oum
 Kalthoum Ben Hassine. 2019. “Dietary Comparison of Pike-Perch, Sander
 Lucioperca (Linnaeus, 1758) and Catfish, Silurus Glanis Linnaeus, 1758
 in Sidi Salem Dam Reservoir (Tunisia).” *Cybium* 43 (1): 61–69.
+
+</div>
+
+<div id="ref-Doble:1978aa" class="csl-entry" markdown="1">
+
+Doble, Bruce D, and Douglas M Eggers. 1978. “Diel Feeding Chronology,
+Rate of Gastric Evacuation, Daily Ration, and Prey Selectivity in Lake
+Washington Juvenile Sockeye Salmon (Oncorhynchus Nerka).” *Transactions
+of the American Fisheries Society* 107 (1): 36–45.
 
 </div>
 
@@ -1218,10 +1284,11 @@ Spain).” *Limnetica* 19: 1–20.
 
 <div id="ref-dosReis:1996us" class="csl-entry" markdown="1">
 
-dosReis, SF, JP Pombal, JL Nessimian, and LM Pessoa. 1996. “Altitudinal
-Distribution and Feeding Habits of Blarinomys Breviceps (Winge,
-1888)(rodentia: Muridae).” *ZEITSCHRIFT FUR SAUGETIERKUNDE-INTERNATIONAL
-JOURNAL OF MAMMALIAN BIOLOGY* 61 (4): 253–55.
+<span class="nocase">dosReis, SF, JP Pombal, JL Nessimian, and LM
+Pessoa</span>. 1996. “Altitudinal Distribution and Feeding Habits of
+Blarinomys Breviceps (Winge, 1888)(rodentia: Muridae).” *ZEITSCHRIFT FUR
+SAUGETIERKUNDE-INTERNATIONAL JOURNAL OF MAMMALIAN BIOLOGY* 61 (4):
+253–55.
 
 </div>
 
@@ -1235,8 +1302,8 @@ of the Paradoxical Frog Pseudis Paradoxa in Trinidad, West Indies.”
 
 <div id="ref-Drits:1988vl" class="csl-entry" markdown="1">
 
-Drits, Alexander V, and S V Utkina. 1988. “<span class="nocase">Feeding
-of Sagitta setosa in the Black Sea</span>.” Data set. PANGAEA.
+Drits, Alexander V, and S V Utkina. 1988. *<span class="nocase">Feeding
+of Sagitta setosa in the Black Sea</span>*. Data set. PANGAEA.
 <https://doi.org/10.1594/PANGAEA.757644>.
 
 </div>
@@ -1291,12 +1358,19 @@ Journal* 28 (2): 191–201.
 
 </div>
 
+<div id="ref-Elrod:1991aa" class="csl-entry" markdown="1">
+
+Elrod, Joseph H, and Robert OˈGorman. 1991. “Diet of Juvenile Lake Trout
+in Southern Lake Ontario in Relation to Abundance and Size of Prey
+Fishes, 1979–1987.” *Transactions of the American Fisheries Society* 120
+(3): 290–302.
+
+</div>
+
 <div id="ref-Eriksen:2021aa" class="csl-entry" markdown="1">
 
-Eriksen, Elena, Hein Rune Skjoldal, Andrey V Dolgov, Espen Strand,
-Felicia Keulder-Stenevik, Irina P Prokopchuk, Tatiana A Prokhorova,
-Dmitry Prozorkevich, and Aleksander N Benzik. 2021. “Diet and Trophic
-Structure of Fishes in the Barents Sea: Seasonal and Spatial
+Eriksen, Elena, Hein Rune Skjoldal, Andrey V Dolgov, et al. 2021. “Diet
+and Trophic Structure of Fishes in the Barents Sea: Seasonal and Spatial
 Variations.” *Progress in Oceanography* 197: 102663.
 
 </div>
@@ -1330,11 +1404,26 @@ Venezuela.” *Journal of Herpetology* 30 (1): 73–76.
 
 </div>
 
+<div id="ref-Facade:1971aa" class="csl-entry" markdown="1">
+
+Facade, SO. 1971. “The Food and Feeding Habits of Tilapia Species in the
+Lagos Lagoon.” *Journal of Fish Biology* 3 (2): 151–56.
+
+</div>
+
 <div id="ref-Facade:1973aa" class="csl-entry" markdown="1">
 
 Facade, SO, and CIO Olaniyan. 1973. “The Food and Feeding
 Interrelationship of the Fishes in the Lagos Lagoon.” *Journal of Fish
 Biology* 5 (2): 205–25.
+
+</div>
+
+<div id="ref-Fagundes:2008aa" class="csl-entry" markdown="1">
+
+Fagundes, Camila K, Everton R Behr, and Carla B Kotzian. 2008. “Diet of
+Iheringichthys Labrosus (Siluriformes, Pimelodidae) in the Ibicuı́ River,
+Southern Brazil.” *Iheringia. Série Zoologia* 98: 60–65.
 
 </div>
 
@@ -1386,6 +1475,14 @@ Fay, Francis H, and Robert O Stephenson. 1989. “Annual, Seasonal, and
 Habitat-Related Variation in Feeding Habits of the Arctic Fox (Alopex
 Lagopus) on St. Lawrence Island, Bering Sea.” *Canadian Journal of
 Zoology* 67 (8): 1986–94.
+
+</div>
+
+<div id="ref-Feder:1980aa" class="csl-entry" markdown="1">
+
+Feder, Howard M. 1980. *The Epifauna of Three Bays (Port Etches, Zaikof
+Bay, and Rocky Bay) in Prince William Sound, Alaska, with Notes on
+Feeding Biology*. Institute of Marine Science, University of Alaska.
 
 </div>
 
@@ -1522,8 +1619,7 @@ Naturalist*, 207–29.
 
 <div id="ref-Flores:2008aa" class="csl-entry" markdown="1">
 
-Flores, Hauke, Anton P Van de Putte, Volker Siegel, Evgeny A Pakhomov,
-Jan A Van Franeker, Erik HWG Meesters, and Filip AM Volckaert. 2008.
+Flores, Hauke, Anton P Van de Putte, Volker Siegel, et al. 2008.
 “Distribution, Abundance and Ecological Relevance of Pelagic Fishes in
 the Lazarev Sea, Southern Ocean.” *Marine Ecology Progress Series* 367:
 271–82.
@@ -1951,12 +2047,10 @@ BRASIL.” *Boletim Do Instituto de Pesca* 45 (1).
 
 <div id="ref-Hamilton:2011tm" class="csl-entry" markdown="1">
 
-Hamilton, Scott L, Jennifer E Caselle, Coulson A Lantz, Tiana L Egloff,
-Emi Kondo, Seth D Newsome, Kerri Loke-Smith, Daniel J Pondella II, Kelly
-A Young, and Christopher G Lowe. 2011. “Extensive Geographic and
-Ontogenetic Variation Characterizes the Trophic Ecology of a Temperate
-Reef Fish on Southern California (USA) Rocky Reefs.” *Marine Ecology
-Progress Series* 429: 227–44.
+Hamilton, Scott L, Jennifer E Caselle, Coulson A Lantz, et al. 2011.
+“Extensive Geographic and Ontogenetic Variation Characterizes the
+Trophic Ecology of a Temperate Reef Fish on Southern California (USA)
+Rocky Reefs.” *Marine Ecology Progress Series* 429: 227–44.
 
 </div>
 
@@ -2044,11 +2138,10 @@ the Namib Dunes (Araneae: Heteropodidae).” *Journal of Zoology* 234 (2):
 
 <div id="ref-Hesse:2025aa" class="csl-entry" markdown="1">
 
-Heße, Eileen, Joy Ometere Boyi, Krishna Das, Klaus Jung, Kristina
-Lehnert, Mathilde Piette, Marianna Pinzone, et al. 2025. “A Multi-Method
-Approach Reveals Long-and Short-Term Dietary Differences in Individual
-Harbour Porpoises Phocoena Phocoena in the Southern North Sea.” *Marine
-Ecology Progress Series* 755: 115–32.
+<span class="nocase">Heße, Eileen, Joy Ometere Boyi, Krishna Das, et
+al.</span> 2025. “A Multi-Method Approach Reveals Long-and Short-Term
+Dietary Differences in Individual Harbour Porpoises Phocoena Phocoena in
+the Southern North Sea.” *Marine Ecology Progress Series* 755: 115–32.
 
 </div>
 
@@ -2069,8 +2162,8 @@ Chrysocome at Macquarie Island.” *Emu* 88 (4): 227–33.
 
 <div id="ref-Hindell:1988vw" class="csl-entry" markdown="1">
 
-———. 1988b. “The Diet of the Royal Penguin Eudyptes Schlegeli at
-Macquarie Island.” *Emu* 88 (4): 219–26.
+Hindell, Mark A. 1988b. “The Diet of the Royal Penguin Eudyptes
+Schlegeli at Macquarie Island.” *Emu* 88 (4): 219–26.
 
 </div>
 
@@ -2084,22 +2177,25 @@ Frog, Rana Nigromaculata, Inhabiting Rice Fields in Kyoto, Japan.”
 
 <div id="ref-Hirai:2000uc" class="csl-entry" markdown="1">
 
-———. 2000. “Feeding Habits of the Japanese Tree Frog, Hyla Japonica, in
-the Reproductive Season.” *Zoological Science* 17 (7): 977–82.
+Hirai, Toshiaki, and Masafumi Matsui. 2000. “Feeding Habits of the
+Japanese Tree Frog, Hyla Japonica, in the Reproductive Season.”
+*Zoological Science* 17 (7): 977–82.
 
 </div>
 
 <div id="ref-Hirai:2001wu" class="csl-entry" markdown="1">
 
-———. 2001. “Diet Composition of the Indian Rice Frog, Rana Limnocharis,
-in Rice Fields of Central Japan.” *Current Herpetology* 20 (2): 97–103.
+Hirai, Toshiaki, and Masafumi Matsui. 2001. “Diet Composition of the
+Indian Rice Frog, Rana Limnocharis, in Rice Fields of Central Japan.”
+*Current Herpetology* 20 (2): 97–103.
 
 </div>
 
 <div id="ref-Hirai:2002wu" class="csl-entry" markdown="1">
 
-———. 2002. “Feeding Ecology of Bufo Japonicus Formosus from the Montane
-Region of Kyoto, Japan.” *Journal of Herpetology* 36 (4): 719–23.
+Hirai, Toshiaki, and Masafumi Matsui. 2002. “Feeding Ecology of Bufo
+Japonicus Formosus from the Montane Region of Kyoto, Japan.” *Journal of
+Herpetology* 36 (4): 719–23.
 
 </div>
 
@@ -2116,6 +2212,13 @@ African Tiger Frog, Hoplobatrachus Occipitalis, in Northern Benin.”
 Hockman, J Gregory, and Joseph A Chapman. 1983. “Comparative Feeding
 Habits of Red Foxes (Vulpes Vulpes) and Gray Foxes (Urocyon
 Cinereoargenteus) in Maryland.” *American Midland Naturalist*, 276–85.
+
+</div>
+
+<div id="ref-Hogue:1982aa" class="csl-entry" markdown="1">
+
+Hogue, EW, and AG Carey. 1982. “Feeding Ecology of 0-Age Flatfishes at a
+Nursery Ground on the Oregon Coast.” *Fish. Bull* 80 (3): 555–65.
 
 </div>
 
@@ -2215,10 +2318,9 @@ Ecology*, 25–38.
 
 <div id="ref-Insley:2021aa" class="csl-entry" markdown="1">
 
-Insley, Stephen J, Lila M Tauzer, William D Halliday, Joe Illasiak, Ryan
-Green, Adam Kudlak, and Jeff Kuptana. 2021. “Ringed Seal Diet and Body
-Condition in the Amundsen Gulf Region, Eastern Beaufort Sea.” *Arctic*
-74 (2): 127–38.
+Insley, Stephen J, Lila M Tauzer, William D Halliday, et al. 2021.
+“Ringed Seal Diet and Body Condition in the Amundsen Gulf Region,
+Eastern Beaufort Sea.” *Arctic* 74 (2): 127–38.
 
 </div>
 
@@ -2252,8 +2354,8 @@ Management* 5 (1): 133–40.
 
 Järv, Leili, Jonne Kotta, Ilmar Kotta, and Tiit Raid. 2011. “Linking the
 Structure of Benthic Invertebrate Communities and the Diet of Native and
-Invasive Fish Species in a Brackish Water Ecosystem.” In *Annales
-Zoologici Fennici*, 48:129–41. 3. BioOne.
+Invasive Fish Species in a Brackish Water Ecosystem.” *Annales Zoologici
+Fennici* 48: 129–41.
 
 </div>
 
@@ -2395,6 +2497,14 @@ Peipsi (Estonia).” *Italian Journal of Zoology* 65 (S1): 255–59.
 
 </div>
 
+<div id="ref-Keast:1968aa" class="csl-entry" markdown="1">
+
+Keast, Allen. 1968. “Feeding of Some Great Lakes Fishes at Low
+Temperatures.” *Journal of the Fisheries Board of Canada* 25 (6):
+1199–218.
+
+</div>
+
 <div id="ref-Kehayias:1996to" class="csl-entry" markdown="1">
 
 Kehayias, G, J Lykakis, and N Fragopoulu. 1996. “The Diets of the
@@ -2471,8 +2581,7 @@ Poland.” *Acta Theriologica* 56 (3): 209–18.
 
 <div id="ref-Kidera:2008ta" class="csl-entry" markdown="1">
 
-Kidera, Noriko, Nontivich Tandavanitj, Daehyun Oh, Nozomi Nakanishi, Aya
-Satoh, Tetsuo Denda, Masako Izawa, and Hidetoshi Ota. 2008. “Dietary
+Kidera, Noriko, Nontivich Tandavanitj, Daehyun Oh, et al. 2008. “Dietary
 Habits of the Introduced Cane Toad Bufo Marinus (Amphibia: Bufonidae) on
 Ishigakijima, Southern Ryukyus, Japan1.” *Pacific Science* 62 (3):
 423–30.
@@ -2603,8 +2712,8 @@ Laurenti).” *Polish Journal of Ecology* 59 (3): 631–36.
 
 Kopeckỳ, Oldřich, Jiřı́ Vojar, František Šusta, and Ivan Rehák. 2012.
 “Composition and Scaling of Male and Female Alpine Newt (Mesotriton
-Alpestris) Prey, with Related Site and Seasonal Effects.” In *Annales
-Zoologici Fennici*, 49:231–39. 4. BioOne.
+Alpestris) Prey, with Related Site and Seasonal Effects.” *Annales
+Zoologici Fennici* 49: 231–39.
 
 </div>
 
@@ -2617,14 +2726,19 @@ Zoology* 12 (2).
 
 </div>
 
+<div id="ref-Koster:1937aa" class="csl-entry" markdown="1">
+
+Koster, Wm J. 1937. “The Food of Sculpins (Cottidae) in Central New
+York.” *Transactions of the American Fisheries Society* 66 (1): 374–82.
+
+</div>
+
 <div id="ref-Kreiling:2021aa" class="csl-entry" markdown="1">
 
-Kreiling, Agnes-Katharina, Eoin J. O’Gorman, Snæbjörn Pálsson, David
-Benhaı̈m, Camille A. Leblanc, Jón S. Ólafsson, and Bjarni K.
-Kristjánsson. 2021. “Seasonal Variation in the Invertebrate Community
-and Diet of a Top Fish Predator in a Thermally Stable Spring.”
-*Hydrobiologia* 848 (3): 531–45.
-<https://doi.org/10.1007/s10750-020-04409-5>.
+Kreiling, Agnes-Katharina, Eoin J. O’Gorman, Snæbjörn Pálsson, et al.
+2021. “Seasonal Variation in the Invertebrate Community and Diet of a
+Top Fish Predator in a Thermally Stable Spring.” *Hydrobiologia* 848
+(3): 531–45. <https://doi.org/10.1007/s10750-020-04409-5>.
 
 </div>
 
@@ -2636,12 +2750,38 @@ American Bullfrog (Rana Catesbeiana) in Carlsbad Caverns National Park.”
 
 </div>
 
+<div id="ref-Kutrup:2005aa" class="csl-entry" markdown="1">
+
+Kutrup, Bilal, Emel Çakir, and Nurhayat Yilmaz. 2005. “Food of the
+Banded Newt, Triturus Vittatus Ophryticus (Berthold, 1846), at Different
+Sites in Trabzon.” *Turkish Journal of Zoology* 29 (1): 83–89.
+
+</div>
+
+<div id="ref-Kutter:2009aa" class="csl-entry" markdown="1">
+
+Kütter, Mateus Tavares, Marlise de Azevedo Bemvenuti, and Alex Moresco.
+2009. “Feeding Strategy of the Jundiá Rhamdia Quelen (Siluriformes,
+Heptapteridae) in Costal Lagoons of Southern Brazil.” *Acta Scientiarum.
+Biological Sciences* 31 (1): 41–47.
+
+</div>
+
 <div id="ref-La-Mesa:2015vi" class="csl-entry" markdown="1">
 
 La Mesa, Mario, Alberto Castelli, Joseph T Eastman, and Emilio
 Riginella. 2015. “Factors Involved in Prey Resource Partitioning in the
 Genus Artedidraco (Notothenioidei, Artedidraconidae) from the Western
 Ross Sea.” *Hydrobiologia* 761 (1): 249–59.
+
+</div>
+
+<div id="ref-Labropoulou:1998aa" class="csl-entry" markdown="1">
+
+Labropoulou, M, G Tserpes, and N Tsimenides. 1998. “Age, Growth and
+Feeding Habits of the Brown ComberSerranus Hepatus (Linnaeus, 1758) on
+the Cretan Shelf.” *Estuarine, Coastal and Shelf Science* 46 (5):
+723–32.
 
 </div>
 
@@ -2671,22 +2811,20 @@ Hungary.” *Folia Zoologica* 56 (1): 109–12.
 
 <div id="ref-Laptikhovsky:2015aa" class="csl-entry" markdown="1">
 
-Laptikhovsky, Vladimir, Paul Brickle, Marta Söffker, Deborah Davidson,
-Marie-Julie Roux, Kalinka Rexer-Huber, Paul E Brewin, et al. 2015. “Life
-History and Population Characteristics of the Antarctic Starfish,
-Anasterias Antarctica l <span class="nocase">ü</span> Tken, 1856
-(Asteroidea: Forcipulatida: Asteriidae) Around the Falkland Islands.”
-*Polar Biology* 38: 463–74.
+<span class="nocase">Laptikhovsky, Vladimir, Paul Brickle, Marta
+Söffker, et al.</span> 2015. “Life History and Population
+Characteristics of the Antarctic Starfish, Anasterias Antarctica l
+<span class="nocase">ü</span> Tken, 1856 (Asteroidea: Forcipulatida:
+Asteriidae) Around the Falkland Islands.” *Polar Biology* 38: 463–74.
 
 </div>
 
 <div id="ref-Laufer:2021aa" class="csl-entry" markdown="1">
 
-Laufer, Gabriel, Noelia Gobel, Mauro Berazategui, Matias Zarucki, Sofı́a
-Cortizas, Alvaro Soutullo, Claudio Martinez Debat, and Rafael O De Sa.
-2021. “American Bullfrog (Lithobates Catesbeianus) Diet in Uruguay
-Compared with Other Invasive Populations in Southern South America.”
-*North-Western Journal of Zoology* 17 (1).
+Laufer, Gabriel, Noelia Gobel, Mauro Berazategui, et al. 2021. “American
+Bullfrog (Lithobates Catesbeianus) Diet in Uruguay Compared with Other
+Invasive Populations in Southern South America.” *North-Western Journal
+of Zoology* 17 (1).
 
 </div>
 
@@ -2766,6 +2904,15 @@ Li, L, Q Wei Wei, J Ming Wu, H Zhang, Y Liu, and X Xie. 2015. “Diet of
 Leptobotia Elongata Revealed by Stomach Content Analysis and Inferred
 from Stable Isotope Signatures.” *Environmental Biology of Fishes* 98
 (8): 1965–78.
+
+</div>
+
+<div id="ref-Lima:2023aa" class="csl-entry" markdown="1">
+
+Lima, Mariele da Silva, Sabrina Serrão Martins, Luciano Fogaça de Assis
+Montag, and Tiago Magalhães da Silva Freitas. 2023. “Dietary Shift of a
+Pimelodid Catfish in Response to the Flood Pulse in the Xingu River.”
+*Neotropical Ichthyology* 21: e230097.
 
 </div>
 
@@ -2862,10 +3009,10 @@ South Wales, with Relevance to Lamb Predation.” *The Rangeland Journal*
 
 <div id="ref-Luiselli:2004ve" class="csl-entry" markdown="1">
 
-Luiselli, L, L Bikikoro, E Odegbune, SM Wariboko, L Rugiero, GC Akani,
-and E Politano. 2004. “Feeding Relationships Between Sympatric
-Afrotropical Tree Frogs (Genus Hyperolius): The Effects of Predator Body
-Size and Season.” *Animal Biology-Leiden* 54 (3): 293.
+Luiselli, L, L Bikikoro, E Odegbune, et al. 2004. “Feeding Relationships
+Between Sympatric Afrotropical Tree Frogs (Genus Hyperolius): The
+Effects of Predator Body Size and Season.” *Animal Biology-Leiden* 54
+(3): 293.
 
 </div>
 
@@ -2947,6 +3094,16 @@ Loligo Pealei, in New England Waters.” *The Biological Bulletin* 162
 
 </div>
 
+<div id="ref-Madera-Santana:2023aa" class="csl-entry" markdown="1">
+
+Madera-Santana, Sara, Carlos Rodrı́guez-Garcı́a, Jairo Castro-Gutiérrez,
+Ángel Rafael Domı́nguez-Bustos, and Remedios Cabrera-Castro. 2023.
+“Discarded but Not Dismissed: A Comprehensive Study of the Feeding
+Habits of the Brown Comber (Serranus Hepatus,(linneaus 1758)) in the
+Gulf of cádiz (NE Atlantic).” *Fishes* 8 (11): 541.
+
+</div>
+
 <div id="ref-Maeda:2004th" class="csl-entry" markdown="1">
 
 Maeda, Ken, and Katsunori Tachihara. 2004. “Instream Distributions and
@@ -3001,10 +3158,9 @@ Georgia (Southern Ocean).” *Polar Biology* 34: 389–96.
 
 <div id="ref-Majaneva:2013wt" class="csl-entry" markdown="1">
 
-Majaneva, S, J Berge, PE Renaud, A Vader, E Stübner, AM Rao, Ø Sparre,
-and M Lehtiniemi. 2013. “Aggregations of Predators and Prey Affect
-Predation Impact of the Arctic Ctenophore Mertensia Ovum.” *Marine
-Ecology Progress Series* 476: 87–100.
+Majaneva, S, J Berge, PE Renaud, et al. 2013. “Aggregations of Predators
+and Prey Affect Predation Impact of the Arctic Ctenophore Mertensia
+Ovum.” *Marine Ecology Progress Series* 476: 87–100.
 
 </div>
 
@@ -3050,6 +3206,14 @@ of the Diet of Feral Cats from Rural and Pastoral Western Australia.”
 
 </div>
 
+<div id="ref-Martin:1952aa" class="csl-entry" markdown="1">
+
+Martin, Nigel V. 1952. “A Study of the Lake Trout, Salvelinus Namaycush,
+in Two Algonquin Park, Ontario, Lakes.” *Transactions of the American
+Fisheries Society* 81 (1): 111–37.
+
+</div>
+
 <div id="ref-Maser:1983uq" class="csl-entry" markdown="1">
 
 Maser, Chris, and Ronald S Rohweder. 1983. “Winter Food Habits of
@@ -3084,10 +3248,10 @@ Pisaster Ochraceus.” *The Biological Bulletin* 131 (1): 127–44.
 
 <div id="ref-Mazzotti:2020aa" class="csl-entry" markdown="1">
 
-Mazzotti, Frank J, Jennifer H Nestler, Jenna M Cole, Colleen Closius,
-William H Kern, Michael R Rochford, Eric Suarez, et al. 2020. “Diet of
-Nile Monitors (Varanus Niloticus) Removed from Palm Beach and Broward
-Counties, Florida, USA.” *Journal of Herpetology* 54 (2): 189–95.
+<span class="nocase">Mazzotti, Frank J, Jennifer H Nestler, Jenna M
+Cole, et al.</span> 2020. “Diet of Nile Monitors (Varanus Niloticus)
+Removed from Palm Beach and Broward Counties, Florida, USA.” *Journal of
+Herpetology* 54 (2): 189–95.
 
 </div>
 
@@ -3110,6 +3274,14 @@ https://doi.org/<https://doi.org/10.1016/j.gecco.2020.e01396>.
 
 </div>
 
+<div id="ref-McComish:1975aa" class="csl-entry" markdown="1">
+
+McComish, Thomas S, and William G Miller. 1975. “Notes on the Biology of
+the Lake Trout and Other Selected Salmonidae in Indiana Waters of Lake
+Michigan.” *Proceedings of the Indiana Academy of Science* 85: 161–69.
+
+</div>
+
 <div id="ref-McDermott:1987aa" class="csl-entry" markdown="1">
 
 McDermott, JJ. 1987. “The Distribution and Food Habits of Nephtys Bucera
@@ -3122,8 +3294,8 @@ Beach.” *Proceedings of the Biological Society of Washington* 100 (1):
 <div id="ref-McDermott:1965aa" class="csl-entry" markdown="1">
 
 McDermott, John J. 1965. “Food Habits of the Toadfish, Opsanus Tau (l.),
-in New Jersey Waters.” In *Proceedings of the Pennsylvania Academy of
-Science*, 64–71. JSTOR.
+in New Jersey Waters.” *Proceedings of the Pennsylvania Academy of
+Science*, 64–71.
 
 </div>
 
@@ -3254,11 +3426,19 @@ Biology and Ecology* 396 (2): 207–15.
 
 </div>
 
+<div id="ref-Merriner:1975aa" class="csl-entry" markdown="1">
+
+Merriner, John V. 1975. “Food Habits of the Weakfish, Cynoscion Regalis,
+in North Carolina Waters.” *Chesapeake Science* 16 (1): 74–76.
+
+</div>
+
 <div id="ref-Metillo:2011uo" class="csl-entry" markdown="1">
 
-Metillo, Ephrime B et al. 2011. “Feeding Ecology of Acetes Intermedius
-Omori 1975(crustacea, Decapoda, Sergestidae) in Iligan Bay, the
-Philippines.” *Zoological Studies* 50 (6): 725–36.
+<span class="nocase">Metillo, Ephrime B et al.</span> 2011. “Feeding
+Ecology of Acetes Intermedius Omori 1975(crustacea, Decapoda,
+Sergestidae) in Iligan Bay, the Philippines.” *Zoological Studies* 50
+(6): 725–36.
 
 </div>
 
@@ -3291,15 +3471,15 @@ Poison Operation.” *New Zealand Journal of Ecology*, 19–27.
 
 Miller, David E, and Henry R Mushinsky. 1990. “Foraging Ecology and Prey
 Size in the Mangrove Water Snake, Nerodia Fasciata Compressicauda.”
-*Copeia*, 1099–1106.
+*Copeia*, 1099–106.
 
 </div>
 
 <div id="ref-Minello:1989aa" class="csl-entry" markdown="1">
 
 Minello, Thomas Joseph, Roger J Zimmerman, and Thomas E Czapla. 1989.
-“Habitat-Related Differences in Diets of Small Fishes in Lavaca Bay,
-Texas, 1985-1986.”
+*Habitat-Related Differences in Diets of Small Fishes in Lavaca Bay,
+Texas, 1985-1986*.
 
 </div>
 
@@ -3307,6 +3487,15 @@ Texas, 1985-1986.”
 
 Mitchell, Donald F. 1953. “An Analysis of Stomach Contents of California
 Tide Pool Fishes.” *The American Midland Naturalist* 49 (3): 862–71.
+
+</div>
+
+<div id="ref-Moffett:1945aa" class="csl-entry" markdown="1">
+
+Moffett, James W, and Burton P Hunt. 1945. “Winter Feeding Habits of
+Bluegills, Lepomis Macrochirus Rafinesque, and Yellow Perch, Perca
+Flavescens (Mitchill), in Cedar Lake, Washtenaw County, Michigan.”
+*Transactions of the American Fisheries Society* 73 (1): 231–42.
 
 </div>
 
@@ -3359,6 +3548,30 @@ Craspedacusta Sowerbyi Lankester, 1880 (Cnidaria: Limnomedusae:
 Olindiidae) in Mexico (Adolfo Lopez Mateos Reservoir), with Notes on
 Their Feeding Habits and Limnological Dates.” *Biological Invasions* 11
 (8): 1827–34.
+
+</div>
+
+<div id="ref-Moreno-Lopez:2002aa" class="csl-entry" markdown="1">
+
+Moreno-López, A, Victor Manuel Tuset Andujar, José Antonio González
+Pérez, and MM Garcı́a-Dı́az. 2002. “Feeding Habits of Serranus Scriba
+(Osteichthyes: Serranidae) in the Marine Reserve of Lanzarote (Canary
+Islands).” *Boletim Do Museu Municipal Do Funchal*.
+
+</div>
+
+<div id="ref-Moura:2013aa" class="csl-entry" markdown="1">
+
+Moura, Rodrigo Aquino. 2013. “Natural Diet of Cephalopholis Fulva
+(Perciformes: Serranidae) in the Abrolhos Bank, Northeastern Brazil.”
+*Brazilian Journal of Aquatic Science and Technology*.
+
+</div>
+
+<div id="ref-MS:1996aa" class="csl-entry" markdown="1">
+
+MS, Yang. 1996. *Diets of the Important Groundfishes in the Aleutian
+Islands in Summer 1991*.
 
 </div>
 
@@ -3449,7 +3662,7 @@ Mussel, Dreissena Polymorpha (Pallas), in the Hudson River Estuary, NY.”
 
 Nagorsen, David W, Karen F Morrison, and Joan E Forsberg. 1989. “Winter
 Diet of Vancouver Island Marten (Martes Americana).” *Canadian Journal
-of Zoology* 67 (6): 1394–1400.
+of Zoology* 67 (6): 1394–400.
 
 </div>
 
@@ -3521,10 +3734,11 @@ in the Mekong Delta, Vietnam.” *Journal of Herpetology* 48 (4): 506–13.
 
 <div id="ref-Ngo:2014aa" class="csl-entry" markdown="1">
 
-Ngo, Chung D, Binh V Ngo, Phong B Truong, Loi D Duong, et al. 2014.
-“Sexual Size Dimorphism and Feeding Ecology of Eutropis Multifasciata
-(Reptilia: Squamata: Scincidae) in the Central Highlands of Vietnam.”
-*Herpetological Conservation and Biology* 9 (2): 322–33.
+<span class="nocase">Ngo, Chung D, Binh V Ngo, Phong B Truong, Loi D
+Duong, et al.</span> 2014. “Sexual Size Dimorphism and Feeding Ecology
+of Eutropis Multifasciata (Reptilia: Squamata: Scincidae) in the Central
+Highlands of Vietnam.” *Herpetological Conservation and Biology* 9 (2):
+322–33.
 
 </div>
 
@@ -3540,11 +3754,10 @@ Current Large Marine Ecosystem.” *Fisheries Oceanography* 32 (5):
 
 <div id="ref-Nielsen:2019aa" class="csl-entry" markdown="1">
 
-Nielsen, Julius, Jørgen Schou Christiansen, Peter Grønkjær, Peter
-Bushnell, John Fleng Steffensen, Helene Overgaard Kiilerich, Kim Præbel,
-and Rasmus Hedeholm. 2019. “Greenland Shark (Somniosus Microcephalus)
-Stomach Contents and Stable Isotope Values Reveal an Ontogenetic Dietary
-Shift.” *Frontiers in Marine Science* 6: 125.
+Nielsen, Julius, Jørgen Schou Christiansen, Peter Grønkjær, et al. 2019.
+“Greenland Shark (Somniosus Microcephalus) Stomach Contents and Stable
+Isotope Values Reveal an Ontogenetic Dietary Shift.” *Frontiers in
+Marine Science* 6: 125.
 
 </div>
 
@@ -3594,14 +3807,14 @@ Group, East Antarctica.” *Emu-Austral Ornithology* 92 (4): 207–22.
 
 Novak, Mark. 2010. “Estimating Interaction Strengths in Nature:
 Experimental Support for an Observational Approach.” *Ecology* 91 (8):
-2394–2405.
+2394–405.
 
 </div>
 
 <div id="ref-Novak:2013wg" class="csl-entry" markdown="1">
 
-———. 2013. “Trophic Omnivory Across a Productivity Gradient: Intraguild
-Predation Theory and the Structure and Strength of Species
+Novak, Mark. 2013. “Trophic Omnivory Across a Productivity Gradient:
+Intraguild Predation Theory and the Structure and Strength of Species
 Interactions.” *Proceedings of the Royal Society B: Biological Sciences*
 280 (1766): 20131415.
 
@@ -3744,10 +3957,10 @@ Zoology* 2 (2).
 
 <div id="ref-Pages:1997tr" class="csl-entry" markdown="1">
 
-Pages, F, SR Gonzalez, et al. 1997. “Diet of the Gelatinous Zooplankton
-in Hardangerfjord (Norway) and Potential Predatory Impact by Aglantha
-Digitale (Trachymedusae).” *Oceanographic Literature Review* 3 (44):
-237.
+<span class="nocase">Pages, F, SR Gonzalez, et al.</span> 1997. “Diet of
+the Gelatinous Zooplankton in Hardangerfjord (Norway) and Potential
+Predatory Impact by Aglantha Digitale (Trachymedusae).” *Oceanographic
+Literature Review* 3 (44): 237.
 
 </div>
 
@@ -3810,11 +4023,10 @@ Dosidicus Gigas in the Humboldt Current System.” *Molluscan Research* 34
 
 <div id="ref-Park:2020aa" class="csl-entry" markdown="1">
 
-Park, Jeong-Chae, Keita Kodama, Masaaki Oyama, Jeong-Hoon Lee, Yasuhiko
-Ohta, Atsuko Yamaguchi, Hiroaki Shiraishi, and Toshihiro Horiguchi.
-2020. “Changes in Feeding Habits of the Starspotted Smooth-Hound,
-Mustelus Manazo, in Tokyo Bay Between Periods with Different Stock Size
-Levels.” *Marine Pollution Bulletin* 152: 110863.
+Park, Jeong-Chae, Keita Kodama, Masaaki Oyama, et al. 2020. “Changes in
+Feeding Habits of the Starspotted Smooth-Hound, Mustelus Manazo, in
+Tokyo Bay Between Periods with Different Stock Size Levels.” *Marine
+Pollution Bulletin* 152: 110863.
 
 </div>
 
@@ -3830,6 +4042,14 @@ Lupus Labradorius Goldman) in Northern Quebec and Labrador.” *Arctic*,
 
 Parker, Michael S. 1994. “Feeding Ecology of Stream-Dwelling Pacific
 Giant Salamander Larvae (Dicamptodon Tenebrosus).” *Copeia*, 705–18.
+
+</div>
+
+<div id="ref-Pasch:1972aa" class="csl-entry" markdown="1">
+
+Pasch, RW, and JH Lyford Jr. 1972. “The Food Habits of Two Species of
+Cottus Occupying the Same Habitat.” *Transactions of the American
+Fisheries Society* 101 (2): 377–81.
 
 </div>
 
@@ -3867,10 +4087,10 @@ Elegans Verrill.” *Ecology* 54 (2): 300–314.
 
 <div id="ref-Peda:2015aa" class="csl-entry" markdown="1">
 
-Pedà, Cristina, Pietro Battaglia, Alessia Scuderi, Alessandro Voliani,
-Cecilia Mancusi, Franco Andaloro, and Teresa Romeo. 2015. “Cephalopod
-Prey in the Stomach Contents of Odontocete Cetaceans Stranded in the
-Western Mediterranean Sea.” *Marine Biology Research* 11 (6): 593–602.
+Pedà, Cristina, Pietro Battaglia, Alessia Scuderi, et al. 2015.
+“Cephalopod Prey in the Stomach Contents of Odontocete Cetaceans
+Stranded in the Western Mediterranean Sea.” *Marine Biology Research* 11
+(6): 593–602.
 
 </div>
 
@@ -3945,9 +4165,9 @@ Rivers.” *Transactions of the American Fisheries Society* 134 (4):
 
 <div id="ref-Pinkas:1970aa" class="csl-entry" markdown="1">
 
-Pinkas, Leo, Malcolm S Oliphant, and Ingrid LK Iverson. 1970. “Fish
+Pinkas, Leo, Malcolm S Oliphant, and Ingrid LK Iverson. 1970. *Fish
 Bulletin 152. Food Habits of Albacore, Bluefin Tuna, and Bonito in
-California Waters.”
+California Waters*.
 
 </div>
 
@@ -4053,11 +4273,20 @@ Co-Existence in Saginaw Bay, Lake Huron.” *Aquatic Invasions* 10 (3):
 
 <div id="ref-Potier:2007vu" class="csl-entry" markdown="1">
 
-Potier, Michel, Francis Marsac, Yves Cherel, Vincent Lucas, Richard
-Sabatié, Olivier Maury, and Frédéric Ménard. 2007. “Forage Fauna in the
-Diet of Three Large Pelagic Fishes (Lancetfish, Swordfish and Yellowfin
-Tuna) in the Western Equatorial Indian Ocean.” *Fisheries Research* 83
-(1): 60–72.
+Potier, Michel, Francis Marsac, Yves Cherel, et al. 2007. “Forage Fauna
+in the Diet of Three Large Pelagic Fishes (Lancetfish, Swordfish and
+Yellowfin Tuna) in the Western Equatorial Indian Ocean.” *Fisheries
+Research* 83 (1): 60–72.
+
+</div>
+
+<div id="ref-Prata:2025aa" class="csl-entry" markdown="1">
+
+Prata, Erival Gonçalves, Lidia Brasil Seabra, Vinicius Neres-Lima,
+Luciano Fogaça de Assis Montag, and Tiago Magalhães da Silva Freitas.
+2025. “Diet Composition and Isotopic Analysis Unveil Trophic Dynamics of
+a Fish in a Controlled Flood Pulse Area of the Amazonia.”
+*Hydrobiologia* 852 (3): 689–703.
 
 </div>
 
@@ -4090,10 +4319,11 @@ Cooperative Oceanic Fisheries Investigations Report*, 145–52.
 
 <div id="ref-Preti:2004aa" class="csl-entry" markdown="1">
 
-———. 2004. “Diet Differences in the Thresher Shark (Alopias Vulpinus)
-During Transition from a Warm-Water Regime to a Cool-Water Regime Off
-California-Oregon, 1998-2000.” *California Cooperative Oceanic Fisheries
-Investigations Report* 45: 118.
+Preti, ANTONELLA, SUSAN E Smith, and DARLENE A Ramon. 2004. “Diet
+Differences in the Thresher Shark (Alopias Vulpinus) During Transition
+from a Warm-Water Regime to a Cool-Water Regime Off California-Oregon,
+1998-2000.” *California Cooperative Oceanic Fisheries Investigations
+Report* 45: 118.
 
 </div>
 
@@ -4108,9 +4338,8 @@ Mako, Blue and Thresher Sharks in the California Current.”
 
 <div id="ref-Preti:2023aa" class="csl-entry" markdown="1">
 
-Preti, Antonella, Stephen M Stohs, Gerard T DiNardo, Camilo Saavedra,
-Ken MacKenzie, Leslie R Noble, Catherine S Jones, and Graham J Pierce.
-2023. “Feeding Ecology of Broadbill Swordfish (Xiphias Gladius) in the
+Preti, Antonella, Stephen M Stohs, Gerard T DiNardo, et al. 2023.
+“Feeding Ecology of Broadbill Swordfish (Xiphias Gladius) in the
 California Current.” *Plos One* 18 (2): e0258011.
 
 </div>
@@ -4142,7 +4371,7 @@ Epipelagic Siphonophores.” *Marine Biology* 65: 83–90.
 
 <div id="ref-Purcell:1981ab" class="csl-entry" markdown="1">
 
-———. 1981b. “Selective Predation and Caloric Consumption by the
+Purcell, JE. 1981b. “Selective Predation and Caloric Consumption by the
 Siphonophore Rosacea Cymbiformis in Nature.” *Marine Biology* 63:
 283–94.
 
@@ -4210,6 +4439,13 @@ Species of Watersnakes from Western New York.” *Copeia* 1947 (3):
 
 Rauschenplat, Ernst. 1901. *Ueber Die Nahrung von Thieren Aus Der Kieler
 Bucht*. Druck von Schmidt & Klaunig.
+
+</div>
+
+<div id="ref-Rawson:1961aa" class="csl-entry" markdown="1">
+
+Rawson, DS. 1961. “The Lake Trout of Lac La Ronge, Saskatchewan.”
+*Journal of the Fisheries Board of Canada* 18 (3): 423–62.
 
 </div>
 
@@ -4327,11 +4563,10 @@ Rodrı́guez-Robles, Javier A, Daniel G Mulcahy, and Harry W Greene. 1999.
 
 <div id="ref-Rohner:2013aa" class="csl-entry" markdown="1">
 
-Rohner, Christoph A, Lydie IE Couturier, Anthony J Richardson, Simon J
-Pierce, Clare EM Prebble, Mark J Gibbons, and Peter D Nichols. 2013.
-“Diet of Whale Sharks Rhincodon Typus Inferred from Stomach Content and
-Signature Fatty Acid Analyses.” *Marine Ecology Progress Series* 493:
-219–35.
+Rohner, Christoph A, Lydie IE Couturier, Anthony J Richardson, et al.
+2013. “Diet of Whale Sharks Rhincodon Typus Inferred from Stomach
+Content and Signature Fatty Acid Analyses.” *Marine Ecology Progress
+Series* 493: 219–35.
 
 </div>
 
@@ -4480,10 +4715,10 @@ Marine Biological Association of the United Kingdom* 87 (1): 243–51.
 
 <div id="ref-Santos:1999aa" class="csl-entry" markdown="1">
 
-Santos, MB, GJ Pierce, PR Boyle, RJ Reid, HM Ross, IAP Patterson, CC
-Kinze, et al. 1999. “Stomach Contents of Sperm Whales Physeter
-Macrocephalus Stranded in the North Sea 1990-1996.” *Marine Ecology
-Progress Series* 183: 281–94.
+<span class="nocase">Santos, MB, GJ Pierce, PR Boyle, et al.</span>
+1999. “Stomach Contents of Sperm Whales Physeter Macrocephalus Stranded
+in the North Sea 1990-1996.” *Marine Ecology Progress Series* 183:
+281–94.
 
 </div>
 
@@ -4494,6 +4729,15 @@ SAPOUNIDIS, Argyrios S, Emmanuil T KOUTRAKIS, and Ioannis D LEONARDOS.
 Species (Barbus Strumicae Karaman, 1955) in Nestos River, a Flow
 Regulated River in Northern Greece.” *NORTH-WESTERN JOURNAL OF ZOOLOGY*
 11 (2): 331–41.
+
+</div>
+
+<div id="ref-Sarker:1977aa" class="csl-entry" markdown="1">
+
+Sarker, Abdul Latif. 1977. “Feeding Ecology of the Bluegill, Lepomis
+Macrochirus, in Two Heated Reservoirs of Texas. III. Time of Day and
+Patterns of Feeding.” *Transactions of the American Fisheries Society*
+106 (6): 596–601.
 
 </div>
 
@@ -4563,6 +4807,14 @@ with a Note on the Food Observed in the Stomach of a Common Porpoise.”
 
 </div>
 
+<div id="ref-Seaburg:1964aa" class="csl-entry" markdown="1">
+
+Seaburg, Keith G, and John B Moyle. 1964. “Feeding Habits, Digestive
+Rates, and Growth of Some Minnesota Warmwater Fishes.” *Transactions of
+the American Fisheries Society* 93 (3): 269–85.
+
+</div>
+
 <div id="ref-Sekiguchi:1992vd" class="csl-entry" markdown="1">
 
 Sekiguchi, Keiko, Peter B Best, and Bozena Z Kaczmaruk. 1992. “New
@@ -4581,20 +4833,19 @@ Canche Estuary, France).” *Estuaries and Coasts* 38 (1): 252–67.
 
 <div id="ref-Setyobudi:2024aa" class="csl-entry" markdown="1">
 
-Setyobudi, Eko, Murwantoko Murwantoko, Tony Budi Satriyo, Eko Hardianto,
-Wahyu Novianto Bagas Waskitho, Niken Astuti, Hana Cahya Maharani, and
-Fentriana Aji Prastiwi. 2024. “Food Preference of Purple-Spotted Bigeye
-(Priacanthus Tayenus Richardson 1846) in Northern Coast of Java,
-Indonesia.” *Marine Ecology* 45 (6): e12846.
+Setyobudi, Eko, Murwantoko Murwantoko, Tony Budi Satriyo, et al. 2024.
+“Food Preference of Purple-Spotted Bigeye (Priacanthus Tayenus
+Richardson 1846) in Northern Coast of Java, Indonesia.” *Marine Ecology*
+45 (6): e12846.
 
 </div>
 
 <div id="ref-Shaiek:2015ww" class="csl-entry" markdown="1">
 
-Shaiek, Moez, Mohamed Salah RoMdhane, Le Loc’h, et al. 2015. “Étude Du
-régime Alimentaire de l’ichtyofaune Du Lac Ichkeul (Tunisie), Study of
-the Ichthyofauna Diet in the Ichkeul Lake (Tunisia).” *Cybium* 39 (3):
-193–210.
+<span class="nocase">Shaiek, Moez, Mohamed Salah RoMdhane, Le Loc’h, et
+al.</span> 2015. “Étude Du régime Alimentaire de l’ichtyofaune Du Lac
+Ichkeul (Tunisie), Study of the Ichthyofauna Diet in the Ichkeul Lake
+(Tunisia).” *Cybium* 39 (3): 193–210.
 
 </div>
 
@@ -4604,6 +4855,14 @@ Shea, Owen RO, Molly H Meadows, Ethan E Wrigglesworth, Jason Newton, and
 Lucy A Hawkes. 2020. “Novel Insights into the Diet of Southern Stingrays
 and Caribbean Whiptail Rays.” *Marine Ecology Progress Series* 655:
 157–70.
+
+</div>
+
+<div id="ref-Sheridan:1979aa" class="csl-entry" markdown="1">
+
+Sheridan, Peter F. 1979. “Trophic Resource Utilization by Three Species
+of Sciaenid Fishes in a Northwest Florida Estuary.” *Gulf of Mexico
+Science* 3 (1): 1.
 
 </div>
 
@@ -4617,9 +4876,9 @@ and Reproductive Biology of the Arafura Filesnake (Acrochordidae).”
 
 <div id="ref-Shivji:1983tw" class="csl-entry" markdown="1">
 
-Shivji, M, D Parker, B Hartwick, MJ Smith, and NA Sloan. 1983. “Feeding
+Shivji, M, D Parker, B Hartwick, MJ Smith, and NA Sloan. 1983. *Feeding
 and Distribution Study of the Sunflower Sea Star Pycnopodia
-Helianthoides (Brandt, 1835).”
+Helianthoides (Brandt, 1835)*.
 
 </div>
 
@@ -4735,8 +4994,7 @@ Brazil.” *North-Western Journal of Zoology* 15 (1).
 
 <div id="ref-Sole:2009aa" class="csl-entry" markdown="1">
 
-Solé, Mirco, Iuri R Dias, Erika AS Rodrigues, Euvaldo Marciano-Jr,
-Samuel MJ Branco, Kaoli P Cavalcante, and Dennis Rödder. 2009. “Diet of
+Solé, Mirco, Iuri R Dias, Erika AS Rodrigues, et al. 2009. “Diet of
 Leptodactylus Ocellatus (Anura: Leptodactylidae) from a Cacao Plantation
 in Southern Bahia, Brazil.” *Herpetology Notes* 2 (2009): 9–15.
 
@@ -4837,6 +5095,30 @@ Stewart, DC, SJ Middlemas, WR Gardiner, S Mackay, and JD Armstrong.
 2005. “Diet and Prey Selection of Cormorants (Phalacrocorax Carbo) at
 Loch Leven, a Major Stocked Trout Fishery.” *Journal of Zoology* 267
 (2): 191–201.
+
+</div>
+
+<div id="ref-Stickney:1976aa" class="csl-entry" markdown="1">
+
+Stickney, Robert R. 1976. “Food Habits of Georgia Estuarine Fishes II.
+Symphurus Plagiusa (Pleuronectiformes: Cynoglossidae).” *Transactions of
+the American Fisheries Society* 105 (2): 202–7.
+
+</div>
+
+<div id="ref-Stickney:1974aa" class="csl-entry" markdown="1">
+
+Stickney, ROBERT R, GL Taylor, and RW Heard. 1974. “Food Habits of
+Georgia Estuarine Fishes. I. Four Species of Flounders.” *Fishery
+Bulletin* 72 (2): 515.
+
+</div>
+
+<div id="ref-Stickney:1975aa" class="csl-entry" markdown="1">
+
+Stickney, RR, GL Taylor, and DB White. 1975. “Food Habits of Five
+Species of Young Southeastern United States Estuarine Sciaenidae.”
+*Chesapeake Science* 16 (2): 104–14.
 
 </div>
 
@@ -5026,17 +5308,15 @@ Freshwater Research* 14 (4): 427–35.
 
 <div id="ref-Townhill:2021aa" class="csl-entry" markdown="1">
 
-Townhill, Bryony L, Rebecca E Holt, Bjarte Bogstad, Joël M Durant, John
-K Pinnegar, Andrey V Dolgov, Natalia A Yaragina, Edda Johannesen, and
-Geir Ottersen. 2021. “Diets of the Barents Sea Cod (Gadus Morhua) from
-the 1930s to 2018.” *Earth System Science Data* 13 (3): 1361–70.
+Townhill, Bryony L, Rebecca E Holt, Bjarte Bogstad, et al. 2021. “Diets
+of the Barents Sea Cod (Gadus Morhua) from the 1930s to 2018.” *Earth
+System Science Data* 13 (3): 1361–70.
 
 </div>
 
 <div id="ref-Tremblay-Gagnon:2023aa" class="csl-entry" markdown="1">
 
-Tremblay-Gagnon, Félix, Sarah Brown-Vuillemin, Katherine Skanes, Hannah
-Polaczek, Wojciech Walkusz, Dominique Robert, and David Deslauriers.
+Tremblay-Gagnon, Félix, Sarah Brown-Vuillemin, Katherine Skanes, et al.
 2023. “Spatiotemporal Variability in Diet Composition of Greenland
 Halibut (Reinhardtius Hippoglossoides) from the Eastern Canadian
 Arctic.” *Journal of Fish Biology* 103 (6): 1430–44.
@@ -5127,9 +5407,10 @@ Van Hyning, OC. 1932. “Food of Some Florida Snakes.” *Copeia* 1932 (1):
 
 <div id="ref-Van-Ngo:2014tc" class="csl-entry" markdown="1">
 
-Van Ngo, Binh, Chung Dac Ngo, et al. 2014. “Variation in Dietary
-Composition of Granular Spiny Frogs (Quasipaa Verrucospinosa) in Central
-Vietnam.” *The Herpetological Journal* 24 (4): 245–53.
+<span class="nocase">Van Ngo, Binh, Chung Dac Ngo, et al.</span> 2014.
+“Variation in Dietary Composition of Granular Spiny Frogs (Quasipaa
+Verrucospinosa) in Central Vietnam.” *The Herpetological Journal* 24
+(4): 245–53.
 
 </div>
 
@@ -5169,14 +5450,21 @@ Large Pelagic Predatory Fishes in the Eastern Arabian Sea.”
 
 </div>
 
+<div id="ref-Vasconcelos:2004aa" class="csl-entry" markdown="1">
+
+Vasconcelos, R, N Prista, H Cabral, and MJ Costa. 2004. “Feeding Ecology
+of the Lesser Weever, Echiichthys Vipera (Cuvier, 1829), on the Western
+Coast of Portugal.” *Journal of Applied Ichthyology* 20 (3): 211–16.
+
+</div>
+
 <div id="ref-Vazquez-Linero:2025aa" class="csl-entry" markdown="1">
 
 Vázquez-Liñero, Mariana Alejandra, Felipe Galván-Magaña, Arturo
-Tripp-Valdez, Alberto Sánchez-González, Sergio Alejandro
-Briones-Hernández, Edgar Mauricio Hoyos-Padilla, and Alejandra
-Piñón-Gimate. 2025. “Trophic Ecology of Juvenile Smooth Hammerhead Shark
-Sphyrna Zygaena (Carcharhiniformes: Sphyrnidae) in the Central Gulf of
-California, Mexico.” *Environmental Biology of Fishes*, 1–14.
+Tripp-Valdez, et al. 2025. “Trophic Ecology of Juvenile Smooth
+Hammerhead Shark Sphyrna Zygaena (Carcharhiniformes: Sphyrnidae) in the
+Central Gulf of California, Mexico.” *Environmental Biology of Fishes*,
+1–14.
 
 </div>
 
@@ -5308,6 +5596,14 @@ Adirondack Lake.” *Journal of Freshwater Ecology* 15 (3): 411–20.
 
 </div>
 
+<div id="ref-Welker:1962aa" class="csl-entry" markdown="1">
+
+Welker, Bill Dean. 1962. “Summer Food Habits of Yellow Bass and Black
+Bullheads in Clear Lake.” *Proceedings of the Iowa Academy of Science*
+69: 286–95.
+
+</div>
+
 <div id="ref-Wells:1961uk" class="csl-entry" markdown="1">
 
 Wells, Harry W, Mary Jane Wells, and IE Gray. 1961. “Food of the
@@ -5334,8 +5630,8 @@ Snail Nucella (= Thais) Emarginata.” *Ecology* 67 (3): 798–809.
 
 <div id="ref-West:1988vl" class="csl-entry" markdown="1">
 
-———. 1988. “Prey Selection by the Tropical Snail Thais Melones: A Study
-of Interindividual Variation.” *Ecology* 69 (6): 1839–54.
+West, Lani. 1988. “Prey Selection by the Tropical Snail Thais Melones: A
+Study of Interindividual Variation.” *Ecology* 69 (6): 1839–54.
 
 </div>
 
@@ -5433,8 +5729,24 @@ Biology* 25: 323–30.
 
 <div id="ref-Yang:2011aa" class="csl-entry" markdown="1">
 
-Yang, M. S. 2011. “Diet of Nineteen Mesopelagic Fishes in the Gulf of
-Alaska.” NMFS-AFSC-229. U.S. Dept. of Commerce, NOAA Technical Memo.
+Yang, M. S. 2011. *Diet of Nineteen Mesopelagic Fishes in the Gulf of
+Alaska*. NMFS-AFSC-229. U.S. Dept. of Commerce, NOAA Technical Memo.
+
+</div>
+
+<div id="ref-Yang:2000aa" class="csl-entry" markdown="1">
+
+Yang, Mei-sun, and Mark William Nelson. 2000. *Food Habits of the
+Commercially Important Groundfishes in the Gulf of Alaska in 1990, 1993,
+and 1996*.
+
+</div>
+
+<div id="ref-Yang:1986aa" class="csl-entry" markdown="1">
+
+Yang, MS, and PA Livingston. 1986. “Food Habits and Diet Overlap of Two
+Congeneric Species, Atheresthes Stomias and Atheresthes Evermanni, in
+the Eastern Bering Sea.” *Fish. Bull* 82 (8): 615–23.
 
 </div>
 
@@ -5449,11 +5761,17 @@ Japan.” *Aquatic Mammals* 36 (2): 172–77.
 
 <div id="ref-Yoshino:2020aa" class="csl-entry" markdown="1">
 
-Yoshino, Kaori, Akinori Takahashi, Taiki Adachi, Daniel P Costa, Patrick
-W Robinson, Sarah H Peterson, Luis A Hückstädt, Rachel R Holser, and
-Yasuhiko Naito. 2020. “Acceleration-Triggered Animal-Borne Videos Show a
-Dominance of Fish in the Diet of Female Northern Elephant Seals.”
-*Journal of Experimental Biology* 223 (5): jeb212936.
+Yoshino, Kaori, Akinori Takahashi, Taiki Adachi, et al. 2020.
+“Acceleration-Triggered Animal-Borne Videos Show a Dominance of Fish in
+the Diet of Female Northern Elephant Seals.” *Journal of Experimental
+Biology* 223 (5): jeb212936.
+
+</div>
+
+<div id="ref-Yoshiyama:1980aa" class="csl-entry" markdown="1">
+
+Yoshiyama, Ronald M. 1980. “Food Habits of Three Species of Rocky
+Intertidal Sculpins (Cottidae) in Central California.” *Copeia*, 515–25.
 
 </div>
 
