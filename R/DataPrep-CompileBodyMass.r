@@ -948,6 +948,9 @@ source_list <-
        DR
        )
 
+
+
+
 # Merge all and keep first occurrence (pick first source for each taxon)
 # adat <- bind_rows(source_list) %>%
 #   distinct(taxon, .keep_all = TRUE)
@@ -961,6 +964,11 @@ adat <- bind_rows(source_list) %>%
 
 # d <- adat2[which(adat2$mass_g / adat$mass_g > 10),]
 # e <- adat[which(adat2$mass_g / adat$mass_g > 10),]
+
+# Ensure all taxa are 'Genus species'
+adat <- adat[!grepl("^_", adat$taxon), ]
+adat <- adat[!grepl("_^", adat$taxon), ]
+adat <- adat[grepl("_", adat$taxon), ]
 
 DBs <- adat[,c('taxon','mass_g','n','source')]
 
