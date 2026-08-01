@@ -36,7 +36,7 @@ dir.create("../tmp/VarCombnCounts")
 ##################################################################
 
 UniVarCnt <- apply(!is.na(tdat), 2, sum)
-MVarCnt <- count(!is.na(tdat))
+MVarCnt <- plyr::count(!is.na(tdat))
 MVarCnt <- MVarCnt[order(MVarCnt$freq, decreasing = TRUE),]
 MVarCnt <- MVarCnt[, c(ncol(MVarCnt),
                        order(apply(MVarCnt[,-ncol(MVarCnt)], 2, sum),
