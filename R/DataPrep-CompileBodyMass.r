@@ -996,9 +996,9 @@ if(dups > 1){
   adat <- adat[!duplicated(adat$taxon, fromLast = TRUE),] # remove duplicates
 }
 
-#################################################
-# Assign genus-level averages to genus-level taxa
-#################################################
+################################
+# Calculate genus-level averages
+################################
 gdat <- adat
 gdat$taxon <- sub("\\_.*", "", gdat$taxon)
 gdat <- gdat[nchar(gdat$taxon) > 0 ,]
