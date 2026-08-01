@@ -36,6 +36,7 @@ library(rotl)
 
 # For 'DataPrep-CompileBodyMass.r'
 library(plyr)
+library(dplyr)
 library(devtools)
 library(stringr)
 library(rdataretriever)
@@ -77,9 +78,8 @@ dat$Consumer.identity[is.na(dat$Consumer.identity)] <-
 #########################
 source('DataPrep-CompileBodyMass.r')
 
-adat <- read.csv(file = '../tmp/BodyMass/FracFeed_BodyMass.csv')
-
-adat$mass_g <- signif(adat$mass_g, digits = 4)
+# Use the dataset that has the genus-level averages included
+adat <- read.csv(file = '../tmp/BodyMass/FracFeed_BodyMass_wGenus.csv')
 
 dat <- merge(dat,
              adat[, c('taxon', 'mass_g')],

@@ -16,6 +16,23 @@ gmean <- function(x){
 # Not in
 '%!in%' <- function(x, y)!('%in%'(x, y))
 
+# Capitalize first letter of taxon names
+firstup <-
+  function(x) {
+    substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+    x
+  }
+
+# Fix taxon names
+FixNames <- function(dat) {
+  require('stringr')
+  dat$taxon <- gsub(' ', '_', iconv(dat$taxon, from = "ISO-8859-1", to = "UTF-8"))
+  dat$taxon <- firstup(dat$taxon)
+  dat <- subset(dat, taxon != '')
+  dat$taxon <- word(dat$taxon, 1, 2, sep = '_') # Remove subspecies names
+  return(dat)
+}
+
 ##########################################################################
 ##########################################################################
 ##########################################################################
@@ -410,8 +427,8 @@ if(regBMcompilations){
   
   ##########################################################################
   # Eklöf, J., Å. Austin, U. Bergström, S. Donadi, B. D. H. K. Eriksson, J. Hansen, and G. Sundblad. 2017.
-  # Size matters: relationships between body size and body mass of common coastal, aquatic invertebrates in the Baltic Sea.
-  # PeerJ 5:e2906.
+  # Size matters: relationships between body size and body mass of common coastal, aquatic invertebrates in the Baltic Sea. PeerJ 5:e2906.
+    ##################################
   adat <-
     read.csv('Eklof_etal_2017/Eklof_etal_2017.csv',
              header = TRUE)
@@ -433,6 +450,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Feldman, A., N. Sabath, R. A. Pyron, I. Mayrose, and S. Meiri. 2016. Body sizes and diversification rates of lizards, snakes, amphisbaenians and the tuatara. Global Ecology and Biogeography 25:187-197.
+  ##################################
   adat <-
     read.csv('Feldman_etal_2016/Appendix S1 - Lepidosaur body sizes.csv',
              header = TRUE)
@@ -454,6 +472,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Killen, S. S., D. S. Glazier, E. L. Rezende, T. D. Clark, D. Atkinson, A. S. T. Willener, and L. G. Halsey. 2016. Ecological Influences and Morphological Correlates of Resting and Maximal Metabolic Rates across Teleost Fish Species. The American Naturalist 187:592-606.
+  ##################################
   adat <-
     read.csv('Killen_etal_2016/TableS1.csv', header = TRUE)
   adat <- adat[, c('species', 'MMRmass')]
@@ -474,6 +493,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Tucker, M. A., and T. L. Rogers. 2014. Examining predator–prey body size, trophic level and body mass across marine and terrestrial mammals. Proceedings of the Royal Society B: Biological Sciences 281.
+  ##################################
   adat <-
     read.csv('Tucker_etal_2014a/TrophicLevel_Appendix1.csv',
              header = TRUE)
@@ -497,6 +517,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Tucker, M. A., T. J. Ord, and T. L. Rogers. 2014. Evolutionary predictors of mammalian home range size: body mass, diet and the environment. Global Ecology and Biogeography 23:1105-1114.
+  ##################################
   adat <-
     read.csv('Tucker_etal_2014b/Tucker_etal_2014b.csv',
              header = TRUE)
@@ -520,6 +541,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Hirt, M. R., W. Jetz, B. C. Rall, and U. Brose. 2017. A general scaling law reveals why the largest animals are not the fastest. Nature Ecology & Evolution 1:1116-1122.
+  ##################################
   adat <-
     read.csv('Hirt_etal_2017/Hirt_etal_2017.csv', header = TRUE)
   adat <- adat[, c('species', 'body.mass..kg.')]
@@ -541,6 +563,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Gillooly, J. F., J. P. Gomez, E. V. Mavrodiev, Y. Rong, and E. S. McLamore. 2016. Body mass scaling of passive oxygen diffusion in endotherms and ectotherms. Proceedings of the National Academy of Sciences 113:5340-5345.
+  ##################################
   adat <-
     read.csv('Gillooly_etal_2016/Gillooly_etal_2016.csv',
              header = TRUE)
@@ -563,6 +586,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # T. Cai, Z. Wen, Z. Jiang, and Y. Zhen. 2025. Distinct latitudinal patterns of molecular rates across vertebrates. Proceedings of the National Academy of Sciences, 122(19):e2423386122
+  ##################################
   adat <-
     read.csv('Cai_etal_2025/Dataset S27.csv',
              skip = 1,
@@ -586,6 +610,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Quaardvark from ADW https://animaldiversity.ummz.umich.edu/quaardvark/
+  ##################################
   adat <-
     read.csv('Quaardvark/report-201802270108.csv',
              header = TRUE)
@@ -616,6 +641,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # AnAge - Tacutu, R., Craig, T., Budovsky, A., Wuttke, D., Lehmann, G., Taranukha, D., Costa, J., Fraifeld, V. E., de Magalhaes, J. P. (2013) "Human Ageing Genomic Resources: Integrated databases and tools for the biology and genetics of ageing." Nucleic Acids Research 41(D1):D1027-D1033
+  ##################################
   adat <- read.csv('AnAge/AnAge_data.csv', header = TRUE)
   adat$taxon <- paste(adat$Genus, adat$Species)
   adat <-
@@ -642,6 +668,7 @@ if(regBMcompilations){
   
   ##########################################################################
   # Oliveira B. F., V. A. Sao-Pedro, G. Santos-Barrera, C. Penone, and G. C. Costa. AmphiBIO, a global database for amphibian ecological traits. Scientific Data, 4(1):170123, 2017.
+  ##################################
   adat <-
     read.csv('AmphiBio/AmphiBIO_v1.csv',
              header = TRUE)
@@ -661,8 +688,165 @@ if(regBMcompilations){
   AM <- adat
   save(AM, file = 'BodyMass_AmphiBIO.Rdata')
   
+  ##########################################################################
+  # Pata P. R. and B. P. V. Hunt. Harmonizing marine zooplankton trait data toward a mechanistic understanding of ecosystem functioning. Limnology and Oceanography, 70(S1):S8–S27, 2025.
+  ##################################
+  adat <-
+    read.csv('Pata_2025/data_input/Trait_dataset_level2/trait_dataset_level2-2023-09-14.csv',
+             header = TRUE)
+  adat <- adat[, c('scientificName', 'traitName', 'traitValue','traitUnit')]
+  adat <- subset(adat, traitName == 'wetWeight')
+  adat$traitValue <- as.numeric(adat$traitValue) / 1000 # mg to g
+  adat <- adat[, c('scientificName','traitValue')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Pata_2025'
+  PA <- adat
+  save(PA, file = 'BodyMass_Pata_2025.Rdata')
+  
+  ##########################################################################
+  # Fisher D. O., I. P. F. Owens, and C. N. Johnson. The ecological basis of life history variation in marsupials. Ecology, 82(12):3531–3540, 2001.
+  ##################################
+  adat <- read.csv('Fisher_2001/appendixA.csv',
+             header = TRUE)
+  adat <- adat[, c('Genus.name', 'Species.name', 'Adult.female.mass')]
+  adat$Genus.name <- gsub("[^[:alnum:]]", "", adat$Genus.name)
+  adat$Species.name <- gsub("[^[:alnum:]]", "", adat$Species.name)
+  adat$taxon <- paste(adat$Genus.name, adat$Species.name)
+  adat <- adat[, c('taxon','Adult.female.mass')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Fisher_2001'
+  FI <- adat
+  save(FI, file = 'BodyMass_Fisher_2001.Rdata')
+  
+  ##########################################################################
+  # Trochet A., S. Moulherat, O. Calvez, V. M. Stevens, J. Clobert, and D. S. Schmeller. A database of life-history traits of european amphibians. Biodiversity Data Journal, 2:e4123, 2014.
+  ##################################
+  adat <- read.csv('Trochet_2014/oo_32985.csv',
+                   skip = 3,
+                   header = TRUE)
+  adat <- adat[, c('Species','Adult.body.mass')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Trochet_2014'
+  TR <- adat
+  save(TR, file = 'BodyMass_Trochet_2014.Rdata')
+  
+  ##########################################################################
+  # Pekar S. et al. The world spider trait database: a centralized global open repository for curated data on spider traits. Database, 2021:baab064, 2021.
+  ##################################
+  adat <- read.csv('Pekar_etal_2021/wstdb-1785518160391.csv',
+                   header = TRUE)
+  adat <- adat[, c('genus','species', 'trait', 'value')]
+  adat$taxon <- paste(adat$genus, adat$species)
+  adat <- subset(adat, trait == 'bodm')
+  adat <- adat[, c('taxon','value')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(
+      adat,
+      .(taxon),
+      summarise,
+      mass_g = gmean(mass_g)
+    )
+  adat$source <- 'Pekar_etal_2021'
+  PE <- adat
+  save(PE, file = 'BodyMass_Pekar_etal_2021.Rdata')
+  
+  ##########################################################################
+  # H. Wilman, J. Belmaker, J. Simpson, C. de la Rosa, M. M. Rivadeneira, and W. Jetz. Eltontraits 1.0: Species-level foraging attributes of the world’s birds and mammals. Ecology, 95(7):2027–2027, 2014.
+  ##################################
+  adat <- read.csv('Wilman_etal_2014/BirdFuncDat.txt',
+                   header = TRUE,
+                   sep = '\t')
+  adat <- adat[, c('Scientific', 'BodyMass.Value')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Wilman_etal_2014'
+  WI <- adat
+  save(WI, file = 'BodyMass_Wilman_etal_2014.Rdata')
+  
+  
+  ##########################################################################
+  # S. Faurby, M. Davis, R. Ø. Pedersen, S. D. Schowanek, A. Antonelli1, and J.-C. Svenning. Phylacine 1.2: The phylogenetic atlas of mammal macroecology. Ecology, 99(11):2626–2626, 2018.
+  ##################################
+  adat <- read.csv('Faurby_etal_2018/Trait_data.csv',
+                   header = TRUE)
+  adat <- adat[, c('Binomial.1.2', 'Mass.g')]
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'Faurby_etal_2018'
+  FA <- adat
+  save(FA, file = 'BodyMass_Faurby_etal_2018.Rdata')
+  
+  ##########################################################################
+  # C. Galan-Acedo, V. Arroyo-Rodr´ıguez, E. Andresen, and R. Arasa-Gisbert. Ecological traits of the world’s primates. Scientific Data, 6(1):55, 2019.
+  ##################################
+  adat <- read.csv('GalanAcedo_etal_2026/BodyMass.csv',
+                   header = TRUE)
+  adat <- adat[, c('Species..ITIS.', 'BodyMass_kg')]
+  adat$BodyMass_kg <- adat$BodyMass_kg * 1000
+  colnames(adat) <- c('taxon', 'mass_g')
+  adat$mass_g <- suppressWarnings(as.numeric(adat$mass_g))
+  adat <- adat[!is.na(adat$mass_g),]
+  adat <- FixNames(adat)
+  adat <-
+    ddply(adat,
+          .(taxon),
+          summarise,
+          mass_g = gmean(mass_g),
+          n = length(mass_g))
+  adat$source <- 'GalanAcedo_etal_2026'
+  GA <- adat
+  save(GA, file = 'BodyMass_GalanAcedo_etal_2026.Rdata')
+  
+  
   ###########################################################################
-  # FishBase & SeaLifeBase - maximum mass
+  # FishBase - maximum mass
+  ##################################
   server <- 'fishbase'
   sp <- rfishbase::species_names(server = server)[, c('SpecCode','Species')]
   rfish <- rfishbase::popchar(server = server)
@@ -680,7 +864,8 @@ if(regBMcompilations){
   save(FB, file = 'BodyMass_Fishbase.Rdata')
 
   ###########################################################################
-  # SeaLifeBase 
+  # SeaLifeBase - maximum mass
+  ##################################
   server <- 'sealifebase'
   sp <- rfishbase::species_names(server = server)[, c('SpecCode','Species')]
   rfish <- rfishbase::popchar(server = server)
@@ -703,9 +888,8 @@ if(regBMcompilations){
 
 ##########################################################################
 ##########################################################################
-# Combine databases, given ordered preference:
+# Combine databases, given preferred order (or average):
 ##############################################
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 load(file = 'BodyMass_Meiri_2018.Rdata')
 load(file = 'BodyMass_AmphiBio.Rdata')
 load(file = 'BodyMass_Brown_etal_2018.Rdata')
@@ -720,6 +904,13 @@ load(file = 'BodyMass_Tucker_etal_2014a.Rdata')
 load(file = 'BodyMass_Tucker_etal_2014b.Rdata')
 load(file = 'BodyMass_Hirt_etal_2017.Rdata')
 load(file = 'BodyMass_Eklof_etal_2017.Rdata')
+load(file = 'BodyMass_Pata_2025.Rdata')
+load(file = 'BodyMass_Fisher_2001.Rdata')
+load(file = 'BodyMass_Trochet_2014.Rdata')
+load(file = 'BodyMass_Pekar_etal_2021.Rdata')
+load(file = 'BodyMass_Wilman_etal_2014.Rdata')
+load(file = 'BodyMass_Faurby_etal_2018.Rdata')
+load(file = 'BodyMass_GalanAcedo_etal_2026.Rdata')
 load(file = 'BodyMass_Quaardvark.Rdata')
 load(file = 'BodyMass_Cai_etal_2025.Rdata')
 load(file = 'BodyMass_AnAge.Rdata')
@@ -727,45 +918,49 @@ load(file = 'BodyMass_DataRetrieverAll.Rdata')
 load(file = 'BodyMass_Fishbase.Rdata')
 load(file = 'BodyMass_SeaLifebase.Rdata')
 
-adat <- ME
-adat <- merge(adat, AM[!AM$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(dat)
-adat <- merge(adat, BR[!BR$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, MM[!MM$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, AG[!AG$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, GI[!GI$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, JE[!JE$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, LI[!LI$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, KI[!KI$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, FE[!FE$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, TU1[!TU1$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, TU2[!TU2$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, HI[!HI$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, EK[!EK$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, CA[!CA$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, AA[!AA$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, AN[!AN$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, FB[!FB$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, SB[!SB$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
-adat <- merge(adat, DR[!DR$taxon %in% adat$taxon, ], all = TRUE)
-  nrow(adat)
+
+source_list <- 
+  list(ME,
+       BR,
+       MM,
+       AG,
+       GI,
+       JE,
+       LI,
+       KI,
+       FE,
+       TU1,
+       TU2,
+       HI,
+       EK,
+       PA,
+       FI,
+       PE,
+       TR,
+       WI,
+       FA,
+       GA,
+       CA,
+       AA,
+       AN,
+       FB,
+       SB,
+       DR
+       )
+
+# Merge all and keep first occurrence (pick first source for each taxon)
+# adat <- bind_rows(source_list) %>%
+#   distinct(taxon, .keep_all = TRUE)
+
+# Merge all by averaging across all sources
+adat <- bind_rows(source_list) %>%
+  group_by(taxon) %>%
+  summarise(mass_g = mean(mass_g, na.rm = TRUE),  # Note arithmetic (not geometric) mean
+            n = sum(n, na.rm = TRUE),
+            source = paste(source, collapse = "-"))
+
+# d <- adat2[which(adat2$mass_g / adat$mass_g > 10),]
+# e <- adat[which(adat2$mass_g / adat$mass_g > 10),]
 
 DBs <- adat[,c('taxon','mass_g','n','source')]
 
@@ -784,6 +979,7 @@ ddat <-
 ddat <- ddat[which(!is.na(ddat$mass_g)), 1:4 ]
 ddat$n <- 1
 
+# Use lab's values
 sel <- DBs$taxon %!in% ddat$taxon
 DBs <- DBs[sel, ]
 
@@ -800,7 +996,6 @@ if(dups > 1){
   adat <- adat[!duplicated(adat$taxon, fromLast = TRUE),] # remove duplicates
 }
 
-
 #################################################
 # Assign genus-level averages to genus-level taxa
 #################################################
@@ -810,16 +1005,26 @@ gdat <- gdat[nchar(gdat$taxon) > 0 ,]
 gdat <- ddply(gdat,
             .(taxon),
             summarise,
-            mass_g = gmean(mass_g),
+            mass_g = mean(mass_g),  # Note arithmetic (not geometric) mean
             n = sum(n, na.rm = TRUE))
-gdat$source_mass <- 'SourcesAveraged'
+gdat$source_mass <- 'GenusAverage'
 gdat <- gdat[, c('taxon','mass_g','source_mass','n')]
 
-adat <- rbind(adat, gdat)
+gdat <- rbind(adat, gdat)
 
 ###################################################
+
+adat$mass_g <- signif(adat$mass_g, digits = 4)
+gdat$mass_g <- signif(gdat$mass_g, digits = 4)
+
+###################################################
+
 write.csv(adat, 
           file = '../tmp/BodyMass/FracFeed_BodyMass.csv',
+          row.names = FALSE)
+
+write.csv(gdat, 
+          file = '../tmp/BodyMass/FracFeed_BodyMass_wGenus.csv',
           row.names = FALSE)
 
 #######################################################################
