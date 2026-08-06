@@ -93,6 +93,7 @@
 "Wang_2017",11,"Marine","Ectotherm","Gut content (lethal)","Gray",23.55,NA,10,"1000m","Fish","Hours",10,2015
 "Wang_2017",15,"Marine","Ectotherm","Gut content (lethal)","Gray",23.55,NA,8,"1000m","Fish","Hours",25,2015
 "Wang_2017",13,"Marine","Ectotherm","Gut content (lethal)","Gray",23.55,NA,9,"1000m","Fish","Hours",18,2015
+"Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,11,"1000m","Fish","Days",160,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,8,"1000m","Fish","Days",159,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,4,"1000m","Fish","Days",70,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,6,"1000m","Fish","Days",133,2023
@@ -101,10 +102,9 @@
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,1,"1000m","Fish","Days",159,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,2,"1000m","Fish","Days",133,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,10,"1000m","Fish","Days",62,2023
-"Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,11,"1000m","Fish","Days",160,2023
+"Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,5,"1000m","Fish","Days",77,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,4,"1000m","Fish","Days",156,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",23.08,NA,5,"1000m","Fish","Days",81,2023
-"Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,5,"1000m","Fish","Days",77,2023
 "Wang_2025",23,"Marine","Ectotherm","Gut content (lethal)","Gray",22.59,NA,7,"1000m","Fish","Days",70,2023
 "Yang_1986",23,"Marine","Ectotherm","Gut content (lethal)","Gray",57.33,NA,7,"100m","Fish","Hours",3,1983
 "Yang_1986",23,"Marine","Ectotherm","Gut content (lethal)","Gray",56.33,NA,7,"100m","Fish","Hours",13,1983
@@ -143,7 +143,6 @@
 "Yang_1986",20,"Marine","Ectotherm","Gut content (lethal)","Gray",56.66,NA,7,"100m","Fish","Hours",12,1983
 "Yang_1996",34,"Marine","Ectotherm","Gut content (lethal)","Gray",53,NA,8,"100km","Fish","Months",339,1991
 "Chintiroglou_1992",12,"Marine","Ectotherm","Gut content (lethal)","Jeremy",40.26,NA,6,"1000m","Cnidarians","Months",61,1981
-"Gorbatenko_2009",12,"Marine","Ectotherm","Gut content (lethal)","Jeremy",54.28,NA,7,"100km","Cnidarians","Months",19,2005
 "Holohan_1998",3,"Marine","Ectotherm","Gut content (lethal)","Jeremy",41.6,NA,4,"10m","Cnidarians","Hours",50,1992
 "Holohan_1998",3,"Marine","Ectotherm","Gut content (lethal)","Jeremy",41.6,NA,10,"10m","Cnidarians","Hours",30,1992
 "Marques_2015",13,"Marine","Ectotherm","Gut content (lethal)","Jeremy",37.67,NA,6,"10m","Cnidarians","Months",5958,2013
@@ -178,10 +177,8 @@
 "Dayton_1977",10,"Marine","Ectotherm","Direct observation","Mark",-47.36,NA,5,"1000m","Echinoderms","Hours",148,1972
 "Dayton_1977",4,"Marine","Ectotherm","Direct observation","Mark",-42.85,NA,5,"100m","Echinoderms","Hours",52,1972
 "Dayton_1977",14,"Marine","Ectotherm","Direct observation","Mark",-36.68,NA,11,"1000m","Echinoderms","Hours",138,1972
-"Eichelbaum_1909",12,"Marine","Ectotherm","Gut content (lethal)","Mark",56.25,NA,2,"100m","Echinoderms","Days",12,1906
 "Eichelbaum_1909",0,"Marine","Ectotherm","Gut content (lethal)","Mark",59,NA,2,"1000m","Echinoderms","Days",11,1906
 "Hardy_2006",1,"Terrestrial","Ectotherm","Gut content (lethal)","Mark",0.36,NA,7,"10km","Amphibians","Months",3,1987
-"Pages_1997",7,"Marine","Ectotherm","Gut content (lethal)","Mark",60.12,NA,5,"1000m","Cnidarians","Days",694,1992
 "Pages_1997",5,"Marine","Ectotherm","Gut content (lethal)","Mark",60.12,NA,5,"1000m","Cnidarians","Days",543,1992
 "Pages_1997",3,"Marine","Ectotherm","Gut content (lethal)","Mark",60.12,NA,5,"1000m","Cnidarians","Days",314,1992
 "Palmer_1988",11,"Marine","Ectotherm","Direct observation","Mark",48.54,NA,4,"10m","Molluscs","Months",379,1978
@@ -226,19 +223,6 @@
 "Salvidio_1999",17,"Lotic","Ectotherm","Gut content (non-lethal)","Mark",41.66,NA,5,"1000m","Amphibians","Months",22,1996
 "Salvidio_1999",17,"Lotic","Ectotherm","Gut content (non-lethal)","Mark",41.66,NA,5,"1000m","Amphibians","Months",49,1996
 "Witman_2010",4,"Marine","Ectotherm","Direct observation","Mark",-0.78,NA,7,"100km","Molluscs","Years",300,2004
-"Ansell_1999",20,"Marine","Ectotherm","Gut content (lethal)","Shannon",56.48,NA,7,"100m","Arthropods","Months",212,1990
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,1,"100m","Echinoderms","Days",18,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,2,"100m","Echinoderms","Days",32,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,11,"100m","Echinoderms","Days",42,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,3,"100m","Echinoderms","Days",8,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,6,"100m","Echinoderms","Days",19,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,10,"100m","Echinoderms","Days",32,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,4,"100m","Echinoderms","Days",11,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,9,"100m","Echinoderms","Days",44,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,12,"100m","Echinoderms","Days",22,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,8,"100m","Echinoderms","Days",18,1965
-"Brun_1972",15,"Marine","Ectotherm","Gut content (lethal)","Shannon",54.08,NA,5,"100m","Echinoderms","Days",11,1965
-"Brun_1972",15,"Marine","Ectotherm","Direct observation","Shannon",54.08,NA,8,"100m","Echinoderms","Days",48,1965
 "Carey_1972",6,"Marine","Ectotherm","Gut content (lethal)","Shannon",44.65,NA,7,"1000m","Echinoderms","Years",16,1965
 "Carey_1972",6,"Marine","Ectotherm","Gut content (lethal)","Shannon",44.65,NA,7,"1000m","Echinoderms","Years",31,1965
 "Dearborn_1977",6,"Marine","Ectotherm","Gut content (lethal)","Shannon",-64.88,NA,2,"100m","Echinoderms","Days",43,1973
