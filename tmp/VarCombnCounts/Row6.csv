@@ -1,119 +1,84 @@
 "Citation","Diet.richness.minimum","Ecosystem","EndoEcto","Feeding.data.type","First.entry.Name","Latitude","mass_g","Month","Space.averaging","Taxon.group","Time.averaging","Total.stomachs.count.given","Year"
-"Bothma_1966a",2,"Terrestrial","Endotherm","Gut content (lethal)","Chris",-25.44,2650,NA,NA,"Mammals",NA,1,1965
-"Cada_1987",97,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.07,3339,NA,NA,"Fish",NA,1,1982
-"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.001781,NA,NA,"Arthropods",NA,1,2017
-"Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,36980,NA,NA,"Fish",NA,1,1963
-"Scott_1903",8,"Marine","Ectotherm","Gut content (lethal)","Gray",56,58.3,NA,NA,"Fish",NA,1,1902
-"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",32.67,4,NA,NA,"Fish",NA,1,1964
-"Collard_1970",1,"Marine","Ectotherm","Gut content (lethal)","Mark",-6,1.4,NA,NA,"Fish",NA,1,1964
-"Eichelbaum_1909",1,"Marine","Ectotherm","Gut content (lethal)","Mark",54.5,0.3977,NA,NA,"Echinoderms",NA,1,1908
-"Bonham_1941",28,"Lotic","Ectotherm","Gut content (lethal)","Paige",31.57,12280,NA,NA,"Fish",NA,1,1939
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,2051000,NA,NA,"Mammals",NA,1,2010
-"Preti_2020",31,"Marine","Endotherm","Gut content (lethal)","Paige",34.31,2051000,NA,NA,"Mammals",NA,1,2010
-"Preti_2020",5,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,159000,NA,NA,"Mammals",NA,1,2000
-"Preti_2020",5,"Marine","Endotherm","Gut content (lethal)","Paige",34.27,159000,NA,NA,"Mammals",NA,1,2000
-"Jones_1981",2,"Marine","Endotherm","Gut content (lethal)","Serena",37.89,2051000,NA,NA,"Mammals",NA,1,1971
-"Jones_1981",1,"Marine","Endotherm","Gut content (lethal)","Serena",37.53,397500,NA,NA,"Mammals",NA,1,1971
-"Jones_1981",1,"Marine","Endotherm","Gut content (lethal)","Serena",37.7,187900,NA,NA,"Mammals",NA,1,1971
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,850000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,850000,NA,NA,"Fish",NA,1,2015
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1963
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,6,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,10,"10m","Echinoderms","Hours",NA,1963
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,6,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,11,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,4,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,10,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,4,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,10,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,11,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,11,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,7,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,12,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,6,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,3,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,6,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,11,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,12,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,7,"10m","Echinoderms","Hours",NA,1963
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,3,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,4,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,7,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,10,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,6,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,11,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1968
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,12,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,4,"10m","Echinoderms","Hours",NA,1968
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,3,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,2,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,5,"10m","Echinoderms","Hours",NA,1968
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,12,"10m","Echinoderms","Hours",NA,1967
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,4,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,1,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,7,"10m","Echinoderms","Hours",NA,1965
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,8,"10m","Echinoderms","Hours",NA,1966
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,9,"10m","Echinoderms","Hours",NA,1964
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,12,"10m","Echinoderms","Hours",NA,1963
+"Paine_1969",3,"Marine","Ectotherm","Direct observation","Mark",48.4,565,7,"10m","Echinoderms","Hours",NA,1967
+"Gaymer_2001",4,"Marine","Ectotherm","Direct observation","Shannon",50.21,95.3,7,"100m","Echinoderms","Years",NA,1997
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",10,"Marine","Ectotherm","Direct observation","Shannon",50.22,44,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984
+"Himmelman_1991",16,"Marine","Ectotherm","Direct observation","Shannon",50.22,95.3,9,"100m","Echinoderms","Days",NA,1984

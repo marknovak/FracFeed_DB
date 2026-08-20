@@ -4932,6 +4932,14 @@ Journal* 24 (4): 151–53.
 
 </div>
 
+<div id="ref-Slip:1995aa" class="csl-entry" markdown="1">
+
+Slip, David J, Geoffrey J Moore, and Ken Green. 1995. “Stomach Contents
+of a Southern Bottlenose Whale, Hyperoodon Planifrons, Stranded at Heard
+Island.” *Marine Mammal Science* 11 (4): 575–84.
+
+</div>
+
 <div id="ref-Sloan:1981ww" class="csl-entry" markdown="1">
 
 Sloan, NA, and TH Aldridge. 1981. “Observations on an Aggregation of the

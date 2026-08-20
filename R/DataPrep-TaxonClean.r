@@ -28,9 +28,20 @@ firstup <-
 # Fix taxon names
 FixNames <- function(dat) {
   dat$taxon <- gsub(' ', '_', iconv(dat$taxon, from = "ISO-8859-1", to = "UTF-8"))
+  dat$taxon <- gsub("[^[:alpha:]_]", "", dat$taxon)
+  # Strip genus-only qualifiers (leaves bare Genus)
+  dat$taxon <- gsub("_sp$",  "", dat$taxon)
+  dat$taxon <- gsub("_spp$", "", dat$taxon)
+  dat$taxon <- gsub("_cf$",  "", dat$taxon)
+  dat$taxon <- gsub("_unk$", "", dat$taxon)
   dat$taxon <- firstup(dat$taxon)
+  # Strip subspecific epithets: keep only Genus_species
+  dat$taxon <- sub("^([^_]+_[^_]+)_.*$", "\\1", dat$taxon)
   dat <- subset(dat, taxon != '')
-  dat$taxon <- word(dat$taxon, 1, 2, sep = '_') # Remove subspecies names
+  # Remove uninformative genus-level placeholders (bare or with species epithet)
+  dat <- subset(dat, !grepl('^(Unk|Unknown)($|_)', dat$taxon))
+  # Remove placeholder "species" tokens (whole word, underscore-delimited)
+  dat <- subset(dat, !grepl('(^|_)[Ss]pecies($|_)', dat$taxon))
   return(dat)
 }
 
