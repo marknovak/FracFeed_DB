@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Manuscript
 ms
+
+# Generated artifacts (copied from sibling repos at runtime)
+Bib/FracFeed_Citations_BodyMass.bib

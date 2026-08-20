@@ -89,6 +89,11 @@ write.csv(pub.dcite,
           '../tmp/FracFeed_Citations_BodyMass.csv',
           row.names = FALSE)
 
+# Body mass bib: copy from TaxonBodyMass_DB (authoritative, manually curated)
+tbm_bib_src <- file.path('..', '..', 'TaxonBodyMass_DB', 'Bib',
+                         'TaxonBodyMass_Citations.bib')
+file.copy(tbm_bib_src, '../Bib/FracFeed_Citations_BodyMass.bib', overwrite = TRUE)
+
 ###############################################################################
 ###############################################################################
 ###############################################################################
