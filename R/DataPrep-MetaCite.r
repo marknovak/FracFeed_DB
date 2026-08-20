@@ -82,7 +82,7 @@ dcite <- read.csv(tbm_cite_path, stringsAsFactors = FALSE)
 
 fracfeed_sources <- adat[adat$taxon %in% dat$Consumer.identity, 'source_mass']
 used_sources <- unique(unlist(strsplit(fracfeed_sources, '-')))
-pub.dcite <- dcite[dcite$CiteID %in% used_sources, ]
+pub.dcite <- dcite[is.na(dcite$CiteID) | dcite$CiteID %in% used_sources, ]
 pub.dcite <- pub.dcite[order(pub.dcite$CiteID), ]
 
 write.csv(pub.dcite,
