@@ -34,13 +34,10 @@ library(rmarkdown)
 # For 'DataPrep-TaxonClean.r'
 library(rotl)
 
-# For 'DataPrep-CompileBodyMass.r'
 library(plyr)
 library(dplyr)
 library(devtools)
 library(stringr)
-library(rdataretriever)
-library(rfishbase)
 
 # For 'DataCheck-SummaryViews.r' and 'DataCheck-Plots.r'
 library(ggplot2)
@@ -74,17 +71,17 @@ dat$Consumer.identity[is.na(dat$Consumer.identity)] <-
   dat$Consumer.identity.orig[is.na(dat$Consumer.identity)]
 
 #########################
-# Merge in body mass data 
+# Merge in body mass data
 #########################
-source('DataPrep-CompileBodyMass.r')
-
-# Use the dataset that has the genus-level averages included
-adat <- read.csv(file = '../tmp/BodyMass/FracFeed_BodyMass_wGenus.csv')
+# Body mass from TaxonBodyMass_DB (sibling repository)
+tbm_path <- file.path('..', '..', 'TaxonBodyMass_DB', 'output',
+                      'TaxonBodyMass_wGenus.csv')
+adat <- read.csv(tbm_path, stringsAsFactors = FALSE)
 
 dat <- merge(dat,
              adat[, c('taxon', 'mass_g')],
-             by.x = 'Consumer.identity',
-             by.y = 'taxon',
+             by.x  = 'Consumer.identity',
+             by.y  = 'taxon',
              all.x = TRUE)
 
 ####################################################

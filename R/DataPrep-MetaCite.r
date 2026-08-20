@@ -79,7 +79,11 @@ dcite <-
     sheet = 'BM_citations',
     col_types = 'ccc')
 
-pub.dcite <- dcite[order(dcite$CiteID), ]
+# Filter to sources that actually contributed body mass to FracFeed taxa
+fracfeed_sources <- adat[adat$taxon %in% dat$Consumer.identity, 'source_mass']
+used_sources <- unique(unlist(strsplit(fracfeed_sources, '-')))
+pub.dcite <- dcite[dcite$CiteID %in% used_sources, ]
+pub.dcite <- pub.dcite[order(pub.dcite$CiteID), ]
 
 write.csv(pub.dcite,
           '../tmp/FracFeed_Citations_BodyMass.csv',
