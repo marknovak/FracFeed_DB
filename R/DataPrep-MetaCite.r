@@ -76,8 +76,6 @@ file.remove("../Bib/FracFeed_Citations.md")
 #~~~~~~~~~~~~~~~~~~~~
 # Citations are owned by TaxonBodyMass_DB; read its committed CSV and filter
 # to sources that actually contributed body mass to FracFeed taxa.
-tbm_cite_path <- file.path('..', '..', 'TaxonBodyMass_DB', 'output',
-                           'TaxonBodyMass_Citations.csv')
 dcite <- read.csv(tbm_cite_path, stringsAsFactors = FALSE)
 
 fracfeed_sources <- adat[adat$taxon %in% dat$Consumer.identity, 'source_mass']
@@ -90,8 +88,6 @@ write.csv(pub.dcite,
           row.names = FALSE)
 
 # Body mass bib: filter TaxonBodyMass_DB's bib to entries used in FracFeed taxa
-tbm_bib_src <- file.path('..', '..', 'TaxonBodyMass_DB', 'Bib',
-                         'TaxonBodyMass_Citations.bib')
 bib_lines  <- readLines(tbm_bib_src)
 entry_keys <- sub('^@\\w+\\{([^,]+),.*', '\\1',
                   bib_lines[grepl('^@', bib_lines)], perl = TRUE)

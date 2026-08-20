@@ -524,9 +524,9 @@
 "equetus punctatus","Equetus punctatus",FALSE,1,702680,FALSE,"",1
 "erignathus barbatus","Erignathus barbatus",FALSE,1,931413,FALSE,"",1
 "erimyzon sucetta","Erimyzon sucetta",FALSE,1,235180,FALSE,"",1
+"esox americanus","Esox americanus",FALSE,1,496115,FALSE,"",1
 "esox lucius","Esox lucius",FALSE,1,739941,FALSE,"",1
 "esox niger","Esox niger",FALSE,1,496121,FALSE,"",1
-"esox vermiculatus","Esox americanus vermiculatus",FALSE,1,47023,TRUE,"infraspecific",2
 "etheostoma exile","Etheostoma exile",FALSE,1,340808,FALSE,"",1
 "etmopterus granulosus","Etmopterus granulosus",FALSE,1,975973,FALSE,"",1
 "etmopterus princeps","Etmopterus princeps",FALSE,1,832502,FALSE,"",1
@@ -834,7 +834,6 @@
 "lepomis marginatus","Lepomis marginatus",FALSE,1,943380,FALSE,"",1
 "lepomis megalotis","Lepomis megalotis",FALSE,1,271249,FALSE,"",1
 "lepomis microlophus","Lepomis microlophus",FALSE,1,271244,FALSE,"",1
-"lepomis pallidus","Lepomis pallidus",TRUE,1,3634766,FALSE,"hidden",3
 "lepomis punctatus","Lepomis punctatus",FALSE,1,271257,FALSE,"",1
 "leposoma parietale","Loxopholis parietalis",FALSE,1,838439,TRUE,"",1
 "leposoma percarinatum","Loxopholis percarinatum",FALSE,1,322420,TRUE,"",1
