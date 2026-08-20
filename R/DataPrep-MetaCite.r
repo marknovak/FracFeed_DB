@@ -92,13 +92,15 @@ write.csv(pub.dcite,
 # Body mass bib: filter TaxonBodyMass_DB's bib to entries used in FracFeed taxa
 tbm_bib_src <- file.path('..', '..', 'TaxonBodyMass_DB', 'Bib',
                          'TaxonBodyMass_Citations.bib')
-bib_text <- paste(readLines(tbm_bib_src), collapse = '\n')
+bib_lines  <- readLines(tbm_bib_src)
+entry_keys <- sub('^@\\w+\\{([^,]+),.*', '\\1',
+                  bib_lines[grepl('^@', bib_lines)], perl = TRUE)
+bib_text <- paste(bib_lines, collapse = '\n')
 parts    <- strsplit(bib_text, '\n\n(?=@)', perl = TRUE)[[1]]
 header   <- parts[!grepl('^@', trimws(parts))]
 entries  <- parts[ grepl('^@', trimws(parts))]
-entry_keys <- sub('^@\\w+\\{([^,]+),.*', '\\1', entries, perl = TRUE)
-keep_keys  <- pub.dcite$Bibcite
-matched    <- entries[entry_keys %in% keep_keys]
+keep_keys <- pub.dcite$Bibcite
+matched   <- entries[entry_keys %in% keep_keys]
 writeLines(paste(c(header, matched), collapse = '\n\n'),
            '../Bib/FracFeed_Citations_BodyMass.bib')
 
