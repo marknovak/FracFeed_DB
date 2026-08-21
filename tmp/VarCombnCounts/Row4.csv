@@ -7,6 +7,7 @@
 "Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00636,NA,NA,"Arthropods",NA,1,2017
 "Nakagawa_2023",0,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00728,NA,NA,"Arthropods",NA,1,2017
 "Nakagawa_2023",0,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.00728,NA,NA,"Arthropods",NA,1,2017
+"Nakagawa_2023",1,"Lotic","Ectotherm","Gut content (lethal)","Gray",35.33,0.02066,NA,NA,"Arthropods",NA,1,2017
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,2.662,NA,NA,"Fish",NA,1,1963
 "Randall_1967",1,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,44.58,NA,NA,"Fish",NA,1,1963
 "Randall_1967",2,"Marine","Ectotherm","Gut content (lethal)","Gray",18.03,31480,NA,NA,"Fish",NA,1,1963
@@ -32,18 +33,19 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
@@ -55,7 +57,7 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
@@ -67,7 +69,7 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",0,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
@@ -106,7 +108,7 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",8,"Marine","Ectotherm","Gut content (lethal)","Serena",64.55,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",69.57,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
@@ -126,6 +128,5 @@
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",70.6,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",61.22,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
-"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
 "Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",72.92,1100000,NA,NA,"Fish",NA,1,2015
+"Nielsen_2019",55,"Marine","Ectotherm","Gut content (lethal)","Serena",60.21,1100000,NA,NA,"Fish",NA,1,2015
