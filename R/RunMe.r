@@ -48,7 +48,8 @@ library(rnaturalearth)
 # Paths to TaxonBodyMass_DB (sibling repository)
 ############################################################
 tbm_root      <- file.path('..', '..', 'TaxonBodyMass_DB')
-tbm_bm_path   <- file.path(tbm_root, 'output', 'TaxonBodyMass_wGenus.csv')
+tbm_bm_path   <- file.path(tbm_root, 'output', 'TaxonBodyMass.csv')
+tbm_bmg_path   <- file.path(tbm_root, 'output', 'TaxonBodyMass_GenusLevel.csv')
 tbm_cite_path <- file.path(tbm_root, 'output', 'TaxonBodyMass_Citations.csv')
 tbm_bib_src   <- file.path(tbm_root, 'Bib',    'TaxonBodyMass_Citations.bib')
 
@@ -79,6 +80,9 @@ dat$Consumer.identity[is.na(dat$Consumer.identity)] <-
 # Merge in body mass data
 #########################
 adat <- read.csv(tbm_bm_path, stringsAsFactors = FALSE)
+gdat <- read.csv(tbm_bmg_path, stringsAsFactors = FALSE)
+
+adat <- rbind(adat, gdat)
 
 dat <- merge(dat,
              adat[, c('taxon', 'mass_g')],
