@@ -28,6 +28,12 @@ firstup <-
 # Fix taxon names
 FixNames <- function(dat) {
   dat$taxon <- gsub(' ', '_', iconv(dat$taxon, from = "ISO-8859-1", to = "UTF-8"))
+  # Transliterate diacritics to ASCII base characters (é→e, ü→u, ñ→n, etc.)
+  # Must run after iconv to UTF-8 and before any regex or API call.
+  dat$taxon <- iconv(dat$taxon, from = "UTF-8", to = "ASCII//TRANSLIT")
+  # Remove residual non-ASCII bytes (untransliterable characters become "?")
+  dat$taxon <- gsub("[^[:ascii:]]", "", dat$taxon)
+  dat$taxon <- gsub("\\?", "", dat$taxon)
   dat$taxon <- gsub("[^[:alpha:]_]", "", dat$taxon)
   # Strip genus-only qualifiers (leaves bare Genus)
   dat$taxon <- gsub("_sp$",  "", dat$taxon)
