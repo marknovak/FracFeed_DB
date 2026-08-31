@@ -27,12 +27,25 @@ firstup <-
 
 # Fix taxon names
 FixNames <- function(dat) {
-  dat$taxon <- gsub(' ', '_', iconv(dat$taxon, from = "ISO-8859-1", to = "UTF-8"))
+  # Normalise to UTF-8 without reinterpreting bytes, then underscore spaces.
+  dat$taxon <- gsub(' ', '_', enc2utf8(dat$taxon))
   # Transliterate diacritics to ASCII base characters (é→e, ü→u, ñ→n, etc.)
-  # Must run after iconv to UTF-8 and before any regex or API call.
   dat$taxon <- iconv(dat$taxon, from = "UTF-8", to = "ASCII//TRANSLIT")
-  # Remove residual non-ASCII bytes (untransliterable characters become "?")
-  dat$taxon <- gsub("[^[:ascii:]]", "", dat$taxon)
+  # Replace any spaces introduced by TRANSLIT with underscores.
+  dat$taxon <- gsub(' ', '_', dat$taxon)
+  # Warn and drop rows where iconv could not convert (returns NA).
+  na_taxa <- is.na(dat$taxon)
+  if (any(na_taxa)) {
+    warning(sum(na_taxa), " taxon(s) could not be transliterated to ASCII and will be dropped.")
+  }
+  dat <- dat[!na_taxa, ]
+  # Remove any remaining non-ASCII bytes (portable byte-range pattern).
+  dat$taxon <- gsub("[^\x00-\x7F]", "", dat$taxon, perl = TRUE)
+  # Remove '?' characters (TRANSLIT artifacts or provisional-ID markers).
+  q_count <- sum(grepl("\\?", dat$taxon))
+  if (q_count > 0) {
+    warning(q_count, " taxon(s) contain '?' (TRANSLIT artifact or provisional ID) — removing.")
+  }
   dat$taxon <- gsub("\\?", "", dat$taxon)
   dat$taxon <- gsub("[^[:alpha:]_]", "", dat$taxon)
   # Strip genus-only qualifiers (leaves bare Genus)
